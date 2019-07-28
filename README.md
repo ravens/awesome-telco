@@ -62,6 +62,7 @@ A curated list of telco resources and projects.
 - [OsmoHNBGW](http://osmocom.org/projects/osmohnbgw) - An Open Source implenentation of a HNB-GW (HomeNodeB-Gateway), implementing the Iuh, IuCS and IuPS interfaces. It aggregates the Iuh links from femtocells (hNodeBs) and presents them as regular IuCS and IuPS towards MSC and SGSN.
 - [OsmoMSC](http://osmocom.org/projects/osmomsc) - It provides a 3GPP AoIP interface towards BSCs like OsmoBSC as well as 3GPP IuCS towards RNCs or HNB-GWs like OsmoHNBGW as well as GSUP towards OsmoHLR.
 - [Sigscale OCS](https://github.com/sigscale/ocs) - SigScale OCS includes a 3GPP AAA server function for authentication, authorization and accounting (AAA) of subscribers using DIAMETER or RADIUS protocols.
+- [Bodastage Community Edition](http://www.bodastage.org) - Boda Telecom Suite - Community Edition (BTS-CE) is an open source telecommunication network management platform for various RAN providers. (github)[https://github.com/bodastage/bts-ce]
 
 ## Interco
 
