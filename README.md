@@ -30,6 +30,9 @@ A curated list of telco resources and projects.
 - [srsUE](https://github.com/srslte/srslte) - UE 4G modem part of the srsLTE project.
 - [OAI UE](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) - Open Air Interface RAN 4G eNB/ 5G gNB to use on SDR-based radios. 
 - [Amarisoft](https://www.amarisoft.com) - Commercial UE Emulator by Amarisoft, company co-founded by [Bellard](https://bellard.org) on his original LTE software modem [work](https://bellard.org/lte/).
+- [LTE-CellScanner](https://github.com/Evrytania/LTE-Cell-Scanner) - This is a collection of tools to locate and track LTE basestation cells using
+very low performance RF front ends.
+- [LTE-CellScanner-SDR-X](https://github.com/JiaoXianjun/LTE-Cell-Scanner) - An OpenCL accelerated TDD/FDD LTE Scanner (from rtlsdr/hackRF/bladeRF A/D samples to PDSCH output and RRC SIB messages decoded).
 
 
 ### Diagnostics, Monitor mode
