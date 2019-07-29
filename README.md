@@ -115,6 +115,7 @@ A curated list of telco resources and projects.
 
 - [go-SCTP](https://github.com/ishidawataru/sctp) - Stream Control Transmission Protocol (SCTP) in Go.
 - [usrsctp](https://github.com/sctplab/usrsctp) - This is a userland SCTP stack supporting FreeBSD, Linux, Mac OS X and Windows.
+- [PySCTP](https://github.com/P1sec/pysctp) - PySCTP - SCTP bindings for Python.
 
 ### Diameter
 
