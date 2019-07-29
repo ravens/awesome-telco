@@ -215,6 +215,7 @@ very low performance RF front ends.
 ### remote control
 
 - [OpenSTF](https://openstf.io) - Enable remote control of phone over ADB over an HTML5 interfaces. 
+- [Vyzor](http://vysor.io) - A window to your Android, streaming Android UI through ADB in a Google Chrome Browser app.
 
 ### GPS, Time
 
