@@ -178,6 +178,10 @@ very low performance RF front ends.
 - [Advanced interconnect attacks](https://media.ccc.de/v/camp2015-6785-advanced_interconnect_attacks) - Talk about GTP interconnection security at Chaos Communication Camp 2015.
 - [Mobile Data Interception from the Interconnection Link](https://media.ccc.de/v/34c3-8879-mobile_data_interception_from_the_interconnection_link) - Talk about Diameter interconnection security at 34C3.
 
+### Writeups
+
+- [GSM capture, analysis and decoding](http://domonkos.tomcsanyi.net/?p=418) - four posts series on GSM cellular signal analysis.
+
 ## Organizations
 
 - [Osmocom](http://osmocom.org) Umbrella for numerous opensource mobile communications projects.
