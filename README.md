@@ -29,14 +29,16 @@ A curated list of telco resources and projects.
 - [srsUE](https://github.com/srslte/srslte) - UE 4G modem part of the srsLTE project.
 - [OAI UE](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) - Open Air Interface RAN 4G eNB/ 5G gNB to use on SDR-based radios. 
 - [Amarisoft](https://www.amarisoft.com) - Commercial UE Emulator by Amarisoft, company co-founded by [Bellard](https://bellard.org) on his original LTE software modem [work](https://bellard.org/lte/).
-- [QCSuper](https://github.com/P1sec/QCSuper) - QCSuper is a tool communicating with Qualcomm-based phones and modems, allowing to capture raw 2G/3G/4G radio frames, among other things.
 
-### Diagnostics
+
+### Diagnostics, Monitor mode
 
 - [SCAT](https://github.com/fgsect/scat) - this application parses diagnostic messages of Qualcomm and Samsung baseband through USB, and generates a stream of GSMTAP packet containing cellular control plane messages.
+- [QCSuper](https://github.com/P1sec/QCSuper) - QCSuper is a tool communicating with Qualcomm-based phones and modems, allowing to capture raw 2G/3G/4G radio frames, among other things.
 - [Network Signal Guru](http://m.qtrun.com/en/) - Android app able to parse Diag output from QC modem and display a lot of data for engineering field work.
 - [Snoopsnitch](https://opensource.srlabs.de/projects/snoopsnitch)  - an opensource project focused on collecting data on existing network by performing passive and active tests and recovering the event through the DIAG protocol on a rooted Android phone.
 - [Diag-parser](https://github.com/moiji-mobile/diag-parser) - Parse the Qualcomm DIAG format and convert 2G, 3G and 4G radio messages to Osmocom GSMTAP for analysis in wireshark and other utilities.
+- [LTE_monitor_c2xx](https://github.com/P1sec/LTE_monitor_c2xx) - The purpose of LTE_monitor_c2xx is to provide a LTE message debugging solution.
 
 ## RAN
 
