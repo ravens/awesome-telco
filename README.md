@@ -14,6 +14,7 @@ A curated list of telco resources and projects.
 - [Organizations: Orgs and forums working on telcos hardware/software](#Organizations)
 - [Docs: Documentations and standards](#Docs)
 - [Decks: Powerpoints and great slides](#Slides)
+- [Tweets: Relevant tweets and link to social networks](#Tweets)
 - [Issues: interesting issues on bugtrackers](#Issues)
 - [Mailings-lists : ML, slack and other forums](#Mailing-lists)
 - [Lab: tooling for telco labs](#Lab)
@@ -172,9 +173,14 @@ A curated list of telco resources and projects.
 
 - [Kubernetes networking in the telco space](https://wiki.lfnetworking.org/download/attachments/328197/KubernetesNetworkingInTheTelcoSpace-Csatari.pdf?version=1&modificationDate=1522083330000&api=v2)
 
+## Tweets
+
+- [srsLTE 2G CSFB and PCAP fixes](https://twitter.com/LaF0rge/status/1158078169477292032)
+
 ## Issues
 
 - [SCTP Kubernetes support](https://github.com/kubernetes/community/pull/2276)
+- [SRSENB: Add SIB7 (GERAN neighbor) support](https://github.com/srsLTE/srsLTE/pull/361)
 
 ## Mailing-lists
 
