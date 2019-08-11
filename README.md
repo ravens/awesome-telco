@@ -145,6 +145,7 @@ very low performance RF front ends.
 ### Others
 
 - [Pycrate](https://github.com/P1sec/pycrate) - the successor of the libmich library that is used to encode and decode data structures, including ASN.1 used in cellular protocol.
+- [csdr](https://github.com/simonyiszk/csdr) - csdr is a command line tool to carry out DSP tasks for Software Defined Radio.
 - [OGSLib](https://github.com/open5gs/ogslib) - state machine and utilities functions for NextEPC and Open5gs
 - [DIAGLibrary](https://github.com/sanjaywave/DiagLibrary) -  a JNI library that implement a DIAG protocol parser under C code to be used under Android or Linux.
 
