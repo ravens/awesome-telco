@@ -8,7 +8,7 @@ A curated list of telco resources and projects.
 - [RAN: 2G, 3G, 4G, 5G](#RAN)
 - [Core: EPC, MME, SGW, PGW](#Core)
 - [Interco: IMS, SBC, Diameter](#interco)
-- [Protocols: Librairies, Frameworks](#Protocols)
+- [Protocols: Libraries, Frameworks](#Protocols)
 - [Infrastructure: SDN and NFV management software](#Infrastructure)
 - [Security: Papers and talks around telco security](#Security)
 - [Organizations: Orgs and forums working on telcos hardware/software](#Organizations)
