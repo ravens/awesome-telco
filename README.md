@@ -86,7 +86,7 @@ very low performance RF front ends.
 - [srsEPC](https://github.com/srslte/srslte) - light-weight LTE core network implementation with MME, HSS and S/P-GW.
 - [corenet](https://github.com/mitshell/corenet) - Minimal 3G and LTE / EPC core network using Pycrate library.
 - [erGW](https://github.com/travelping/ergw) - This is a 3GPP GGSN and PDN-GW implemented in Erlang. 
-- [](https://github.com/networkedsystemsIITB/NFV_LTE_EPC) - vEPC is a simple virtualized form of Long Term Evolution Evolved Packet Core (LTE EPC) from IITB india.
+- [vEPC IITB](https://github.com/networkedsystemsIITB/NFV_LTE_EPC) - vEPC is a simple virtualized form of Long Term Evolution Evolved Packet Core (LTE EPC) from IITB india.
 
 ### 3G
 
