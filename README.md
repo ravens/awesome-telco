@@ -153,7 +153,7 @@ very low performance RF front ends.
 
 - [OVS](http://www.openvswitch.org) - Open vSwitch is a production quality, multilayer virtual switch licensed under the open source Apache 2.0 license.
 - [FD.io](https://fd.io) - FD.io is a vector processing engine (VPP). VPP processes a number of packets in parallel instead of one at a time thus significantly improving packet throughput.
-- [DPDK](https://www.dpdk.org) - DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures.
+- [DPDK](https://www.dpdk.org) - DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures. [Vista Creek support(FPGA-based baseband accelerator](https://www.intel.com/content/www/us/en/wireline/products/programmable/applications/nfv.html) has been added to [DPDK](https://doc.dpdk.org/guides/bbdevs/fpga_lte_fec.html). 
 
 ### Others
 
