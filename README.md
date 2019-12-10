@@ -82,7 +82,7 @@ very low performance RF front ends.
 
 ### 5G
 - [IITB 5G SBA PoC](https://github.com/iithnewslab/SBA-gRPC-5G) - Prototyping and Load Balancing the Service Based Architecture of 5G Core using NFV - [research paper from IITB](https://github.com/iithnewslab/SBA-gRPC-5G/blob/master/Presentation_Netsoft19_gRPC_5G.pdf)
-- [Free5GC](https://bitbucket.org/nctu_5g/free5gc) - The free5GC is an open-source project for 5th generation (5G) mobile core network. Based on NextEPC.
+- [Free5GC](https://www.free5gc.org/) - The free5GC is an open-source project for 5th generation (5G) mobile core network. Based on NextEPC. Source: [Stage 1](https://bitbucket.org/nctu_5g/free5gc-stage-1/src/master/) / [Stage 2](https://bitbucket.org/free5GC/free5gc-stage-2/src/master/)
 
 ### 4G
 
