@@ -1,4 +1,5 @@
 # awesome-telco
+
 A curated list of telco resources and projects.
 
 ## Contents
@@ -20,6 +21,7 @@ A curated list of telco resources and projects.
 - [Lab: tooling for telco labs](#Lab)
 
 ## SIMCards
+
 - [PySIM](https://github.com/osmocom/pysim) - Tool to program sim card. Useful to manage and program blank SIM cards such as the sysmocom ones.
 - [SIMTrace](http://osmocom.org/projects/simtrace) - Osmocom SIMtrace is a hardware device and associated firmware + host software to trace the communication between phone and SIM card.
 - [SIMTester](https://opensource.srlabs.de/projects/simtester) - SIMtester assess SIM card security in two dimensions : Cryptanalytic attack surface, Application attack surface.
@@ -31,10 +33,8 @@ A curated list of telco resources and projects.
 - [srsUE](https://github.com/srslte/srslte) - UE 4G modem part of the srsLTE project.
 - [OAI UE](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) - Open Air Interface RAN 4G eNB/ 5G gNB to use on SDR-based radios. 
 - [Amarisoft](https://www.amarisoft.com) - Commercial UE Emulator by Amarisoft, company co-founded by [Bellard](https://bellard.org) on his original LTE software modem [work](https://bellard.org/lte/).
-- [LTE-CellScanner](https://github.com/Evrytania/LTE-Cell-Scanner) - This is a collection of tools to locate and track LTE basestation cells using
-very low performance RF front ends.
+- [LTE-CellScanner](https://github.com/Evrytania/LTE-Cell-Scanner) - This is a collection of tools to locate and track LTE basestation cells using very low performance RF front ends.
 - [LTE-CellScanner-SDR-X](https://github.com/JiaoXianjun/LTE-Cell-Scanner) - An OpenCL accelerated TDD/FDD LTE Scanner (from rtlsdr/hackRF/bladeRF A/D samples to PDSCH output and RRC SIB messages decoded).
-
 
 ### Diagnostics, Monitor mode
 
@@ -54,6 +54,7 @@ very low performance RF front ends.
 - [O-RAN Software and seed code](https://o-ran-sc.org) - The O-RAN Software Community (SC) is a collaboration between the O-RAN Alliance and Linux Foundation with the mission to support the creation of software for the Radio Access Network (RAN). Introduction to O-RAN in a [LF video](https://www.youtube.com/watch?v=iJyb0pCWDKo).
 
 ### 5G
+
 - [OAI NR](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/5g-nr-development-and-releases) - 5GNR related branch of the OAI code. You can follow the [weekly updates](https://trello.com/c/XBVaaHIO/26-5g-nr) to stay up to date.
 
 ### 4G
@@ -81,14 +82,15 @@ very low performance RF front ends.
 ## Core
 
 ### 5G
+
 - [IITB 5G SBA PoC](https://github.com/iithnewslab/SBA-gRPC-5G) - Prototyping and Load Balancing the Service Based Architecture of 5G Core using NFV - [research paper from IITB](https://github.com/iithnewslab/SBA-gRPC-5G/blob/master/Presentation_Netsoft19_gRPC_5G.pdf)
-- [Free5GC](https://bitbucket.org/nctu_5g/free5gc) - The free5GC is an open-source project for 5th generation (5G) mobile core network. Based on NextEPC.
+- [Free5GC](https://www.free5gc.org/) - The free5GC is an open-source project for 5th generation (5G) mobile core network. Based on NextEPC. Source: [Stage 1](https://bitbucket.org/nctu_5g/free5gc-stage-1/src/master/) / [Stage 2](https://bitbucket.org/free5GC/free5gc-stage-2/src/master/)
 
 ### 4G
 
 - [OAI EPC](https://github.com/OPENAIRINTERFACE/openair-cn/wiki) - MME and HSS functions from the OAI projects.
 - [NextEPC](https://nextepc.org) - R13 4G EPC core with independent MME, HSS, SGW, PGW, PCRF functions. [github](https://github.com/nextepc/)
-- [Open5gs](https://open5gs.org) - R14 4G EPC core with independent MME, HSS, SGW, PGW, PCRF functions. Follow-up of NextEPC. [github](https://github.com/open5gs)
+- [Open5GS](https://open5gs.org) - R14 4G EPC core with independent MME, HSS, SGW, PGW, PCRF functions. Follow-up of NextEPC. [github](https://github.com/open5gs)
 - [Magma](https://github.com/facebookincubator/magma) - Rearchitected core network with access gateway (MME+P/SGW), federation gateway for auth (S6a) and billing (Gx, Gy). Initiated by FB on a the OAI EPC code base.
 - [C3PO](https://github.com/omec-project/c3po) - HSS, CDF, CTF, PCRF around Cassandra DB, and backed by hardware security through SGX from the [OMEC](https://www.opennetworking.org/omec/).
 - [NGIC-RTC](https://github.com/omec-project/ngic-rtc) - Control User Plane Separated (CUPS) architecture 3GPP TS23501 based implementation of EPC Service and Packet Gateway functions (SGW, PGW) from the [OMEC](https://www.opennetworking.org/omec/).
@@ -124,9 +126,10 @@ very low performance RF front ends.
 ### SS7
 
 - [Restcomm SS7](https://github.com/restcomm/jss7) - Open Source Java SS7 stack that allows Java apps to communicate with legacy SS7 communications equipment.
-- [SigGW](https://github.com/P1sec/SigFW) - Open Source Signaling Firewall for SS7, Diameter filtering, antispoof and antisniff.
+- [SigFW](https://github.com/P1sec/SigFW) - Open Source Signaling Firewall for SS7, Diameter filtering, antispoof and antisniff.
 
-### smpp
+### SMPP
+
 - [go-smpp](https://github.com/fiorix/go-smpp) - This is an implementation of SMPP 3.4 for Go, based on the original smpp34 from Kevin Patel.
 - [Selenium SMPPSim](http://www.seleniumsoftware.com/downloads.html) - (software disappeared) - possible mirror [here](https://github.com/haifzhan/SMPPSim).
 
@@ -135,11 +138,11 @@ very low performance RF front ends.
 ### GTP
 
 - [Kernel GTP-U](http://osmocom.org/projects/linux-kernel-gtp-u) - This is an implementation of the GTP-U (user plane) inside the Linux kernel. 
-- [go-GTP](https://github.com/wmnsk/go-gtp) - Package gtp provides simple and painless handling of GTP(GPRS Tunneling Protocol), implemented in the Go Programming Language.
+- [go-gtp](https://github.com/wmnsk/go-gtp) - Package gtp provides simple and painless handling of GTP(GPRS Tunneling Protocol), implemented in the Go Programming Language.
 
 ### SCTP
 
-- [go-SCTP](https://github.com/ishidawataru/sctp) - Stream Control Transmission Protocol (SCTP) in Go.
+- [sctp](https://github.com/ishidawataru/sctp) - Stream Control Transmission Protocol (SCTP) in Go.
 - [usrsctp](https://github.com/sctplab/usrsctp) - This is a userland SCTP stack supporting FreeBSD, Linux, Mac OS X and Windows.
 - [PySCTP](https://github.com/P1sec/pysctp) - PySCTP - SCTP bindings for Python.
 
@@ -147,11 +150,11 @@ very low performance RF front ends.
 
 - [go-diameter](https://github.com/fiorix/go-diameter) - Package go-diameter is an implementation of the Diameter Base Protocol RFC 6733 and a stack for the Go programming language.
 - [jdiameter](https://github.com/RestComm/jdiameter/) - RestComm jDiameter provides an Open Source Java implementation of the Diameter standard for Authentication, Authorization, and Accounting (AAA).
-- [Diafuzzer](https://github.com/Orange-OpenSource/diafuzzer) - Diameter fuzzer, based on specifications of Diameter applications following rfc 3588 / 6733 from Orange.
+- [diafuzzer](https://github.com/Orange-OpenSource/diafuzzer) - Diameter fuzzer, based on specifications of Diameter applications following rfc 3588 / 6733 from Orange.
 
 ### SCCP
 
-- [go-SCCP](https://github.com/wmnsk/go-sccp) - Package sccp provides simple and painless handling of SCCP(Signaling Connection Control Part) in SS7/SIGTRAN stack, implemented in the Go Programming Language.
+- [go-sccp](https://github.com/wmnsk/go-sccp) - Package sccp provides simple and painless handling of SCCP(Signaling Connection Control Part) in SS7/SIGTRAN stack, implemented in the Go Programming Language.
 - [libosmo-sccp](https://git.osmocom.org/libosmo-sccp/) - SCCP Library
 
 ### Dataplane acceleration
@@ -162,12 +165,11 @@ very low performance RF front ends.
 
 ### Others
 
-- [OpenFAPI](https://github.com/cisco/open-nFAPI) - Open-nFAPI is implementation of the Small Cell Forum's network functional API or nFAPI for short. nFAPI defines a network protocol that is used to connect a Physical Network Function (PNF) running LTE Layer 1 to a Virtual Network Function (VNF) running LTE layer 2 and above. 
+- [open-nFAPI](https://github.com/cisco/open-nFAPI) - Open-nFAPI is implementation of the Small Cell Forum's network functional API or nFAPI for short. nFAPI defines a network protocol that is used to connect a Physical Network Function (PNF) running LTE Layer 1 to a Virtual Network Function (VNF) running LTE layer 2 and above. 
 - [Pycrate](https://github.com/P1sec/pycrate) - the successor of the libmich library that is used to encode and decode data structures, including ASN.1 used in cellular protocol.
-- [csdr](https://github.com/simonyiszk/csdr) - csdr is a command line tool to carry out DSP tasks for Software Defined Radio.
+- [CSDR](https://github.com/simonyiszk/csdr) - csdr is a command line tool to carry out DSP tasks for Software Defined Radio.
 - [OGSLib](https://github.com/open5gs/ogslib) - state machine and utilities functions for NextEPC and Open5gs
-- [DIAGLibrary](https://github.com/sanjaywave/DiagLibrary) -  a JNI library that implement a DIAG protocol parser under C code to be used under Android or Linux.
-
+- [DiagLibrary](https://github.com/sanjaywave/DiagLibrary) -  a JNI library that implement a DIAG protocol parser under C code to be used under Android or Linux.
 
 ## Infrastructure
 
@@ -208,8 +210,7 @@ very low performance RF front ends.
 
 ### Writeups
 
-- [How the CCC Camp 2019 LTE network
-works](http://people.osmocom.org/laforge/slides/cccamp2019-how_the_camp_lte_works.pdf) - write up on reusing commercial Ericsson 4G units. 
+- [How the CCC Camp 2019 LTE network works](http://people.osmocom.org/laforge/slides/cccamp2019-how_the_camp_lte_works.pdf) - write up on reusing commercial Ericsson 4G units. 
 - [GSM capture, analysis and decoding](http://domonkos.tomcsanyi.net/?p=418) - four posts series on GSM cellular signal analysis.
 
 ## Organizations
