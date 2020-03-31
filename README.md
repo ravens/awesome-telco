@@ -62,6 +62,7 @@ A curated list of telco resources and projects.
 
 - [OAI eNB/ gNB](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) - Open Air Interface RAN 4G eNB / 5G NR gNB to use on SDR-based radios. 
 - [srsLTE](https://github.com/srslte/srslte) - srsLTE eNB 4G to use on SDR-based radios. 
+- [LTE-ciphercheck](https://github.com/mrlnc/LTE-ciphercheck) - srsLTE derivative to check for cipher configuration of an LTE network - test across the 256 possibilities using an SDR radio.
 - [OpenLTE](http://openlte.sourceforge.net) - OpenLTE is an open source implementation of the 3GPP LTE specifications from Ben Wojtowicz.
 
 ### 3G
