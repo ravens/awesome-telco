@@ -57,6 +57,7 @@ A curated list of telco resources and projects.
 ### 5G
 
 - [OAI NR](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/5g-nr-development-and-releases) - 5GNR related branch of the OAI code. You can follow the [weekly updates](https://trello.com/c/XBVaaHIO/26-5g-nr) to stay up to date.
+- [UE RAN SIM[(https://github.com/aligungr/ue-ran-sim) - 5G UE/RAN Simulator. Require proprietary tool to compile.
 
 ### 4G
 
@@ -89,6 +90,7 @@ A curated list of telco resources and projects.
 - [IITB 5G SBA PoC](https://github.com/iithnewslab/SBA-gRPC-5G) - Prototyping and Load Balancing the Service Based Architecture of 5G Core using NFV - [research paper from IITB](https://github.com/iithnewslab/SBA-gRPC-5G/blob/master/Presentation_Netsoft19_gRPC_5G.pdf)
 - [Free5GC](https://www.free5gc.org/) - The free5GC is an open-source project for 5th generation (5G) mobile core network. Based on NextEPC. Source: [Stage 1](https://bitbucket.org/nctu_5g/free5gc-stage-1/src/master/) / [Stage 2](https://bitbucket.org/free5GC/free5gc-stage-2/src/master/)
 - [5GC Swagger APIS](https://github.com/jdegre/5GC_APIs) - RESTful APIs of main Network Functions in the 3GPP 5G Core Network. R16.
+- [5G GTP kernel driver](https://github.com/PrinzOwO/gtp5g) - gtp5g is a customized Linux kernel module 5G GTP-U to handle packet by PFCP IEs such as PDR and FAR. About more detail IEs, there are more information in 3GPP TS 29.281 and 3GPP TS 29.244.
 
 ### 4G
 
