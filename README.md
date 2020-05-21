@@ -58,7 +58,7 @@ A curated list of telco resources and projects.
 ### 5G
 
 - [OAI NR](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/5g-nr-development-and-releases) - 5GNR related branch of the OAI code. You can follow the [weekly updates](https://trello.com/c/XBVaaHIO/26-5g-nr) to stay up to date.
-- [UE RAN SIM[(https://github.com/aligungr/ue-ran-sim) - 5G UE/RAN Simulator. Require proprietary tool to compile.
+- [UE RAN SIM](https://github.com/aligungr/ue-ran-sim) - 5G UE/RAN Simulator. Require proprietary tool to compile.
 
 ### 4G
 
