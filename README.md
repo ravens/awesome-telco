@@ -11,6 +11,7 @@ A curated list of telco resources and projects.
 - [Interco: IMS, SBC, Diameter](#interco)
 - [Protocols: Libraries, Frameworks](#Protocols)
 - [Infrastructure: SDN and NFV management software](#Infrastructure)
+- [Lab: tooling for telco labs](#Lab)
 - [Security: Papers and talks around telco security](#Security)
 - [Organizations: Orgs and forums working on telcos hardware/software](#Organizations)
 - [Docs: Documentations and standards](#Docs)
@@ -18,7 +19,6 @@ A curated list of telco resources and projects.
 - [Tweets: Relevant tweets and link to social networks](#Tweets)
 - [Issues: interesting issues on bugtrackers](#Issues)
 - [Mailings-lists : ML, slack and other forums](#Mailing-lists)
-- [Lab: tooling for telco labs](#Lab)
 
 ## SIMCards
 
@@ -26,6 +26,10 @@ A curated list of telco resources and projects.
 - [SIMTrace](http://osmocom.org/projects/simtrace) - Osmocom SIMtrace is a hardware device and associated firmware + host software to trace the communication between phone and SIM card.
 - [SIMTester](https://opensource.srlabs.de/projects/simtester) - SIMtester assess SIM card security in two dimensions : Cryptanalytic attack surface, Application attack surface.
 - [Njiwa - M2M UICC](https://github.com/bagyenda/njiwa) - Njiwa (Swahili for homing pigeon) is an implementation of the GSMA's Embedded SIM Remote Provisioning Manager for M2M devices. 
+- [sysmo-usim-tool](https://github.com/herlesupreeth/sysmo-usim-tool) - Modified version of sysmo-usim-tool
+- [GlobalPlatformPro](https://github.com/martinpaljak/GlobalPlatformPro) -  A tool to load and manage SIM applets on compatible JavaCards from command line from MArtin Paljak.
+- [ARA-M Applet](https://github.com/bertrandmartel/aram-applet) -  ARA-M implementation for JavaCards by Bertrand Martel.
+- [CoIMS_wiki](https://github.com/herlesupreeth/CoIMS_Wiki) - Guide for overriding IMS settings to force enable VoLTE/VoWiFi using Carrier Privileges, with its companion app on the Google Play store [CoIMS](https://play.google.com/store/apps/details?id=com.sherle.coims).
 
 ## UE
 
@@ -88,6 +92,8 @@ A curated list of telco resources and projects.
 
 ### 5G
 
+- [Open5GS](https://open5gs.org) - 5G, R14 4G EPC core with independent MME, HSS, SGW, PGW, PCRF, UPF, SMF, NRF functions. Follow-up of NextEPC. [github](https://github.com/open5gs)
+- [travelping-vpp](https://github.com/travelping/vpp) - UPF plugins implements a GTP-U user plane based on 3GPP TS 23.214 and 3GPP TS 29.244 Release 15, adding UPF as a plugin to VPP.
 - [IITB 5G SBA PoC](https://github.com/iithnewslab/SBA-gRPC-5G) - Prototyping and Load Balancing the Service Based Architecture of 5G Core using NFV - [research paper from IITB](https://github.com/iithnewslab/SBA-gRPC-5G/blob/master/Presentation_Netsoft19_gRPC_5G.pdf)
 - [Free5GC](https://www.free5gc.org/) - The free5GC is an open-source project for 5th generation (5G) mobile core network. Based on NextEPC. Source: [Stage 1](https://bitbucket.org/nctu_5g/free5gc-stage-1/src/master/) / [Stage 2](https://bitbucket.org/free5GC/free5gc-stage-2/src/master/)
 - [5GC Swagger APIS](https://github.com/jdegre/5GC_APIs) - RESTful APIs of main Network Functions in the 3GPP 5G Core Network. R16.
@@ -97,7 +103,6 @@ A curated list of telco resources and projects.
 
 - [OAI EPC](https://github.com/OPENAIRINTERFACE/openair-cn/wiki) - MME and HSS functions from the OAI projects.
 - [NextEPC](https://nextepc.org) - R13 4G EPC core with independent MME, HSS, SGW, PGW, PCRF functions. [github](https://github.com/nextepc/)
-- [Open5GS](https://open5gs.org) - R14 4G EPC core with independent MME, HSS, SGW, PGW, PCRF functions. Follow-up of NextEPC. [github](https://github.com/open5gs)
 - [Magma](https://github.com/facebookincubator/magma) - Rearchitected core network with access gateway (MME+P/SGW), federation gateway for auth (S6a) and billing (Gx, Gy). Initiated by FB on a the OAI EPC code base.
 - [C3PO](https://github.com/omec-project/c3po) - HSS, CDF, CTF, PCRF around Cassandra DB, and backed by hardware security through SGX from the [OMEC](https://www.opennetworking.org/omec/).
 - [NGIC-RTC](https://github.com/omec-project/ngic-rtc) - Control User Plane Separated (CUPS) architecture 3GPP TS23501 based implementation of EPC Service and Packet Gateway functions (SGW, PGW) from the [OMEC](https://www.opennetworking.org/omec/).
@@ -166,8 +171,9 @@ A curated list of telco resources and projects.
 
 ### Dataplane acceleration
 
-- [OVS](http://www.openvswitch.org) - Open vSwitch is a production quality, multilayer virtual switch licensed under the open source Apache 2.0 license.
+- [Ligato](https://github.com/ligato/vpp-agent) - Controlplane agent for FD.io VPP
 - [FD.io](https://fd.io) - FD.io is a vector processing engine (VPP). VPP processes a number of packets in parallel instead of one at a time thus significantly improving packet throughput.
+- [OVS](http://www.openvswitch.org) - Open vSwitch is a production quality, multilayer virtual switch licensed under the open source Apache 2.0 license.
 - [DPDK](https://www.dpdk.org) - DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures. [Vista Creek (FPGA-based baseband accelerator)](https://www.intel.com/content/www/us/en/wireline/products/programmable/applications/nfv.html) support has been added to [DPDK](https://doc.dpdk.org/guides/bbdevs/fpga_lte_fec.html). 
 
 ### Others
@@ -200,6 +206,23 @@ A curated list of telco resources and projects.
 
 - [SNAPS-boot](https://github.com/cablelabs/snaps-boot) - Baremetal cluster management solution to prepare for a Openstack or k8s deployment from Cablelabs.
 - [MAAS](https://maas.io) - Self-service, remote installation of Windows, CentOS, ESXi and Ubuntu on real servers turns your data center into a bare-metal cloud - Metal As A Service.
+
+## Lab
+
+### ready to use testbed (Docker, Vagrant etc.)
+
+- [Open5GS-VoLTE](https://github.com/miaoski/docker_open5gs) - This repository is meant to be a install-and-run lab for Open5GS + Kamailio IMS VoLTE study, a follow-up project of Open5GS Tutorial: VoLTE Setup with Kamailio IMS and Open5GS, which is mainly contributed by Herle Supreeth.
+- [Open5GS](https://github.com/herlesupreeth/docker_open5gs) - Docker files to build and run open5gs in a docker by Herle Supreeth.
+
+### remote control
+
+- [OpenSTF](https://openstf.io) - Enable remote control of phone over ADB over an HTML5 interfaces. 
+- [Vyzor](http://vysor.io) - A window to your Android, streaming Android UI through ADB in a Google Chrome Browser app.
+
+### GPS, Time
+
+- [GPS-SDR-SIM](https://github.com/osqzss/gps-sdr-sim) - GPS signal generator with a SDR radio and ephemeris files.
+- [Tools for MT3339](https://github.com/f5eng/mt3339-utils) - Ephemeris injector for MT3339-based GPS chipset
 
 ## Security
 
@@ -254,18 +277,6 @@ A curated list of telco resources and projects.
 - [OAI-devel](http://lists.eurecom.fr/sympa/arc/openair5g-devel)
 - [OAI-corenetwork-user](http://lists.eurecom.fr/sympa/arc/openaircn-user)
 - [OAI-corenetwork-devel](http://lists.eurecom.fr/sympa/arc/openaircn-devel)
-
-## Lab
-
-### remote control
-
-- [OpenSTF](https://openstf.io) - Enable remote control of phone over ADB over an HTML5 interfaces. 
-- [Vyzor](http://vysor.io) - A window to your Android, streaming Android UI through ADB in a Google Chrome Browser app.
-
-### GPS, Time
-
-- [GPS-SDR-SIM](https://github.com/osqzss/gps-sdr-sim) - GPS signal generator with a SDR radio and ephemeris files.
-- [Tools for MT3339](https://github.com/f5eng/mt3339-utils) - Ephemeris injector for MT3339-based GPS chipset
 
 ## License
 
