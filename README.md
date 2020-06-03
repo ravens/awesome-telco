@@ -98,6 +98,7 @@ A curated list of telco resources and projects.
 - [Free5GC](https://www.free5gc.org/) - The free5GC is an open-source project for 5th generation (5G) mobile core network. Based on NextEPC. Source: [Stage 1](https://bitbucket.org/nctu_5g/free5gc-stage-1/src/master/) / [Stage 2](https://bitbucket.org/free5GC/free5gc-stage-2/src/master/)
 - [5GC Swagger APIS](https://github.com/jdegre/5GC_APIs) - RESTful APIs of main Network Functions in the 3GPP 5G Core Network. R16.
 - [5G GTP kernel driver](https://github.com/PrinzOwO/gtp5g) - gtp5g is a customized Linux kernel module 5G GTP-U to handle packet by PFCP IEs such as PDR and FAR. About more detail IEs, there are more information in 3GPP TS 29.281 and 3GPP TS 29.244.
+- [UPF-EPC](https://github.com/omec-project/upf-epc) - UPF-EPC is a revised version of ngic-rtc's dp. it uses BESS as dataplane.
 
 ### 4G
 
