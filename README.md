@@ -36,7 +36,7 @@ A curated list of telco resources and projects.
 ### 4G
 
 - [srsUE](https://github.com/srslte/srslte) - UE 4G modem part of the srsLTE project.
-- [srsUE PR external NAS](https://github.com/srsLTE/srsLTE/pull/474 - a PR for srsLTE for external NAS message injection. 
+- [srsUE PR external NAS](https://github.com/srsLTE/srsLTE/pull/474) - a PR for srsLTE for external NAS message injection. 
 - [OAI UE](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) - Open Air Interface RAN 4G eNB/ 5G gNB to use on SDR-based radios. 
 - [Amarisoft](https://www.amarisoft.com) - Commercial UE Emulator by Amarisoft, company co-founded by [Bellard](https://bellard.org) on his original LTE software modem [work](https://bellard.org/lte/).
 - [LTE-CellScanner](https://github.com/Evrytania/LTE-Cell-Scanner) - This is a collection of tools to locate and track LTE basestation cells using very low performance RF front ends.
