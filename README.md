@@ -1,6 +1,7 @@
 # awesome-telco
 
 A curated list of telco resources and projects.
+Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific projects, which is probably more up to date on the matter than this one.
 
 ## Contents
 
@@ -64,6 +65,8 @@ A curated list of telco resources and projects.
 
 - [OAI NR](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/5g-nr-development-and-releases) - 5GNR related branch of the OAI code. You can follow the [weekly updates](https://trello.com/c/XBVaaHIO/26-5g-nr) to stay up to date.
 - [UE RAN SIM](https://github.com/aligungr/ue-ran-sim) - 5G UE/RAN Simulator. Require proprietary tool to compile.
+- [gnbsim](https://github.com/hhorai/gnbsim) - gnbsim is a 5G SA gNB/UE (Release 16) simulator for testing 5GC system. The project is aimed to understand 5GC system more efficiently than just reading 3GPP standard documents.
+- [Software gNB for free5GC](https://github.com/Srajdax/gnb) - The gNB function was built on the model of the other free5GC CN functions using all the pattern and helper class defined by the free5GC team.
 
 ### 4G
 
@@ -151,10 +154,11 @@ A curated list of telco resources and projects.
 
 ## Protocols
 
-### GTP
+### GTP/PFCP
 
 - [Kernel GTP-U](http://osmocom.org/projects/linux-kernel-gtp-u) - This is an implementation of the GTP-U (user plane) inside the Linux kernel. 
 - [go-gtp](https://github.com/wmnsk/go-gtp) - Package gtp provides simple and painless handling of GTP(GPRS Tunneling Protocol), implemented in the Go Programming Language.
+- [go-pfcp](https://github.com/wmnsk/go-pfcp) - PFCP(Packet Forwarding Control Protocol) is a signaling protocol used in mobile networking infrastructure(LTE EPC, 5GC) to realize CUPS architecture(Control and User Plane Separation, not a printing system) defined in 3GPP TS29.244.
 
 ### SCTP
 
