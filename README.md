@@ -13,6 +13,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Protocols: Libraries, Frameworks](#Protocols)
 - [Infrastructure: SDN and NFV management software](#Infrastructure)
 - [Lab: tooling for telco labs](#Lab)
+- [Testing : TTCN3 and others testing frameworks](#Testing)
 - [Security: Papers and talks around telco security](#Security)
 - [Organizations: Orgs and forums working on telcos hardware/software](#Organizations)
 - [Docs: Documentations and standards](#Docs)
@@ -241,6 +242,12 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [GPS-SDR-SIM](https://github.com/osqzss/gps-sdr-sim) - GPS signal generator with a SDR radio and ephemeris files.
 - [Tools for MT3339](https://github.com/f5eng/mt3339-utils) - Ephemeris injector for MT3339-based GPS chipset
 
+## Testing
+
+- [ntt](https://github.com/nokia/ntt) - TTCN-3 test framework.
+- [Eclipse Titan TTCN3](https://projects.eclipse.org/projects/tools.titan) - Eclipse Titan is a TTCN-3 compilation and execution environment with an  Eclipse-based IDE. 
+- [TTCN3vscode](https://github.com/nokia/vscode-ttcn3) - TTCN-3 vs code plugin
+
 ## Security
 
 ### Videos and papers
@@ -262,7 +269,8 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [GSM capture, analysis and decoding](http://domonkos.tomcsanyi.net/?p=418) - four posts series on GSM cellular signal analysis.
 
 ## Blogs
-- [Nick vs Networking](https://nickvsnetworking.com/category/plmn/)- So this blog focuses on telecommunications network engineering, from the very old (Shout out to the National Communications Museum), to very new and everything in between.
+- [Nick vs Networking](https://nickvsnetworking.com/category/plmn/) - So this blog focuses on telecommunications network engineering, from the very old (Shout out to the National Communications Museum), to very new and everything in between.
+- [The 3G4G Blog](https://blog.3g4g.co.uk) - Latest news and information on 3G, 4G, 5G wireless and technologies in general.
 
 ## Organizations
 
@@ -279,12 +287,6 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [3gpp.guru](https://3gpp.guru) - look up 3GPP abbreviations
 - [speX](https://spex.cor-net.org) - accessible 3GPP specs (PDF, DOC, HTML), [can be self-hosted](https://github.com/CoRfr/spex-3gpp)
 - [tool3rd](https://github.com/proj3rd/tool3rd) - Assistant for 3GPP telecommunication development
-- [TTCN3vscode](https://github.com/nokia/vscode-ttcn3) - TTCN-3 vs code plugin
-
-## Testing (TTCN3)
-
-- [ntt](https://github.com/nokia/ntt) - TTCN-3 test framework.
-- [Eclipse Titan TTCN3](https://projects.eclipse.org/projects/tools.titan) - Eclipse Titan is a TTCN-3 compilation and execution environment with an  Eclipse-based IDE. 
 
 ## Slides
 
@@ -306,6 +308,13 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [OAI-devel](http://lists.eurecom.fr/sympa/arc/openair5g-devel)
 - [OAI-corenetwork-user](http://lists.eurecom.fr/sympa/arc/openaircn-user)
 - [OAI-corenetwork-devel](http://lists.eurecom.fr/sympa/arc/openaircn-devel)
+- [magma-dev](https://groups.google.com/forum/#!forum/magma-dev)
+- [magma-announce](https://groups.google.com/forum/#!forum/magma-announce)
+
+
+## Slacks
+
+- [Magma](https://join.slack.com/t/magmacore/shared_invite/zt-g76zkofr-g6~jYiS3KRzC9qhAISUC2A)
 
 ## License
 
