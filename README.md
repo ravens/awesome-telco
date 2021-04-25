@@ -278,6 +278,13 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [CNTT](https://cntt-n.github.io/CNTT/) - set of reference specifications for NFVI coming from several telcos (Vodafone, Telstra, Orange mentionned as authors).
 - [3gpp.guru](https://3gpp.guru) - look up 3GPP abbreviations
 - [speX](https://spex.cor-net.org) - accessible 3GPP specs (PDF, DOC, HTML), [can be self-hosted](https://github.com/CoRfr/spex-3gpp)
+- [tool3rd](https://github.com/proj3rd/tool3rd) - Assistant for 3GPP telecommunication development
+- [TTCN3vscode](https://github.com/nokia/vscode-ttcn3) - TTCN-3 vs code plugin
+
+## Testing (TTCN3)
+
+- [ntt](https://github.com/nokia/ntt) - TTCN-3 test framework.
+- [Eclipse Titan TTCN3](https://projects.eclipse.org/projects/tools.titan) - Eclipse Titan is a TTCN-3 compilation and execution environment with an  Eclipse-based IDE. 
 
 ## Slides
 
