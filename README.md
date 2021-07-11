@@ -183,6 +183,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [go-diameter](https://github.com/fiorix/go-diameter) - Package go-diameter is an implementation of the Diameter Base Protocol RFC 6733 and a stack for the Go programming language.
 - [jdiameter](https://github.com/RestComm/jdiameter/) - RestComm jDiameter provides an Open Source Java implementation of the Diameter standard for Authentication, Authorization, and Accounting (AAA).
 - [diafuzzer](https://github.com/Orange-OpenSource/diafuzzer) - Diameter fuzzer, based on specifications of Diameter applications following rfc 3588 / 6733 from Orange.
+- [bromelia](https://github.com/heimiricmr/bromelia) - A Python micro framework for building Diameter protocol applications.
 
 ### SCCP
 
