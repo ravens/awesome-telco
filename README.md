@@ -69,8 +69,9 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 - [OAI NR](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/5g-nr-development-and-releases) - 5GNR related branch of the OAI code. You can follow the [weekly updates](https://trello.com/c/XBVaaHIO/26-5g-nr) to stay up to date.
 - [UERANSIM](https://github.com/aligungr/UERANSIM) - UERANSIM is the state-of-the-art 5G UE and RAN (gNodeB) simulator. The project can be used for testing 5G Core Network and studying 5G System.
-- [gnbsim](https://github.com/hhorai/gnbsim) - gnbsim is a 5G SA gNB/UE (Release 16) simulator for testing 5GC system. The project is aimed to understand 5GC system more efficiently than just reading 3GPP standard documents.
 - [Software gNB for free5GC](https://github.com/Srajdax/gnb) - The gNB function was built on the model of the other free5GC CN functions using all the pattern and helper class defined by the free5GC team.
+- [~~gnbsim~~](https://github.com/hhorai/gnbsim) - gnbsim is a 5G SA gNB/UE (Release 16) simulator for testing 5GC system. The project is aimed to understand 5GC system more efficiently than just reading 3GPP standard documents. _The original repo is not available. See [the forked repo](https://github.com/AlohaLuo/gnbsim-backup) instead._
+- [5G-tools.com](https://5g-tools.com/) - 5G-tools.com is devoted to modern standards of wireless communications, such as 5G, 4G, etc. Main mission of site to give engineers the useful software tools to create a wireless network
 
 ### 4G
 
@@ -110,6 +111,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [5GC Swagger APIS](https://github.com/jdegre/5GC_APIs) - RESTful APIs of main Network Functions in the 3GPP 5G Core Network. R16.
 - [5G GTP kernel driver](https://github.com/PrinzOwO/gtp5g) - gtp5g is a customized Linux kernel module 5G GTP-U to handle packet by PFCP IEs such as PDR and FAR. About more detail IEs, there are more information in 3GPP TS 29.281 and 3GPP TS 29.244.
 - [UPF-EPC](https://github.com/omec-project/upf-epc) - UPF-EPC is a revised version of ngic-rtc's dp. it uses BESS as dataplane.
+- [OpenUPF](https://github.com/5GOpenUPF/openupf) - A 3GPP R16 compliant open source 5G core UPF (User Plane Function).
 - [Katana Slice Manager](https://github.com/medianetlab/katana-slice_manager) - Katana Slice Manager is a central software component responsible for controlling all the devices comprising the network, providing an interface for creating, modifying, monitoring and deleting slices. 
 - [my5G-core](https://github.com/my5G/my5G-core) - Currently, my5G-core is a fork of the free5GC project, with some extensions to facilitate the deployment.
 - [III-5GC-Free-Trial](https://github.com/III-5GC/III-5GC-Free-Trial) - The basic III-5GC is a free trial for lab research, prototype product testing and simple 5G end-to-end demonstration.
@@ -150,7 +152,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 - [Freeswitch](https://freeswitch.org/confluence/display/FREESWITCH/Python_SBC) - Popular SIP stack that could be used as Session Border Controller (SBC)
 - [IMS Clearwater](http://www.projectclearwater.org) - Clearwater is an open source implementation of IMS (the IP Multimedia Subsystem).
-- [Kamalio](https://www.kamailio.org) - SIP stack used for VoLTE and SBC.
+- [Kamailio](https://www.kamailio.org) - SIP stack used for VoLTE and SBC.
 - [go-eventsocket](https://github.com/fiorix/go-eventsocket) - FreeSWITCH Event Socket library for the Go programming language.
 
 ### SS7
@@ -189,10 +191,13 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [diafuzzer](https://github.com/Orange-OpenSource/diafuzzer) - Diameter fuzzer, based on specifications of Diameter applications following rfc 3588 / 6733 from Orange.
 - [bromelia](https://github.com/heimiricmr/bromelia) - A Python micro framework for building Diameter protocol applications.
 
-### SCCP
+### SS7/SIGTRAN
 
+- [go-m3ua](https://github.com/wmnsk/go-m3ua) - Package m3ua provides easy and painless handling of M3UA protocol in pure Golang.
 - [go-sccp](https://github.com/wmnsk/go-sccp) - Package sccp provides simple and painless handling of SCCP(Signaling Connection Control Part) in SS7/SIGTRAN stack, implemented in the Go Programming Language.
 - [libosmo-sccp](https://git.osmocom.org/libosmo-sccp/) - SCCP Library
+- [go-tcap](https://github.com/wmnsk/go-tcap) - Package tcap provides simple and painless handling of TCAP(Transaction Capabilities Application Part) in SS7/SIGTRAN protocol stack.
+- [openss7](http://www.openss7.org/) - An opensource development project (called OpenSS7) to provide a robust and GPL'ed SS7, SIGTRAN, ISDN and VoIP stack for Linux and other UN*X operating systems.
 
 ### Dataplane acceleration
 
@@ -209,6 +214,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [OGSLib](https://github.com/open5gs/ogslib) - state machine and utilities functions for NextEPC and Open5gs
 - [DiagLibrary](https://github.com/sanjaywave/DiagLibrary) -  a JNI library that implement a DIAG protocol parser under C code to be used under Android or Linux.
 - [5G Trace visualizer](https://github.com/telekom/5g-trace-visualizer) - DT set of Python scripts allow you to convert pcap, pcapng or pdml 5G protocol traces (Wireshark, tcpdump, ...) into SVG sequence diagrams.
+- [sigshark](https://github.com/2b-as/sigshark) - Sigshark makes working with SS7 TCAP (MAP/CAP) and Diameter signaling pcap files easier. Its features include "flattening" (putting each SCTP chunk in its own packet) and transaction sorting/grouping.
 
 ## Infrastructure
 
@@ -226,7 +232,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Nokia Danm](https://github.com/nokia/danm/) - TelCo grade network management in a Kubernetes cluster from Nokia. 
 - [SNAPS-kubernetes](https://github.com/cablelabs/snaps-kubernetes) - Kubernetes deployment to be used on SNAPS booted machine from Cablelabs.
 - [Free5GC on kubeCORD](https://github.com/sufuf3/kube5GC) - This project is for deploying Free5GC on kubeCORD.
-- [CNCF Testbed](https://github.com/cncf/cnf-testbed) - The CNCF CNF Testbed provides reference code and test cases for running networking code on Kubernetes and OpenStack using emerging cloud native technologies in the Telecom domain. Provides simulated [network functions](https://github.com/cncf/cnf-testbed/tree/master/examples/network_functions).
+- [CNCF CNF-Testbed](https://github.com/cncf/cnf-testbed) - The CNCF CNF Testbed provides reference code and test cases for running networking code on Kubernetes and OpenStack using emerging cloud native technologies in the Telecom domain. Provides simulated [network functions](https://github.com/cncf/cnf-testbed/tree/master/examples/network_functions).
 
 ### Baremetal management
 
@@ -279,6 +285,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Advanced interconnect attacks](https://media.ccc.de/v/camp2015-6785-advanced_interconnect_attacks) - Talk about GTP interconnection security at Chaos Communication Camp 2015.
 - [Mobile Data Interception from the Interconnection Link](https://media.ccc.de/v/34c3-8879-mobile_data_interception_from_the_interconnection_link) - Talk about Diameter interconnection security at 34C3.
 - [On the Challenges of Automata Reconstruction in LTE Networks](https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2021/06/02/LTE-Automata-WiSec21.pdf) - In this paper, the authors explore active automata learning for 4G/LTE protocol state machines. [video](https://www.youtube.com/watch?v=0OERPpdeJi8)
+- [SS7 and SIGTRAN in 2G/3G networks](https://people.osmocom.org/tnt/osmodevcall/osmodevcall-20210514-laforge-ss7-sigtran_h264_420.mp4) - An introduction to SS7/SIGTRAN stack, including the history, use cases, roles of each layer, and how SS7-speaking equipment works.
 
 ### Writeups
 
@@ -289,11 +296,11 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Nick vs Networking](https://nickvsnetworking.com/category/plmn/) - So this blog focuses on telecommunications network engineering, from the very old (Shout out to the National Communications Museum), to very new and everything in between.
 - [The 3G4G Blog](https://blog.3g4g.co.uk) - Latest news and information on 3G, 4G, 5G wireless and technologies in general.
 - [Frédéric Launay - Les réseaux de mobiles 4G et 5G](http://blogs.univ-poitiers.fr/f-launay/) - [FR] Ce blog est un site de vulgarisation sur la téléphonie mobile de 4ème Génération ou 4G, du LTE et du web 2.O.
-- [Yoshiyuki Kurauchi](https://wmnsk.com/posts/) - Yoshiyuki Kurauchi - A telecom / networking / security enthusiast.
+- [Yoshiyuki Kurauchi](https://wmnsk.com/posts/) - Blog posts by Yoshiyuki Kurauchi - A telecom / networking / security enthusiast.
 
 ## Organizations
 
-- [Osmocom](http://osmocom.org) Umbrella for numerous opensource mobile communications projects.
+- [Osmocom](http://osmocom.org) Umbrella for numerous opensource mobile communications projects. Recordings of many great presentations can be found on their [OsmoDevCon](https://osmocom.org/projects/osmo-dev-con/wiki/OsmoDevCon) page (It's held online as [OsmoDevCall](https://osmocom.org/projects/osmo-dev-con/wiki/OsmoDevCall) lately).
 - [Sysmocom](http://shop.sysmocom.de) Store frontend for [sysmocom](https://www.sysmocom.de), company providing product, support and services not only related to Osmocom.
 - [Telecom Infra Project](https://www.telecominfraproject.com) - FB initiated project to create an equivalent of the OpenCompute project in the telco space.
 
