@@ -172,10 +172,11 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 ## Protocols
 
-### NAS 4G/5G
+### NAS 4G/5G and Milenage
 
 - [mts-nas](https://github.com/ericsson-mts/mts-nas) - Project to decode/encode Non-Access Stratum (NAS) protocol.
 - [LTE-security](https://fabricioapps.blogspot.com/2012/05/lte-security.html) - a Windows application that implements all the security procedures for LTE referred in Annex A and Annex B of 3GPP 33.401. Last update in 2020, direct [link](https://www.dropbox.com/s/adpa2yuac99riqt/LTE%20Security%203.3.zip?dl=0)
+- [milenage](https://github.com/emakeev/milenage) - https://github.com/emakeev/milenage
 
 ### GTP/PFCP
 
