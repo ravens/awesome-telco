@@ -323,6 +323,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [speX](https://spex.cor-net.org) - accessible 3GPP specs (PDF, DOC, HTML), [can be self-hosted](https://github.com/CoRfr/spex-3gpp)
 - [tool3rd](https://github.com/proj3rd/tool3rd) - Assistant for 3GPP telecommunication development
 - [3gpp-citations](https://github.com/martisak/3gpp-citations) - 3GPP Bibtex entry generator
+- [3GPP-overall-architecture](https://github.com/nickel0/3GPP-Overall-Architecture) - very detailed, high-res PDF of the overall 3GPP architecture
 
 ## Slides
 
