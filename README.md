@@ -40,6 +40,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [ScapySMS](https://github.com/mnemonic-no/ScapySMS) - A Scapy implementation of SMS-SUBMIT and (U)SIM Application Toolkit command packets.
 - [ISD-R Access Provider](https://github.com/cheeriotb/ISD-R-AccessProvider) - This application contains a tiny content provider for communicating with ISD-R in eSIM soldered on Android device (developed for Pixel4).
 - [asterix](https://github.com/suma12/asterix) - asterix is a framework for communication with smartcards based on pyscard.
+- [SimServerAndroid](https://github.com/zhuowei/SimServerAndroid) - Gets SIM card ICCID/runs 3G Authentication over ADB shell. 
 
 ## UE
 
@@ -193,6 +194,11 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [usrsctp](https://github.com/sctplab/usrsctp) - This is a userland SCTP stack supporting FreeBSD, Linux, Mac OS X and Windows.
 - [PySCTP](https://github.com/P1sec/pysctp) - PySCTP - SCTP bindings for Python.
 - [MTS: Multiprotocol Test Tool](https://github.com/ericsson-mts/mts) - MTS (Multi-protocol Test Suite) is a multi-protocol testing tool specially designed for telecom IP-based architectures (see above "Features" section for more details).
+
+### VoWiFi/VoLTE
+
+- [SWu-IKEv2](https://github.com/sysmocom/SWu-IKEv2) - This is a SWu client emulator done in python3 that establishes an IKEv2/IPSec tunnel with an ePDG. This application implements not only the control plane of SWu (IKEv2) but also the user plane (IPSec).
+
 
 ### Diameter
 
