@@ -79,6 +79,8 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [~~gnbsim~~](https://github.com/hhorai/gnbsim) - gnbsim is a 5G SA gNB/UE (Release 16) simulator for testing 5GC system. The project is aimed to understand 5GC system more efficiently than just reading 3GPP standard documents. _The original repo is not available. See [the forked repo](https://github.com/AlohaLuo/gnbsim-backup) instead._
 - [5G-tools.com](https://5g-tools.com/) - 5G-tools.com is devoted to modern standards of wireless communications, such as 5G, 4G, etc. Main mission of site to give engineers the useful software tools to create a wireless network
 - [corescope](https://github.com/srsran/corescope) - CoreScope combines gNodeB and UE components without any radio transmission. 
+- [my5G-RANTester](https://github.com/my5G/my5G-RANTester) - my5G-RANTester is a gNB/UE simulator for testing 3GPP standards and stressing a 5G core.
+
 
 ### 4G
 
@@ -89,7 +91,6 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Cisco 4G nFAPI](https://github.com/cisco/open-nFAPI) - Open-nFAPI is implementation of the Small Cell Forum's network functional API or nFAPI for short. nFAPI defines a network protocol that is used to connect a Physical Network Function (PNF) running LTE Layer 1 to a Virtual Network Function (VNF) running LTE layer 2 and above.
 - [CrocodileHunter](https://github.com/EFForg/crocodilehunter) - Crocodile Hunter is a tool to hunt fake eNodeBs, also known commonly as hailstorm, stingray, cell site simulators, or IMSI catchers. It works by listening for broadcast messages from all of the 4G stations in the area, inferring their location, and looking for unusual activity. From the EFF.
 - [eNB s1 emulator](https://github.com/fasferraz/eNB) - This is an eNB emulator application done in python3 to interact with MME (S1AP) and SGW (S1-U). This application can be used to perform and simulate several EMM and ESM procedures, including user plane traffic. This application was tested with real MMEs (lab environment).
-- [my5G-RANTester](https://github.com/my5G/my5G-RANTester) - my5G-RANTester is a gNB/UE simulator for testing 3GPP standards and stressing a 5G core.
 
 ### 3G
 
