@@ -177,6 +177,11 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 ## Protocols
 
+### ASN1-based, S1AP/NGAP
+
+- [Pycrate](https://github.com/P1sec/pycrate) - the successor of the libmich library that is used to encode and decode data structures, including ASN.1 used in cellular protocol.
+- [hampi](https://github.com/gabhijit/hampi) - The Goal of this project is to implement an ASN.1 Compiler in Rust which can generate Rust bindings for different ASN.1 specifications.
+
 ### NAS 4G/5G and Milenage
 
 - [mts-nas](https://github.com/ericsson-mts/mts-nas) - Project to decode/encode Non-Access Stratum (NAS) protocol.
@@ -226,7 +231,6 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 ### Others
 
 - [open-nFAPI](https://github.com/cisco/open-nFAPI) - Open-nFAPI is implementation of the Small Cell Forum's network functional API or nFAPI for short. nFAPI defines a network protocol that is used to connect a Physical Network Function (PNF) running LTE Layer 1 to a Virtual Network Function (VNF) running LTE layer 2 and above. 
-- [Pycrate](https://github.com/P1sec/pycrate) - the successor of the libmich library that is used to encode and decode data structures, including ASN.1 used in cellular protocol.
 - [CSDR](https://github.com/simonyiszk/csdr) - csdr is a command line tool to carry out DSP tasks for Software Defined Radio.
 - [OGSLib](https://github.com/open5gs/ogslib) - state machine and utilities functions for NextEPC and Open5gs
 - [DiagLibrary](https://github.com/sanjaywave/DiagLibrary) -  a JNI library that implement a DIAG protocol parser under C code to be used under Android or Linux.
