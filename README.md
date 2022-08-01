@@ -12,6 +12,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Interco: IMS, SBC, Diameter](#interco)
 - [Protocols: Libraries, Frameworks](#Protocols)
 - [Infrastructure: SDN and NFV management software](#Infrastructure)
+- [Orchestration: Automation and integration software](#Orchestration)
 - [Lab: tooling for telco labs](#Lab)
 - [Testing : TTCN3 and others testing frameworks](#Testing)
 - [Security: Papers and talks around telco security](#Security)
@@ -269,6 +270,10 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 - [SNAPS-boot](https://github.com/cablelabs/snaps-boot) - Baremetal cluster management solution to prepare for a Openstack or k8s deployment from Cablelabs.
 - [MAAS](https://maas.io) - Self-service, remote installation of Windows, CentOS, ESXi and Ubuntu on real servers turns your data center into a bare-metal cloud - Metal As A Service.
+
+## Orchestration
+
+- [Zato](https://zato.io/en/industry/telecom/index.html) - Python-based, open-source platform for orchestration, automation and integrations of APIs or hardware assets ([GitHub](https://github.com/zatosource/zato))
 
 ## Lab
 
