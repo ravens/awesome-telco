@@ -353,6 +353,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [tool3rd](https://github.com/proj3rd/tool3rd) - Assistant for 3GPP telecommunication development
 - [3gpp-citations](https://github.com/martisak/3gpp-citations) - 3GPP Bibtex entry generator
 - [3GPP-overall-architecture](https://github.com/nickel0/3GPP-Overall-Architecture) - very detailed, high-res PDF of the overall 3GPP architecture
+- [Introduce to 5GC](https://github.com/ianchen0119/Introduce-to-5GC) - 5GC & Cloud Native handbook written in traditaional chinese
 
 ## Slides
 
