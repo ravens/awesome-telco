@@ -204,6 +204,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [gtplib](https://github.com/travelping/gtplib) - Erlang GTPv1/GTPv2 library.
 - [gtpv2](https://github.com/blorticus/gtpv2) - GPRS Tunneling Protocol Library for golang.
 - [scapy-gtp](https://github.com/secdev/scapy/blob/master/scapy/contrib/gtp.py) - Scapy (A interactive packet manipulation program) GTP layer. Spec: 3GPP TS 29.060 and 3GPP TS 29.274. Some IEs: 3GPP TS 24.008.
+- [gtp_dialer](https://github.com/fasferraz/gtp_dialer) - GTPv1/GTPv2 Dialer
 
 ### SCTP
 
