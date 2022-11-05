@@ -42,6 +42,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [ISD-R Access Provider](https://github.com/cheeriotb/ISD-R-AccessProvider) - This application contains a tiny content provider for communicating with ISD-R in eSIM soldered on Android device (developed for Pixel4).
 - [asterix](https://github.com/suma12/asterix) - asterix is a framework for communication with smartcards based on pyscard.
 - [SimServerAndroid](https://github.com/zhuowei/SimServerAndroid) - Gets SIM card ICCID/runs 3G Authentication over ADB shell. 
+- [esim.me](https://esim.me) - physical sim card combined with a proprietary app that enable to load up to 15 eSIM on the physical sim card.
 
 ## UE
 
