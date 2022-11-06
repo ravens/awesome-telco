@@ -388,7 +388,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 ## Slacks
 
-- [Magma](https://join.slack.com/t/magmacore/shared_invite/zt-g76zkofr-g6~jYiS3KRzC9qhAISUC2A)
+- [Magma](https://slack.magmacore.org/)
 
 ## License
 
