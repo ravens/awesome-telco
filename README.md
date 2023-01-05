@@ -101,6 +101,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 ### 3G
 
 - [OpenUMTS](https://github.com/RangeNetworks/OpenBTS-UMTS) - 3G NodeB 
+- [openbts-UMTS](https://github.com/PentHertz/OpenBTS-UMTS) - updated dependency and code to run OpenBTS-UMTS in 2023. Docker image available [here](https://hub.docker.com/r/penthertz/openbts-umts)
 
 ### 2G
 
