@@ -43,6 +43,8 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [asterix](https://github.com/suma12/asterix) - asterix is a framework for communication with smartcards based on pyscard.
 - [SimServerAndroid](https://github.com/zhuowei/SimServerAndroid) - Gets SIM card ICCID/runs 3G Authentication over ADB shell. 
 - [esim.me](https://esim.me) - physical sim card combined with a proprietary app that enable to load up to 15 eSIM on the physical sim card.
+- [swSIM](https://github.com/tomasz-lisowski/swsim) - A software-only SIM card.
+- [swICC](https://github.com/tomasz-lisowski/swicc) - A framework for creating smart cards (ICC-based cards with contacts).
 
 ## UE
 
