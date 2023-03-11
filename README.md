@@ -78,6 +78,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 ### 5G
 
+- [srsRAN_Project](https://github.com/srsran/srsRAN_Project) - A complete ORAN-native 5G RAN solution.
 - [OAI NR](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/5g-nr-development-and-releases) - 5GNR related branch of the OAI code. You can follow the [weekly updates](https://trello.com/c/XBVaaHIO/26-5g-nr) to stay up to date.
 - [UERANSIM](https://github.com/aligungr/UERANSIM) - UERANSIM is the state-of-the-art 5G UE and RAN (gNodeB) simulator. The project can be used for testing 5G Core Network and studying 5G System.
 - [Software gNB for free5GC](https://github.com/Srajdax/gnb) - The gNB function was built on the model of the other free5GC CN functions using all the pattern and helper class defined by the free5GC team.
