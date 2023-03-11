@@ -283,10 +283,6 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [SNAPS-boot](https://github.com/cablelabs/snaps-boot) - Baremetal cluster management solution to prepare for a Openstack or k8s deployment from Cablelabs.
 - [MAAS](https://maas.io) - Self-service, remote installation of Windows, CentOS, ESXi and Ubuntu on real servers turns your data center into a bare-metal cloud - Metal As A Service.
 
-## Orchestration
-
-- [Zato](https://github.com/zatosource/zato) - Python-based, open-source platform for orchestration, automation and integrations of APIs or hardware assets ([Website](https://zato.io/en/industry/telecom/index.html))
-
 ## Lab
 
 ### ready to use testbed (Docker, Vagrant etc.)
