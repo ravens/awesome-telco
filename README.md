@@ -70,6 +70,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Modmobmap](https://github.com/PentHertz/Modmobmap) - Map 2G/3G/4G and more cellular networks in real live with a simple smart phone, pretty much like osmocomBB monitoring feature.
 - [Modmobjam](https://github.com/PentHertz/Modmobjam) - A smart jamming proof of concept for mobile equipments that could be powered with Modmobmap tool.
 - [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer) - An Open-source LTE Downlink/Uplink Eavesdropper
+- [FALCON](https://github.com/falkenber9/falcon) - FALCON - Fast Analysis of LTE Control channels.
 
 ## RAN
 
