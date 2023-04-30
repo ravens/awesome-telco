@@ -393,6 +393,9 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [magma-dev](https://groups.google.com/forum/#!forum/magma-dev)
 - [magma-announce](https://groups.google.com/forum/#!forum/magma-announce)
 
+## YouTube channels 
+
+- [penhertz](https://www.youtube.com/@Penthertz) - Official YT channel of Penthertz to talk about RF Hacking, Software-Defined Radio, and other tips and tricks!.
 
 ## Slacks
 
