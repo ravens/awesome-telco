@@ -264,6 +264,10 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [5G Trace visualizer](https://github.com/telekom/5g-trace-visualizer) - DT set of Python scripts allow you to convert pcap, pcapng or pdml 5G protocol traces (Wireshark, tcpdump, ...) into SVG sequence diagrams.
 - [sigshark](https://github.com/2b-as/sigshark) - Sigshark makes working with SS7 TCAP (MAP/CAP) and Diameter signaling pcap files easier. Its features include "flattening" (putting each SCTP chunk in its own packet) and transaction sorting/grouping.
 - [ipccdownloader](https://github.com/mrlnc/ipcc-downloader) - Download IPCC Carrier Profiles
+- [4g-speed](https://github.com/jake-cryptic/4g-speed) - 4G Theoretical Speed Calculator | FDD & TDD Support
+
+Resources
+
 
 ## Infrastructure
 
