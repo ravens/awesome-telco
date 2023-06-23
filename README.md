@@ -29,19 +29,19 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [PySIM](https://github.com/osmocom/pysim) - Tool to program sim card. Useful to manage and program blank SIM cards such as the sysmocom ones.
 - [SIMTrace](http://osmocom.org/projects/simtrace) - Osmocom SIMtrace is a hardware device and associated firmware + host software to trace the communication between phone and SIM card.
 - [SIMTester](https://opensource.srlabs.de/projects/simtester) - SIMtester assess SIM card security in two dimensions : Cryptanalytic attack surface, Application attack surface.
-- [Njiwa - M2M UICC](https://github.com/brucedchen1991/njiwa) - Njiwa (Swahili for homing pigeon) is an implementation of the GSMA's Embedded SIM Remote Provisioning Manager for M2M devices. (Note: original repo is missing, replacing by a fork). 
+- [Njiwa - M2M UICC](https://github.com/brucedchen1991/njiwa) - Njiwa (Swahili for homing pigeon) is an implementation of the GSMA's Embedded SIM Remote Provisioning Manager for M2M devices. (Note: original repo is missing, replacing by a fork).
 - [LPAd SM-DP+ Connector](https://github.com/Truphone/LPAd_SM-DPPlus_Connector) - Local Profile Assistant for Device (LPAd) - LPAd SM-DP+ Connector
 - [sysmo-usim-tool](https://github.com/herlesupreeth/sysmo-usim-tool) - Modified version of sysmo-usim-tool
 - [GlobalPlatformPro](https://github.com/martinpaljak/GlobalPlatformPro) -  A tool to load and manage SIM applets on compatible JavaCards from command line from MArtin Paljak.
 - [ARA-M Applet](https://github.com/bertrandmartel/aram-applet) -  ARA-M implementation for JavaCards by Bertrand Martel.
 - [CoIMS_wiki](https://github.com/herlesupreeth/CoIMS_Wiki) - Guide for overriding IMS settings to force enable VoLTE/VoWiFi using Carrier Privileges, with its companion app on the Google Play store [CoIMS](https://play.google.com/store/apps/details?id=com.sherle.coims).
-- [HelloSTK2](https://github.com/mrlnc/HelloSTK2) - My 2021's guide to HelloSTK [...] but maybe this "guide" helps you to build and install SIM-Toolkit applets. 
+- [HelloSTK2](https://github.com/mrlnc/HelloSTK2) - My 2021's guide to HelloSTK [...] but maybe this "guide" helps you to build and install SIM-Toolkit applets.
 - [Generic-eUICC-Test-Profile](https://github.com/GSMATerminals/Generic-eUICC-Test-Profile-for-Device-Testing-Public) - [...] to normalize the way in which Test Profiles for embedded UICCs will be available, and configurable, for industry standardised testing.
 - [SUPI with pysim](https://gist.github.com/mrlnc/01d6300f1904f154d969ff205136b753) - Notes on enabling SUPI with pysim.
 - [ScapySMS](https://github.com/mnemonic-no/ScapySMS) - A Scapy implementation of SMS-SUBMIT and (U)SIM Application Toolkit command packets.
 - [ISD-R Access Provider](https://github.com/cheeriotb/ISD-R-AccessProvider) - This application contains a tiny content provider for communicating with ISD-R in eSIM soldered on Android device (developed for Pixel4).
 - [asterix](https://github.com/suma12/asterix) - asterix is a framework for communication with smartcards based on pyscard.
-- [SimServerAndroid](https://github.com/zhuowei/SimServerAndroid) - Gets SIM card ICCID/runs 3G Authentication over ADB shell. 
+- [SimServerAndroid](https://github.com/zhuowei/SimServerAndroid) - Gets SIM card ICCID/runs 3G Authentication over ADB shell.
 - [esim.me](https://esim.me) - physical sim card combined with a proprietary app that enable to load up to 15 eSIM on the physical sim card.
 - [swSIM](https://github.com/tomasz-lisowski/swsim) - A software-only SIM card.
 - [swICC](https://github.com/tomasz-lisowski/swicc) - A framework for creating smart cards (ICC-based cards with contacts).
@@ -52,8 +52,8 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 ### 4G
 
 - [srsUE](https://github.com/srslte/srslte) - UE 4G modem part of the srsLTE project.
-- [srsUE PR external NAS](https://github.com/srsLTE/srsLTE/pull/474) - a PR for srsLTE for external NAS message injection. 
-- [OAI UE](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) - Open Air Interface RAN 4G eNB/ 5G gNB to use on SDR-based radios. 
+- [srsUE PR external NAS](https://github.com/srsLTE/srsLTE/pull/474) - a PR for srsLTE for external NAS message injection.
+- [OAI UE](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) - Open Air Interface RAN 4G eNB/ 5G gNB to use on SDR-based radios.
 - [Amarisoft](https://www.amarisoft.com) - Commercial UE Emulator by Amarisoft, company co-founded by [Bellard](https://bellard.org) on his original LTE software modem [work](https://bellard.org/lte/).
 - [LTE-CellScanner](https://github.com/Evrytania/LTE-Cell-Scanner) - This is a collection of tools to locate and track LTE basestation cells using very low performance RF front ends.
 - [LTE-CellScanner-SDR-X](https://github.com/JiaoXianjun/LTE-Cell-Scanner) - An OpenCL accelerated TDD/FDD LTE Scanner (from rtlsdr/hackRF/bladeRF A/D samples to PDSCH output and RRC SIB messages decoded).
@@ -87,16 +87,16 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Software gNB for free5GC](https://github.com/Srajdax/gnb) - The gNB function was built on the model of the other free5GC CN functions using all the pattern and helper class defined by the free5GC team.
 - [~~gnbsim~~](https://github.com/hhorai/gnbsim) - gnbsim is a 5G SA gNB/UE (Release 16) simulator for testing 5GC system. The project is aimed to understand 5GC system more efficiently than just reading 3GPP standard documents. _The original repo is not available. See [the forked repo](https://github.com/AlohaLuo/gnbsim-backup) instead._
 - [5G-tools.com](https://5g-tools.com/) - 5G-tools.com is devoted to modern standards of wireless communications, such as 5G, 4G, etc. Main mission of site to give engineers the useful software tools to create a wireless network
-- [corescope](https://github.com/srsran/corescope) - CoreScope combines gNodeB and UE components without any radio transmission. 
+- [corescope](https://github.com/srsran/corescope) - CoreScope combines gNodeB and UE components without any radio transmission.
 - [my5G-RANTester](https://github.com/my5G/my5G-RANTester) - my5G-RANTester is a gNB/UE simulator for testing 3GPP standards and stressing a 5G core.
 - [free5GRAN](https://github.com/free5G/free5GRAN) - free5GRAN is an open-source 5G RAN stack. The current version includes a receiver which decodes MIB & SIB1 data. It also acts as a cell scanner. free5GRAN works in SA mode. From Telecom Paris 5G laboratory - Institut Polytechnique de Paris.
-- [pfm](https://github.com/arv-sajeev/pfm) - Implemented a prototype of gNB-CU-UP a network element of 5G Radio Network. Using DPDK, a set of data-plane processing libraries and NIC drivers for high speed packet processing applications. 
+- [pfm](https://github.com/arv-sajeev/pfm) - Implemented a prototype of gNB-CU-UP a network element of 5G Radio Network. Using DPDK, a set of data-plane processing libraries and NIC drivers for high speed packet processing applications.
 
 
 ### 4G
 
-- [OAI eNB/ gNB](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) - Open Air Interface RAN 4G eNB / 5G NR gNB to use on SDR-based radios. 
-- [srsLTE](https://github.com/srslte/srslte) - srsLTE eNB 4G to use on SDR-based radios. 
+- [OAI eNB/ gNB](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) - Open Air Interface RAN 4G eNB / 5G NR gNB to use on SDR-based radios.
+- [srsLTE](https://github.com/srslte/srslte) - srsLTE eNB 4G to use on SDR-based radios.
 - [LTE-ciphercheck](https://github.com/mrlnc/LTE-ciphercheck) - srsLTE derivative to check for cipher configuration of an LTE network - test across the 256 possibilities using an SDR radio.
 - [OpenLTE](http://openlte.sourceforge.net) - OpenLTE is an open source implementation of the 3GPP LTE specifications from Ben Wojtowicz.
 - [Cisco 4G nFAPI](https://github.com/cisco/open-nFAPI) - Open-nFAPI is implementation of the Small Cell Forum's network functional API or nFAPI for short. nFAPI defines a network protocol that is used to connect a Physical Network Function (PNF) running LTE Layer 1 to a Virtual Network Function (VNF) running LTE layer 2 and above.
@@ -107,7 +107,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 ### 3G
 
-- [OpenUMTS](https://github.com/RangeNetworks/OpenBTS-UMTS) - 3G NodeB 
+- [OpenUMTS](https://github.com/RangeNetworks/OpenBTS-UMTS) - 3G NodeB
 - [openbts-UMTS](https://github.com/PentHertz/OpenBTS-UMTS) - updated dependency and code to run OpenBTS-UMTS in 2023. Docker image available [here](https://hub.docker.com/r/penthertz/openbts-umts)
 
 ### 2G
@@ -117,10 +117,10 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [OsmoTRX](http://osmocom.org/projects/osmotrx) - fork of OpenBTS tranceiver to use on SDR-based radios.
 - [OsmoBTS](http://osmocom.org/projects/osmobts) - Open Source GSM BTS (Base Transceiver Station) with A-bis/IP interface.
 
-### PHY 
+### PHY
 - [gr-osmoSDR](http://osmocom.org/projects/gr-osmosdr) - Unified gnuradio input/output block for a variety of SDR devices, including FUNcube Dongle, OsmoSDR, RTL-SDR, MSi2500, SDRplay, SDR-IQ, AirSpy, rad10, HackRF, bladeRF, USSRP/UHD, UMtrx, RedPitaya, FreeSRP.
 - [USRP B210](https://www.ettus.com/all-products/UB210-KIT/) - SDR Radio kit compatible with most of the SDR-based software modem implementations.
-- [Kalibrate](https://github.com/steve-m/kalibrate-rtl) - Kalibrate, or kal, can scan for GSM base stations in a given frequency band and can use those GSM base stations to calculate the local oscillator frequency offset. 
+- [Kalibrate](https://github.com/steve-m/kalibrate-rtl) - Kalibrate, or kal, can scan for GSM base stations in a given frequency band and can use those GSM base stations to calculate the local oscillator frequency offset.
 
 
 ## Core
@@ -136,7 +136,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [5G GTP kernel driver](https://github.com/PrinzOwO/gtp5g) - gtp5g is a customized Linux kernel module 5G GTP-U to handle packet by PFCP IEs such as PDR and FAR. About more detail IEs, there are more information in 3GPP TS 29.281 and 3GPP TS 29.244.
 - [UPF-EPC](https://github.com/omec-project/upf-epc) - UPF-EPC is a revised version of ngic-rtc's dp. it uses BESS as dataplane.
 - [OpenUPF](https://github.com/5GOpenUPF/openupf) - A 3GPP R16 compliant open source 5G core UPF (User Plane Function).
-- [Katana Slice Manager](https://github.com/medianetlab/katana-slice_manager) - Katana Slice Manager is a central software component responsible for controlling all the devices comprising the network, providing an interface for creating, modifying, monitoring and deleting slices. 
+- [Katana Slice Manager](https://github.com/medianetlab/katana-slice_manager) - Katana Slice Manager is a central software component responsible for controlling all the devices comprising the network, providing an interface for creating, modifying, monitoring and deleting slices.
 - [my5G-core](https://github.com/my5G/my5G-core) - Currently, my5G-core is a fork of the free5GC project, with some extensions to facilitate the deployment.
 - [III-5GC-Free-Trial](https://github.com/III-5GC/III-5GC-Free-Trial) - The basic III-5GC is a free trial for lab research, prototype product testing and simple 5G end-to-end demonstration.
 - [upf-bpf](https://github.com/navarrothiago/upf-bpf) - An open source C++ library powered by eBPF/XDP for user plane in mobile core network (5G/LTE).
@@ -157,17 +157,17 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [OpenMME](https://github.com/omec-project/openmme) - OpenMME is a grounds up implementation of the Mobility Management Entity EPC S1 front end to the Cell Tower (eNB) from the [OMEC](https://www.opennetworking.org/omec/).
 - [srsEPC](https://github.com/srslte/srslte) - light-weight LTE core network implementation with MME, HSS and S/P-GW.
 - [corenet](https://github.com/mitshell/corenet) - Minimal 3G and LTE / EPC core network using Pycrate library.
-- [erGW](https://github.com/travelping/ergw) - This is a 3GPP GGSN and PDN-GW implemented in Erlang. 
+- [erGW](https://github.com/travelping/ergw) - This is a 3GPP GGSN and PDN-GW implemented in Erlang.
 - [vEPC IITB](https://github.com/networkedsystemsIITB/NFV_LTE_EPC) - vEPC is a simple virtualized form of Long Term Evolution Evolved Packet Core (LTE EPC) from IITB india.
-- [pyHSS](https://gitlab.com/nickvsnetworking/pyhss) - PyHSS is a simple Home Subscriber Server (HSS) used by LTE (4G) Evolved Packet Core (EPC) networks, written in Python. 3GPP network elements like the MME and PCRF communicate with the HSS via the DIAMETER protocol, with some extensions defined by 3GPP. 
-- [coreswitch](https://github.com/coreswitch/coreswitch) - coreswitch is an open soruce project for EPC (Evolved Packet Core) of LTE and 5G infrastructure. Right now we are implementing MME (Mobility Management Entity). 
+- [pyHSS](https://gitlab.com/nickvsnetworking/pyhss) - PyHSS is a simple Home Subscriber Server (HSS) used by LTE (4G) Evolved Packet Core (EPC) networks, written in Python. 3GPP network elements like the MME and PCRF communicate with the HSS via the DIAMETER protocol, with some extensions defined by 3GPP.
+- [coreswitch](https://github.com/coreswitch/coreswitch) - coreswitch is an open soruce project for EPC (Evolved Packet Core) of LTE and 5G infrastructure. Right now we are implementing MME (Mobility Management Entity).
 - [SGs](https://github.com/fasferraz/SGs) - This is a MSS SGs SCTP Server written in python3 that can be used with a MME to test some SGs features, like IMSI Attach, Location Update, SMS (Sending/Receiving/Alerting) or Paging (for SMS or CS-Fallback).
 
 ### 3G
 
 - [OsmoHNBGW](http://osmocom.org/projects/osmohnbgw) - An Open Source implenentation of a HNB-GW (HomeNodeB-Gateway), implementing the Iuh, IuCS and IuPS interfaces. It aggregates the Iuh links from femtocells (hNodeBs) and presents them as regular IuCS and IuPS towards MSC and SGSN.
 
-### 2G 
+### 2G
 
 - [OpenBSC](http://osmocom.org/projects/osmobsc) - OsmoBSC is an Open Source BSC (GSM Base Station Controller) with A-bis/IP and A/IP interface. It supports a variety of BTS Vendors/Models, including some Siemens, Nokia, Ericsson and ip.access models.
 - [OsmoMSC](http://osmocom.org/projects/osmomsc) - It provides a 3GPP AoIP interface towards BSCs like OsmoBSC as well as 3GPP IuCS towards RNCs or HNB-GWs like OsmoHNBGW as well as GSUP towards OsmoHLR.
@@ -212,7 +212,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 ### GTP/PFCP
 
-- [Kernel GTP-U](http://osmocom.org/projects/linux-kernel-gtp-u) - This is an implementation of the GTP-U (user plane) inside the Linux kernel. 
+- [Kernel GTP-U](http://osmocom.org/projects/linux-kernel-gtp-u) - This is an implementation of the GTP-U (user plane) inside the Linux kernel.
 - [go-gtp](https://github.com/wmnsk/go-gtp) - Package gtp provides simple and painless handling of GTP(GPRS Tunneling Protocol), implemented in the Go Programming Language.
 - [go-pfcp](https://github.com/wmnsk/go-pfcp) - PFCP(Packet Forwarding Control Protocol) is a signaling protocol used in mobile networking infrastructure(LTE EPC, 5GC) to realize CUPS architecture(Control and User Plane Separation, not a printing system) defined in 3GPP TS29.244.
 - [gtplib](https://github.com/travelping/gtplib) - Erlang GTPv1/GTPv2 library.
@@ -227,6 +227,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [PySCTP](https://github.com/P1sec/pysctp) - PySCTP - SCTP bindings for Python.
 - [MTS: Multiprotocol Test Tool](https://github.com/ericsson-mts/mts) - MTS (Multi-protocol Test Suite) is a multi-protocol testing tool specially designed for telecom IP-based architectures (see above "Features" section for more details).
 - [scapy-sctp](https://github.com/secdev/scapy/blob/master/scapy/layers/sctp.py) - Scapy (A interactive packet manipulation program) SCTP layer.
+- [ellora](https://github.com/gabhijit/ellora/) - Rust SCTP Toolkit. The Goal of this project is to make safe bindings for Linux SCTP stack that can be used within Rust's `async` ecosystem.
 
 ### VoWiFi/VoLTE
 
@@ -253,11 +254,11 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Ligato](https://github.com/ligato/vpp-agent) - Controlplane agent for FD.io VPP
 - [FD.io](https://fd.io) - FD.io is a vector processing engine (VPP). VPP processes a number of packets in parallel instead of one at a time thus significantly improving packet throughput.
 - [OVS](http://www.openvswitch.org) - Open vSwitch is a production quality, multilayer virtual switch licensed under the open source Apache 2.0 license.
-- [DPDK](https://www.dpdk.org) - DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures. [Vista Creek (FPGA-based baseband accelerator)](https://www.intel.com/content/www/us/en/wireline/products/programmable/applications/nfv.html) support has been added to [DPDK](https://doc.dpdk.org/guides/bbdevs/fpga_lte_fec.html). 
+- [DPDK](https://www.dpdk.org) - DPDK is the Data Plane Development Kit that consists of libraries to accelerate packet processing workloads running on a wide variety of CPU architectures. [Vista Creek (FPGA-based baseband accelerator)](https://www.intel.com/content/www/us/en/wireline/products/programmable/applications/nfv.html) support has been added to [DPDK](https://doc.dpdk.org/guides/bbdevs/fpga_lte_fec.html).
 
 ### Others
 
-- [open-nFAPI](https://github.com/cisco/open-nFAPI) - Open-nFAPI is implementation of the Small Cell Forum's network functional API or nFAPI for short. nFAPI defines a network protocol that is used to connect a Physical Network Function (PNF) running LTE Layer 1 to a Virtual Network Function (VNF) running LTE layer 2 and above. 
+- [open-nFAPI](https://github.com/cisco/open-nFAPI) - Open-nFAPI is implementation of the Small Cell Forum's network functional API or nFAPI for short. nFAPI defines a network protocol that is used to connect a Physical Network Function (PNF) running LTE Layer 1 to a Virtual Network Function (VNF) running LTE layer 2 and above.
 - [CSDR](https://github.com/simonyiszk/csdr) - csdr is a command line tool to carry out DSP tasks for Software Defined Radio.
 - [OGSLib](https://github.com/open5gs/ogslib) - state machine and utilities functions for NextEPC and Open5gs
 - [DiagLibrary](https://github.com/sanjaywave/DiagLibrary) -  a JNI library that implement a DIAG protocol parser under C code to be used under Android or Linux.
@@ -273,16 +274,16 @@ Resources
 
 ### NFV, Openstack
 
-- [Openstack Kolla](https://github.com/openstack/kolla) - Production ready containers and Ansible tools for deploying an Openstack cluster to run NFV functions. 
+- [Openstack Kolla](https://github.com/openstack/kolla) - Production ready containers and Ansible tools for deploying an Openstack cluster to run NFV functions.
 - [SNAPS-openstack](https://github.com/cablelabs/snaps-openstack) - Openstack deployment to be used on SNAPS booted machine from Cablelabs.
 - [OPNFV](https://www.opnfv.org/software/downloads) - The OPNFV project addresses a number of aspects in the development of a consistent virtualisation platform including common hardware requirements, software architecture, MANO and applications.
 
 ### Containers, Kubernetes
 
-- [Kubernetes KubeADM](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/) - Deployment tool to create Kubernetes cluster. 
+- [Kubernetes KubeADM](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/) - Deployment tool to create Kubernetes cluster.
 - [Intel Multus CNI plugin](https://github.com/intel/multus-cni) - Multus CNI is a container network interface (CNI) plugin for Kubernetes that enables attaching multiple network interfaces to pods from Intel.
 - [Intel SRVIOV/DPDK CNI plugin](https://github.com/intel/sriov-cni) - SR-IOV CNI plugin works with SR-IOV device plugin for VF allocation for a container.
-- [Nokia Danm](https://github.com/nokia/danm/) - TelCo grade network management in a Kubernetes cluster from Nokia. 
+- [Nokia Danm](https://github.com/nokia/danm/) - TelCo grade network management in a Kubernetes cluster from Nokia.
 - [SNAPS-kubernetes](https://github.com/cablelabs/snaps-kubernetes) - Kubernetes deployment to be used on SNAPS booted machine from Cablelabs.
 - [Free5GC on kubeCORD](https://github.com/sufuf3/kube5GC) - This project is for deploying Free5GC on kubeCORD.
 - [CNCF CNF-Testbed](https://github.com/cncf/cnf-testbed) - The CNCF CNF Testbed provides reference code and test cases for running networking code on Kubernetes and OpenStack using emerging cloud native technologies in the Telecom domain. Provides simulated [network functions](https://github.com/cncf/cnf-testbed/tree/master/examples/network_functions).
@@ -299,12 +300,12 @@ Resources
 - [Open5GS-VoLTE](https://github.com/miaoski/docker_open5gs) - This repository is meant to be a install-and-run lab for Open5GS + Kamailio IMS VoLTE study, a follow-up project of Open5GS Tutorial: VoLTE Setup with Kamailio IMS and Open5GS, which is mainly contributed by Herle Supreeth.
 - [Open5GS](https://github.com/herlesupreeth/docker_open5gs) - Docker files to build and run open5gs in a docker by Herle Supreeth.
 - [Open5gs-K8s-VyOS](https://dev.to/infinitydon/virtual-4g-simulation-using-kubernetes-and-gns3-3b7k) - This tutorial is about how to deploy a virtual 4G stack using GNS3 and Kubernetes.
-- [mobile-env](https://github.com/stefanbschneider/mobile-env) - An open, minimalist Gym environment for autonomous coordination in wireless mobile networks. 
+- [mobile-env](https://github.com/stefanbschneider/mobile-env) - An open, minimalist Gym environment for autonomous coordination in wireless mobile networks.
 
 
 ### remote control
 
-- [OpenSTF](https://openstf.io) - Enable remote control of phone over ADB over an HTML5 interfaces. 
+- [OpenSTF](https://openstf.io) - Enable remote control of phone over ADB over an HTML5 interfaces.
 - [Vyzor](http://vysor.io) - A window to your Android, streaming Android UI through ADB in a Google Chrome Browser app.
 
 ### GPS, Time
@@ -315,7 +316,7 @@ Resources
 ## Testing
 
 - [ntt](https://github.com/nokia/ntt) - TTCN-3 test framework.
-- [Eclipse Titan TTCN3](https://projects.eclipse.org/projects/tools.titan) - Eclipse Titan is a TTCN-3 compilation and execution environment with an  Eclipse-based IDE. 
+- [Eclipse Titan TTCN3](https://projects.eclipse.org/projects/tools.titan) - Eclipse Titan is a TTCN-3 compilation and execution environment with an  Eclipse-based IDE.
 - [TTCN3vscode](https://github.com/nokia/vscode-ttcn3) - TTCN-3 vs code plugin
 - [ixia-c](https://github.com/open-traffic-generator/ixia-c) - Ixia-c is a modern, powerful and API-driven traffic generator designed to cater to the needs of hyperscalers, network hardware vendors and hobbyists alike.
 
@@ -323,7 +324,7 @@ Resources
 
 ### Security Exploitation/fuzzing Frameworks
 
-- [SigPloit](https://github.com/SigPloiter/SigPloit) - Telecom Signaling Exploitation Framework - SS7, GTP, Diameter & SIP. 
+- [SigPloit](https://github.com/SigPloiter/SigPloit) - Telecom Signaling Exploitation Framework - SS7, GTP, Diameter & SIP.
 - [5GC_API_parse](https://github.com/PentHertz/5GC_API_parse) - 5GC API parse is a BurpSuite extension allowing to assess 5G core network functions, by parsing the OpenAPI 3.0 not supported by previous OpenAPI extension in Burp, and generating requests for intrusion tests purposes.
 - [FirmWire](https://github.com/FirmWire/FirmWire) - FirmWire is a full-system baseband firmware emulation platform for fuzzing, debugging, and root-cause analysis of smartphone baseband firmwares.
 
@@ -345,7 +346,7 @@ Resources
 
 ### Writeups
 
-- [How the CCC Camp 2019 LTE network works](http://people.osmocom.org/laforge/slides/cccamp2019-how_the_camp_lte_works.pdf) - write up on reusing commercial Ericsson 4G units. 
+- [How the CCC Camp 2019 LTE network works](http://people.osmocom.org/laforge/slides/cccamp2019-how_the_camp_lte_works.pdf) - write up on reusing commercial Ericsson 4G units.
 - [GSM capture, analysis and decoding](http://domonkos.tomcsanyi.net/?p=418) - four posts series on GSM cellular signal analysis.
 
 ## Blogs
@@ -365,7 +366,7 @@ Resources
 
 - [Wireless frequency bands](http://niviuk.free.fr/) - Come for the frequency calculator, stay for the cellular other resources.
 - [ShareTechNote](http://www.sharetechnote.com/) - an impressive repo of knowledge for the cellular telco world.
-- [3GPP specs](http://www.3gpp.org/ftp/Specs/html-info/36-series.htm) - 3GPP specs. 
+- [3GPP specs](http://www.3gpp.org/ftp/Specs/html-info/36-series.htm) - 3GPP specs.
 - [CNTT](https://cntt-n.github.io/CNTT/) - set of reference specifications for NFVI coming from several telcos (Vodafone, Telstra, Orange mentionned as authors).
 - [3gpp.guru](https://3gpp.guru) - look up 3GPP abbreviations
 - [speX](https://spex.cor-net.org) - accessible 3GPP specs (PDF, DOC, HTML), [can be self-hosted](https://github.com/CoRfr/spex-3gpp)
@@ -397,7 +398,7 @@ Resources
 - [magma-dev](https://groups.google.com/forum/#!forum/magma-dev)
 - [magma-announce](https://groups.google.com/forum/#!forum/magma-announce)
 
-## YouTube channels 
+## YouTube channels
 
 - [penhertz](https://www.youtube.com/@Penthertz) - Official YT channel of Penthertz to talk about RF Hacking, Software-Defined Radio, and other tips and tricks!.
 
