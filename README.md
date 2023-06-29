@@ -301,7 +301,7 @@ Resources
 - [Open5GS](https://github.com/herlesupreeth/docker_open5gs) - Docker files to build and run open5gs in a docker by Herle Supreeth.
 - [Open5gs-K8s-VyOS](https://dev.to/infinitydon/virtual-4g-simulation-using-kubernetes-and-gns3-3b7k) - This tutorial is about how to deploy a virtual 4G stack using GNS3 and Kubernetes.
 - [mobile-env](https://github.com/stefanbschneider/mobile-env) - An open, minimalist Gym environment for autonomous coordination in wireless mobile networks.
-
+- [OpenAICellular](https://openaicellular.github.io/oaic/quickstart.html) - OAIC is an open-source effort led by a consortium of academic institutions to provide fully open-source software architecture, library, and toolset that encompass both the AI controllers (OAIC-C) as well as an AI testing framework (OAIC-T).
 
 ### remote control
 
