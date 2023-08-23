@@ -46,6 +46,8 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [swSIM](https://github.com/tomasz-lisowski/swsim) - A software-only SIM card.
 - [swICC](https://github.com/tomasz-lisowski/swicc) - A framework for creating smart cards (ICC-based cards with contacts).
 - [vsmartcard](https://github.com/frankmorgner/vsmartcard) - umbrella project for emulation of smart card readers or smart cards.
+- [OpenEUICC](https://gitea.angry.im/PeterCxy/OpenEUICC) - (WIP) eSIM LPA (Local Profile Assistant) implementation for Android. System privilege required.
+- [5ber esim](http://esim.5ber.com) - 5ber.eSIM card is a physical SIM card that complies with the GSMA standards that can store up to 15 eSIM profiles at the same time. 
 
 ## UE
 
