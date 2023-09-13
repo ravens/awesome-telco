@@ -51,6 +51,10 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 ## UE
 
+### 5G
+- [srsRAN_project](https://github.com/srsran/srsRAN_Project) - The srsRAN Project is a complete 5G RAN solution, featuring an ORAN-native CU/DU developed by SRS.
+- [oai-lte-5g-multi-ue-proxy](https://github.com/EpiSci/oai-lte-5g-multi-ue-proxy) - This repository contains the Multi-UE Proxy to allow UEs to communicate with a single eNB (LTE mode), or both an eNB and gNB (NSA mode), or a single gNB (SA/NR mode) using the customized OpenAirInterface (OAI) software. 
+
 ### 4G
 
 - [srsUE](https://github.com/srslte/srslte) - UE 4G modem part of the srsLTE project.
