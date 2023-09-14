@@ -51,10 +51,6 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 ## UE
 
-### 5G
-- [srsRAN_project](https://github.com/srsran/srsRAN_Project) - The srsRAN Project is a complete 5G RAN solution, featuring an ORAN-native CU/DU developed by SRS.
-- [oai-lte-5g-multi-ue-proxy](https://github.com/EpiSci/oai-lte-5g-multi-ue-proxy) - This repository contains the Multi-UE Proxy to allow UEs to communicate with a single eNB (LTE mode), or both an eNB and gNB (NSA mode), or a single gNB (SA/NR mode) using the customized OpenAirInterface (OAI) software. 
-
 ### 4G
 
 - [srsUE](https://github.com/srslte/srslte) - UE 4G modem part of the srsLTE project.
@@ -310,7 +306,7 @@ Resources
 - [mobile-env](https://github.com/stefanbschneider/mobile-env) - An open, minimalist Gym environment for autonomous coordination in wireless mobile networks.
 - [OpenAICellular](https://openaicellular.github.io/oaic/quickstart.html) - OAIC is an open-source effort led by a consortium of academic institutions to provide fully open-source software architecture, library, and toolset that encompass both the AI controllers (OAIC-C) as well as an AI testing framework (OAIC-T).
 
-### remote control
+### Remote control
 
 - [OpenSTF](https://openstf.io) - Enable remote control of phone over ADB over an HTML5 interfaces.
 - [Vyzor](http://vysor.io) - A window to your Android, streaming Android UI through ADB in a Google Chrome Browser app.
