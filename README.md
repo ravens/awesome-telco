@@ -414,6 +414,11 @@ Resources
 
 - [Open5gs](https://discord.gg/M9ARcyvV)
 
+## Commercial Services with open source technologies
+- [open-cells](https://open-cells.com): 4G and 5G, full open source can implement any test bed using cellular network
+- [sysmocom](https://www.sysmocom.de): sysmocom fills a gap in the telecommunications market for development, products and services.
+
+
 ## License
 
 [MIT](LICENSE)
