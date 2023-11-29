@@ -23,6 +23,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Tweets: Relevant tweets and link to social networks](#Tweets)
 - [Issues: interesting issues on bugtrackers](#Issues)
 - [Mailings-lists : ML, slack and other forums](#Mailing-lists)
+- [Commercial Services around open source tech](#Commercial)
 
 ## SIMCards
 
