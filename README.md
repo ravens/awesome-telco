@@ -43,12 +43,10 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [ISD-R Access Provider](https://github.com/cheeriotb/ISD-R-AccessProvider) - This application contains a tiny content provider for communicating with ISD-R in eSIM soldered on Android device (developed for Pixel4).
 - [asterix](https://github.com/suma12/asterix) - asterix is a framework for communication with smartcards based on pyscard.
 - [SimServerAndroid](https://github.com/zhuowei/SimServerAndroid) - Gets SIM card ICCID/runs 3G Authentication over ADB shell.
-- [esim.me](https://esim.me) - physical sim card combined with a proprietary app that enable to load up to 15 eSIM on the physical sim card.
 - [swSIM](https://github.com/tomasz-lisowski/swsim) - A software-only SIM card.
 - [swICC](https://github.com/tomasz-lisowski/swicc) - A framework for creating smart cards (ICC-based cards with contacts).
 - [vsmartcard](https://github.com/frankmorgner/vsmartcard) - umbrella project for emulation of smart card readers or smart cards.
 - [OpenEUICC](https://gitea.angry.im/PeterCxy/OpenEUICC) - (WIP) eSIM LPA (Local Profile Assistant) implementation for Android. System privilege required.
-- [5ber esim](http://esim.5ber.com) - 5ber.eSIM card is a physical SIM card that complies with the GSMA standards that can store up to 15 eSIM profiles at the same time.
 – [mobile-atlas](https://github.com/sbaresearch/mobile-atlas) - MobileAtlas implements the promising approach to geographically decouple SIM card and modem, which boosts the scalability and flexibility of the measurement platform.
 
 ## UE
@@ -415,10 +413,11 @@ Resources
 
 - [Open5gs](https://discord.gg/M9ARcyvV)
 
-## Commercial Services with open source technologies
+## Commercial 
 - [open-cells](https://open-cells.com): 4G and 5G, full open source can implement any test bed using cellular network
 - [sysmocom](https://www.sysmocom.de): sysmocom fills a gap in the telecommunications market for development, products and services.
-
+- [5ber esim](http://esim.5ber.com) - 5ber.eSIM card is a physical SIM card that complies with the GSMA standards that can store up to 15 eSIM profiles at the same time.
+- [esim.me](https://esim.me) - physical sim card combined with a proprietary app that enable to load up to 15 eSIM on the physical sim card.
 
 ## License
 
