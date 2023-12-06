@@ -28,6 +28,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 ## SIMCards
 
 - [PySIM](https://osmocom.org/projects/pysim/wiki) - Set of tools to read / explore / decode and program (write) SIM/USIM/ISIM cards. Useful to manage and program modifiable SIM cards such as the sysmocom ones.
+- [sysmoISIM-SJA5](https://www.sysmocom.de/products/sim/sysmoisim-sja5/) - latest generation of programmable/modifiable SIM/UICC/USIM/ISIM card with support up to 3GPP Release 17. Ideal for any type of lab/research network (irrespective of RAN/CN vendor).
 - [SIMTrace2](http://osmocom.org/projects/simtrace2) - Osmocom SIMtrace2 is a hardware device and associated firmware + host software to trace the communication between phone and SIM card.  Also supports emulating the card-side of the ISO7816 interface.  Firmware now also supports other hardware like [ngff-cardem](https://osmocom.org/projects/ngff-cardem/wiki)
 - [SIMTester](https://opensource.srlabs.de/projects/simtester) - SIMtester assess SIM card security in two dimensions : Cryptanalytic attack surface, Application attack surface.
 - [Njiwa - M2M UICC](https://github.com/brucedchen1991/njiwa) - Njiwa (Swahili for homing pigeon) is an implementation of the GSMA's Embedded SIM Remote Provisioning Manager for M2M devices. (Note: original repo is missing, replacing by a fork).
