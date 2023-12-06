@@ -364,7 +364,7 @@ Resources
 
 ## Organizations
 
-- [Osmocom](http://osmocom.org) Umbrella for numerous opensource mobile communications projects. Recordings of many great presentations can be found on their [OsmoDevCon](https://osmocom.org/projects/osmo-dev-con/wiki/OsmoDevCon) page (It's held online as [OsmoDevCall](https://osmocom.org/projects/osmo-dev-con/wiki/OsmoDevCall) lately).
+- [Osmocom](http://osmocom.org) Umbrella for numerous opensource mobile communications projects. Recordings of many great presentations can be found on their [OsmoDevCon](https://osmocom.org/projects/osmo-dev-con/wiki/OsmoDevCon) page (It's held online as [OsmoDevCall](https://osmocom.org/projects/osmo-dev-con/wiki/OsmoDevCall) lately).  They also have a web based [discourse forum](https://discourse.osmocom.org/)
 - [Sysmocom](http://shop.sysmocom.de) Store frontend for [sysmocom](https://www.sysmocom.de), company providing product, support and services not only related to Osmocom.
 - [Telecom Infra Project](https://www.telecominfraproject.com) - FB initiated project to create an equivalent of the OpenCompute project in the telco space.
 
