@@ -160,6 +160,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [SD-Core](https://opennetworking.org/sd-core/) - A 4G/5G core that is based on [OMEC](https://www.opennetworking.org/omec/) for 4G, and a fork of [Free5GC](https://www.free5gc.org/) for 5G. Has implementations for AMF,SMF,PCF,UDM,AUSF,NSSF and a P4 based UPF. [github](https://github.com/omec-project/amf)
 - [Magma](https://github.com/facebookincubator/magma) - Rearchitected core network with access gateway (MME+P/SGW), federation gateway for auth (S6a) and billing (Gx, Gy). Initiated by FB on a the OAI EPC code base.
 - [5GCoreNetSDK](https://github.com/5GCoreNet/5GCoreNetSDK) - 5GCoreNetSDK is a fully-featured Golang SDK for developing inside 5GC (Release-18).
+- [eupf](https://github.com/edgecomllc/eupf) - Open Source UPF built on eBPF.
 
 ### 4G
 
