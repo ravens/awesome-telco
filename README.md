@@ -28,7 +28,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 ## SIMCards
 
 - [PySIM](https://osmocom.org/projects/pysim/wiki) - Set of tools to read / explore / decode and program (write) SIM/USIM/ISIM cards. Useful to manage and program modifiable SIM cards such as the sysmocom ones.
-- [SIMTrace](http://osmocom.org/projects/simtrace) - Osmocom SIMtrace is a hardware device and associated firmware + host software to trace the communication between phone and SIM card.
+- [SIMTrace2](http://osmocom.org/projects/simtrace2) - Osmocom SIMtrace2 is a hardware device and associated firmware + host software to trace the communication between phone and SIM card.  Also supports emulating the card-side of the ISO7816 interface.  Firmware now also supports other hardware like [ngff-cardem](https://osmocom.org/projects/ngff-cardem/wiki)
 - [SIMTester](https://opensource.srlabs.de/projects/simtester) - SIMtester assess SIM card security in two dimensions : Cryptanalytic attack surface, Application attack surface.
 - [Njiwa - M2M UICC](https://github.com/brucedchen1991/njiwa) - Njiwa (Swahili for homing pigeon) is an implementation of the GSMA's Embedded SIM Remote Provisioning Manager for M2M devices. (Note: original repo is missing, replacing by a fork).
 - [LPAd SM-DP+ Connector](https://github.com/Truphone/LPAd_SM-DPPlus_Connector) - Local Profile Assistant for Device (LPAd) - LPAd SM-DP+ Connector
