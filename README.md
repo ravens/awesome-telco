@@ -103,6 +103,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [free5GRAN](https://github.com/free5G/free5GRAN) - free5GRAN is an open-source 5G RAN stack. The current version includes a receiver which decodes MIB & SIB1 data. It also acts as a cell scanner. free5GRAN works in SA mode. From Telecom Paris 5G laboratory - Institut Polytechnique de Paris.
 - [pfm](https://github.com/arv-sajeev/pfm) - Implemented a prototype of gNB-CU-UP a network element of 5G Radio Network. Using DPDK, a set of data-plane processing libraries and NIC drivers for high speed packet processing applications.
 - [PacketRusher](https://github.com/HewlettPackard/PacketRusher) - High performance 5G UE/gNB Simulator and CP/UP load tester. PacketRusher is an open-source tool dedicated to the performance testing and automatic validation of 5G Core Networks using simulated UE (user equipment) and gNodeB (5G base station). From Valentin D'Emmanuele - France.
+- [py3gpp](https://github.com/catkira/py3gpp) - A Python package for 5G-NR simulations.
 
 ### 4G
 
