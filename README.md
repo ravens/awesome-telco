@@ -222,7 +222,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 ### ASN1-based, S1AP/NGAP
 
-- [Pycrate](https://github.com/P1sec/pycrate) - the successor of the libmich library that is used to encode and decode data structures, including ASN.1 used in cellular protocol.
+- [Pycrate](https://github.com/pycrate-org/pycrate) - A Python library to ease the development of encoders and decoders for various protocols and file formats, especially telecom ones. Provides an ASN.1 compiler and a CSN.1 runtime.
 - [bazel-pycrate](https://github.com/ravens/bazel-pycrate) - A bazel-based pycrate ready jupyter notebook env
 - [hampi](https://github.com/gabhijit/hampi) - The Goal of this project is to implement an ASN.1 Compiler in Rust which can generate Rust bindings for different ASN.1 specifications.
 
