@@ -403,6 +403,7 @@ Resources
 - [3GPP-overall-architecture](https://github.com/nickel0/3GPP-Overall-Architecture) - very detailed, high-res PDF of the overall 3GPP architecture
 - [Introduce to 5GC](https://github.com/ianchen0119/Introduce-to-5GC) - 5GC & Cloud Native handbook written in traditaional chinese
 - [Getsi](https://getsi.org/) - Easy search engine for 3GPP specs
+- [eUICC and eSIM Developer Manual](https://euicc-manual.osmocom.org)
 
 ## Slides
 
