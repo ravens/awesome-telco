@@ -180,6 +180,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [coreswitch](https://github.com/coreswitch/coreswitch) - coreswitch is an open soruce project for EPC (Evolved Packet Core) of LTE and 5G infrastructure. Right now we are implementing MME (Mobility Management Entity).
 - [SGs](https://github.com/fasferraz/SGs) - This is a MSS SGs SCTP Server written in python3 that can be used with a MME to test some SGs features, like IMSI Attach, Location Update, SMS (Sending/Receiving/Alerting) or Paging (for SMS or CS-Fallback).
 - [dra-guard](https://github.com/acassen/dra-guard) - DRA-Guard is a SCTP proxy offering access to Diameter payload.
+- [gtp-guard](https://github.com/acassen/gtp-guard) - The main goal of this project is to provide robust and secure extensions to GTP protocol (GPRS Tunneling Protocol).
 
 ### 3G
 
