@@ -179,6 +179,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [pyHSS](https://gitlab.com/nickvsnetworking/pyhss) - PyHSS is a simple Home Subscriber Server (HSS) used by LTE (4G) Evolved Packet Core (EPC) networks, written in Python. 3GPP network elements like the MME and PCRF communicate with the HSS via the DIAMETER protocol, with some extensions defined by 3GPP.
 - [coreswitch](https://github.com/coreswitch/coreswitch) - coreswitch is an open soruce project for EPC (Evolved Packet Core) of LTE and 5G infrastructure. Right now we are implementing MME (Mobility Management Entity).
 - [SGs](https://github.com/fasferraz/SGs) - This is a MSS SGs SCTP Server written in python3 that can be used with a MME to test some SGs features, like IMSI Attach, Location Update, SMS (Sending/Receiving/Alerting) or Paging (for SMS or CS-Fallback).
+- [dra-guard](https://github.com/acassen/dra-guard) - DRA-Guard is a SCTP proxy offering access to Diameter payload.
 
 ### 3G
 
