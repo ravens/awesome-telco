@@ -52,6 +52,8 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [osmo-remsim](https://osmocom.org/projects/osmo-remsim/wiki) - software suite permitting forwarding of SIM card traffic to a _remote_ SIM card (via TCP/IP).
 - [lpac](https://github.com/estkme-group/lpac) - C-language implementation of a Consumer eSIM LPAd.  Can be used to download/activate/deactivate profiles on eUICC.
 - [Onomondo UICC](https://github.com/onomondo/onomondo-uicc) - This repository contains a pure software implementation/emulation of the most relevant SIM/UICC/USIM functionalities.
+- [EasyLPAC](https://github.com/creamlike1024/EasyLPAC) - lpac GUI Frontend for linux and OSX.
+
 
 ## UE
 
