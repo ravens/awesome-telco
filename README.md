@@ -222,6 +222,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 
 - [go-smpp](https://github.com/fiorix/go-smpp) - This is an implementation of SMPP 3.4 for Go, based on the original smpp34 from Kevin Patel.
 - [Selenium SMPPSim](http://www.seleniumsoftware.com/downloads.html) - (software disappeared) - possible mirror [here](https://github.com/haifzhan/SMPPSim).
+- [smppgui](https://github.com/ukarim/smppgui) - SMPP gui client
 
 ## Protocols
 
