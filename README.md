@@ -11,6 +11,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Core: EPC, MME, SGW, PGW](#Core)
 - [Interco: IMS, SBC, Diameter](#interco)
 - [Protocols: Libraries, Frameworks](#Protocols)
+- [Satellite Communication: Monitoring and tooling](#Satcom)
 - [Infrastructure: SDN and NFV management software](#Infrastructure)
 - [Orchestration: Automation and integration software](#Orchestration)
 - [Lab: tooling for telco labs](#Lab)
@@ -223,6 +224,11 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [go-smpp](https://github.com/fiorix/go-smpp) - This is an implementation of SMPP 3.4 for Go, based on the original smpp34 from Kevin Patel.
 - [Selenium SMPPSim](http://www.seleniumsoftware.com/downloads.html) - (software disappeared) - possible mirror [here](https://github.com/haifzhan/SMPPSim).
 - [smppgui](https://github.com/ukarim/smppgui) - SMPP gui client
+
+## Satellite Communication
+
+### Ephemeris
+- [Hughes_OneWeb_Monitor](https://github.com/nickvsnetworking/Hughes_OneWeb_Monitor) - Hughes OneWeb Terminal Prometheus Exporter 
 
 ## Protocols
 
