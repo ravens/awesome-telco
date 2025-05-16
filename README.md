@@ -330,6 +330,10 @@ Resources
 - [SNAPS-boot](https://github.com/cablelabs/snaps-boot) - Baremetal cluster management solution to prepare for a Openstack or k8s deployment from Cablelabs.
 - [MAAS](https://maas.io) - Self-service, remote installation of Windows, CentOS, ESXi and Ubuntu on real servers turns your data center into a bare-metal cloud - Metal As A Service.
 
+## Orchestration
+
+- [5g-sharp-orchestrator](https://github.com/Ethon-Shield/5g-sharp-orchestrator) - tool that serves as a comprehensive wrapper for configuring, deploying and monitoring 5G open-source network components, simplifying the orchestration process.
+
 ## Lab
 
 ### ready to use testbed (Docker, Vagrant etc.)
