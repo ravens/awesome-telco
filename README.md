@@ -108,6 +108,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [pfm](https://github.com/arv-sajeev/pfm) - Implemented a prototype of gNB-CU-UP a network element of 5G Radio Network. Using DPDK, a set of data-plane processing libraries and NIC drivers for high speed packet processing applications.
 - [PacketRusher](https://github.com/HewlettPackard/PacketRusher) - High performance 5G UE/gNB Simulator and CP/UP load tester. PacketRusher is an open-source tool dedicated to the performance testing and automatic validation of 5G Core Networks using simulated UE (user equipment) and gNodeB (5G base station). From Valentin D'Emmanuele - France.
 - [py3gpp](https://github.com/catkira/py3gpp) - A Python package for 5G-NR simulations.
+- [RFSwift](https://github.com/PentHertz/RF-Swift) -  powerful multi-platform RF toolbox that deploys specialized radio tools in seconds on Linux, Windows, and macOS. Provdes telecom_4G_5GNSA_* family of telecoms tools.
 
 ### 4G
 
@@ -166,6 +167,7 @@ Consult [awesome-5g](https://github.com/calee0219/awesome-5g) for 5G specific pr
 - [Magma](https://github.com/facebookincubator/magma) - Rearchitected core network with access gateway (MME+P/SGW), federation gateway for auth (S6a) and billing (Gx, Gy). Initiated by FB on a the OAI EPC code base.
 - [5GCoreNetSDK](https://github.com/5GCoreNet/5GCoreNetSDK) - 5GCoreNetSDK is a fully-featured Golang SDK for developing inside 5GC (Release-18).
 - [eupf](https://github.com/edgecomllc/eupf) - Open Source UPF built on eBPF.
+- [qcore](https://github.com/nplrkn/qcore) - The world's most lightweight 5G Core (probably)
 
 ### 4G
 
