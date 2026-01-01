@@ -143,14 +143,32 @@ def update_line_with_date(line: str, name: str, date: str, archived: bool = Fals
     return result
 
 
+def update_line_not_found(line: str, name: str) -> str:
+    """Mark a line as not found by striking through the name."""
+    result = line
+
+    # Add ⚠️ at the beginning if not already present
+    if "⚠️" not in result:
+        result = re.sub(r'^(\s*-\s*)', r'\1⚠️ ', result)
+
+    # Strikethrough the project name: [Name] -> [~~Name~~]
+    # But only if not already struck through
+    escaped_name = re.escape(name)
+    if f"~~{name}~~" not in result:
+        result = re.sub(rf'\[{escaped_name}\]', f'[~~{name}~~]', result)
+
+    return result
+
+
 def process_readme(readme_path: Path, dry_run: bool = False) -> dict:
     """Process README and update freshness dates."""
     content = readme_path.read_text(encoding="utf-8")
     lines = content.split("\n")
 
-    stats = {"updated": 0, "failed": 0, "skipped": 0, "archived": 0}
+    stats = {"updated": 0, "failed": 0, "skipped": 0, "archived": 0, "not_found": 0}
     changes = []
     archived_repos = []
+    not_found_repos = []
 
     for i, line in enumerate(lines):
         # Skip lines that are clearly not project entries
@@ -183,6 +201,16 @@ def process_readme(readme_path: Path, dry_run: bool = False) -> dict:
                     print(" ⚠️ ARCHIVED (marked)")
                 else:
                     print()
+            elif error == "NOT FOUND":
+                new_line = update_line_not_found(line, name)
+                if new_line != line:
+                    changes.append((i, line, new_line))
+                    stats["not_found"] += 1
+                    not_found_repos.append(f"github.com/{owner}/{repo}")
+                    print(f"NOT FOUND (marked as unavailable)")
+                else:
+                    stats["not_found"] += 1
+                    print(f"NOT FOUND (already marked)")
             else:
                 stats["failed"] += 1
                 print(f"FAILED ({error})")
@@ -208,6 +236,16 @@ def process_readme(readme_path: Path, dry_run: bool = False) -> dict:
                 else:
                     stats["skipped"] += 1
                     print("(no change)")
+            elif error == "NOT FOUND":
+                new_line = update_line_not_found(line, name)
+                if new_line != line:
+                    changes.append((i, line, new_line))
+                    stats["not_found"] += 1
+                    not_found_repos.append(f"gitlab.{host}/{owner}/{repo}")
+                    print(f"NOT FOUND (marked as unavailable)")
+                else:
+                    stats["not_found"] += 1
+                    print(f"NOT FOUND (already marked)")
             else:
                 stats["failed"] += 1
                 print(f"FAILED ({error})")
@@ -233,6 +271,12 @@ def process_readme(readme_path: Path, dry_run: bool = False) -> dict:
         for repo in archived_repos:
             print(f"   - {repo}")
 
+    # Report not found repos
+    if not_found_repos:
+        print("\n❌ Not found repositories (marked with strikethrough in README):")
+        for repo in not_found_repos:
+            print(f"   - {repo}")
+
     return stats
 
 
@@ -256,10 +300,11 @@ def main():
     stats = process_readme(readme_path, dry_run)
 
     print(f"\nSummary:")
-    print(f"  Updated:  {stats['updated']}")
-    print(f"  Skipped:  {stats['skipped']}")
-    print(f"  Failed:   {stats['failed']}")
-    print(f"  Archived: {stats['archived']}")
+    print(f"  Updated:   {stats['updated']}")
+    print(f"  Skipped:   {stats['skipped']}")
+    print(f"  Failed:    {stats['failed']}")
+    print(f"  Archived:  {stats['archived']}")
+    print(f"  Not Found: {stats['not_found']}")
 
     if not os.environ.get("GITHUB_TOKEN"):
         print("\nTip: Set GITHUB_TOKEN env var for higher API rate limits")
