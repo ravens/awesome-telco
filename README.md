@@ -600,6 +600,8 @@ Key organizations driving open source telecom development:
 
 Companies offering products/services around open source telco tech:
 
+> **Disclaimer:** The commercial products and services listed below are provided for reference only. This list does not constitute an endorsement, affiliation, or recommendation. Users should independently verify suitability and terms before engaging with any vendor.
+
 - [sysmocom](https://www.sysmocom.de) - Products, support, and services for open source telecom, including Osmocom.
 - [open-cells](https://open-cells.com) - 4G and 5G full open source testbed solutions.
 - [5ber eSIM](http://esim.5ber.com) - Physical SIM card that stores up to 15 eSIM profiles (GSMA compliant).
