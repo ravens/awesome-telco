@@ -536,6 +536,7 @@ Resources
 - [3gpp.guru](https://3gpp.guru) - Look up 3GPP abbreviations.
 - [3GPP-overall-architecture](https://github.com/nickel0/3GPP-Overall-Architecture) `[2021-11]` - Very detailed, high-res PDF of the overall 3GPP architecture.
 - [Wireless frequency bands](http://niviuk.free.fr/) - Come for the frequency calculator, stay for the other cellular resources.
+- [RCS on iOS Support Tracker](https://cupboardunderscore.github.io/ios-rcs/) - Tracks which mobile carriers worldwide support RCS messaging on iOS devices, organized by country.
 - [CNTT](https://cntt-n.github.io/CNTT/) - Reference specifications for NFVI from Vodafone, Telstra, Orange, and others.
 - [tool3rd](https://github.com/proj3rd/tool3rd) `[2024-08]` - Assistant for 3GPP telecommunication development.
 - [3gpp-citations](https://github.com/martisak/3gpp-citations) `[2023-11]` - 3GPP Bibtex entry generator.
