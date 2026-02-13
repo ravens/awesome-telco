@@ -680,6 +680,7 @@ Companies offering products/services around open source telco tech:
 - [5ber eSIM](http://esim.5ber.com) - Physical SIM card that stores up to 15 eSIM profiles (GSMA compliant).
 - [esim.me](https://esim.me) - Physical SIM + app combo for loading up to 15 eSIM profiles.
 - [PikaSim](https://pikasim.com/reseller) - Privacy-first eSIM Reseller API. Purchase travel eSIMs for 190+ countries programmatically with webhooks and no customer data required.
+- [Telnyx](https://telnyx.com) `[2009-01]` - Programmable voice, messaging, SIP trunking, and networking APIs. 53+ AI models for voice AI applications.
 
 ---
 
