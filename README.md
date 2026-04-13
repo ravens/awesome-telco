@@ -127,6 +127,7 @@ For research and debugging:
 - [Orchestration](#orchestration) - Automation and deployment
 - [Lab & Testbeds](#lab--testbeds) - Ready-to-use environments
 - [Testing](#testing) - TTCN-3, load testing, validation
+- [AI & Machine Learning](#ai--machine-learning) - LLMs, PHY/RF ML, network optimization, RL environments
 - [Security](#security) - Research, tools, IMSI catcher detection, and talks
 - [Learning Resources](#learning-resources) - Blogs, docs, tutorials
 - [Community](#community) - Forums, mailing lists, Discord, Slack
@@ -253,6 +254,7 @@ For research and debugging:
 - [py3gpp](https://github.com/catkira/py3gpp) `[2024-11]` - A Python package for 5G-NR simulations.
 - [RFSwift](https://github.com/PentHertz/RF-Swift) `[2026-03]` -  powerful multi-platform RF toolbox that deploys specialized radio tools in seconds on Linux, Windows, and macOS. Provdes telecom_4G_5GNSA_* family of telecoms tools.
 - [NVIDIA Aerial](https://github.com/NVIDIA/aerial-cuda-accelerated-ran) `[2025-12]` - SDK for building commercial-grade, AI-native, 3GPP and O-RAN compliant 5G/6G gNB software on NVIDIA GPU-accelerated platforms.
+- [NVIDIA Aerial Framework](https://github.com/NVIDIA/aerial-framework) `[2025-12]` - Python toolchain for generating GPU-accelerated 5G/6G pipelines. MLIR-TensorRT compilation and real-time runtime. Companion to Aerial SDK.
 - [alsoran](https://github.com/nplrkn/alsoran) `[2025-06]` - 5G gNodeB Centralized Unit (gNB-CU) written in Rust. From the author of qcore.
 - [gnbsim (SD-Core)](https://github.com/omec-project/gnbsim) `[2026-03]` - gNB and UE simulator for testing 5G core networks, from the SD-Core/OMEC project.
 - [free-ran-ue](https://github.com/free-ran-ue/free-ran-ue) `[2026-03]` - Next-generation open-source 5G RAN/UE simulator for free5GC with web frontend, multi-UE and ULCL support. Written in Go.
@@ -357,6 +359,7 @@ For research and debugging:
 - [upf_p4_poc](https://github.com/801room/upf_p4_poc) `[2026-03]` - Proof of concept for 5G UPF based on P4 programmable data plane. From the upf-xdp author.
 - [NWDAF](https://github.com/net-ty/mnc_NWDAF) `[2026-02]` - Network Data Analytics Function (NWDAF) implementation in Go.
 - [OAI CN5G NWDAF](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-nwdaf) - OpenAirInterface NWDAF with AnLF and MTLF separation per 3GPP Release 17. Hosted on **GitLab (Eurecom)**.
+- [closed-loop-nwdaf](https://github.com/fatemeshafiee/closed-loop-nwdaf) `[2025-12]` - NWDAF integrated with OAI and Open5GS for closed-loop security automation. ML model provisioning via MLflow.
 - [OAI CN5G LMF](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-lmf) - OpenAirInterface Location Management Function for 5G positioning (UL-TDoA). Hosted on **GitLab (Eurecom)**.
 - [nokia 5G Network Emulator](https://github.com/nokia/5g-network-emulator) `[2026-02]` - 5G network emulator from Nokia.
 
@@ -662,6 +665,66 @@ For research and debugging:
 - [Nokia Moler](https://github.com/nokia/moler) `[2026-03]` - Python library for building automated tests of network equipment. From Nokia.
 - [twampy](https://github.com/nokia/twampy) `[2026-03]` - Python tools for TWAMP and STAMP (Two-Way Active Measurement Protocol) network performance measurement. From Nokia.
 
+## AI & Machine Learning
+
+AI and machine learning tools for telecom networks, covering foundation models, physical layer optimization, network management, and security.
+
+### Telecom LLMs & AI Assistants
+
+- [Eclipse LMOS](https://github.com/eclipse-lmos) `[2026-04]` - Open-source multi-agent AI platform deployed by Deutsche Telekom for Frag Magenta customer service. Eclipse Foundation project.
+- [Tele-LLMs](https://github.com/Ali-maatouk/Tele-LLMs) `[2026-03]` - Series of open-source LLMs (1B-8B params) specialized in telecom. Trained on 2.5B tokens from arXiv, 3GPP, Wikipedia. From Yale.
+- [Telco-RAG](https://github.com/netop-team/Telco-RAG) `[2024-09]` - RAG framework specialized for 3GPP documents. Addresses challenges of retrieval-augmented generation on highly technical telecom standards.
+- [3GPP MCP Server](https://github.com/edhijlu/3gpp-mcp-server) `[2025-09]` - MCP server enabling AI assistants (Claude, VSCode) to search 3GPP specifications via the TSpec-LLM dataset.
+- [TeleQnA](https://github.com/netop-team/TeleQnA) `[2026-04]` - Benchmark dataset (10K multiple-choice questions) for evaluating LLM telecom knowledge. Part of GSMA Open-Telco LLM Benchmarks.
+- [Telco-AIX](https://github.com/open-experiments/Telco-AIX) `[2026-04]` - Applied AI experiments for telecom: self-healing networks (AutoNet), MCP-based diagnostic agents, GenAI for NOC.
+- [teddi-mcp](https://forge.3gpp.org/rep/reimes/teddi-mcp) - MCP server for ETSI's TEDDI (Terms and Definitions Database Interactive). Search 3GPP/ETSI terms programmatically from AI assistants. Hosted on **3GPP Forge**.
+
+See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3gpp-crawler](#learning-resources) (3GPP FTP crawler), [GSMA Open-Telco LLM Benchmarks](https://huggingface.co/GSMA) (TeleYAML, TeleLogs, TeleMATH on HuggingFace).
+
+### AI for Physical Layer & RF
+
+- [DeepMIMO](https://github.com/DeepMIMO/DeepMIMO) `[2026-04]` - Ray-tracing dataset toolchain for mmWave and massive MIMO ML research. Python and MATLAB. Also: [DeepMIMO-5GNR](https://github.com/DeepMIMO/DeepMIMO-5GNR).
+- [OpenDPD](https://github.com/lab-emi/OpenDPD) `[2026-04]` - PyTorch end-to-end learning framework for power amplifier modeling and digital pre-distortion. pip-installable.
+- [HBF-Net](https://github.com/HamedHojatian/HBF-Net) `[2026-04]` - Unsupervised deep learning for massive MIMO hybrid beamforming.
+- [deep-learning-channel-estimation](https://github.com/emilbjornson/deep-learning-channel-estimation) `[2026-02]` - Deep learning channel estimation in massive MIMO under hardware non-linearities. IEEE OJCOMS. From Bjornson.
+- [TorchSig](https://github.com/TorchDSP/torchsig) `[2026-04]` - PyTorch signal processing ML toolkit. 60+ signal types, pretrained models, modulation families (FSK, QAM, PSK, OFDM).
+- [RFML](https://github.com/brysef/rfml) `[2026-04]` - Radio Frequency Machine Learning with PyTorch. Automatic modulation classification, DeepSig dataset loaders, adversarial training.
+- [on-device-ai-comm](https://github.com/abman23/on-device-ai-comm) `[2026-04]` - On-device AI/LLM communication system integrating a pre-trained LLM with 5G-NR PHY over 3GPP CDL channels.
+
+### O-RAN AI/ML
+
+- [O-RAN SC AIMLFW](https://docs.o-ran-sc.org/projects/o-ran-sc-aiml-fw-aiml-dashboard/en/latest/) - Modular ML pipeline for O-RAN: feature extraction, model training, storage and serving via Kubeflow/KServe. Hosted on **O-RAN SC Gerrit**.
+- [O-RAN SC RIC ML xApps](https://wiki.o-ran-sc.org/display/RICAPP) - Suite of ML-based Near-RT RIC xApps: Anomaly Detection (UE classification), QoE Prediction (throughput forecasting), Traffic Steering (ML-informed handover). Hosted on **O-RAN SC Gerrit**.
+- [5G-Spector](https://github.com/5GSEC/5G-Spector) `[2024-11]` - O-RAN compliant runtime intrusion detection xApp for L3 (RRC/NAS) cellular attack detection.
+- [MobiWatch](https://github.com/5GSEC/MobiWatch) `[2025-08]` - O-RAN xApp using unsupervised deep learning to detect L3 cellular anomalies and attacks.
+- [MalO-RAN](https://github.com/wineslab/mal-o-ran) `[2026-03]` - Framework for evaluating data poisoning attacks on O-RAN AI-based xApps. From WiNES Lab.
+- [ns-O-RAN-Gym](https://github.com/wineslab/ns-o-ran-gym) - Gymnasium-based RL environment for O-RAN with Traffic Steering and Energy Saving scenarios. From WiNES Lab.
+
+### Network Optimization & Slicing
+
+- [DeepCoMP](https://github.com/CN-UPB/DeepCoMP) `[2026-04]` - Dynamic multi-cell selection for cooperative multipoint (CoMP) using multi-agent deep RL.
+- [Network Slicing Gym](https://github.com/jjalcaraz-upct/network-slicing) `[2026-03]` - OpenAI Gym environment for network slicing with model-based RL agent. Compatible with Stable-Baselines.
+- [DeepNetSlice](https://github.com/AlexPasqua/DeepNetSlice) `[2026-02]` - RL tool for network slice placement (VNF placement). PyTorch + Stable-Baselines3. IEEE ICMLCN 2024.
+- [DRL-GNN](https://github.com/knowledgedefinednetworking/DRL-GNN) - Combined DRL + GNN architecture for network routing optimization. Generalizes over arbitrary topologies.
+- [RouteNet](https://github.com/knowledgedefinednetworking/demo-routenet) `[2026-03]` - GNN architecture for network performance modeling (delay, jitter, loss prediction). ACM SIGCOMM'19. See also [RouteNet-Fermi](https://github.com/BNN-UPC/RouteNet-Fermi).
+
+### Simulation & RL Environments
+
+- [ns3-gym](https://github.com/tkn-tub/ns3-gym) `[2026-02]` - OpenAI Gym integration with ns-3 for RL in networking research.
+- [ns3-ai](https://github.com/hust-diangroup/ns3-ai) - Python-C++ bridge enabling AI frameworks (TensorFlow, PyTorch) to interact with ns-3 simulations.
+- [RFRL Gym](https://github.com/vtnsi/rfrl-gym) `[2026-03]` - RL training environment for wireless communications: dynamic spectrum access, jamming scenarios.
+- [ns3sionna](https://github.com/tkn-tub/ns3sionna) `[2026-03]` - ns-3 module bringing realistic Sionna ray-tracing channel simulation to ns-3.
+
+### Datasets & Benchmarks
+
+- [5GMdata](https://github.com/lasseufpa/5gm-data) `[2026-04]` - Datasets and code for ML in 5G mmWave MIMO systems involving mobility.
+- [ColO-RAN Dataset](https://github.com/wineslab/colosseum-oran-coloran-dataset) - Open dataset for ML-based xApps in O-RAN closed-loop control. DRL-based RAN slicing/scheduling. From WiNES Lab / IEEE TMC.
+- [NetworkModelingDatasets](https://github.com/BNN-UPC/NetworkModelingDatasets) `[2026-03]` - Datasets for network modeling simulated with OMNet++. Companion to the RouteNet family.
+- [TelecomTS](https://github.com/Ali-maatouk/TelecomTS) `[2026-04]` - Multi-modal telecom dataset from the Tele-LLMs team.
+- [MM-TelcoBench](https://github.com/gagan-iitb/MM-TelcoBench) `[2025-11]` - Multimodal telecom benchmark for LLM evaluation: network operations, troubleshooting, PCAP analysis, 5G faults.
+
+---
+
 ## Security
 
 ### Security Exploitation/fuzzing Frameworks
@@ -827,6 +890,10 @@ Companies offering products/services around open source telco tech:
 - [awesome-5g](https://github.com/calee0219/awesome-5g) `[2026-02]` - 5G-specific projects and resources.
 - [awesome-rtc-hacking](https://github.com/EnableSecurity/awesome-rtc-hacking) `[2025-07]` - Curated list of VoIP, WebRTC, and VoLTE security resources. From the SIPVicious team.
 - [awesome-ai-oran](https://github.com/LynchXLQ/awesome-ai-oran) `[2026-03]` - Curated list of AI/ML research papers and tools for O-RAN. Covers DRL, GNN, LLMs, and more applied to O-RAN.
+- [Paper-with-Code (Wireless DL)](https://github.com/ML4Comm-Netw/Paper-with-Code-of-Wireless-communication-Based-on-DL) `[2026-04]` - Massive curated collection of deep learning papers with code for wireless communication.
+- [RIS-Codes-Collection](https://github.com/ken0225/RIS-Codes-Collection) `[2026-04]` - Complete collection of codes for RIS/IRS research including DL/RL approaches for beamforming and channel estimation.
+- [GNN-Communication-Networks](https://github.com/jwwthu/GNN-Communication-Networks) `[2026-04]` - Curated collection of GNN research for communication networks. Covers traffic prediction, routing, spectrum sensing.
+- [Cellular-Security-Papers](https://github.com/onehouwong/Cellular-Security-Papers) `[2026-04]` - Collection of papers, repos, talks, and tools for cellular security and privacy.
 
 ## Contributing
 
