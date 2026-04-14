@@ -674,6 +674,7 @@ AI and machine learning tools for telecom networks, covering foundation models, 
 - [Eclipse LMOS](https://github.com/eclipse-lmos) `[2026-04]` - Open-source multi-agent AI platform deployed by Deutsche Telekom for Frag Magenta customer service. Eclipse Foundation project.
 - [Tele-LLMs](https://github.com/Ali-maatouk/Tele-LLMs) `[2026-03]` - Series of open-source LLMs (1B-8B params) specialized in telecom. Trained on 2.5B tokens from arXiv, 3GPP, Wikipedia. From Yale.
 - [Telco-RAG](https://github.com/netop-team/Telco-RAG) `[2024-09]` - RAG framework specialized for 3GPP documents. Addresses challenges of retrieval-augmented generation on highly technical telecom standards.
+- [3GPP Expert Skill](https://github.com/lugasia/3gpp-skill) `[2026-04]` - Claude Code skill providing deep 3GPP expertise across all generations (2G–6G), protocol stacks, core network, security, and deployment planning.
 - [3GPP MCP Server](https://github.com/edhijlu/3gpp-mcp-server) `[2025-09]` - MCP server enabling AI assistants (Claude, VSCode) to search 3GPP specifications via the TSpec-LLM dataset.
 - [TeleQnA](https://github.com/netop-team/TeleQnA) `[2026-04]` - Benchmark dataset (10K multiple-choice questions) for evaluating LLM telecom knowledge. Part of GSMA Open-Telco LLM Benchmarks.
 - [Telco-AIX](https://github.com/open-experiments/Telco-AIX) `[2026-04]` - Applied AI experiments for telecom: self-healing networks (AutoNet), MCP-based diagnostic agents, GenAI for NOC.
