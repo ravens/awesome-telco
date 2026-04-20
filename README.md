@@ -822,6 +822,11 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [How LTE Stuff Works?](https://howltestuffworks.blogspot.com/) - In-depth blog on 4G/5G by a 3GPP Engineer.
 - [Yoshiyuki Kurauchi](https://wmnsk.com/posts/) - Blog posts by a telecom/networking/security enthusiast.
 - [Frédéric Launay](http://blogs.univ-poitiers.fr/f-launay/) - 🇫🇷 French blog on 4G/5G mobile networks.
+- [GTP-Guard articles](https://gtp-guard.org/articles/) - Design deep-dives on GTP-Guard and high-performance 5G UPF internals (XDP, PFCP, CPU scheduling) by the author of gtp-guard/keepalived. Notable posts:
+  - [5G UPF: Smart Session Placement](https://gtp-guard.org/articles/5g-upf-smart-session-placement/) `[2026-04]` - Trend-based, multi-metric CPU scheduling using a Weighted Score Composite over sessions/load/bandwidth/PPS with constraint-based hard limits for SLA differentiation.
+  - [5G UPF: From Flow Steering to Session Affinity](https://gtp-guard.org/articles/5g-upf-from-flow-steering-to-session-affinity/) `[2026-04]` - Integrates range partitioning into PFCP so session creation becomes a line-rate scheduling decision, aligning TEID, IP pool, and CPU resources via `range-partition`, `flow-steering-policy`, and `cpu-sched-group` objects.
+  - [Per-Core CPU Load Measurement](https://gtp-guard.org/articles/cpu_load_measurement/) `[2026-04]` - Why `/proc` metrics miss inline XDP/NAPI softirq work, and how GTP-Guard uses `PERF_COUNT_HW_REF_CPU_CYCLES` hardware counters for accurate per-core load.
+  - [5G UPF: Pump Up the Volume!](https://gtp-guard.org/articles/5g-upf-pump-up-the-volume/) `[2026-03]` - Hardware foundations for 800 Gbps UPF throughput: NIC queue pinning, IRQ affinity, and range-partitioning math over TEID/IP sub-prefixes.
 
 ### Presentations & Slides
 
