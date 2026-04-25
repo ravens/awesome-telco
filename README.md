@@ -157,6 +157,9 @@ For research and debugging:
 - [kiopcgenerator](https://gitea.osmocom.org/fixeria/kiopcgenerator) - Ki/OPc USIM card key generation from Op and Transport keys. Hosted on **Osmocom Gitea**.
 - [SIM Explorer](https://sourceforge.net/projects/sim-explorer/) - SIM card explorer/decoder using smart card readers. Browse filesystem, decode EF/DF, export Cellebrite-compatible XML. Hosted on **SourceForge**.
 - [apdu4j](https://github.com/martinpaljak/apdu4j) `[2026-04]` - APDU-level smart card communication library for Java. PC/SC and remote JSON interfaces. From the GlobalPlatformPro author.
+- [UiccBrowser](https://github.com/cheeriotb/UiccBrowser) `[2026-04]` - Android app to browse the file system of a UICC/eUICC via the OMAPI. From the ISD-R-AccessProvider author.
+- [sim-toolkit-refresh](https://github.com/cheeriotb/sim-toolkit-refresh) `[2026-01]` - Java Card applet implementing the SIM Toolkit REFRESH proactive command for SIM/STK testing on Android.
+- [osmocom-sim-tools (mirror)](https://github.com/cheeriotb/osmocom-sim-tools) `[2025-07]` - Active fork of Osmocom sim-tools with additional features for sysmoUSIM/sysmoISIM cards.
 
 ### eSIM / eUICC
 
@@ -174,6 +177,17 @@ For research and debugging:
 - [eUICC Probe](https://github.com/CursedHardware/euicc-probe) `[2026-04]` - eUICC diagnostic and probing tool in Kotlin. Inspect eUICC capabilities and profile information.
 - [OpenRSP](https://github.com/Blockchain-Powered-eSIM/OpenRSP) `[2026-04]` - Open source Remote SIM Provisioning implementation for eSIM profile management.
 - [Onomondo SoftSIM](https://github.com/onomondo/nrf-softsim) `[2026-04]` - SoftSIM integration for Nordic Semiconductor nRF91 Series. Software-based SIM for IoT. From Onomondo.
+- [smdpp](https://github.com/ianchen0119/smdpp) `[2026-01]` - Early-stage open SM-DP+ (Subscription Manager Data Preparation+) implementation for eSIM remote provisioning research.
+- [onomondo-eim](https://github.com/onomondo/onomondo-eim) `[2026-03]` - Open implementation of an eIM (eUICC IoT Manager) per GSMA SGP.31 for IoT eSIM remote provisioning. From Onomondo.
+- [onomondo-ipa](https://github.com/onomondo/onomondo-ipa) `[2026-02]` - IoT Profile Assistant (IPA) implementation per SGP.32 providing on-device functions for SGP.32 eUICC provisioning by an SM-DP+. From Onomondo.
+- [euicc-go](https://github.com/damonto/euicc-go) `[2026-04]` - Pure-Go implementation of the eUICC profile management protocol (SGP.22). Building block for LPA tooling.
+- [notccid](https://github.com/estkme-group/notccid) `[2026-03]` - ESTKme-RED reader protocol, the non-CCID protocol used by the ESTKme programmable eSIM reader/writer hardware.
+- [NekokoLPA2](https://github.com/iebb/NekokoLPA2) `[2026-04]` - Second-generation cross-platform open-source LPA UI for eSIM management on Android/iOS, by the original NekokoLPA author.
+- [remocard](https://github.com/iebb/remocard) `[2026-04]` - Remote OMAPI companion app for NekokoLPA2, exposing a phone's secure element/eUICC over the network for remote LPA operations.
+- [SecureElementAccessBypass](https://github.com/EsimMoe/SecureElementAccessBypass) `[2026-03]` - Android module to bypass SE ARA & ARF access restrictions for full SE access. Used in eUICC/SIM research on locked-down devices.
+- [gsma-sgp22-asn1](https://github.com/CursedHardware/gsma-sgp22-asn1) `[2026-04]` - Standalone GSMA SGP.22 ASN.1 schema definitions extracted for use in eSIM tooling and codegen.
+- [eSIM Wallet](https://github.com/Blockchain-Powered-eSIM/eSIM-Wallet) `[2025-12]` - Mobile eSIM wallet app, the user-facing companion to OpenRSP. From the Blockchain-Powered-eSIM project.
+- [TSMS](https://github.com/BSI-Bund/TSMS) `[2026-02]` - German BSI reference Java API and OpenAPI spec for a Trusted Service Management System (BSI-TR-03165), used to install and personalize JavaCard applets on smartphone secure elements.
 
 ### SIM Emulation & Virtualization
 
@@ -183,11 +197,14 @@ For research and debugging:
 - [Onomondo UICC](https://github.com/onomondo/onomondo-uicc) `[2026-03]` - Pure software implementation/emulation of SIM/UICC/USIM functionalities.
 - [osmo-remsim](https://osmocom.org/projects/osmo-remsim/wiki) - Forward SIM card traffic to a remote SIM card via TCP/IP.
 - [mobile-atlas](https://github.com/sbaresearch/mobile-atlas) `[2025-11]` - Geographically decouple SIM card and modem for scalable measurement platforms.
+- [softsim-quecopen-unisoc-lte](https://github.com/onomondo/softsim-quecopen-unisoc-lte) `[2026-03]` - Onomondo SoftSIM integration for Quectel LTE modules using the UNISOC SDK, extending SoftSIM beyond the Nordic nRF91.
 
 ### VoLTE/VoWiFi & Carrier Privileges
 
 - [CoIMS_Wiki](https://github.com/herlesupreeth/CoIMS_Wiki) `[2025-10]` - Guide for overriding IMS settings to enable VoLTE/VoWiFi using Carrier Privileges. Companion app: [CoIMS](https://play.google.com/store/apps/details?id=com.sherle.coims).
 - [pixel_ims_module](https://github.com/cxOrz/pixel_ims_module) `[2024-04]` - Magisk module that enables VoLTE, VoNR, and Wi-Fi Calling on rooted Pixel devices by modifying carrier config boolean flags.
+- [aram-cardlet](https://github.com/cheeriotb/aram-cardlet) `[2025-02]` - Sample Java Card ARA-M applet for the Android Secure Element CTS, useful for carrier-privilege experimentation on SIMs.
+- [App ARA-M Calculator](https://github.com/EsimMoe/AppARA-MCalculator) `[2026-02]` - Helper to compute the App ARA-M hash needed for Android carrier-privilege rules and SE access entries.
 
 
 ## User Equipment
@@ -222,6 +239,8 @@ For research and debugging:
 - [FALCON](https://github.com/falkenber9/falcon) `[2023-10]` - FALCON - Fast Analysis of LTE Control channels.
 - [osmo-qcdiag](https://osmocom.org/projects/osmo-qcdiag/wiki) - Osmocom project for decoding Qualcomm DIAG messages. Use @hoernchen/gsmtap@ branch to feed 2G/3G/4G/SIM messages from DIAG into wireshark ia GSMTAP.
 - [mbn-mcfg-tools](https://github.com/sbaresearch/mbn-mcfg-tools) `[2024-07]` - Tools for parsing, extracting, and packing Qualcomm MBN MCFG (Modem Configuration) files. From the mobile-atlas team at SBA Research.
+- [TowerCollector](https://github.com/zamojski/TowerCollector) `[2026-04]` - Android contributor app for OpenCellID and BeaconDB. Records GPS-tagged GSM/UMTS/LTE/5G cell observations and uploads them to open cell databases.
+- [gsm-parser](https://github.com/srlabs/gsm-parser) `[2025-11]` - SRLabs GSM/UMTS parser used by the SnoopSnitch backend for analyzing baseband logs and signaling.
 
 ## Radio Access Network
 
@@ -238,6 +257,10 @@ For research and debugging:
 - [SCOPE](https://github.com/wineslab/colosseum-scope) `[2026-03]` - Open and Softwarized Prototyping Platform for NextG Systems on the Colosseum wireless network emulator. From WiNES Lab (ACM MobiSys).
 - [ORANSlice](https://github.com/wineslab/ORANSlice) `[2026-03]` - Open-source 5G network slicing platform for O-RAN with xApp-based slice management. From WiNES Lab (ACM MobiCom'24).
 - [dApp Framework](https://github.com/wineslab/dApp-framework) `[2026-03]` - Framework for distributed Apps (dApps) for O-RAN beyond the xApp/rApp model. From WiNES Lab.
+- [dApp Library](https://github.com/wineslab/dApp-library) `[2026-04]` - Library counterpart to dApp-framework providing building blocks for writing dApps that run inside the O-RAN DU/CU. From WiNES Lab.
+- [OSC RIC xApp Template](https://github.com/5GSEC/OSC-RIC-xApp-Template) `[2026-02]` - Python xApp development template for the O-RAN SC Near-RT RIC with SDL/RMR/E2 scaffolding. Useful starting point for new xApp authors.
+- [OAI O1 Adapter](https://gitlab.eurecom.fr/oai/o1-adapter) - O-RAN O1/NETCONF adapter for OpenAirInterface gNB enabling integration with O-RAN SMOs. Hosted on **GitLab (Eurecom)**.
+- [ai-ran-dgx-spark](https://github.com/rcbarke/ai-ran-dgx-spark) `[2025-12]` - Deployment automation for NVIDIA Aerial AI-RAN on the DGX Spark platform. Useful for getting Aerial running on GPU AI-RAN testbeds.
 
 ### 5G
 
@@ -362,6 +385,10 @@ For research and debugging:
 - [closed-loop-nwdaf](https://github.com/fatemeshafiee/closed-loop-nwdaf) `[2025-12]` - NWDAF integrated with OAI and Open5GS for closed-loop security automation. ML model provisioning via MLflow.
 - [OAI CN5G LMF](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-lmf) - OpenAirInterface Location Management Function for 5G positioning (UL-TDoA). Hosted on **GitLab (Eurecom)**.
 - [nokia 5G Network Emulator](https://github.com/nokia/5g-network-emulator) `[2026-02]` - 5G network emulator from Nokia.
+- [SD-Core Helm Charts](https://github.com/omec-project/sdcore-helm-charts) `[2026-04]` - Official Helm charts for packaging and deploying the SD-Core 5G core (Aether/OMEC).
+- [UE-non3GPP](https://github.com/LABORA-INF-UFG/UE-non3GPP) `[2025-02]` - Open-source User Equipment for non-3GPP access via N3IWF. Useful for testing 5G core untrusted/trusted Wi-Fi access flows.
+- [opncell](https://github.com/opncell/opncell) `[2026-02]` - OPNsense plugin that adds private 5G/LTE network capability out-of-the-box by integrating Open5GS with the OPNsense firewall.
+- [OAI CN5G AMF](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-amf) - OpenAirInterface 5G Access and Mobility Management Function (AMF). Active C++ implementation, Apache 2.0. Hosted on **GitLab (Eurecom)**. Companion NFs: [SMF](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-smf), [UPF](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-upf), [NRF](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-nrf), [AUSF](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-ausf), [UDM](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-udm), [UDR](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-udr), [PCF](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-pcf), [NSSF](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-nssf), [NEF](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-nef).
 
 ### 4G
 
@@ -439,6 +466,10 @@ For research and debugging:
 - [Restcomm Media Server](https://github.com/RestComm/media-core) `[2026-03]` - Java media server for real-time communications. SIP-based conferencing, IVR, transcoding and announcements.
 - [Kamailio IMS Config](https://github.com/herlesupreeth/Kamailio_IMS_Config) `[2026-04]` - Fixed Kamailio IMS configuration files for basic VoLTE calling. Companion to docker_open5gs.
 - [DVRTC](https://github.com/EnableSecurity/DVRTC) `[2026-04]` - Damn Vulnerable Real-Time Communications: intentionally vulnerable VoIP/WebRTC platform for security training (SIP, RTP, TURN). From the SIPVicious team.
+- [libsrtp](https://github.com/cisco/libsrtp) `[2026-04]` - Reference open-source SRTP/SRTCP library originally from Cisco, widely used in WebRTC, SIP and IMS media stacks.
+- [FHoSS (maintained fork)](https://github.com/herlesupreeth/FHoSS) `[2026-04]` - Maintained fork of OpenIMSCore's FHoSS HSS with bug-fixes and added VoLTE/VoWiFi features.
+- [aringo](https://github.com/cgrates/aringo) `[2026-03]` - Asterisk ARI connector in Go, maintained by the CGRateS team. Useful glue for integrating Asterisk with rating/CDR pipelines.
+- [beswitched](https://codeberg.org/tychosoft/beswitched) `[2026-04]` - eXosip-based SIP key-system/softswitch by David Sugar (GNU Bayonne author) targeting residential and small-office deployments. C++20, AGPLv3. Hosted on **Codeberg**.
 
 ### SS7
 
@@ -465,6 +496,11 @@ For research and debugging:
 - [Hypatia](https://github.com/snkas/hypatia) `[2024-05]` - LEO satellite network simulation framework with ns-3 packet-level simulation and CesiumJS visualization. Supports Starlink and Kuiper constellations. Published at ACM IMC 2020.
 - [LEOViz](https://github.com/clarkzjw/LEOViz) `[2026-01]` - LEO satellite constellation measurement and visualization tool for Starlink/OneWeb. Grafana/CesiumJS integration. From University of Victoria.
 - [GNSS-SDR](https://sourceforge.net/projects/gnss-sdr/) - Open source software-defined GNSS (Global Navigation Satellite Systems) receiver written in C++ and based on GNU Radio. Hosted on **SourceForge**.
+- [OAI-5G-NR-NTN](https://github.com/ngkore/OAI-5G-NR-NTN) `[2026-04]` - Deployment guide and configurations for OpenAirInterface 5G NR over Non-Terrestrial Networks using RFsimulator with both GEO and LEO satellite scenarios.
+- [starlink-grpc-tools](https://github.com/sparky8512/starlink-grpc-tools) `[2026-04]` - De-facto reference Python toolkit for talking to the SpaceX Starlink user terminal's local gRPC API: stats, history, alerts, Prometheus/InfluxDB exporters.
+- [starlink_exporter](https://github.com/clarkzjw/starlink_exporter) `[2026-01]` - Self-contained Prometheus exporter and Grafana stack for Starlink dish telemetry. Companion to LEOViz from the same author.
+- [LeoHoSim_MATLAB](https://github.com/jtlee-97/LeoHoSim_MATLAB_2024) `[2026-02]` - Time-stepped MATLAB simulator for 5G NTN with a 600 km LEO constellation (per 3GPP TR 38.821) and a hybrid handover mechanism for handheld UEs.
+- [sdr-o-ran-platform](https://github.com/thc1006/sdr-o-ran-platform) `[2026-04]` - SDR + cloud-native O-RAN research platform for satellite NTN with AI/ML (DRL) optimization and quantum-safe (NIST PQC) cryptography.
 
 ## Protocols
 
@@ -475,6 +511,7 @@ For research and debugging:
 - [bazel-pycrate](https://github.com/ravens/bazel-pycrate) `[2023-07]` - A bazel-based pycrate ready jupyter notebook env
 - [hampi](https://github.com/gabhijit/hampi) `[2025-08]` - The Goal of this project is to implement an ASN.1 Compiler in Rust which can generate Rust bindings for different ASN.1 specifications.
 - [Eclipse Titan TTCN-3 (core)](https://gitlab.eclipse.org/eclipse/titan/titan.core/) - Open source TTCN-3 compiler and runtime from Ericsson/Eclipse, with built-in ASN.1 BER/PER/XML codecs. Used for telecom protocol conformance testing. Hosted on **GitLab (Eclipse)**.
+- [oxirush-ngap](https://github.com/linouxis9/oxirush-ngap) `[2026-04]` - Auto-generated Rust APER codec for 5G NGAP from official 3GPP ASN.1 definitions. Companion to oxirush-nas.
 
 ### NAS 4G/5G and Milenage
 
@@ -504,6 +541,7 @@ For research and debugging:
 - [gtp-load-gen](https://gitea.osmocom.org/cellular-infrastructure/gtp-load-gen) - High-performance GTP-U load generator using Linux io_uring. Hosted on **Osmocom Gitea**.
 - [gtp-rs](https://github.com/ErvinsK/gtp-rs) `[2025-12]` - Pure Rust implementation of 3GPP GTP (GTPv1 and GTPv2) protocols.
 - [free5gc gtp5g-tracer](https://github.com/free5gc/gtp5g-tracer) `[2025-10]` - Debug gtp5g kernel module using eBPF. From the free5GC project.
+- [rs-pfcp](https://github.com/xandlom/rs-pfcp) `[2026-04]` - Rust implementation of the PFCP protocol (3GPP TS 29.244), modeled on go-pfcp. Includes an interop test harness against the Go reference.
 
 ### SCTP
 
@@ -522,6 +560,10 @@ For research and debugging:
 - [ims-client](https://gitea.osmocom.org/septs/ims-client) - IMS client with SWu (VoWiFi) protocol in PHP. Hosted on **Osmocom Gitea**.
 - [NWu-Non3GPP-5GC](https://github.com/fasferraz/NWu-Non3GPP-5GC) `[2024-09]` - NWu IKEv2/IPSec dialer for 5GC N3IWF (Non-3GPP Interworking Function). From the author of eNB s1 emulator and gtp_dialer.
 - [GBA_ME](https://github.com/fasferraz/GBA_ME) `[2023-10]` - Generic Bootstrapping Architecture (GBA) ME emulator in Python. From fasferraz.
+- [vowifi-epdg-scanning](https://github.com/sbaresearch/vowifi-epdg-scanning) `[2026-04]` - VoWiFi ePDG scanning toolkit and dataset from SBA Research, used to enumerate and probe operator ePDG endpoints worldwide.
+- [vowifi-sms](https://github.com/dmitzsaz/vowifi-sms) `[2025-10]` - Go-based VoWiFi (IMS/ePDG) client capable of registering to a carrier IMS over Wi-Fi and receiving SMS without an active mobile connection.
+- [carrier_wifi_http_server](https://github.com/herlesupreeth/carrier_wifi_http_server) `[2026-04]` - Server hosting the carrier certificate used by handsets to encrypt the IMSI when authenticating to WLAN (Hotspot 2.0) and ePDG (VoWiFi).
+- [free5gc/ike](https://github.com/free5gc/ike) `[2026-04]` - free5GC's standalone IKEv2 implementation used by N3IWF/TNGF. Reusable as a Go IKE library outside free5GC.
 
 
 ### Diameter
@@ -558,6 +600,8 @@ For research and debugging:
 
 - [fastswan](https://github.com/acassen/fastswan) `[2026-02]` - Linux Kernel XFRM/IPsec offload via eBPF/XDP. Relevant for mobile core SWu/N3IWF tunnels. From the gtp-guard/keepalived author.
 - [xdp-fwd](https://github.com/acassen/xdp-fwd) `[2026-03]` - XDP Forwarding suite for high-performance packet processing via eBPF/XDP. From the gtp-guard/keepalived author.
+- [socket-takeover](https://github.com/acassen/socket-takeover) `[2026-04]` - Live socket transfer between processes, engineered for zero-downtime upgrades of dataplane services such as gtp-guard.
+- [fpp-vpp](https://github.com/travelping/fpp-vpp) `[2026-04]` - Foundation library used by Travelping's VPP-based subprojects (upg-vpp etc.) for VPP-based fastpath telco services.
 - [Ligato](https://github.com/ligato/vpp-agent) `[2025-04]` - Controlplane agent for FD.io VPP
 - [FD.io](https://fd.io) - FD.io is a vector processing engine (VPP). VPP processes a number of packets in parallel instead of one at a time thus significantly improving packet throughput.
 - [OVS](http://www.openvswitch.org) - Open vSwitch is a production quality, multilayer virtual switch licensed under the open source Apache 2.0 license.
@@ -601,6 +645,8 @@ For research and debugging:
 - [towards5gs-helm](https://github.com/Orange-OpenSource/towards5gs-helm) `[2024-10]` - Helm charts for deploying free5GC and other 5G network functions on Kubernetes. From Orange.
 - [free5gc-helm](https://github.com/free5gc/free5gc-helm) `[2026-03]` - Official Helm charts for deploying free5GC on Kubernetes.
 - [Project Sylva](https://gitlab.com/sylva-projects/sylva) - Production-grade Telco Cloud Stack under Linux Foundation Europe. Common cloud software framework for VNF/CNF, backed by Orange, Deutsche Telekom, Vodafone, Telefonica. Hosted on **GitLab**.
+- [aether-cni](https://github.com/omec-project/aether-cni) `[2026-04]` - Container image bundling the Kubernetes CNI plugins used in Aether SD-Core, tuned specifically for UPF in DPDK mode.
+- [OAI Helm Chart Catalog](https://gitlab.eurecom.fr/oai/orchestration/charts) - Official Helm chart catalog for deploying OAI 5G Core and RAN network functions on Kubernetes. Hosted on **GitLab (Eurecom)**.
 
 ### Baremetal management
 
@@ -616,7 +662,11 @@ For research and debugging:
 - [TeraFlowSDN](https://labs.etsi.org/rep/tfs/controller) - Cloud-native SDN orchestrator and controller for transport networks from ETSI. IP-optical convergence, telemetry, closed-loop automation. Hosted on **ETSI Labs**.
 - [OpenCAPIF](https://labs.etsi.org/rep/ocf/capif) - Open source 3GPP Common API Framework (CAPIF) for managing API exposure/consumption in 5G networks. Hosted on **ETSI Labs**.
 - [OpenSlice](https://osl.etsi.org/) - Open source OSS for delivering Network Slice as a Service (NSaaS). Implements ETSI ZSM and TMF OpenAPIs. Hosted on **ETSI Labs**.
-- [OpenOP](https://oop.etsi.org/) - Open-source Operator Platform for Telco Cloud network federation and 6G experimentation. Exposes CAMARA APIs. Hosted on **ETSI Labs**.
+- [OpenOP](https://oop.etsi.org/) - Open-source Operator Platform for Telco Cloud network federation and 6G experimentation. Exposes CAMARA APIs. Hosted on **ETSI Labs**. Reference components: [Federation Manager](https://labs.etsi.org/rep/oop/code/federation-manager), [Service Resource Manager](https://labs.etsi.org/rep/oop/code/service-resource-manager), [Open Exposure Gateway](https://labs.etsi.org/rep/oop/code/open-exposure-gateway).
+- [TeraFlowSDN NSC](https://labs.etsi.org/rep/tfs/nsc) - Network Slice Controller architecture and implementation that complements TeraFlowSDN, providing 3GPP/IETF-aligned slice lifecycle management across transport segments. Hosted on **ETSI Labs**.
+- [OpenCAPIF SDK](https://labs.etsi.org/rep/ocf/sdk) - Python/Go SDK for OpenCAPIF (originally produced inside the EU 6G-SANDBOX project) for API providers and invokers. Hosted on **ETSI Labs**.
+- [Nephoran Intent Operator](https://github.com/thc1006/nephoran-intent-operator) `[2026-03]` - LLM-enhanced Nephio R5 + O-RAN automation system that turns natural-language intents into KRM packages for telecom NF orchestration.
+- [OpenOP Open Exposure Gateway](https://labs.etsi.org/rep/oop/code/open-exposure-gateway) - OpenOP component implementing the CAMARA Edge Cloud management API. Hosted on **ETSI Labs**.
 
 ## Lab & Testbeds
 
@@ -630,12 +680,18 @@ For research and debugging:
 - [sample configs](https://github.com/s5uishida/sample_config_misc_for_mobile_network) `[2026-02]` - Sample Configurations and Miscellaneous for Mobile Network.
 - [free5gc-compose](https://github.com/free5gc/free5gc-compose) `[2026-03]` - Docker Compose files for deploying the full free5GC 5G core stack.
 - [free5GLabs](https://github.com/free5gc/free5GLabs) `[2026-03]` - Hands-on labs to guide building 5G networks with free5GC.
+- [ETSI MEC Sandbox](https://labs.etsi.org/rep/mec/etsi-mec-sandbox) - Interactive environment for learning and experimenting with ETSI MEC service APIs. Hosted on **ETSI Labs**.
 - [open5gs-k8s](https://github.com/niloysh/open5gs-k8s) `[2026-03]` - Open5GS 5G Core on Kubernetes with Helm charts and deployment guides.
 - [docker-open5gs (Borjis131)](https://github.com/Borjis131/docker-open5gs) `[2025-11]` - Open5GS 5G Core container images with Docker Compose deployments and Helm charts for Kubernetes.
 - [oai-cn5g-fed](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-fed) - Federation of OAI CN 5G repositories. Docker Compose deployment for the full OAI 5G core. Hosted on **GitLab (Eurecom)**.
 - [NextMN testbed](https://github.com/nextmn/testbed) `[2026-03]` - Ready-to-use testbed for the NextMN project with SRv6, UPF, and 5G simulators.
 - [free5gc-k8s](https://github.com/niloysh/free5gc-k8s) `[2026-03]` - free5GC 5G Core on Kubernetes with Helm charts and deployment guides.
 - [testbed-automator](https://github.com/niloysh/testbed-automator) `[2025-12]` - Scripts for automating deployment of 5G testbeds with Open5GS, free5GC, and UERANSIM.
+- [aether-onramp](https://github.com/opennetworkinglab/aether-onramp) `[2026-04]` - Ansible-driven installer for deploying the Aether 5G stack (SD-Core, RAN, monitoring) on bare metal. Official Aether quick-start path.
+- [5G-Monarch](https://github.com/niloysh/5g-monarch) `[2026-03]` - Companion repo for the 5G-MoNArch paper on monitoring/observability of cloud-native 5G deployments on Kubernetes.
+- [T-5GS](https://github.com/T-5GS/T-5GS) `[2025-12]` - Near-realistic open-source 5G testbed for multi-core network interoperability and multi-tenant scenarios, built on PacketRusher and Open5GS.
+- [free5gc/IPTV](https://github.com/free5gc/IPTV) `[2026-01]` - Sample 5G application demonstrating IPTV-style multicast/streaming traffic over a free5GC deployment.
+- [OAI Raytracing Channel Emulator](https://gitlab.eurecom.fr/oai/raytracing-channel-emulator) - Ray-tracing-based wireless channel emulator integrated with OpenAirInterface for realistic 5G NR PHY testing. Hosted on **GitLab (Eurecom)**.
 
 ### Remote control
 
@@ -655,15 +711,23 @@ For research and debugging:
 - [ixia-c](https://github.com/open-traffic-generator/ixia-c) `[2026-03]` - Ixia-c is a modern, powerful and API-driven traffic generator designed to cater to the needs of hyperscalers, network hardware vendors and hobbyists alike.
 - [srsRAN_matlab](https://github.com/srsran/srsRAN_matlab) `[2026-01]` - MATLAB-based PHY-layer testing and verification tools for srsRAN. From SRS.
 - [Telcometer](https://github.com/itsMohammadHeidari/Telcometer) `[2024-10]` - Diameter Credit-Control Application Load Testing script powered by [Grafana K6](https://github.com/grafana/k6)
-- [Sionna](https://github.com/NVlabs/sionna) `[2026-03]` - GPU-accelerated open-source library from NVIDIA for link-level simulation of communication systems. Covers OFDM, MIMO, LDPC, Polar codes, and ray tracing for 5G/6G research. Companion: [Sionna RT](https://github.com/NVlabs/sionna-rt) ray tracing engine.
+- [Sionna](https://github.com/NVlabs/sionna) `[2026-03]` - GPU-accelerated open-source library from NVIDIA for link-level simulation of communication systems. Covers OFDM, MIMO, LDPC, Polar codes, and ray tracing for 5G/6G research.
 - [Simu5G](https://simu5g.org/) - OMNeT++ based 5G network simulator for end-to-end performance evaluation.
 - [ns-3 LTE/NR](https://gitlab.com/nsnam/ns-3-dev) `[2026-03]` - Discrete-event network simulator with LTE and 5G NR modules. Main development on **GitLab**.
 - [5G-LENA](https://gitlab.com/cttc-lena/nr) `[2026-03]` - ns-3 NR module for 5G New Radio simulation (PHY/MAC/OFDMA, MIMO, NR-U, NR V2X). From CTTC OpenSim. [NR-U extension](https://gitlab.com/cttc-lena/nr-u). Hosted on **GitLab**.
 - [Wireshark](https://gitlab.com/wireshark/wireshark) `[2026-03]` - Essential protocol analyzer with dissectors for GSMTAP, Diameter, GTP, S1AP, NGAP, SS7/TCAP and more. Main development on **GitLab**.
 - [Seagull](https://gull.sourceforge.net/) - Multi-protocol traffic generator for IMS testing: Diameter (RFC3588) over TCP/SCTP, TCAP (over SS7/Sigtran), XCAP, Radius. From HP. [SourceForge](https://sourceforge.net/projects/gull/).
 - [ETSI Forge Test Suites](https://forge.etsi.org/rep/explore/projects) - Official ETSI test suites in TTCN-3 and Robot Framework for telecom protocols (Diameter, GTP, S1AP, NAS, MEC, NFV). Hosted on **ETSI Forge (GitLab)**.
+- [ETSI 5G Core NAS Test Suite](https://forge.etsi.org/rep/int/5g-core/nas) - Official ETSI INT test suite for 5G NAS conformance testing. Hosted on **ETSI Forge**.
+- [ETSI 5G Core NGAP Test Suite](https://forge.etsi.org/rep/int/5g-core/ngap) - Official ETSI INT test suite for NGAP conformance testing on the N2 interface. Hosted on **ETSI Forge**.
 - [Nokia Moler](https://github.com/nokia/moler) `[2026-03]` - Python library for building automated tests of network equipment. From Nokia.
 - [twampy](https://github.com/nokia/twampy) `[2026-03]` - Python tools for TWAMP and STAMP (Two-Way Active Measurement Protocol) network performance measurement. From Nokia.
+- [5g-traffic-generator](https://github.com/niloysh/5g-traffic-generator) `[2025-09]` - Tool for sending GTP-U packets with configurable TEID and QFI values. Useful for exercising UPFs and 5G data-plane setups.
+- [CoreNetworkTrafficGenerator](https://github.com/tariromukute/CoreNetworkTrafficGenerator) `[2026-04]` - 5G Core traffic generator emulating gNodeB and UEs (control + user plane), with eBPF/BCC SCTP metrics. Validated against Open5GS, free5GC, and OAI.
+- [petrel](https://github.com/lwlee2608/petrel) `[2026-04]` - Diameter load generator from the diameter-rs / xk6-diameter author, focused on high-throughput Diameter benchmarking.
+- [seet](https://github.com/fonoster/seet) `[2026-02]` - SIP end-to-end test orchestrator coordinating multiple SIP user-agents for complex multi-leg test scenarios. From Fonoster.
+- [sipp-js](https://github.com/fonoster/sipp-js) `[2025-09]` - JavaScript wrapper around SIPp making it easy to script SIP load and conformance tests from Node.js / TypeScript.
+- [ETSI INT 5GC NGAP test suite](https://forge.etsi.org/rep/int/5g-core/ngap) - TTCN-3 conformance/interoperability test suite for 3GPP NGAP (N2) from ETSI TC INT. Companion [NAS test suite](https://forge.etsi.org/rep/int/5g-core/nas) and [Emergency Services over 5G IOP](https://forge.etsi.org/rep/int/vx5g/emergency-5g-iop). Hosted on **ETSI Forge (GitLab)**.
 
 ## AI & Machine Learning
 
@@ -679,6 +743,11 @@ AI and machine learning tools for telecom networks, covering foundation models, 
 - [TeleQnA](https://github.com/netop-team/TeleQnA) `[2026-04]` - Benchmark dataset (10K multiple-choice questions) for evaluating LLM telecom knowledge. Part of GSMA Open-Telco LLM Benchmarks.
 - [Telco-AIX](https://github.com/open-experiments/Telco-AIX) `[2026-04]` - Applied AI experiments for telecom: self-healing networks (AutoNet), MCP-based diagnostic agents, GenAI for NOC.
 - [teddi-mcp](https://forge.3gpp.org/rep/reimes/teddi-mcp) - MCP server for ETSI's TEDDI (Terms and Definitions Database Interactive). Search 3GPP/ETSI terms programmatically from AI assistants. Hosted on **3GPP Forge**.
+- [MobiLLM](https://github.com/5GSEC/MobiLLM) `[2025-10]` - Domain-specific LLM for cellular security from the 5GSEC group. Trained for analyzing and reasoning about 5G/cellular security incidents and threats.
+- [The AI Telco Engineer](https://github.com/NVlabs/the-ai-telco-engineer) `[2026-04]` - NVIDIA Research repo prototyping LLM/agent workflows for telecom engineering tasks (network design, troubleshooting). Companion to NVIDIA's wider AI-RAN push.
+- [Chat3GPP](https://github.com/huangl22/Chat3GPP) `[2025-01]` - Open-source RAG framework purpose-built for 3GPP documents, combining hybrid retrieval (BM25 + HNSW + RRF) and BGE-M3 reranking without fine-tuning.
+- [telco-network-configuration](https://github.com/bubbleran/telco-network-configuration) `[2025-06]` - Agentic AI workflow blueprint that recommends close-to-optimal RAN parameter configurations at a cell site. Showcases LLM-driven RAN parameter tuning.
+- [OpenSlice MCP Server](https://labs.etsi.org/rep/osl/code/org.etsi.osl.mcp.server) - Model Context Protocol server exposing OpenSlice (network-slice / TMF Open API) operations to LLM agents. Hosted on **ETSI Labs**.
 
 See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3gpp-crawler](#learning-resources) (3GPP FTP crawler), [GSMA Open-Telco LLM Benchmarks](https://huggingface.co/GSMA) (TeleYAML, TeleLogs, TeleMATH on HuggingFace).
 
@@ -691,6 +760,15 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [TorchSig](https://github.com/TorchDSP/torchsig) `[2026-04]` - PyTorch signal processing ML toolkit. 60+ signal types, pretrained models, modulation families (FSK, QAM, PSK, OFDM).
 - [RFML](https://github.com/brysef/rfml) `[2026-04]` - Radio Frequency Machine Learning with PyTorch. Automatic modulation classification, DeepSig dataset loaders, adversarial training.
 - [on-device-ai-comm](https://github.com/abman23/on-device-ai-comm) `[2026-04]` - On-device AI/LLM communication system integrating a pre-trained LLM with 5G-NR PHY over 3GPP CDL channels.
+- [Sionna RT](https://github.com/NVlabs/sionna-rt) `[2026-04]` - Standalone differentiable ray tracing package extracted from NVIDIA Sionna for ML wireless propagation research.
+- [Sionna Large Radio Maps](https://github.com/NVlabs/sionna-large-radio-maps) `[2026-04]` - Large-scale wireless coverage map simulation built on Sionna RT, producing city-scale radio maps for ML training and planning research.
+- [SALAD](https://github.com/NVlabs/salad) `[2026-04]` - Self-Adaptive Link Adaptation for wireless communications. ML-based MCS/link adaptation research code from NVIDIA.
+- [LibIQ](https://github.com/wineslab/lib-iq) `[2026-03]` - Modular Python library for analyzing, visualizing, and classifying I/Q time-series in wireless systems. From WiNES Lab.
+- [DeepBeam](https://github.com/wineslab/deepbeam) `[2026-03]` - Deep waveform learning for coordination-free beam management in mmWave networks (ACM MobiHoc 2021 code). From WiNES Lab.
+- [open-cloud-semantic-ran](https://github.com/6G-Cloud-RnE-Open-Hub/open-cloud-semantic-ran) `[2025-09]` - Software implementations of semantic PHY-RAN systems (cloud-native semantic communications RAN). Early 6G research code.
+- [Sionna PlutoSDR](https://github.com/rikluost/sionna-PlutoSDR) `[2025-09]` - Adalm PlutoSDR interface for NVIDIA Sionna with full-duplex 1T1R operation on a single SDR. Bridges Sionna research with commodity SDR hardware.
+- [OpenGERT](https://github.com/serhatadik/OpenGERT) `[2025-09]` - Open-source Geometry Extraction tool for Sionna Ray-Tracing including ray-tracing sensitivity analysis. Useful for building 3D scenes for Sionna RT.
+- [CASTRO-5G](https://codeberg.org/gomezcuba/CASTRO-5G) `[2026-04]` - Python toolkit (Univ. Vigo) for sparse multipath 5G channel simulation, compressed-sensing channel estimation, mmWave link adaptation and ISAC location signal processing. GPLv3. Hosted on **Codeberg**.
 
 ### O-RAN AI/ML
 
@@ -698,6 +776,9 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [O-RAN SC RIC ML xApps](https://wiki.o-ran-sc.org/display/RICAPP) - Suite of ML-based Near-RT RIC xApps: Anomaly Detection (UE classification), QoE Prediction (throughput forecasting), Traffic Steering (ML-informed handover). Hosted on **O-RAN SC Gerrit**.
 - [5G-Spector](https://github.com/5GSEC/5G-Spector) `[2024-11]` - O-RAN compliant runtime intrusion detection xApp for L3 (RRC/NAS) cellular attack detection.
 - [MobiWatch](https://github.com/5GSEC/MobiWatch) `[2025-08]` - O-RAN xApp using unsupervised deep learning to detect L3 cellular anomalies and attacks.
+- [MobiFlow-Auditor](https://github.com/5GSEC/MobiFlow-Auditor) `[2026-01]` - O-RAN compliant xApp providing fine-grained, security-aware statistics monitoring over 5G RAN and UEs. Telemetry source for the MobiWatch detection xApp.
+- [MobieXpert](https://github.com/5GSEC/MobieXpert) `[2026-01]` - First signature-based L3 cellular attack-detection xApp for O-RAN, complementing the deep-learning MobiWatch.
+- [oai-anomaly-detection](https://github.com/teo-tsou/oai-anomaly-detection) `[2025-05]` - AI/ML framework for 5G anomaly detection plus closed-loop RB allocation and UE connectivity management on OpenAirInterface and FlexRIC.
 - [MalO-RAN](https://github.com/wineslab/mal-o-ran) `[2026-03]` - Framework for evaluating data poisoning attacks on O-RAN AI-based xApps. From WiNES Lab.
 - [ns-O-RAN-Gym](https://github.com/wineslab/ns-o-ran-gym) - Gymnasium-based RL environment for O-RAN with Traffic Steering and Energy Saving scenarios. From WiNES Lab.
 
@@ -715,6 +796,7 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [ns3-ai](https://github.com/hust-diangroup/ns3-ai) - Python-C++ bridge enabling AI frameworks (TensorFlow, PyTorch) to interact with ns-3 simulations.
 - [RFRL Gym](https://github.com/vtnsi/rfrl-gym) `[2026-03]` - RL training environment for wireless communications: dynamic spectrum access, jamming scenarios.
 - [ns3sionna](https://github.com/tkn-tub/ns3sionna) `[2026-03]` - ns-3 module bringing realistic Sionna ray-tracing channel simulation to ns-3.
+- [ns-O-RAN-ns3-mmwave](https://github.com/wineslab/ns-o-ran-ns3-mmwave) `[2026-04]` - ns-O-RAN integration with the ns-3 mmWave module providing O-RAN E2 simulation on top of mmWave 5G/NR scenarios. From WiNES Lab.
 
 ### Datasets & Benchmarks
 
@@ -723,6 +805,10 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [NetworkModelingDatasets](https://github.com/BNN-UPC/NetworkModelingDatasets) `[2026-03]` - Datasets for network modeling simulated with OMNet++. Companion to the RouteNet family.
 - [TelecomTS](https://github.com/Ali-maatouk/TelecomTS) `[2026-04]` - Multi-modal telecom dataset from the Tele-LLMs team.
 - [MM-TelcoBench](https://github.com/gagan-iitb/MM-TelcoBench) `[2025-11]` - Multimodal telecom benchmark for LLM evaluation: network operations, troubleshooting, PCAP analysis, 5G faults.
+- [RANalyzer Dataset](https://github.com/wineslab/RANalyzer-Dataset) `[2026-04]` - End-to-end 5G performance measurement dataset useful for training and evaluating performance-prediction models. From WiNES Lab.
+- [BostonTwin](https://github.com/wineslab/boston_twin) `[2026-04]` - Digital-twin dataset and API of Boston for ray-tracing-based wireless coverage and network simulation research. From WiNES Lab.
+- [Colosseum O-RAN ComMag Dataset](https://github.com/wineslab/colosseum-oran-commag-dataset) `[2026-03]` - Dataset for the IEEE ComMag paper "Intelligence and Learning in O-RAN for Data-driven NextG Cellular Networks" from WiNES Lab.
+- [5GDatasets](https://github.com/DLTeamTUC/5GDatasets) `[2025-07]` - Public 5G security datasets (PCAPs, CSVs, AMF logs) covering flooding, fuzzing and replay attacks against control- and user-plane. Generated on Open5GS, OAI, and Amarisoft cores.
 
 ---
 
@@ -756,6 +842,17 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [shannon_modem_loader](https://github.com/alexander-pick/shannon_modem_loader) `[2026-02]` - Samsung Exynos/Shannon baseband firmware loader for IDA Pro 8.x/9.x. Enables reverse engineering of Shannon modem firmware.
 - [URH-NG](https://github.com/PentHertz/urh-ng) `[2026-04]` - Universal Radio Hacker Next Generation. Investigate wireless protocols, demodulate/decode signals, and analyze RF communications. Successor to URH. From PentHertz.
 - [sigover_gen_sample](https://github.com/SysSec-KAIST/sigover_gen_sample) `[2025-09]` - Signal overshadowing sample generator for LTE broadcast signals. Companion to sigover_injector. From KAIST.
+- [5GBaseChecker](https://github.com/SyNSec-den/5GBaseChecker) `[2025-01]` - Differential-testing security analysis framework for the control plane of 5G basebands. Evaluated on 17 commercial 5G basebands and 2 open-source UEs; uncovered 22 issues. USENIX Security '24.
+- [py5sig](https://github.com/ANSSI-FR/py5sig) `[2025-11]` - ANSSI-published Python tool that auto-builds 5G signalling messages and fuzzes the SBI interfaces of a 5G core.
+- [5Greplay](https://github.com/Montimage/5Greplay) `[2026-03]` - Tool for modifying and replaying captured 5G protocol traffic, enabling attack injection and fuzzing of 5G core/RAN deployments. From Montimage.
+- [FuzzyDoo](https://github.com/gabrielepongelli/FuzzyDoo) `[2026-01]` - Mutation-based, structure-aware fuzzer purpose-built for 5G core networks (NGAP/NAS/PFCP/SBI).
+- [U-Fuzz](https://github.com/asset-group/U-Fuzz) `[2026-04]` - Universal fuzzing framework for IoT/wireless protocols from the ASSET group, targeting stateful protocol stacks across radio technologies.
+- [ORANClaw](https://github.com/asset-group/ORANClaw-E2-MitM-Fuzzing) `[2026-04]` - Fuzzes the O-RAN E2 interface via a MitM setup between RIC and E2 nodes. From the ASSET group.
+- [AirBugCatcher](https://github.com/asset-group/air-bug-catcher) `[2026-04]` - Detection of bugs in over-the-air wireless protocol implementations. From the ASSET group.
+- [FirmKit](https://github.com/SysSec-KAIST/FirmKit) `[2026-04]` - IoT firmware vulnerability analysis tool based on binary code similarity (BCSA). From the KAIST group behind BaseSpec/LTESniffer.
+- [extractor](https://github.com/srlabs/extractor) `[2026-04]` - SRLabs Android firmware image extraction tool. Companion utility to their baseband and modem research workflow.
+- [SentryFlow](https://github.com/5GSEC/SentryFlow) `[2025-07]` - 5G API observability and security platform monitoring SBA/HTTP2 5GC API traffic for anomalies and abuse.
+- [nimbus](https://github.com/5GSEC/nimbus) `[2026-01]` - Intent-driven security automation framework for 5G/cloud-native deployments from the 5GSEC group.
 
 ### IMSI Catcher Detection
 
@@ -763,6 +860,10 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [IMSI-catcher](https://github.com/Oros42/IMSI-catcher) `[2025-12]` - Python tool using gr-gsm to display IMSI numbers of cellphones around you.
 - [Android-IMSI-Catcher-Detector](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector) `[2026-02]` - Android app to detect IMSI catchers, StingRays, and silent SMS.
 - [SentryRadio](https://github.com/fzer0x/SentryRadio) `[2026-04]` - Android forensic tool (Xposed/Magisk/KSU) to detect IMSI catchers, cell site simulators, suspicious network downgrades and silent SMS.
+- [IMSICatcherDetector (Marlin)](https://github.com/eylonK14/IMSICatcherDetector) `[2025-08]` - Detects IMSI-catchers/Stingrays via statistical analysis of identity-exposing messages, implementing the Marlin methodology from NDSS 2025 (claimed 99.9% detection rate).
+- [Tower-Hunter](https://github.com/Ringmast4r/Tower-Hunter) `[2026-01]` - Cell tower logger and anomaly detector for Linux mobile devices. Logs tower data with GPS, monitors cellular connections, and flags suspicious base stations.
+- [rayhunter-enhanced](https://github.com/drinkingc0ffee/rayhunter-enhanced) `[2025-07]` - Enhanced fork of EFF Rayhunter providing roughly 3x cellular data coverage for IMSI-catcher detection on Quectel modems.
+- [raypager](https://github.com/tschakram/raypager) `[2026-04]` - Rayhunter port for the GL-E750V2 (Mudi V2) travel router, integrating OpenCelliD and Blue Merle as part of a Chasing-Your-Tail counter-surveillance ecosystem.
 
 ### Security Research & Reports
 
@@ -814,6 +915,10 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [3gpp-crawler](https://forge.3gpp.org/rep/reimes/3gpp-crawler) - CLI tool to crawl 3GPP FTP server, cache TDocs data, return structured JSON/YAML. Hosted on **3GPP Forge**.
 - [teddi-mcp](https://forge.3gpp.org/rep/reimes/teddi-mcp) - CLI and FastMCP server for ETSI's TEDDI (Terms and Definitions Database Interactive). Search 3GPP/ETSI terms programmatically. Hosted on **3GPP Forge**.
 - [5G_APIs](https://forge.3gpp.org/rep/all/5G_APIs) - Official 3GPP 5G API definitions (OpenAPI/Swagger). REL-20. Hosted on **3GPP Forge**.
+- [3GPP Meeting Tools](https://github.com/telekom/3gpp-meeting-tools) `[2026-01]` - Deutsche Telekom-maintained tools for the day-to-day execution of 3GPP meetings (TDoc handling, agenda parsing). Useful for delegates.
+- [MNO List](https://github.com/CursedHardware/mno-list) `[2026-03]` - Curated list of mobile network operators with metadata, broader than the canonical PLMN list. Useful for SIM/eSIM tooling.
+- [Telco-Spaghetti](https://codeberg.org/leecowdrey/Telco-Spaghetti) `[2026-03]` - SVG architecture posters illustrating real-world telco OSS/BSS and 4G/5G access/transport "spaghetti". Handy didactic reference. Hosted on **Codeberg**.
+- [SA3-LI formal language specifications](https://forge.3gpp.org/rep/sa3/li) - Authoritative repo for 3GPP SA3-LI lawful-interception XSD/JSON schemas and formal-language specs (TS 33.128 family). Hosted on **3GPP Forge**.
 
 ### Blogs
 
