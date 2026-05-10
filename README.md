@@ -198,15 +198,15 @@ For research and debugging:
 - [YggdraSIM](https://github.com/1oT/YggdraSIM) `[2026-05]` - Python toolkit for SIM/eSIM and eUICC work: SCP03, SCP80, SCP11 (relay, local, eIM), SAIP profile packages, and a simulated UICC/eUICC engine. Uses upstream pySim dependencies.
 - [esim](https://codeberg.org/d8/esim) - Hosted on **Codeberg**.
 - [bnesim_quota_cli](https://codeberg.org/gigahertz/bnesim_quota_cli) - View BNESIM eSIM quotas from terminal. Hosted on **Codeberg**.
-- [esim-qrcode-portal](https://github.com/CursedHardware/esim-qrcode-portal) `[2025-11]` - eSIM QRCode Portal. Part of CursedHardware eSIM/UICC.
-- [uicc-chip-packages](https://github.com/CursedHardware/uicc-chip-packages) `[2024-01]` - UICC Chip Packaging. Part of CursedHardware eSIM/UICC.
-- [UICC_SIM_Wiki](https://github.com/herlesupreeth/UICC_SIM_Wiki) `[2019-12]` - SIM part of steps involved in enabling UICC carrier privileges. Part of CursedHardware eSIM/UICC.
-- [luci-app-hermes-euicc](https://github.com/KilimcininKorOglu/luci-app-hermes-euicc) `[2026-03]` - LuCI Web Interface App for Managing eSIM Profiles via Hermes eUICC. Part of CursedHardware eSIM/UICC.
-- [openeuicc-bridge](https://github.com/Laiteux/openeuicc-bridge) `[2026-02]` - An Android ContentProvider that exposes OpenEUICC/EasyEUICC LPA functionality via ADB, enabling programmatic eSIM profile management. Part of CursedHardware eSIM/UICC.
-- [pysim](https://gitea.osmocom.org/sim-card/pysim) - Python libraries and command line tools for SIM/UICC/USIM/ISIM card analysis and programming. Hosted on **Osmocom Gitea**. Part of Osmocom SIM tooling (gitea).
-- [euicc-manual](https://gitea.osmocom.org/sim-card/euicc-manual) - Osmocom eUICC and eSIM Developer Manual. Hosted on **Osmocom Gitea**. Part of Osmocom SIM tooling (gitea).
-- [gsma-esim-iot](https://gitea.osmocom.org/sim-card/gsma-esim-iot) - playground for exploring GSMA IoT eSIM. Hosted on **Osmocom Gitea**. Part of Osmocom SIM tooling (gitea).
-- [imsi-pseudo](https://gitea.osmocom.org/cellular-infrastructure/imsi-pseudo) - IMSI Pseudonymization for 2G/3G/4G. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
+- [esim-qrcode-portal](https://github.com/CursedHardware/esim-qrcode-portal) `[2025-11]` - eSIM QRCode Portal.
+- [uicc-chip-packages](https://github.com/CursedHardware/uicc-chip-packages) `[2024-01]` - UICC Chip Packaging.
+- [UICC_SIM_Wiki](https://github.com/herlesupreeth/UICC_SIM_Wiki) `[2019-12]` - SIM part of steps involved in enabling UICC carrier privileges.
+- [luci-app-hermes-euicc](https://github.com/KilimcininKorOglu/luci-app-hermes-euicc) `[2026-03]` - LuCI Web Interface App for Managing eSIM Profiles via Hermes eUICC.
+- [openeuicc-bridge](https://github.com/Laiteux/openeuicc-bridge) `[2026-02]` - An Android ContentProvider that exposes OpenEUICC/EasyEUICC LPA functionality via ADB, enabling programmatic eSIM profile management.
+- [pysim](https://gitea.osmocom.org/sim-card/pysim) - Python libraries and command line tools for SIM/UICC/USIM/ISIM card analysis and programming. Hosted on **Osmocom Gitea**.
+- [euicc-manual](https://gitea.osmocom.org/sim-card/euicc-manual) - Osmocom eUICC and eSIM Developer Manual. Hosted on **Osmocom Gitea**.
+- [gsma-esim-iot](https://gitea.osmocom.org/sim-card/gsma-esim-iot) - playground for exploring GSMA IoT eSIM. Hosted on **Osmocom Gitea**.
+- [imsi-pseudo](https://gitea.osmocom.org/cellular-infrastructure/imsi-pseudo) - IMSI Pseudonymization for 2G/3G/4G. Hosted on **Osmocom Gitea**.
 ### SIM Emulation & Virtualization
 
 - [swSIM](https://github.com/tomasz-lisowski/swsim) `[2026-05]` - A software-only SIM card.
@@ -265,7 +265,7 @@ For research and debugging:
 
 ### RRH
 
-- [O-RAN Software and seed code](https://o-ran-sc.org) - The O-RAN Software Community (SC) is a collaboration between the O-RAN Alliance and Linux Foundation with the mission to support the creation of software for the Radio Access Network (RAN). Introduction to O-RAN in a [LF video](https://www.youtube.com/watch?v=iJyb0pCWDKo).
+- [O-RAN Software and seed code](https://o-ran-sc.org) - The O-RAN Software Community (SC) is a collaboration between the O-RAN Alliance and Linux Foundation with the mission to support the creation of software for the Radio Access Network (RAN). Introduction to O-RAN in a [LF video](https://www.youtube.com/watch?v=iJyb0pCWDKo). RIC platform (Gerrit mirrors): [ric-plt-e2](https://github.com/o-ran-sc/ric-plt-e2), [ric-plt-e2mgr](https://github.com/o-ran-sc/ric-plt-e2mgr), [ric-plt-ric-dep](https://github.com/o-ran-sc/ric-plt-ric-dep), [ric-plt-appmgr](https://github.com/o-ran-sc/ric-plt-appmgr), [ric-plt-xapp-frame](https://github.com/o-ran-sc/ric-plt-xapp-frame) ([py](https://github.com/o-ran-sc/ric-plt-xapp-frame-py), [cpp](https://github.com/o-ran-sc/ric-plt-xapp-frame-cpp)). xApps: [hw-python](https://github.com/o-ran-sc/ric-app-hw-python), [ts](https://github.com/o-ran-sc/ric-app-ts), [kpimon-go](https://github.com/o-ran-sc/ric-app-kpimon-go), [ad](https://github.com/o-ran-sc/ric-app-ad), [qp](https://github.com/o-ran-sc/ric-app-qp).
 - [srsRAN O-RAN SC RIC](https://github.com/srsran/oran-sc-ric) `[2025-10]` - Simplified O-RAN SC RIC deployment with improved usability and xApp examples, from the srsRAN team.
 - [FlexRIC](https://gitlab.eurecom.fr/mosaic5g/flexric) `[2026-05]` - O-RAN Alliance compliant Near-RT RIC and E2 Agent with xApp SDK in C/C++ and Python. Sub-200µs latency. Part of MOSAIC5G/OAI. Hosted on **GitLab (Eurecom)**.
 - [ProtO-RU](https://github.com/NUS-CIR/ProtO-RU) `[2026-02]` - Software implementation of an O-RAN split-7.2 compatible Radio Unit using SDRs. From NUS.
@@ -343,18 +343,6 @@ For research and debugging:
 - [srsRAN](https://gitea.osmocom.org/fixeria/srsRAN) - Open source SDR 4G/5G software suite with extNAS/RRCTL support (forked from https://github.com/srsran/srsRAN). Hosted on **Osmocom Gitea**.
 - [sdrangelove](https://gitea.osmocom.org/sdr/sdrangelove) - SDR GUI supporting various input hardware. Hosted on **Osmocom Gitea**.
 - [libmirisdr](https://gitea.osmocom.org/sdr/libmirisdr) - Software for the Mirics MSi2500 + MSi001 SDR platform. Hosted on **Osmocom Gitea**.
-- [ric-app-hw-python](https://github.com/o-ran-sc/ric-app-hw-python) `[2026-03]` - Mirror of the ric-app-hw-python repo. Part of O-RAN SC sub-projects.
-- [ric-plt-xapp-frame-py](https://github.com/o-ran-sc/ric-plt-xapp-frame-py) `[2026-04]` - Mirror of the ric-plt/xapp-frame-py repo. Part of O-RAN SC sub-projects.
-- [ric-plt-ric-dep](https://github.com/o-ran-sc/ric-plt-ric-dep) `[2026-04]` - Mirror of upstream Gerrit repo. Part of O-RAN SC sub-projects.
-- [ric-plt-e2mgr](https://github.com/o-ran-sc/ric-plt-e2mgr) `[2026-04]` - Mirror of upstream Gerrit repo. Part of O-RAN SC sub-projects.
-- [ric-plt-e2](https://github.com/o-ran-sc/ric-plt-e2) `[2026-04]` - Mirror of upstream Gerrit repo. Part of O-RAN SC sub-projects.
-- [ric-app-ts](https://github.com/o-ran-sc/ric-app-ts) `[2026-04]` - Mirror of the ric-app/ts repo. Part of O-RAN SC sub-projects.
-- [ric-plt-xapp-frame-cpp](https://github.com/o-ran-sc/ric-plt-xapp-frame-cpp) `[2026-04]` - Mirror of the ric-plt/xapp-frame-cpp repo. Part of O-RAN SC sub-projects.
-- [ric-plt-xapp-frame](https://github.com/o-ran-sc/ric-plt-xapp-frame) `[2026-04]` - Mirror of upstream Gerrit repo. Part of O-RAN SC sub-projects.
-- [ric-app-kpimon-go](https://github.com/o-ran-sc/ric-app-kpimon-go) `[2026-03]` - Mirror of the ric-app/kpimon-go repo. Part of O-RAN SC sub-projects.
-- [ric-app-ad](https://github.com/o-ran-sc/ric-app-ad) `[2026-04]` - Mirror of the ric-app/ad repo. Part of O-RAN SC sub-projects.
-- [ric-app-qp](https://github.com/o-ran-sc/ric-app-qp) `[2026-04]` - Mirror of the ric-app/qp repo. Part of O-RAN SC sub-projects.
-- [ric-plt-appmgr](https://github.com/o-ran-sc/ric-plt-appmgr) `[2026-04]` - Mirror of upstream Gerrit repo. Part of O-RAN SC sub-projects.
 ### 4G
 
 - [OAI eNB/ gNB](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) `[2026-05]` - Open Air Interface RAN 4G eNB / 5G NR gNB to use on SDR-based radios.
@@ -428,7 +416,7 @@ For research and debugging:
 - [OAI 5GCN](https://gitlab.eurecom.fr/oai/cn5g) - OAI(Open Air Interface) was initially developed by EURECOM, provides a 3GPP-Compliant 5G SA Core Network.
 - ⚠️ [travelping-vpp](https://github.com/travelping/vpp) `[2021-01]` - UPF plugins implements a GTP-U user plane based on 3GPP TS 23.214 and 3GPP TS 29.244 Release 15, adding UPF as a plugin to VPP.
 - ⚠️ [IITB 5G SBA PoC](https://github.com/iithnewslab/SBA-gRPC-5G) `[2019-08]` - Prototyping and Load Balancing the Service Based Architecture of 5G Core using NFV - [research paper from IITB](https://github.com/iithnewslab/SBA-gRPC-5G/blob/master/Presentation_Netsoft19_gRPC_5G.pdf)
-- [Free5GC](https://www.free5gc.org/) `[2026-05]` - The free5GC is an open-source project for 5th generation (5G) mobile core network hosted by [CS Lab](https://cslab.cs.nycu.edu.tw/). Written in Golang. Associated github projects: [PER parser/encoder](https://github.com/free5gc/aper), [AMF](https://github.com/free5gc/amf).
+- [Free5GC](https://www.free5gc.org/) `[2026-05]` - The free5GC is an open-source project for 5th generation (5G) mobile core network hosted by [CS Lab](https://cslab.cs.nycu.edu.tw/). Written in Golang. Per-NF repos: [AMF](https://github.com/free5gc/amf), [SMF](https://github.com/free5gc/smf), [AUSF](https://github.com/free5gc/ausf), [UDM](https://github.com/free5gc/udm), [UDR](https://github.com/free5gc/udr), [PCF](https://github.com/free5gc/pcf), [NRF](https://github.com/free5gc/nrf), [NSSF](https://github.com/free5gc/nssf), [NEF](https://github.com/free5gc/nef), [N3IWF](https://github.com/free5gc/n3iwf), [TNGF](https://github.com/free5gc/tngf), [TNGFUE](https://github.com/free5gc/tngfue). Protocols: [NGAP](https://github.com/free5gc/ngap), [NAS](https://github.com/free5gc/nas), [PFCP](https://github.com/free5gc/pfcp), [SCTP](https://github.com/free5gc/sctp), [aper (PER)](https://github.com/free5gc/aper), [TLV](https://github.com/free5gc/tlv). Tooling: [openapi](https://github.com/free5gc/openapi), [util](https://github.com/free5gc/util), [webconsole](https://github.com/free5gc/webconsole), [go-gtp5gnl](https://github.com/free5gc/go-gtp5gnl).
 - [5GC Swagger APIS](https://github.com/jdegre/5GC_APIs) `[2024-06]` - RESTful APIs of main Network Functions in the 3GPP 5G Core Network. R16.
 - [5G GTP kernel driver](https://github.com/free5gc/gtp5g) `[2026-03]` - gtp5g is a customized Linux kernel module 5G GTP-U to handle packet by PFCP IEs such as PDR and FAR. Per 3GPP TS 29.281 and 3GPP TS 29.244.
 - [UPF (OMEC)](https://github.com/omec-project/upf) `[2026-05]` - 4G/5G Mobile Core User Plane from the OMEC/SD-Core project. Successor to upf-epc.
@@ -440,7 +428,7 @@ For research and debugging:
 - [5G_CN](https://github.com/wnlUc3m/5G_CN) `[2019-08]` - This is a basic implementation of a 5G Core Network supporting 4G LTE control signalling.
 - [openupf](https://github.com/5GOpenUPF/openupf) `[2021-05]` - A 3GPP R16 compliant open source 5G core UPF (User Plane Function).
 - [upf-xdp](https://github.com/801room/upf-xdp) `[2021-01]` -  it shows the possibility of using xdp to implement 5g upf.
-- [SD-Core](https://opennetworking.org/sd-core/) - A 4G/5G core that is based on [OMEC](https://www.opennetworking.org/omec/) for 4G, and a fork of [Free5GC](https://www.free5gc.org/) for 5G. Has implementations for AMF,SMF,PCF,UDM,AUSF,NSSF and a P4 based UPF. [github](https://github.com/omec-project/amf)
+- [SD-Core](https://opennetworking.org/sd-core/) - A 4G/5G core based on [OMEC](https://www.opennetworking.org/omec/) for 4G and a fork of [Free5GC](https://www.free5gc.org/) for 5G, with a P4-based UPF. Per-NF repos: [AMF](https://github.com/omec-project/amf), [SMF](https://github.com/omec-project/smf), [AUSF](https://github.com/omec-project/ausf), [NRF](https://github.com/omec-project/nrf), [PCF](https://github.com/omec-project/pcf), [UDM](https://github.com/omec-project/udm), [UDR](https://github.com/omec-project/udr), [N3IWF](https://github.com/omec-project/n3iwf), [NGAP](https://github.com/omec-project/ngap), [NAS](https://github.com/omec-project/nas), [SIMAPP](https://github.com/omec-project/simapp).
 - [Magma](https://github.com/magma/magma) `[2026-05]` - Rearchitected core network with access gateway (MME+P/SGW), federation gateway for auth (S6a) and billing (Gx, Gy). Initiated by FB on a the OAI EPC code base.
 - ⚠️ [5GCoreNetSDK](https://github.com/5GCoreNet/5GCoreNetSDK) `[2023-06]` - 5GCoreNetSDK is a fully-featured Golang SDK for developing inside 5GC (Release-18).
 - [eupf](https://github.com/edgecomllc/eupf) `[2026-02]` - Open Source UPF built on eBPF.
@@ -480,50 +468,9 @@ For research and debugging:
 - [simple_measurement_of_upf_performance_9](https://github.com/s5uishida/simple_measurement_of_upf_performance_9) `[2026-01]` - Simple Measurement of UPF Performance 9.
 - [Open5gs_Config](https://github.com/herlesupreeth/Open5gs_Config) `[2021-05]` - Open5gs Configuration files for IMS/VoLTE.
 - [docker-open5gs-basic-config](https://codeberg.org/boxedtoast/docker-open5gs-basic-config) - Stripped down LTE only open5gs docker configs. Hosted on **Codeberg**.
-- [open5gs_5gc_ueransim_sample_config](https://github.com/s5uishida/open5gs_5gc_ueransim_sample_config) `[2024-05]` - Open5GS 5GC & UERANSIM UE / RAN Sample Configuration. Part of Open5GS/free5GC sample configs (s5uishida).
-- [free5gc_ueransim_sample_config](https://github.com/s5uishida/free5gc_ueransim_sample_config) `[2024-03]` - free5GC 5GC & UERANSIM UE / RAN Sample Configuration. Part of Open5GS/free5GC sample configs (s5uishida).
-- [open5gs_epc_oai_sample_config](https://github.com/s5uishida/open5gs_epc_oai_sample_config) `[2024-05]` - Open5GS EPC & OpenAirInterface UE / RAN Sample Configuration. Part of Open5GS/free5GC sample configs (s5uishida).
-- [open5gs_5gc_ueransim_metrics_sample_config](https://github.com/s5uishida/open5gs_5gc_ueransim_metrics_sample_config) `[2023-10]` - Open5GS 5GC & UERANSIM UE / RAN Sample Configuration - Monitoring Metrics with Prometheus. Part of Open5GS/free5GC sample configs (s5uishida).
-- [open5gs_5gc_srsran_sample_config](https://github.com/s5uishida/open5gs_5gc_srsran_sample_config) `[2025-05]` - Open5GS 5GC & srsRAN 5G with ZeroMQ UE / RAN Sample Configuration. Part of Open5GS/free5GC sample configs (s5uishida).
-- [free5gc_srsran_sample_config](https://github.com/s5uishida/free5gc_srsran_sample_config) `[2025-05]` - free5GC 5GC & srsRAN 5G with ZeroMQ UE / RAN Sample Configuration. Part of Open5GS/free5GC sample configs (s5uishida).
-- [open5gs_5gc_ueransim_snssai_upf_sample_config](https://github.com/s5uishida/open5gs_5gc_ueransim_snssai_upf_sample_config) `[2024-04]` - Open5GS 5GC & UERANSIM UE / RAN Sample Configuration - Select UPF based on S-NSSAI. Part of Open5GS/free5GC sample configs (s5uishida).
-- [open5gs_5gc_ueransim_nearby_upf_sample_config](https://github.com/s5uishida/open5gs_5gc_ueransim_nearby_upf_sample_config) `[2024-04]` - Open5GS 5GC & UERANSIM UE / RAN Sample Configuration - Select nearby UPF according to the connected gNodeB. Part of Open5GS/free5GC sample configs (s5uishida).
-- [open5gs_5gc_ueransim_vpp_upf_dpdk_sample_config](https://github.com/s5uishida/open5gs_5gc_ueransim_vpp_upf_dpdk_sample_config) `[2025-12]` - Open5GS 5GC & UERANSIM UE / RAN Sample Configuration - UPG-VPP(DPDK/VPP UPF). Part of Open5GS/free5GC sample configs (s5uishida).
-- [free5gc_ueransim_nearby_upf_sample_config](https://github.com/s5uishida/free5gc_ueransim_nearby_upf_sample_config) `[2024-03]` - free5GC 5GC & UERANSIM UE / RAN Sample Configuration - Select nearby UPF according to the connected gNodeB. Part of Open5GS/free5GC sample configs (s5uishida).
-- [open5gs_epc_srsran_sample_config](https://github.com/s5uishida/open5gs_epc_srsran_sample_config) `[2026-02]` - Open5GS EPC & srsRAN_4G with ZeroMQ UE / RAN Sample Configuration. Part of Open5GS/free5GC sample configs (s5uishida).
-- [free5gc_ueransim_vpp_upf_dpdk_sample_config](https://github.com/s5uishida/free5gc_ueransim_vpp_upf_dpdk_sample_config) `[2025-12]` - free5GC 5GC & UERANSIM UE / RAN Sample Configuration - UPG-VPP(DPDK/VPP UPF). Part of Open5GS/free5GC sample configs (s5uishida).
-- [open5gs_5gc_ueransim_eupf_sample_config](https://github.com/s5uishida/open5gs_5gc_ueransim_eupf_sample_config) `[2025-05]` - Open5GS 5GC & UERANSIM UE / RAN Sample Configuration - eUPF(eBPF/XDP UPF). Part of Open5GS/free5GC sample configs (s5uishida).
-- [open5gs_epc_srsran_eupf_sample_config](https://github.com/s5uishida/open5gs_epc_srsran_eupf_sample_config) `[2026-02]` - Open5GS EPC & srsRAN_4G with ZeroMQ UE / RAN Sample Configuration - eUPF(eBPF/XDP UPF(PGW-U)). Part of Open5GS/free5GC sample configs (s5uishida).
-- [free5gc_ueransim_ulcl_sample_config](https://github.com/s5uishida/free5gc_ueransim_ulcl_sample_config) `[2025-03]` - free5GC 5GC & UERANSIM UE / RAN Sample Configuration - ULCL(Uplink Classifier). Part of Open5GS/free5GC sample configs (s5uishida).
-- [free5gc_ueransim_ulcl_2_sample_config](https://github.com/s5uishida/free5gc_ueransim_ulcl_2_sample_config) `[2025-03]` - free5GC 5GC & UERANSIM UE / RAN Sample Configuration - ULCL with one I-UPF and two PSA-UPFs. Part of Open5GS/free5GC sample configs (s5uishida).
-- [free5gc_ueransim_snssai_upf_sample_config](https://github.com/s5uishida/free5gc_ueransim_snssai_upf_sample_config) `[2024-03]` - free5GC 5GC & UERANSIM UE / RAN Sample Configuration - Select UPF based on S-NSSAI. Part of Open5GS/free5GC sample configs (s5uishida).
-- [open5gs_5gc_ueransim_scp_model_c_sample_config](https://github.com/s5uishida/open5gs_5gc_ueransim_scp_model_c_sample_config) `[2023-10]` - Open5GS 5GC & UERANSIM UE / RAN Sample Configuration - SCP Indirect communication Model C. Part of Open5GS/free5GC sample configs (s5uishida).
-- [openapi](https://github.com/free5gc/openapi) `[2026-05]` - Part of free5GC NF modules.
-- [webconsole](https://github.com/free5gc/webconsole) `[2026-05]` - Part of free5GC NF modules.
-- [smf](https://github.com/free5gc/smf) `[2026-05]` - Part of free5GC NF modules.
-- [n3iwf](https://github.com/free5gc/n3iwf) `[2026-05]` - Part of free5GC NF modules.
-- [pfcp](https://github.com/free5gc/pfcp) `[2026-05]` - Part of free5GC NF modules.
-- [ngap](https://github.com/free5gc/ngap) `[2026-05]` - Part of free5GC NF modules.
-- [nas](https://github.com/free5gc/nas) `[2026-05]` - Part of free5GC NF modules.
-- [nrf](https://github.com/free5gc/nrf) `[2026-05]` - Part of free5GC NF modules.
-- [go-gtp5gnl](https://github.com/free5gc/go-gtp5gnl) `[2026-05]` - Part of free5GC NF modules.
-- [pcf](https://github.com/free5gc/pcf) `[2026-05]` - Part of free5GC NF modules.
-- [udm](https://github.com/free5gc/udm) `[2026-04]` - Part of free5GC NF modules.
-- [tngfue](https://github.com/free5gc/tngfue) `[2025-11]` - Part of free5GC NF modules.
-- [nssf](https://github.com/free5gc/nssf) `[2026-04]` - Part of free5GC NF modules.
-- [tlv](https://github.com/free5gc/tlv) `[2026-05]` - Part of free5GC NF modules.
-- [ausf](https://github.com/free5gc/ausf) `[2026-05]` - Part of free5GC NF modules.
-- [util](https://github.com/free5gc/util) `[2026-05]` - Part of free5GC NF modules.
-- [tngf](https://github.com/free5gc/tngf) `[2026-05]` - Part of free5GC NF modules.
-- [sctp](https://github.com/free5gc/sctp) `[2026-05]` - Part of free5GC NF modules.
-- [udr](https://github.com/free5gc/udr) `[2026-04]` - Part of free5GC NF modules.
-- [nef](https://github.com/free5gc/nef) `[2026-04]` - Part of free5GC NF modules.
-- [smf](https://github.com/omec-project/smf) `[2026-05]` - Part of SD-Core / OMEC NF modules.
-- [udm](https://github.com/omec-project/udm) `[2026-05]` - Part of SD-Core / OMEC NF modules.
-- [udr](https://github.com/omec-project/udr) `[2026-05]` - Part of SD-Core / OMEC NF modules.
-- [n3iwf](https://github.com/omec-project/n3iwf) `[2026-05]` - Part of SD-Core / OMEC NF modules.
-- [5g-ngap](https://github.com/sigscale/5g-ngap) `[2023-06]` - NG Application Protocol (NGAP) (3GPP TS 38.413). Part of SigScale Helm/K8s assets.
-- [upf-benchmark](https://gitea.osmocom.org/cellular-infrastructure/upf-benchmark) - Tools and configs to set up UPF benchmarking. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
+- [s5uishida sample-config catalog](https://github.com/s5uishida) - Reference deployment configurations for Open5GS/free5GC + UERANSIM/srsRAN/OAI permutations. Topology variants: [Open5GS+UERANSIM](https://github.com/s5uishida/open5gs_5gc_ueransim_sample_config), [free5GC+UERANSIM](https://github.com/s5uishida/free5gc_ueransim_sample_config), [Open5GS EPC+OAI](https://github.com/s5uishida/open5gs_epc_oai_sample_config), [Open5GS+srsRAN](https://github.com/s5uishida/open5gs_5gc_srsran_sample_config), [free5GC+srsRAN](https://github.com/s5uishida/free5gc_srsran_sample_config), [Open5GS EPC+srsRAN](https://github.com/s5uishida/open5gs_epc_srsran_sample_config). Feature variants: [Prometheus metrics](https://github.com/s5uishida/open5gs_5gc_ueransim_metrics_sample_config), [S-NSSAI UPF select (Open5GS)](https://github.com/s5uishida/open5gs_5gc_ueransim_snssai_upf_sample_config) / [(free5GC)](https://github.com/s5uishida/free5gc_ueransim_snssai_upf_sample_config), [nearby UPF (Open5GS)](https://github.com/s5uishida/open5gs_5gc_ueransim_nearby_upf_sample_config) / [(free5GC)](https://github.com/s5uishida/free5gc_ueransim_nearby_upf_sample_config), VPP/DPDK UPF [(Open5GS)](https://github.com/s5uishida/open5gs_5gc_ueransim_vpp_upf_dpdk_sample_config) / [(free5GC)](https://github.com/s5uishida/free5gc_ueransim_vpp_upf_dpdk_sample_config), eUPF [(Open5GS 5GC)](https://github.com/s5uishida/open5gs_5gc_ueransim_eupf_sample_config) / [(Open5GS EPC)](https://github.com/s5uishida/open5gs_epc_srsran_eupf_sample_config), ULCL [(simple)](https://github.com/s5uishida/free5gc_ueransim_ulcl_sample_config) / [(I-UPF + 2 PSA-UPFs)](https://github.com/s5uishida/free5gc_ueransim_ulcl_2_sample_config), [SCP Model C](https://github.com/s5uishida/open5gs_5gc_ueransim_scp_model_c_sample_config).
+- [5g-ngap](https://github.com/sigscale/5g-ngap) `[2023-06]` - NG Application Protocol (NGAP) (3GPP TS 38.413).
+- [upf-benchmark](https://gitea.osmocom.org/cellular-infrastructure/upf-benchmark) - Tools and configs to set up UPF benchmarking. Hosted on **Osmocom Gitea**.
 ### 4G
 
 - ⚠️ [NextEPC](https://nextepc.org) - R13 4G EPC core with independent MME, HSS, SGW, PGW, PCRF functions. [github](https://github.com/nextepc/) _Superseded by Open5GS._
@@ -567,33 +514,33 @@ For research and debugging:
 - [osmo-tacdb](https://gitea.osmocom.org/osmocom/osmo-tacdb) - TAC DB + Android app to collect them. Hosted on **Osmocom Gitea**.
 - [osmo-codegen](https://gitea.osmocom.org/osmocom/osmo-codegen) - WIP Code Generator for GSM 04.08 encoder/decoder. Hosted on **Osmocom Gitea**.
 - [osmo-adsb-gen](https://gitea.osmocom.org/sdr/osmo-adsb-gen) - Osmcoom ADS-B test signal generator. Hosted on **Osmocom Gitea**.
-- [ergw-pgw](https://github.com/travelping/ergw-pgw) `[2018-02]` - PGW GGSN Docker Container. Part of Travelping ergw GTP nodes.
-- [osmo-bsc-nat](https://gitea.osmocom.org/cellular-infrastructure/osmo-bsc-nat) - Osmocom BSC NAT: Aggregate multiple BSCs (A interfaces) in one BSC/A-interface. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-bsc](https://gitea.osmocom.org/cellular-infrastructure/osmo-bsc) - Osmocom's Base Station Controller for 2G mobile networks. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-bts](https://gitea.osmocom.org/cellular-infrastructure/osmo-bts) - Osmocom Base Transceiver Station (BTS). Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-msc](https://gitea.osmocom.org/cellular-infrastructure/osmo-msc) - Osmocom Mobile Switching Centre. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-sgsn](https://gitea.osmocom.org/cellular-infrastructure/osmo-sgsn) - Osmocom Serving GPRS Support Node for 2G(GPRS) and 3G(UMTS). Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-ggsn](https://gitea.osmocom.org/cellular-infrastructure/osmo-ggsn) - Osmocom Gateway GPRS Support Node (GGSN), successor of OpenGGSN. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-gsm-tester](https://gitea.osmocom.org/cellular-infrastructure/osmo-gsm-tester) - Osmocom GSM Tester, jenkins integrated GSM hardware testing. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-gsm-manuals](https://gitea.osmocom.org/cellular-infrastructure/osmo-gsm-manuals) - Official Osmocom User Manuals (shared / common parts and build scripts). Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-hnbgw](https://gitea.osmocom.org/cellular-infrastructure/osmo-hnbgw) - Osmocom Home NodeB Gateway, for attaching femtocells to the 3G CN (OsmoMSC, OsmoSGSN). Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-hlr](https://gitea.osmocom.org/cellular-infrastructure/osmo-hlr) - Osmocom HLR for GSUP protocol towards OsmoSGSN and OsmoMSC. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-pcu](https://gitea.osmocom.org/cellular-infrastructure/osmo-pcu) - Osmocom Packet control Unit (PCU): Network-side GPRS (RLC/MAC); BTS- or BSC-colocated. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-gbproxy](https://gitea.osmocom.org/cellular-infrastructure/osmo-gbproxy) - Omocom GPRS Gb interface aggregation/conversion proxy (between PCU/BSS and SGSN). Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-iuh](https://gitea.osmocom.org/cellular-infrastructure/osmo-iuh) - Osmocom code for the Iuh interface (HNBAP, RUA, RANAP). Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-el2tpd](https://gitea.osmocom.org/cellular-infrastructure/osmo-el2tpd) - Osmocom L2TP daemon compatible with Ericsson L2TP dialect (SIU). Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-python-tests](https://gitea.osmocom.org/cellular-infrastructure/osmo-python-tests) - Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-hnodeb](https://gitea.osmocom.org/cellular-infrastructure/osmo-hnodeb) - (upper layers of) HomeNodeB. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-e1-recorder](https://gitea.osmocom.org/cellular-infrastructure/osmo-e1-recorder) - Osmocom E1/T1 span recorder. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-bts-amp](https://gitea.osmocom.org/cellular-infrastructure/osmo-bts-amp) - BTS side amplifier (PA+LNA+Duplexer). Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-rbs](https://gitea.osmocom.org/cellular-infrastructure/osmo-rbs) - Tools for experimentation with Ericsson RBS. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-abi-check](https://gitea.osmocom.org/cellular-infrastructure/osmo-abi-check) - Osmocom ABI Check. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo-subscr-impex](https://gitea.osmocom.org/sim-card/osmo-subscr-impex) - Osmocom subscriber authentication data importer/exporter. Hosted on **Osmocom Gitea**. Part of Osmocom SIM tooling (gitea).
-- [osmo-ccid-firmware](https://gitea.osmocom.org/sim-card/osmo-ccid-firmware) - USB CCID firmware project for (currently only) sysmoOCTSIM. Hosted on **Osmocom Gitea**. Part of Osmocom SIM tooling (gitea).
-- [osmo-remsim](https://gitea.osmocom.org/sim-card/osmo-remsim) - Osmocom Remote SIM Software Suite. Hosted on **Osmocom Gitea**. Part of Osmocom SIM tooling (gitea).
-- [osmo-sim-auth](https://gitea.osmocom.org/sim-card/osmo-sim-auth) - A command line tool for (U)SIM authentication. Hosted on **Osmocom Gitea**. Part of Osmocom SIM tooling (gitea).
-- [osmo_gsup](https://gitea.osmocom.org/erlang/osmo_gsup) - Erlang implementation of GSUP codec. Hosted on **Osmocom Gitea**. Part of Osmocom SS7 Erlang stack (gitea).
-- [mgw_nat](https://gitea.osmocom.org/erlang/mgw_nat) - Erlang MGW NAT/MASQ implementation. Hosted on **Osmocom Gitea**. Part of Osmocom SS7 Erlang stack (gitea).
+- [ergw-pgw](https://github.com/travelping/ergw-pgw) `[2018-02]` - PGW GGSN Docker Container.
+- [osmo-bsc-nat](https://gitea.osmocom.org/cellular-infrastructure/osmo-bsc-nat) - Osmocom BSC NAT: Aggregate multiple BSCs (A interfaces) in one BSC/A-interface. Hosted on **Osmocom Gitea**.
+- [osmo-bsc](https://gitea.osmocom.org/cellular-infrastructure/osmo-bsc) - Osmocom's Base Station Controller for 2G mobile networks. Hosted on **Osmocom Gitea**.
+- [osmo-bts](https://gitea.osmocom.org/cellular-infrastructure/osmo-bts) - Osmocom Base Transceiver Station (BTS). Hosted on **Osmocom Gitea**.
+- [osmo-msc](https://gitea.osmocom.org/cellular-infrastructure/osmo-msc) - Osmocom Mobile Switching Centre. Hosted on **Osmocom Gitea**.
+- [osmo-sgsn](https://gitea.osmocom.org/cellular-infrastructure/osmo-sgsn) - Osmocom Serving GPRS Support Node for 2G(GPRS) and 3G(UMTS). Hosted on **Osmocom Gitea**.
+- [osmo-ggsn](https://gitea.osmocom.org/cellular-infrastructure/osmo-ggsn) - Osmocom Gateway GPRS Support Node (GGSN), successor of OpenGGSN. Hosted on **Osmocom Gitea**.
+- [osmo-gsm-tester](https://gitea.osmocom.org/cellular-infrastructure/osmo-gsm-tester) - Osmocom GSM Tester, jenkins integrated GSM hardware testing. Hosted on **Osmocom Gitea**.
+- [osmo-gsm-manuals](https://gitea.osmocom.org/cellular-infrastructure/osmo-gsm-manuals) - Official Osmocom User Manuals (shared / common parts and build scripts). Hosted on **Osmocom Gitea**.
+- [osmo-hnbgw](https://gitea.osmocom.org/cellular-infrastructure/osmo-hnbgw) - Osmocom Home NodeB Gateway, for attaching femtocells to the 3G CN (OsmoMSC, OsmoSGSN). Hosted on **Osmocom Gitea**.
+- [osmo-hlr](https://gitea.osmocom.org/cellular-infrastructure/osmo-hlr) - Osmocom HLR for GSUP protocol towards OsmoSGSN and OsmoMSC. Hosted on **Osmocom Gitea**.
+- [osmo-pcu](https://gitea.osmocom.org/cellular-infrastructure/osmo-pcu) - Osmocom Packet control Unit (PCU): Network-side GPRS (RLC/MAC); BTS- or BSC-colocated. Hosted on **Osmocom Gitea**.
+- [osmo-gbproxy](https://gitea.osmocom.org/cellular-infrastructure/osmo-gbproxy) - Omocom GPRS Gb interface aggregation/conversion proxy (between PCU/BSS and SGSN). Hosted on **Osmocom Gitea**.
+- [osmo-iuh](https://gitea.osmocom.org/cellular-infrastructure/osmo-iuh) - Osmocom code for the Iuh interface (HNBAP, RUA, RANAP). Hosted on **Osmocom Gitea**.
+- [osmo-el2tpd](https://gitea.osmocom.org/cellular-infrastructure/osmo-el2tpd) - Osmocom L2TP daemon compatible with Ericsson L2TP dialect (SIU). Hosted on **Osmocom Gitea**.
+- [osmo-python-tests](https://gitea.osmocom.org/cellular-infrastructure/osmo-python-tests) - Hosted on **Osmocom Gitea**.
+- [osmo-hnodeb](https://gitea.osmocom.org/cellular-infrastructure/osmo-hnodeb) - (upper layers of) HomeNodeB. Hosted on **Osmocom Gitea**.
+- [osmo-e1-recorder](https://gitea.osmocom.org/cellular-infrastructure/osmo-e1-recorder) - Osmocom E1/T1 span recorder. Hosted on **Osmocom Gitea**.
+- [osmo-bts-amp](https://gitea.osmocom.org/cellular-infrastructure/osmo-bts-amp) - BTS side amplifier (PA+LNA+Duplexer). Hosted on **Osmocom Gitea**.
+- [osmo-rbs](https://gitea.osmocom.org/cellular-infrastructure/osmo-rbs) - Tools for experimentation with Ericsson RBS. Hosted on **Osmocom Gitea**.
+- [osmo-abi-check](https://gitea.osmocom.org/cellular-infrastructure/osmo-abi-check) - Osmocom ABI Check. Hosted on **Osmocom Gitea**.
+- [osmo-subscr-impex](https://gitea.osmocom.org/sim-card/osmo-subscr-impex) - Osmocom subscriber authentication data importer/exporter. Hosted on **Osmocom Gitea**.
+- [osmo-ccid-firmware](https://gitea.osmocom.org/sim-card/osmo-ccid-firmware) - USB CCID firmware project for (currently only) sysmoOCTSIM. Hosted on **Osmocom Gitea**.
+- [osmo-remsim](https://gitea.osmocom.org/sim-card/osmo-remsim) - Osmocom Remote SIM Software Suite. Hosted on **Osmocom Gitea**.
+- [osmo-sim-auth](https://gitea.osmocom.org/sim-card/osmo-sim-auth) - A command line tool for (U)SIM authentication. Hosted on **Osmocom Gitea**.
+- [osmo_gsup](https://gitea.osmocom.org/erlang/osmo_gsup) - Erlang implementation of GSUP codec. Hosted on **Osmocom Gitea**.
+- [mgw_nat](https://gitea.osmocom.org/erlang/mgw_nat) - Erlang MGW NAT/MASQ implementation. Hosted on **Osmocom Gitea**.
 ### OSS/BSS
 
 - [Sigscale OCS](https://github.com/sigscale/ocs) `[2026-05]` - SigScale OCS includes a 3GPP AAA server function for authentication, authorization and accounting (AAA) of subscribers using DIAMETER or RADIUS protocols.
@@ -610,7 +557,7 @@ For research and debugging:
 
 
 - [hepsub-voipmonitor](https://github.com/sipcapture/hepsub-voipmonitor) `[2019-05]` - HEP Pub-Sub Client for OSS Voipmonitor Sniffer.
-- [rate-o-mat](https://github.com/sipwise/rate-o-mat) `[2026-05]` - Rating daemon for the NGCP. Part of Sipwise NGCP components.
+- [rate-o-mat](https://github.com/sipwise/rate-o-mat) `[2026-05]` - Rating daemon for the NGCP.
 ## Interconnect
 
 ### SBC, IMS
@@ -621,9 +568,9 @@ For research and debugging:
 - [go-eventsocket](https://github.com/fiorix/go-eventsocket) `[2024-09]` - FreeSWITCH Event Socket library for the Go programming language.
 - [Asterisk](https://github.com/asterisk/asterisk) `[2026-05]` - The most widely deployed open-source PBX and telephony engine. SIP, PJSIP, WebRTC, conferencing, and IVR.
 - [PJSIP](https://github.com/pjsip/pjproject) `[2026-05]` - Free and open-source multimedia communication library implementing SIP, SDP, RTP, STUN, TURN, and ICE. Foundation for many VoIP/IMS clients.
-- [HOMER](https://github.com/sipcapture/homer) `[2026-05]` - 100% Open-Source SIP/VoIP/RTC packet capture and monitoring platform. Essential for VoLTE/VoWiFi troubleshooting.
+- [HOMER](https://github.com/sipcapture/homer) `[2026-05]` - 100% Open-Source SIP/VoIP/RTC packet capture and monitoring platform. Essential for VoLTE/VoWiFi troubleshooting. Ecosystem: [homer-ui](https://github.com/sipcapture/homer-ui), Docker variants ([10](https://github.com/sipcapture/homer-docker), [7](https://github.com/sipcapture/homer7-docker), [5](https://github.com/sipcapture/homer5-docker)), [installer](https://github.com/sipcapture/homer-installer), [config](https://github.com/sipcapture/homer-config), [puppet](https://github.com/sipcapture/homer-puppet), [snmp bridge](https://github.com/sipcapture/homer-snmp), legacy viewers ([homer-view](https://github.com/sipcapture/homer-view), [react](https://github.com/sipcapture/homer-view-react)).
 - [Routr](https://github.com/fonoster/routr) `[2026-05]` - A programmable, cloud-native SIP server for building modern telephony systems.
-- [OpenSIPS](https://opensips.org/) - GPL multi-functional SIP server: proxy, registrar, load balancer, SBC, NAT traversal. Former OpenSER. [SourceForge (legacy)](https://sourceforge.net/projects/opensips/) / [GitHub](https://github.com/OpenSIPS/opensips).
+- [OpenSIPS](https://opensips.org/) - GPL multi-functional SIP server: proxy, registrar, load balancer, SBC, NAT traversal. Former OpenSER. [SourceForge (legacy)](https://sourceforge.net/projects/opensips/) / [GitHub](https://github.com/OpenSIPS/opensips). Community Edition platforms: [SBC CE](https://github.com/OpenSIPS/opensips-sbc-ce), [SoftSwitch CE](https://github.com/OpenSIPS/opensips-softswitch-ce) ([config](https://github.com/OpenSIPS/opensips-softswitch-ce-config)), [AI Voice Connector CE](https://github.com/OpenSIPS/opensips-ai-voice-connector-ce). Other: [opensips-js](https://github.com/OpenSIPS/opensips-js) (browser SIP), [opensips-ng](https://github.com/OpenSIPS/opensips-ng) (next-gen prototype).
 - [OpenIMSs](https://github.com/VoicenterTeam/openimss) `[2023-10]` - Open source environment for real-life development of IMS-based 4G/5G/NR voice/video/data/RCS services. Extends docker_open5gs.
 - [FusionPBX](https://www.fusionpbx.com/) - Multi-tenant PBX and voice switch for FreeSWITCH with IVR, call center, provisioning and more. [SourceForge](https://sourceforge.net/directory/pbx/).
 - [DjangoPBX](https://codeberg.org/DjangoPBX/DjangoPBX) `[2026-02]` - Full-featured domain-based multi-tenant PBX driven by Django and FreeSWITCH with REST API, call center, and provisioning. Hosted on **Codeberg**.
@@ -680,16 +627,6 @@ For research and debugging:
 - [osmo-sysmon](https://gitea.osmocom.org/osmocom/osmo-sysmon) - Osmocom System Monitor. Hosted on **Osmocom Gitea**.
 - [wireshark-mate](https://gitea.osmocom.org/osmocom/wireshark-mate) - wireshark MATE configuration for use with GSM/UMTS/LTE protocols. Hosted on **Osmocom Gitea**.
 - [osmo-pcap-reiniger](https://gitea.osmocom.org/osmocom/osmo-pcap-reiniger) - tool for anonymization of (telecom) PCAP files. Hosted on **Osmocom Gitea**.
-- [homer7-docker](https://github.com/sipcapture/homer7-docker) `[2026-02]` - HOMER 7 Docker Images. Part of HOMER ecosystem.
-- [homer-ui](https://github.com/sipcapture/homer-ui) `[2026-05]` - HOMER Front-End Application (UI). Part of HOMER ecosystem.
-- [homer5-docker](https://github.com/sipcapture/homer5-docker) `[2021-08]` - HOMER 5 Docker Containers (OBSOLETE). Part of HOMER ecosystem.
-- [homer-installer](https://github.com/sipcapture/homer-installer) `[2025-09]` - HOMER Install Scripts and Install Packages. Part of HOMER ecosystem.
-- [homer-docker](https://github.com/sipcapture/homer-docker) `[2024-05]` - HOMER 10 Docker. Part of HOMER ecosystem.
-- [homer-config](https://github.com/sipcapture/homer-config) `[2018-03]` - HOMER Project Configuration Repo. Part of HOMER ecosystem.
-- [homer-view-react](https://github.com/sipcapture/homer-view-react) `[2023-02]` - Experimental React Viewer for HEP APIs. Part of HOMER ecosystem.
-- [homer-view](https://github.com/sipcapture/homer-view) `[2023-10]` - Homer view interface for sharing. Part of HOMER ecosystem.
-- [homer-snmp](https://github.com/sipcapture/homer-snmp) `[2016-07]` - HOMER SNMP Bridge. Part of HOMER ecosystem.
-- [homer-puppet](https://github.com/sipcapture/homer-puppet) `[2017-02]` - HOMER Puppet Modules. Part of HOMER ecosystem.
 
 - [ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit) `[2026-05]` - WebRTC/RTSP/RTMP/HTTP/HLS/HTTP-FLV/WebSocket-FLV/HTTP-TS/HTTP-fMP4/WebSocket-TS/WebSocket-fMP4/GB28181/SRT/STUN/TURN server and client framework based on C++11.
 - [stunner](https://github.com/firefart/stunner) `[2026-05]` - Stunner is a tool to test and exploit STUN, TURN and TURN over TCP servers.
@@ -706,10 +643,10 @@ For research and debugging:
 - [coturn-secure-config](https://github.com/EnableSecurity/coturn-secure-config) `[2026-02]` - Secure configuration templates for coturn TURN server with Docker test environment.
 - [docker-eturnal](https://github.com/tiredofit/docker-eturnal) `[2025-05]` - Dockerized STUN/TURN server.
 - [LetItSno](https://codeberg.org/leecowdrey/LetItSno) - Bare metal server configuration steps for hosting OpenShift inside virtual machines, in turn provided nested virtualization. Hosted on **Codeberg**.
-- [webrtc-test](https://github.com/RestComm/webrtc-test) `[2018-05]` - Framework for functional and Load Testing of WebRTC. Part of RestComm components.
-- [webrtcomm](https://github.com/RestComm/webrtcomm) `[2018-06]` - WebRTCComm is a simple high level JavaScript WebRTC framework for Web Developers to add Real Time Communications and IM Capabilities to any website. Part of RestComm components.
-- [olympus](https://github.com/RestComm/olympus) `[2022-11]` - RestComm WebRTC Application. Part of RestComm components.
-- [restcomm-web-sdk](https://github.com/RestComm/restcomm-web-sdk) `[2018-12]` - RestComm WebRTC JavaScript SDK. Part of RestComm components.
+- [webrtc-test](https://github.com/RestComm/webrtc-test) `[2018-05]` - Framework for functional and Load Testing of WebRTC.
+- [webrtcomm](https://github.com/RestComm/webrtcomm) `[2018-06]` - WebRTCComm is a simple high level JavaScript WebRTC framework for Web Developers to add Real Time Communications and IM Capabilities to any website.
+- [olympus](https://github.com/RestComm/olympus) `[2022-11]` - RestComm WebRTC Application.
+- [restcomm-web-sdk](https://github.com/RestComm/restcomm-web-sdk) `[2018-12]` - RestComm WebRTC JavaScript SDK.
 
 - [mediamtx](https://github.com/bluenviron/mediamtx) `[2026-05]` - Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS / MPEG-TS / RTP media server and media proxy that allows to read, publish, proxy, record and playback video and audio streams.
 - [ejabberd](https://github.com/processone/ejabberd) `[2026-05]` - Robust, Ubiquitous and Massively Scalable Messaging Platform (XMPP, MQTT, SIP Server).
@@ -802,26 +739,20 @@ For research and debugging:
 - [ansible-prototype](https://gitea.osmocom.org/ims-volte-vowifi/ansible-prototype) - Hosted on **Osmocom Gitea**.
 - [SWu-IKEv2](https://gitea.osmocom.org/ims-volte-vowifi/SWu-IKEv2) - A IPsec/ikev2 client written in python for VoWifi testing. Upstream: https://github.com/fasferraz/SWu-IKEv2. Hosted on **Osmocom Gitea**.
 - [asterisk-conf](https://codeberg.org/ol-telecom/asterisk-conf) - Hosted on **Codeberg**.
-- [Restcomm-Connect](https://github.com/RestComm/Restcomm-Connect) `[2023-04]` - The Open Source Cloud Communications Platform. Part of RestComm components.
-- [sip-servlets](https://github.com/RestComm/sip-servlets) `[2024-01]` - Leading SIP - IMS - WebRTC Application Server. Part of RestComm components.
-- [jain-sip](https://github.com/RestComm/jain-sip) `[2024-01]` - Disclaimer: This repository is a git-svn mirror of the project found at http://java.net/projects/jsip whose original repository is developed collaboratively by the Advanced Networking Technologies Division at the National Institute of Standards and Technology (NIST) - an agency of the United States Department of Commerce and by a community of in... Part of RestComm components.
-- [restcomm-android-sdk](https://github.com/RestComm/restcomm-android-sdk) `[2020-02]` - Android Mobile SDK to easily integrate communication features (WebRTC, messaging, presence, voice, video, screensharing) based on RestComm into native Mobile Applications. Part of RestComm components.
-- [sipunit](https://github.com/RestComm/sipunit) `[2023-04]` - Contains SipUnit SIP Testing framework. Part of RestComm components.
-- [jain-sip.ext](https://github.com/RestComm/jain-sip.ext) `[2024-01]` - JAIN-SIP-Ext provides extensions done by TeleStax, Inc. for some features that are not supported by the main jain sip stack, like DNS Support (RFC3263). Part of RestComm components.
-- [jain-sip.ha](https://github.com/RestComm/jain-sip.ha) `[2024-01]` - JAIN-SIP-HA : Provides extensions done by TeleStax for high availability and fault tolerance through replication of various states of the stack. It supports Call Established Failover or Early Dialog Failover. Part of RestComm components.
-- [tas](https://github.com/RestComm/tas) `[2018-05]` - VoLTE & VoWifi Telephony Application Server. Part of RestComm components.
-- [sip-presence-service](https://github.com/RestComm/sip-presence-service) `[2018-05]` - Mirror of http://code.google.com/p/sip-presence-service/. Part of RestComm components.
-- [jain-sip.docs](https://github.com/RestComm/jain-sip.docs) `[2018-05]` - Documentation for https://github.com/RestComm/jain-sip. Part of RestComm components.
-- [jain-slee.sip](https://github.com/RestComm/jain-slee.sip) `[2024-01]` - JAIN SLEE SIP Resource Adaptor Repository. Part of RestComm components.
-- [opensips-ai-voice-connector-ce](https://github.com/OpenSIPS/opensips-ai-voice-connector-ce) `[2025-11]` - OpenSIPS AI Voice Connector Community Edition Platform. Part of OpenSIPS CE platforms.
-- [opensips-softswitch-ce](https://github.com/OpenSIPS/opensips-softswitch-ce) `[2025-11]` - OpenSIPS SoftSwitch Community Edition Platform. Part of OpenSIPS CE platforms.
-- [opensips-ng](https://github.com/OpenSIPS/opensips-ng) `[2013-06]` - The Next Generation of the Sip Server is designed to enhance OpenSIPS with more flexibility and scallability. Part of OpenSIPS CE platforms.
-- [opensips-js](https://github.com/OpenSIPS/opensips-js) `[2026-04]` - Part of OpenSIPS CE platforms.
-- [opensips-sbc-ce](https://github.com/OpenSIPS/opensips-sbc-ce) `[2026-05]` - OpenSIPS SBC Community Edition Platform. Part of OpenSIPS CE platforms.
-- [opensips-softswitch-ce-config](https://github.com/OpenSIPS/opensips-softswitch-ce-config) `[2024-10]` - OpenSIPS SoftSwitch Community Edition Configuration file. Part of OpenSIPS CE platforms.
-- [ngrep-sip](https://github.com/sipwise/ngrep-sip) `[2026-04]` - capture SIP flow based on ngrep command. Part of Sipwise NGCP components.
-- [kamailio-config-tests](https://github.com/sipwise/kamailio-config-tests) `[2026-05]` - Kamailio configuration tests. Part of Sipwise NGCP components.
-- [osmo-mgw](https://gitea.osmocom.org/cellular-infrastructure/osmo-mgw) - Osmocom Media Gateway (RTP proxy and RTP/E1 gateway). Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
+- [Restcomm-Connect](https://github.com/RestComm/Restcomm-Connect) `[2023-04]` - The Open Source Cloud Communications Platform.
+- [sip-servlets](https://github.com/RestComm/sip-servlets) `[2024-01]` - Leading SIP - IMS - WebRTC Application Server.
+- [jain-sip](https://github.com/RestComm/jain-sip) `[2024-01]` - Disclaimer: This repository is a git-svn mirror of the project found at http://java.net/projects/jsip whose original repository is developed collaboratively by the Advanced Networking Technologies Division at the National Institute of Standards and Technology (NIST) - an agency of the United States Department of Commerce and by a community of in...
+- [restcomm-android-sdk](https://github.com/RestComm/restcomm-android-sdk) `[2020-02]` - Android Mobile SDK to easily integrate communication features (WebRTC, messaging, presence, voice, video, screensharing) based on RestComm into native Mobile Applications.
+- [sipunit](https://github.com/RestComm/sipunit) `[2023-04]` - Contains SipUnit SIP Testing framework.
+- [jain-sip.ext](https://github.com/RestComm/jain-sip.ext) `[2024-01]` - JAIN-SIP-Ext provides extensions done by TeleStax, Inc. for some features that are not supported by the main jain sip stack, like DNS Support (RFC3263).
+- [jain-sip.ha](https://github.com/RestComm/jain-sip.ha) `[2024-01]` - JAIN-SIP-HA : Provides extensions done by TeleStax for high availability and fault tolerance through replication of various states of the stack. It supports Call Established Failover or Early Dialog Failover.
+- [tas](https://github.com/RestComm/tas) `[2018-05]` - VoLTE & VoWifi Telephony Application Server.
+- [sip-presence-service](https://github.com/RestComm/sip-presence-service) `[2018-05]` - Mirror of http://code.google.com/p/sip-presence-service/.
+- [jain-sip.docs](https://github.com/RestComm/jain-sip.docs) `[2018-05]` - Documentation for https://github.com/RestComm/jain-sip.
+- [jain-slee.sip](https://github.com/RestComm/jain-slee.sip) `[2024-01]` - JAIN SLEE SIP Resource Adaptor Repository.
+- [ngrep-sip](https://github.com/sipwise/ngrep-sip) `[2026-04]` - capture SIP flow based on ngrep command.
+- [kamailio-config-tests](https://github.com/sipwise/kamailio-config-tests) `[2026-05]` - Kamailio configuration tests.
+- [osmo-mgw](https://gitea.osmocom.org/cellular-infrastructure/osmo-mgw) - Osmocom Media Gateway (RTP proxy and RTP/E1 gateway). Hosted on **Osmocom Gitea**.
 ### SS7
 
 - [Restcomm SS7](https://github.com/restcomm/jss7) `[2024-06]` - Open Source Java SS7 stack that allows Java apps to communicate with legacy SS7 communications equipment.
@@ -843,10 +774,10 @@ For research and debugging:
 - [sms-api-server](https://github.com/fiorix/sms-api-server) `[2026-04]` - HTTP API to send SMS via SMPP.
 - [go-smpp](https://github.com/CursedHardware/go-smpp) `[2022-12]` - A complete implementation of SMPP v5 protocol, written in golang.
 - [sms_smsc](https://github.com/P1sec/sms_smsc) `[2014-07]` - Android application which allows sending SMS, with a specific SMSC without changing system defaults.
-- [smscgateway](https://github.com/RestComm/smscgateway) `[2024-01]` - RestComm SMS Gateway (SMSC) to send/receive SMS from/to Operators Network (GSM). Part of RestComm components.
-- [smpp-extensions](https://github.com/RestComm/smpp-extensions) `[2024-01]` - Extensions for configuration, management and monitoring of the Restcomm Cloudhopper SMPP Stack. Part of RestComm components.
-- [osmo_smsc](https://gitea.osmocom.org/erlang/osmo_smsc) - [WIP] Osmocom SMSC implementation in Erlang. Hosted on **Osmocom Gitea**. Part of Osmocom SS7 Erlang stack (gitea).
-- [libsmpp34](https://gitea.osmocom.org/cellular-infrastructure/libsmpp34) - Osmocom fork of Open SMPP 3.4 Library. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
+- [smscgateway](https://github.com/RestComm/smscgateway) `[2024-01]` - RestComm SMS Gateway (SMSC) to send/receive SMS from/to Operators Network (GSM).
+- [smpp-extensions](https://github.com/RestComm/smpp-extensions) `[2024-01]` - Extensions for configuration, management and monitoring of the Restcomm Cloudhopper SMPP Stack.
+- [osmo_smsc](https://gitea.osmocom.org/erlang/osmo_smsc) - [WIP] Osmocom SMSC implementation in Erlang. Hosted on **Osmocom Gitea**.
+- [libsmpp34](https://gitea.osmocom.org/cellular-infrastructure/libsmpp34) - Osmocom fork of Open SMPP 3.4 Library. Hosted on **Osmocom Gitea**.
 ## Satellite Communication
 - [Hughes_OneWeb_Monitor](https://github.com/nickvsnetworking/Hughes_OneWeb_Monitor) `[2025-04]` - Hughes OneWeb Terminal Prometheus Exporter
 - [SatNOGS](https://gitlab.com/librespacefoundation/satnogs) - Open Source Global Satellite Ground Station Network focused on LEO satellites, from the Libre Space Foundation. Hosted on **GitLab**.
@@ -938,12 +869,12 @@ For research and debugging:
 - [asn1c](https://gitea.osmocom.org/osmocom/asn1c) - asn1c (Lev Walkin) extended with features required by MAP/TCAP. Hosted on **Osmocom Gitea**.
 - [libosmo-sccp-legacy](https://gitea.osmocom.org/osmocom/libosmo-sccp-legacy) - Currently maintained software should use libosmo-sigtran instead. Hosted on **Osmocom Gitea**.
 - [libosmo-sccp](https://gitea.osmocom.org/osmocom/libosmo-sccp) - SCCP + SIGTRAN (SUA/M3UA) libraries as well as OsmoSTP. Hosted on **Osmocom Gitea**.
-- [osmo-uecups](https://gitea.osmocom.org/cellular-infrastructure/osmo-uecups) - Osmocom UE/MME/SGW/SGSN side GTP-U Implementation with control/user plane separation. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [libgtpnl](https://gitea.osmocom.org/cellular-infrastructure/libgtpnl) - netlink library for Linux kernel GTP code. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [asn1-ss7](https://gitea.osmocom.org/cellular-infrastructure/asn1-ss7) - ITU/ETSI/3GPP ASN1 files for TCAP, ROS, MAP and CAP. Hosted on **Osmocom Gitea**. Part of Osmocom 2G/3G core (gitea).
-- [osmo_ss7](https://gitea.osmocom.org/erlang/osmo_ss7) - Erlang implementation of M2UA/M3UA/MTP3/SCCP/ISUP codec + utils. Hosted on **Osmocom Gitea**. Part of Osmocom SS7 Erlang stack (gitea).
-- [osmo_map](https://gitea.osmocom.org/erlang/osmo_map) - Erlang implementation of TCAP/MAP. Hosted on **Osmocom Gitea**. Part of Osmocom SS7 Erlang stack (gitea).
-- [osmo_sccp](https://gitea.osmocom.org/erlang/osmo_sccp) - Erlang implementation of SCCP (ITU-T Q.71x). Hosted on **Osmocom Gitea**. Part of Osmocom SS7 Erlang stack (gitea).
+- [osmo-uecups](https://gitea.osmocom.org/cellular-infrastructure/osmo-uecups) - Osmocom UE/MME/SGW/SGSN side GTP-U Implementation with control/user plane separation. Hosted on **Osmocom Gitea**.
+- [libgtpnl](https://gitea.osmocom.org/cellular-infrastructure/libgtpnl) - netlink library for Linux kernel GTP code. Hosted on **Osmocom Gitea**.
+- [asn1-ss7](https://gitea.osmocom.org/cellular-infrastructure/asn1-ss7) - ITU/ETSI/3GPP ASN1 files for TCAP, ROS, MAP and CAP. Hosted on **Osmocom Gitea**.
+- [osmo_ss7](https://gitea.osmocom.org/erlang/osmo_ss7) - Erlang implementation of M2UA/M3UA/MTP3/SCCP/ISUP codec + utils. Hosted on **Osmocom Gitea**.
+- [osmo_map](https://gitea.osmocom.org/erlang/osmo_map) - Erlang implementation of TCAP/MAP. Hosted on **Osmocom Gitea**.
+- [osmo_sccp](https://gitea.osmocom.org/erlang/osmo_sccp) - Erlang implementation of SCCP (ITU-T Q.71x). Hosted on **Osmocom Gitea**.
 ### SCTP
 
 - [sctp](https://github.com/ishidawataru/sctp) `[2025-11]` - Stream Control Transmission Protocol (SCTP) in Go.
