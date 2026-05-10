@@ -1,0 +1,6 @@
+# Local Claude Code settings
+.claude/
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
