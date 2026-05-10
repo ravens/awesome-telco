@@ -20,6 +20,7 @@ import re
 import ssl
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -32,14 +33,14 @@ GITHUB_PATTERN = re.compile(
     r'\[([^\]]+)\]\(https?://github\.com/([^/]+)/([^/\)]+?)(?:\.git)?(?:/[^\)]*)?\)'
 )
 GITLAB_PATTERN = re.compile(
-    r'\[([^\]]+)\]\(https?://gitlab\.([^/]+)/([^/]+)/([^/\)]+?)(?:\.git)?(?:/[^\)]*)?\)'
+    r'\[([^\]]+)\]\(https?://gitlab\.([^/]+)/([^\)]+?)(?:\.git)?/?\)'
 )
 
 # Pattern to match existing freshness dates
 FRESHNESS_PATTERN = re.compile(r'`\[\d{4}-\d{2}\]`')
 
 
-def fetch_json(url: str, headers: dict = None) -> tuple[dict | None, str | None]:
+def fetch_json(url: str, headers: dict | None = None) -> tuple[dict | None, str | None]:
     """Fetch JSON from a URL.
 
     Returns:
@@ -71,7 +72,7 @@ def fetch_json(url: str, headers: dict = None) -> tuple[dict | None, str | None]
         elif e.code == 404:
             return None, "NOT FOUND"
         return None, f"HTTP {e.code}"
-    except urllib.error.URLError as e:
+    except urllib.error.URLError:
         return None, "CONNECTION ERROR"
     except json.JSONDecodeError:
         return None, "INVALID JSON"
@@ -99,19 +100,44 @@ def get_github_info(owner: str, repo: str) -> tuple[str | None, bool, str | None
     return None, False, error
 
 
-def get_gitlab_info(host: str, owner: str, repo: str) -> tuple[str | None, str | None]:
+# Web-UI sub-paths that follow a project path on GitLab — strip them so the
+# remainder is the actual project path that the API understands.
+_GITLAB_WEBUI_SUFFIX_RE = re.compile(
+    r"/(?:wikis|issues|merge_requests|-|tree|blob|commits|releases|pipelines|"
+    r"environments|tags|branches|snippets|wiki)(?:/.*)?$"
+)
+
+
+def get_gitlab_info(host: str, path: str) -> tuple[str | None, str | None]:
     """Fetch last activity date from GitLab API.
 
-    Returns:
-        Tuple of (date_string, error_message)
-    """
-    # URL encode the project path
-    project_path = urllib.parse.quote(f"{owner}/{repo}", safe="")
-    url = f"https://gitlab.{host}/api/v4/projects/{project_path}"
+    Args:
+        host: GitLab host suffix (e.g. ``com``, ``eurecom.fr``).
+        path: Full project path with namespace, possibly multi-level
+            (e.g. ``oai/cn5g/oai-cn5g-amf``). Web-UI sub-paths like
+            ``/wikis/home`` or ``/-/issues`` are stripped automatically.
 
-    data, error = fetch_json(url)
+    Returns:
+        Tuple of (date_string, error_message). When the URL resolves to a
+        group rather than a project, returns ``(None, "GROUP")`` so callers
+        can leave the entry untouched rather than mark it as not-found.
+    """
+    project_path = _GITLAB_WEBUI_SUFFIX_RE.sub("", path)
+    encoded = urllib.parse.quote(project_path, safe="")
+    project_url = f"https://gitlab.{host}/api/v4/projects/{encoded}"
+
+    data, error = fetch_json(project_url)
     if data and "last_activity_at" in data:
         return data["last_activity_at"][:7], None  # YYYY-MM
+
+    # If the project lookup 404'd, the path may point to a group (which is
+    # a legitimate URL on GitLab). Verify before declaring NOT FOUND.
+    if error == "NOT FOUND":
+        group_url = f"https://gitlab.{host}/api/v4/groups/{encoded}"
+        group_data, _ = fetch_json(group_url)
+        if group_data:
+            return None, "GROUP"
+
     return None, error
 
 
@@ -221,11 +247,11 @@ def process_readme(readme_path: Path, dry_run: bool = False) -> dict:
         # Check for GitLab links
         gitlab_match = GITLAB_PATTERN.search(line)
         if gitlab_match:
-            name, host, owner, repo = gitlab_match.groups()
-            repo = repo.split("#")[0].split("?")[0]
+            name, host, path = gitlab_match.groups()
+            path = path.split("#")[0].split("?")[0]
 
-            print(f"Fetching: gitlab.{host}/{owner}/{repo}...", end=" ", flush=True)
-            date, error = get_gitlab_info(host, owner, repo)
+            print(f"Fetching: gitlab.{host}/{path}...", end=" ", flush=True)
+            date, error = get_gitlab_info(host, path)
 
             if date:
                 new_line = update_line_with_date(line, name, date)
@@ -236,12 +262,15 @@ def process_readme(readme_path: Path, dry_run: bool = False) -> dict:
                 else:
                     stats["skipped"] += 1
                     print("(no change)")
+            elif error == "GROUP":
+                stats["skipped"] += 1
+                print("(group URL — no freshness data)")
             elif error == "NOT FOUND":
                 new_line = update_line_not_found(line, name)
                 if new_line != line:
                     changes.append((i, line, new_line))
                     stats["not_found"] += 1
-                    not_found_repos.append(f"gitlab.{host}/{owner}/{repo}")
+                    not_found_repos.append(f"gitlab.{host}/{path}")
                     print(f"NOT FOUND (marked as unavailable)")
                 else:
                     stats["not_found"] += 1
