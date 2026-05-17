@@ -30,10 +30,10 @@ API_DELAY = 0.5
 
 # Patterns to match repository URLs
 GITHUB_PATTERN = re.compile(
-    r'\[([^\]]+)\]\(https?://github\.com/([^/]+)/([^/\)]+?)(?:\.git)?(?:/[^\)]*)?\)'
+    r'\[([^\]]+)\]\(https?://github\.com/([^/\s\)]+)/([^/\s\)]+?)(?:\.git)?(?:/[^\s\)]*)?\)'
 )
 GITLAB_PATTERN = re.compile(
-    r'\[([^\]]+)\]\(https?://gitlab\.([^/]+)/([^\)]+?)(?:\.git)?/?\)'
+    r'\[([^\]]+)\]\(https?://gitlab\.([^/\s\)]+)/([^\s\)]+?)(?:\.git)?/?\)'
 )
 
 # Pattern to match existing freshness dates
