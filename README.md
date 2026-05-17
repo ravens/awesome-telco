@@ -544,7 +544,12 @@ For research and debugging:
 
 
 - [osmo-ci](https://gitea.osmocom.org/osmocom/osmo-ci) - Osmocom Continuous Integration. Hosted on **Osmocom Gitea**.
+- [libosmocore](https://gitea.osmocom.org/osmocom/libosmocore) - Common foundation library for all Osmocom projects (libosmocore, libosmogsm, libosmovty, libosmogb, libosmosim, libosmocodec). Hosted on **Osmocom Gitea**.
 - [libosmo-abis](https://gitea.osmocom.org/osmocom/libosmo-abis) - Osmocom library for A-bis (E1/IP) interface. Hosted on **Osmocom Gitea**.
+- [libosmo-netif](https://gitea.osmocom.org/osmocom/libosmo-netif) - Osmocom library for network/socket abstraction and osmux audio multiplex. Hosted on **Osmocom Gitea**.
+- [libosmo-gprs](https://gitea.osmocom.org/osmocom/libosmo-gprs) - Osmocom GPRS protocol stack libraries. Hosted on **Osmocom Gitea**.
+- [gapk](https://gitea.osmocom.org/osmocom/gapk) - GSM Audio Pocket Knife: transcoding between GSM voice codec formats. Hosted on **Osmocom Gitea**.
+- [pyosmocom](https://gitea.osmocom.org/osmocom/pyosmocom) - Python osmocom core libraries for scripting and automation. Hosted on **Osmocom Gitea**.
 - [osmo-dev](https://gitea.osmocom.org/osmocom/osmo-dev) - Osmocom Top-level Makefile and dev tools. Hosted on **Osmocom Gitea**.
 - [osmo-rfds](https://gitea.osmocom.org/sdr/osmo-rfds) - RF delay simulator using ADALM-PLUTO. Hosted on **Osmocom Gitea**.
 - [osmo-tacdb](https://gitea.osmocom.org/osmocom/osmo-tacdb) - TAC DB + Android app to collect them. Hosted on **Osmocom Gitea**.
@@ -666,6 +671,12 @@ For research and debugging:
 
 - [ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit) `[2026-05]` - WebRTC/RTSP/RTMP/HTTP/HLS/HTTP-FLV/WebSocket-FLV/HTTP-TS/HTTP-fMP4/WebSocket-TS/WebSocket-fMP4/GB28181/SRT/STUN/TURN server and client framework based on C++11.
 - [stunner](https://github.com/firefart/stunner) `[2026-05]` - Stunner is a tool to test and exploit STUN, TURN and TURN over TCP servers.
+- [coturn](https://github.com/coturn/coturn) `[2026-05]` - Free open-source TURN and STUN server. The de-facto standard for NAT traversal in WebRTC and VoIP deployments.
+- [pion/turn](https://github.com/pion/turn) `[2026-04]` - Go library for building TURN clients and servers, from the Pion WebRTC project.
+- [STUNTMAN](https://github.com/jselbie/stunserver) `[2025-09]` - Open-source STUN server and client implementing RFC 5389 with RFC 5769 test vectors.
+- [always-online-stun](https://github.com/pradt2/always-online-stun) `[2026-05]` - Curated list of publicly available STUN servers, validated and refreshed every hour.
+- [turn-rs](https://github.com/mycrl/turn-rs) `[2026-05]` - Pure Rust TURN server with high performance and low resource consumption.
+- [processone/stun](https://github.com/processone/stun) `[2026-03]` - STUN and TURN library for Erlang/Elixir. Core library powering eturnal.
 - [eturnal](https://github.com/processone/eturnal) `[2026-05]` - STUN / TURN standalone server.
 - [violet](https://github.com/paullouisageneau/violet) `[2025-06]` - Lightweight STUN/TURN server.
 - [stuncheck](https://github.com/Pepelux/stuncheck) `[2025-12]` - Set of tools to audit and exploit STUN/TURN servers.
@@ -691,6 +702,8 @@ For research and debugging:
 - [atm0s-media-server](https://github.com/8xFF/atm0s-media-server) `[2026-05]` - Decentralized, Global-Scale Media Server written in Rust (WebRTC/Whip/Whep/Rtmp/Sip).
 - [jsip](https://github.com/usnistgov/jsip) `[2024-07]` - JSIP: Java SIP specification Reference Implementation (moved from java.net).
 - [sylkserver](https://github.com/AGProjects/sylkserver) `[2026-05]` - SIP/XMPP/WebRTC Application Server.
+- [mediaproxy](https://github.com/AGProjects/mediaproxy) `[2025-08]` - SIP media relay for RTP/RTCP and UDP streams, designed to work with OpenSIPS and Kamailio.
+- [custompbx](https://github.com/custompbx/custompbx) `[2026-04]` - API server and Web GUI for FreeSWITCH written in Go and Angular.
 - [mod_audio_stream](https://github.com/amigniter/mod_audio_stream) `[2026-01]` - FreeSWITCH module to stream audio to websocket and receive response.
 - [sems](https://github.com/sems-server/sems) `[2026-05]` - Sip Express Media Server.
 - [mod_bcg729](https://github.com/xadhoom/mod_bcg729) `[2025-07]` - FreeSWITCH G.729 module using the opensource bcg729 implementation by Belledonne Communications.
@@ -706,6 +719,9 @@ For research and debugging:
 - [rtpbreakr](https://github.com/sipcapture/rtpbreakr) `[2022-03]` - RTP Audio Juicer.
 - [kamailio-tests](https://github.com/kamailio/kamailio-tests) `[2026-04]` - Test Units For Kamailio SIP Server.
 - [mod_openai_asr](https://github.com/aks-devs/mod_openai_asr) `[2026-03]` - Freeswitch Speech-To-Text module.
+- [mod_whisper_asr](https://github.com/aks-devs/mod_whisper_asr) `[2026-02]` - FreeSWITCH ASR module using OpenAI Whisper for speech recognition.
+- [mod_udptun](https://github.com/aks-devs/mod_udptun) `[2025-12]` - FreeSWITCH helper module for cloning and tunnelling RTP/UDP traffic.
+- [mod_xconf](https://github.com/aks-devs/mod_xconf) `[2025-11]` - Simple high-performance conference module for FreeSWITCH.
 - [mod_funasr](https://github.com/zhoutuan/mod_funasr) `[2025-06]` - FreeSWITCH ASR module fork from mod_audio_stream， use FunASR online cpu version.
 - [siremis](https://github.com/asipto/siremis) `[2026-04]` - SIREMIS - Kamailio SIP Server Records Management Interface System.
 - [puppet-asterisk](https://github.com/lelutin/puppet-asterisk) `[2026-03]` - Asterisk puppet module.
@@ -844,6 +860,9 @@ For research and debugging:
 - [sdr-o-ran-platform](https://github.com/thc1006/sdr-o-ran-platform) `[2026-04]` - SDR + cloud-native O-RAN research platform for satellite NTN with AI/ML (DRL) optimization and quantum-safe (NIST PQC) cryptography.
 
 
+- [The Things Stack](https://github.com/TheThingsNetwork/lorawan-stack) `[2026-05]` - Open-source LoRaWAN Network Server. Powers The Things Network and The Things Industries.
+- [ChirpStack](https://github.com/chirpstack/chirpstack) `[2026-05]` - Open-source LoRaWAN Network Server with Class A/B/C, multicast, FUOTA, and MQTT/HTTP integrations.
+- [chirpstack-packet-multiplexer](https://github.com/chirpstack/chirpstack-packet-multiplexer) `[2026-04]` - Forward Semtech UDP packet-forwarder data to multiple LoRaWAN network servers simultaneously.
 - [LoRa_Craft](https://github.com/PentHertz/LoRa_Craft) `[2025-11]` - Some Scapy layers and tools to study LoRa PHY and LoRaWAN.
 - [lorawan-analyzer](https://github.com/1rabbit/lorawan-analyzer) `[2026-02]` - Real-time LoRaWAN traffic analyzer. Works with any LoRaWAN gateway on any LNS : ChirpStack, TTN, Helium... ChirpStack unlocks additional application-level enrichment.
 - [LoRaWAN-SIM](https://github.com/deltazita/LoRaWAN-SIM) `[2026-05]` - A LoRaWAN simulator for confirmed/unconfirmed transmissions and multiple gateways.
@@ -1112,6 +1131,9 @@ For research and debugging:
 
 ## Testing
 
+- [SIPp](https://github.com/SIPp/sipp) `[2026-05]` - SIP protocol test tool and traffic generator. Industry-standard for SIP load testing and conformance.
+- [voip_perf](https://github.com/jchavanton/voip_perf) `[2026-04]` - SIP performance testing tool for VoIP infrastructure benchmarking.
+- [gossipper](https://github.com/sipcapture/gossipper) `[2026-03]` - Go reimplementation of SIPp for modern SIP load testing.
 - [ntt](https://github.com/nokia/ntt) `[2026-04]` - TTCN-3 test framework.
 - [Eclipse Titan TTCN3](https://projects.eclipse.org/projects/tools.titan) - Eclipse Titan is a TTCN-3 compilation and execution environment with an  Eclipse-based IDE.
 - [TTCN3vscode](https://github.com/nokia/vscode-ttcn3) `[2026-05]` - TTCN-3 vs code plugin
@@ -1172,6 +1194,8 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [TorchSig](https://github.com/TorchDSP/torchsig) `[2026-04]` - PyTorch signal processing ML toolkit. 60+ signal types, pretrained models, modulation families (FSK, QAM, PSK, OFDM).
 - [RFML](https://github.com/brysef/rfml) `[2024-09]` - Radio Frequency Machine Learning with PyTorch. Automatic modulation classification, DeepSig dataset loaders, adversarial training.
 - [on-device-ai-comm](https://github.com/abman23/on-device-ai-comm) `[2024-05]` - On-device AI/LLM communication system integrating a pre-trained LLM with 5G-NR PHY over 3GPP CDL channels.
+- [Instant Radio Maps](https://github.com/NVlabs/instant-rm) `[2026-02]` - Fast and differentiable radio map generation using neural radiance field techniques. From NVIDIA Research.
+- [diff-rt](https://github.com/NVlabs/diff-rt) `[2025-06]` - Sionna RT differentiable ray tracing research code for learning wireless propagation. From NVIDIA.
 - [Sionna RT](https://github.com/NVlabs/sionna-rt) `[2026-04]` - Standalone differentiable ray tracing package extracted from NVIDIA Sionna for ML wireless propagation research.
 - [Sionna Large Radio Maps](https://github.com/NVlabs/sionna-large-radio-maps) `[2026-02]` - Large-scale wireless coverage map simulation built on Sionna RT, producing city-scale radio maps for ML training and planning research.
 - [SALAD](https://github.com/NVlabs/salad) `[2025-10]` - Self-Adaptive Link Adaptation for wireless communications. ML-based MCS/link adaptation research code from NVIDIA.
@@ -1252,6 +1276,12 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [WatchingTheWatchers](https://github.com/SysSec-KAIST/WatchingTheWatchers) `[2024-03]` - Tools for video identification on LTE networks. From KAIST.
 - [FISSURE](https://sourceforge.net/projects/fissure.mirror/) - RF and reverse engineering framework for signal intelligence, protocol analysis, and attack detection. Hosted on **SourceForge**.
 - ⚠️ [Daedalus](https://github.com/IQTLabs/Daedalus) `[2024-05]` - Defensive response options for securing a 5G core network. From IQT Labs.
+- [CVE-2025-36911 exploit](https://github.com/PentHertz/CVE-2025-36911-exploit) `[2025-12]` - Exploit for CVE-2025-36911 in Python for security testing. From PentHertz.
+- [DIKEUE](https://github.com/SyNSec-den/DIKEUE) `[2024-07]` - Automated testing framework for LTE/5G UE protocol noncompliance. USENIX Security 2021.
+- [hermes-spec-to-fsm](https://github.com/SyNSec-den/hermes-spec-to-fsm) `[2025-05]` - Extract finite state machines from 3GPP spec prose for protocol verification and fuzzing.
+- [simurai-usenixsec2024-ae](https://github.com/tomasz-lisowski/simurai-usenixsec2024-ae) `[2024-08]` - Artifact evaluation code for the SIMurai SIM fuzzer USENIX Security 2024 paper.
+- [pqproto](https://github.com/ngkore/pqproto) `[2026-04]` - Practical framework for experimenting with post-quantum cryptography in security protocols.
+- [security-intents](https://github.com/5GSEC/security-intents) `[2025-07]` - Repository of 5G security intent templates in standard format for automated policy enforcement.
 - [blue-merle](https://github.com/srlabs/blue-merle) `[2025-06]` - Enhances anonymity and reduces forensic traceability of 4G mobile Wi-Fi routers (IMEI change, MAC randomization). From SRLabs.
 - [5GC_API_Pentest](https://github.com/PentHertz/5GC_API_Pentest) `[2025-12]` - Burp Suite extension for 5G Core SBI security testing with automated NF discovery, IMSI enumeration, OAuth2 workflows, and OpenAPI fuzzing. Successor to 5GC_API_parse. From PentHertz.
 - [shannon_modem_loader](https://github.com/alexander-pick/shannon_modem_loader) `[2025-01]` - Samsung Exynos/Shannon baseband firmware loader for IDA Pro 8.x/9.x. Enables reverse engineering of Shannon modem firmware.
