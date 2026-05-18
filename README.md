@@ -1448,6 +1448,7 @@ Companies offering products/services around open source telco tech:
 - [5ber eSIM](http://esim.5ber.com) - Physical SIM card that stores up to 15 eSIM profiles (GSMA compliant).
 - [esim.me](https://esim.me) - Physical SIM + app combo for loading up to 15 eSIM profiles.
 - [PikaSim](https://pikasim.com/reseller) - Privacy-first eSIM Reseller API. Purchase travel eSIMs for 190+ countries programmatically with webhooks and no customer data required.
+- [PuchiDen](https://puchiden.app) - Privacy-focused no app, no SIM, no cross-site tracking browser only voice calls. Uses WebRTC.
 
 ---
 
