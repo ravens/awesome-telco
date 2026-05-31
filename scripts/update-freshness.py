@@ -74,6 +74,8 @@ def fetch_json(url: str, headers: dict | None = None) -> tuple[dict | None, str 
         return None, f"HTTP {e.code}"
     except urllib.error.URLError:
         return None, "CONNECTION ERROR"
+    except TimeoutError:
+        return None, "TIMEOUT"
     except json.JSONDecodeError:
         return None, "INVALID JSON"
     return None, "UNKNOWN ERROR"
