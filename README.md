@@ -1396,6 +1396,7 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [How LTE Stuff Works?](https://howltestuffworks.blogspot.com/) - In-depth blog on 4G/5G by a 3GPP Engineer.
 - [Yoshiyuki Kurauchi](https://wmnsk.com/posts/) - Blog posts by a telecom/networking/security enthusiast.
 - [Frédéric Launay](http://blogs.univ-poitiers.fr/f-launay/) - 🇫🇷 French blog on 4G/5G mobile networks.
+- [RADIUS vs Diameter vs TACACS+: Key Differences in CSP Environments](https://alepo.com/radius-vs-diameter-vs-tacacs-key-differences-in-csp-environments-2/) - Alepo blog comparing the three AAA protocols, their security models, and where each fits in ISP, LTE, and 5G networks.
 - [GTP-Guard articles](https://gtp-guard.org/articles/) - Design deep-dives on GTP-Guard and high-performance 5G UPF internals (XDP, PFCP, CPU scheduling) by the author of gtp-guard/keepalived. Notable posts:
   - [5G UPF: Smart Session Placement](https://gtp-guard.org/articles/5g-upf-smart-session-placement/) `[2026-04]` - Trend-based, multi-metric CPU scheduling using a Weighted Score Composite over sessions/load/bandwidth/PPS with constraint-based hard limits for SLA differentiation.
   - [5G UPF: From Flow Steering to Session Affinity](https://gtp-guard.org/articles/5g-upf-from-flow-steering-to-session-affinity/) `[2026-04]` - Integrates range partitioning into PFCP so session creation becomes a line-rate scheduling decision, aligning TEID, IP pool, and CPU resources via `range-partition`, `flow-steering-policy`, and `cpu-sched-group` objects.
