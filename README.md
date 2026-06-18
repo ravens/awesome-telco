@@ -131,7 +131,6 @@ For research and debugging:
 - [Security](#security) - Research, tools, IMSI catcher detection, and talks
 - [Learning Resources](#learning-resources) - Blogs, docs, tutorials
 - [Community](#community) - Forums, mailing lists, Discord, Slack
-- [Commercial](#commercial) - Companies and commercial offerings
 
 ---
 
@@ -1500,20 +1499,6 @@ Key organizations driving open source telecom development:
 
 - [SCTP Kubernetes support](https://github.com/kubernetes/community/pull/2276)
 - [SRSENB: Add SIB7 (GERAN neighbor) support](https://github.com/srsLTE/srsLTE/pull/361)
-
-## Commercial
-
-Companies offering products/services around open source telco tech:
-
-> **Disclaimer:** The commercial products and services listed below are provided for reference only. This list does not constitute an endorsement, affiliation, or recommendation. Users should independently verify suitability and terms before engaging with any vendor.
-
-- [sysmocom](https://www.sysmocom.de) - Products, support, and services for open source telecom, including Osmocom.
-- [open-cells](https://open-cells.com) - 4G and 5G full open source testbed solutions.
-- [5ber eSIM](http://esim.5ber.com) - Physical SIM card that stores up to 15 eSIM profiles (GSMA compliant).
-- [esim.me](https://esim.me) - Physical SIM + app combo for loading up to 15 eSIM profiles.
-- [PikaSim](https://pikasim.com/reseller) - Privacy-first eSIM Reseller API. Purchase travel eSIMs for 190+ countries programmatically with webhooks and no customer data required.
-
----
 
 ## Related Lists
 
