@@ -175,15 +175,18 @@ def update_line_not_found(line: str, name: str) -> str:
     """Mark a line as not found by striking through the name."""
     result = line
 
+    # The bracket text may already carry strikethrough tildes from a prior
+    # run; work from the bare name so re-marking stays idempotent.
+    name = name.strip("~")
+
     # Add ⚠️ at the beginning if not already present
     if "⚠️" not in result:
         result = re.sub(r'^(\s*-\s*)', r'\1⚠️ ', result)
 
-    # Strikethrough the project name: [Name] -> [~~Name~~]
-    # But only if not already struck through
+    # Strikethrough the project name: [Name] -> [~~Name~~], collapsing any
+    # existing tilde run so repeated runs don't stack ~~ ~~ ~~.
     escaped_name = re.escape(name)
-    if f"~~{name}~~" not in result:
-        result = re.sub(rf'\[{escaped_name}\]', f'[~~{name}~~]', result)
+    result = re.sub(rf'\[~*{escaped_name}~*\]', f'[~~{name}~~]', result)
 
     return result
 
