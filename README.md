@@ -162,6 +162,7 @@ For research and debugging:
 - [onomondo-softsim-cli](https://github.com/onomondo/onomondo-softsim-cli) `[2026-06]` - CLI tool to provision Onomondo SoftSIM profiles.
 - [mcc-mnc-itu](https://github.com/onomondo/mcc-mnc-itu) `[2025-07]` - Library to look up MCC/MNC operator information from the official ITU dataset.
 - [simshell](https://github.com/kurbatoff/simshell) `[2025-10]` - Interactive shell for SIM, GlobalPlatform and JavaCard VM operations over APDU.
+- [iot.cards Web Tools](https://iot.cards/en/resources/tools) - Browser-side SIM and cellular decoders and calculators: ICCID/IMSI/IMEI/MSISDN, a CSQ-to-dBm and RSRP/RSRQ/SINR signal interpreter, an AT-command reference with a CGDCONT builder, an APN config generator, LTE/NB-IoT/LTE-M band and EARFCN lookup, and a GSMA SGP.22 eSIM activation-code parser. Runs entirely client-side.
 
 ### eSIM / eUICC
 
