@@ -948,6 +948,7 @@ For research and debugging:
 - [sms-server](https://github.com/morgverd/sms-server) `[2026-02]` - Self-hosted SMS gateway for Raspberry Pi and GSM modems with HTTP/WebSocket APIs, encrypted message storage and delivery tracking.
 - [Sendium](https://github.com/cytechmobile/sendium) `[2026-07]` - Open-source SMS gateway in Java.
 - [goip](https://github.com/styryl/goip) `[2026-01]` - Server and client for GoIP GSM VoIP gateways for sending and receiving SMS.
+- [goipd](https://github.com/RustedBytes/goipd) `[2026-07]` - Rust service for managing Hybertone/Dbltek GOIP1/4/8/16 GSM gateways.
 - [Vendel](https://github.com/JimScope/vendel) `[2026-07]` - Open-source SMS gateway for your own devices. Companion [Android app](https://github.com/JimScope/vendel-android).
 ## Satellite Communication
 - [Hughes_OneWeb_Monitor](https://github.com/nickvsnetworking/Hughes_OneWeb_Monitor) `[2025-04]` - Hughes OneWeb Terminal Prometheus Exporter
