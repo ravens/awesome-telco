@@ -367,7 +367,7 @@ For research and debugging:
 - [rt-mbs-examples](https://github.com/5G-MAG/rt-mbs-examples) `[2026-07]` - 5G-MAG reference tools and examples for 5G Multicast Broadcast Services (MBS).
 - [5G-MAG Media Streaming & Broadcast](https://github.com/5G-MAG) `[2026-06]` - 5G-MAG Reference Tools for 5G Media Streaming and 5G Broadcast/MBMS: [5GMS Application Function](https://github.com/5G-MAG/rt-5gms-application-function) `[2026-06]`, [5GMS Application Server](https://github.com/5G-MAG/rt-5gms-application-server) `[2026-02]`, [libflute (FLUTE)](https://github.com/5G-MAG/rt-libflute) `[2026-04]`, [MBMS transmitter](https://github.com/5G-MAG/rt-mbms-tx) `[2025-10]`, [MBMS middleware](https://github.com/5G-MAG/rt-mbms-mw) `[2025-10]`.
 - [NR-Scope](https://github.com/PrincetonUniversity/NR-Scope) `[2026-07]` - 5G Standalone cellular network telemetry tool for network measurement. From Princeton.
-- [zebra-rs](https://github.com/zebra-rs/zebra-rs) - BGP, OSPF, and IS-IS routing stack with SRv6, SR-MPLS, L3VPN, and EVPN extensions, written from scratch in Rust. zebra-rs implements BGP Mobile User Plane (BGP-MUP, SAFI 85) as specified in [draft-ietf-bess-mup-safi](https://datatracker.ietf.org/doc/draft-ietf-bess-mup-safi/). `SMF --<PFCP/N4>--> zebra-rs MUP-C --<BGP MUP(SAFI 85)>--> SRv6 PEs`. [zebra-rs docs - BGP Mobile User Plane (MUP) and the MUP Controller](https://zebra.rs/docs.html#ch-02-35-bgp-mup) for details.
+- [zebra-rs](https://github.com/zebra-rs/zebra-rs) `[2026-07]` - BGP, OSPF, and IS-IS routing stack with SRv6, SR-MPLS, L3VPN, and EVPN extensions, written from scratch in Rust. zebra-rs implements BGP Mobile User Plane (BGP-MUP, SAFI 85) as specified in [draft-ietf-bess-mup-safi](https://datatracker.ietf.org/doc/draft-ietf-bess-mup-safi/). `SMF --<PFCP/N4>--> zebra-rs MUP-C --<BGP MUP(SAFI 85)>--> SRv6 PEs`. [zebra-rs docs - BGP Mobile User Plane (MUP) and the MUP Controller](https://zebra.rs/docs.html#ch-02-35-bgp-mup) for details.
 ### 4G
 
 - [OAI eNB/ gNB](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) `[2026-07]` - Open Air Interface RAN 4G eNB / 5G NR gNB to use on SDR-based radios.
@@ -738,7 +738,7 @@ For research and debugging:
 - [always-online-stun](https://github.com/pradt2/always-online-stun) `[2026-07]` - Curated list of publicly available STUN servers, validated and refreshed every hour.
 - [turn-rs](https://github.com/mycrl/turn-rs) `[2026-07]` - Pure Rust TURN server with high performance and low resource consumption.
 - [processone/stun](https://github.com/processone/stun) `[2026-03]` - STUN and TURN library for Erlang/Elixir. Core library powering eturnal.
-- [eturnal](https://github.com/processone/eturnal) `[2026-06]` - STUN / TURN standalone server.
+- [eturnal](https://github.com/processone/eturnal) `[2026-07]` - STUN / TURN standalone server.
 - [violet](https://github.com/paullouisageneau/violet) `[2025-06]` - Lightweight STUN/TURN server.
 - [restund](https://github.com/baresip/restund) `[2026-07]` - Modular STUN/TURN server from the baresip project.
 - [stuncheck](https://github.com/Pepelux/stuncheck) `[2025-12]` - Set of tools to audit and exploit STUN/TURN servers.
@@ -773,8 +773,8 @@ For research and debugging:
 - [blink-qt](https://github.com/AGProjects/blink-qt) `[2026-07]` - Blink SIP client for desktop (Qt), built on the SIP SIMPLE SDK. From AG Projects.
 - [sylk-webrtc](https://github.com/AGProjects/sylk-webrtc) `[2026-07]` - WebRTC client for SylkServer, supporting audio/video calls and conferencing. From AG Projects.
 - [OpenXCAP](https://github.com/AGProjects/openxcap) `[2026-07]` - Fully featured XCAP server (RFC 4825) for presence and resource-list management. From AG Projects.
-- [MSRPRelay](https://github.com/AGProjects/msrprelay) `[2025-11]` - MSRP relay (RFC 4976) for NAT traversal of MSRP sessions. From AG Projects.
-- [custompbx](https://github.com/custompbx/custompbx) `[2026-04]` - API server and Web GUI for FreeSWITCH written in Go and Angular.
+- [MSRPRelay](https://github.com/AGProjects/msrprelay) `[2026-07]` - MSRP relay (RFC 4976) for NAT traversal of MSRP sessions. From AG Projects.
+- [custompbx](https://github.com/custompbx/custompbx) `[2026-07]` - API server and Web GUI for FreeSWITCH written in Go and Angular.
 - [mod_audio_stream](https://github.com/amigniter/mod_audio_stream) `[2026-01]` - FreeSWITCH module to stream audio to websocket and receive response.
 - [sems](https://github.com/sems-server/sems) `[2026-07]` - Sip Express Media Server.
 - [mod_bcg729](https://github.com/xadhoom/mod_bcg729) `[2025-07]` - FreeSWITCH G.729 module using the opensource bcg729 implementation by Belledonne Communications.
@@ -877,7 +877,7 @@ For research and debugging:
 - [ngrep-sip](https://github.com/sipwise/ngrep-sip) `[2026-06]` - capture SIP flow based on ngrep command.
 - [kamailio-config-tests](https://github.com/sipwise/kamailio-config-tests) `[2026-06]` - Kamailio configuration tests.
 - [osmo-mgw](https://gitea.osmocom.org/cellular-infrastructure/osmo-mgw) - Osmocom Media Gateway (RTP proxy and RTP/E1 gateway). Hosted on **Osmocom Gitea**.
-- [custompbx](https://github.com/custompbx/custompbx) `[2026-04]` - API server and Web GUI for FreeSwitch written in Golang and Angular
+- [custompbx](https://github.com/custompbx/custompbx) `[2026-07]` - API server and Web GUI for FreeSwitch written in Golang and Angular
 - [eventsocket](https://github.com/fiorix/eventsocket) `[2015-06]` - Twisted protocol for the FreeSWITCH's Event Socket
 - [voip_perf](https://github.com/jchavanton/voip_perf) `[2026-03]` - SIP performance test tool
 - [mod_whisper_asr](https://github.com/aks-tel/mod_whisper_asr) `[2025-01]` - Freeswitch ASR module
@@ -1100,7 +1100,7 @@ For research and debugging:
 - [xk6-diameter](https://github.com/lwlee2608/xk6-diameter) `[2025-10]` - k6 extension for Diameter protocol load testing. Written in Go.
 - [diameter-rs](https://github.com/lwlee2608/diameter-rs) `[2025-10]` - Rust implementation of the Diameter Protocol (RFC 6733).
 - [SigScale RADIUS](https://github.com/sigscale/radierl) `[2025-02]` - RADIUS protocol stack for Erlang with EAP and DIAMETER transport support. Part of the SigScale telecom stack.
-- [quarkus-jdiameter](https://github.com/quarkiverse/quarkus-jdiameter) `[2026-06]` - Quarkus extension adding Diameter protocol support, based on jDiameter.
+- [quarkus-jdiameter](https://github.com/quarkiverse/quarkus-jdiameter) `[2026-07]` - Quarkus extension adding Diameter protocol support, based on jDiameter.
 - [VolkDS/diameter](https://github.com/VolkDS/diameter) `[2026-07]` - Implementation of the Diameter Base Protocol (RFC 6733) for C++.
 - [blorticus-go/diameter](https://github.com/blorticus-go/diameter) `[2026-03]` - Diameter protocol implementation for Golang.
 
@@ -1113,8 +1113,8 @@ For research and debugging:
 - [openss7](http://www.openss7.org/) - An opensource development project (called OpenSS7) to provide a robust and GPL'ed SS7, SIGTRAN, ISDN and VoIP stack for Linux and other UN*X operating systems.
 - [Extended jSS7](https://github.com/PAiC-team/Extended-jSS7) `[2023-07]` - Extended Java SS7 stack with MTP2/MTP3, ISUP, SCCP, TCAP, CAMEL (Phase I-IV) and MAP. Supports SIGTRAN (SCTP/M3UA) over IP.
 - [signerl](https://gitea.osmocom.org/erlang/signerl/) - Erlang SS7 TCAP/MAP implementation. Originally from Motivity, continued within the Osmocom project. Hosted on **Osmocom Gitea**.
-- [SigScale TCAP](https://github.com/sigscale/tcap) `[2026-06]` - SS7 Transaction Capabilities Application Part (TCAP) protocol stack in Erlang, used by MAP and CAP applications in mobile operator networks.
-- [SigScale CSE](https://github.com/sigscale/cse) `[2026-04]` - Custom (CAMEL) Service Environment in Erlang. Part of the SigScale SS7 stack.
+- [SigScale TCAP](https://github.com/sigscale/tcap) `[2026-07]` - SS7 Transaction Capabilities Application Part (TCAP) protocol stack in Erlang, used by MAP and CAP applications in mobile operator networks.
+- [SigScale CSE](https://github.com/sigscale/cse) `[2026-07]` - Custom (CAMEL) Service Environment in Erlang. Part of the SigScale SS7 stack.
 - [SigScale GTT](https://github.com/sigscale/gtt) `[2026-02]` - Global Title Translation (GTT) in Erlang. Part of the SigScale SS7 stack.
 - [SigScale M3UA](https://github.com/sigscale/m3ua) `[2025-02]` - SIGTRAN M3UA protocol stack in Erlang. Part of the SigScale SS7 stack with companion [SCCP](https://github.com/sigscale/sccp), [MAP](https://github.com/sigscale/map), [CAP](https://github.com/sigscale/cap), and [INAP](https://github.com/sigscale/inap) modules.
 - [osmo-dia2gsup](https://gitea.osmocom.org/erlang/osmo_dia2gsup) - Diameter-to-GSUP inter-working function in Erlang. Bridges Diameter-based AAA with Osmocom GSUP protocol. Hosted on **Osmocom Gitea**.
@@ -1145,7 +1145,7 @@ For research and debugging:
 - [phonenumber-normalizer](https://github.com/telekom/phonenumber-normalizer) `[2026-07]` - Phone number normalization to E.164 and national formats in Go. From Deutsche Telekom.
 - [OpenAPI-Dissector](https://github.com/telekom/OpenAPI-Dissector) `[2025-10]` - Experimental Wireshark dissector generator from OpenAPI specs, useful for 5G SBI protocol analysis. From Deutsche Telekom.
 - [RTPproxy](https://github.com/sippy/rtpproxy) `[2026-07]` - High-performance RTP stream proxy, works with OpenSIPS, Kamailio, and Sippy B2BUA for VoIP/VoLTE media relay.
-- [RLS-wireshark-dissector](https://github.com/nextmn/RLS-wireshark-dissector) `[2026-06]` - Wireshark dissector for the Radio Link Simulation Protocol from UERANSIM. From NextMN.
+- [RLS-wireshark-dissector](https://github.com/nextmn/RLS-wireshark-dissector) `[2026-07]` - Wireshark dissector for the Radio Link Simulation Protocol from UERANSIM. From NextMN.
 - [gsmtapv3](https://gitea.osmocom.org/peremen/gsmtapv3) - GSMTAPv3 specification proposal and reference code for next-generation cellular packet capture format. Hosted on **Osmocom Gitea**.
 - [osmo-gsm-shark](https://gitea.osmocom.org/nhofmeyr/osmo-gsm-shark) - Network trace tool that summarizes mobile network activity from pcap captures. Hosted on **Osmocom Gitea**.
 - [the-things-stack-docker](https://github.com/xoseperez/the-things-stack-docker) `[2025-10]` - The Things Stack LoRaWAN Network Server (Open Source Edition) on a Raspberry Pi using docker
@@ -1222,7 +1222,7 @@ For research and debugging:
 ### Ready-to-Use Environments
 
 - ⚠️ [Open5GS-VoLTE](https://github.com/miaoski/docker_open5gs) `[2021-05]` - Install-and-run lab for Open5GS + Kamailio IMS VoLTE study. _Consider using [herlesupreeth/docker_open5gs](https://github.com/herlesupreeth/docker_open5gs) instead._
-- [Open5GS Docker](https://github.com/herlesupreeth/docker_open5gs) `[2026-06]` - Docker files to build and run open5gs in a docker by Herle Supreeth.
+- [Open5GS Docker](https://github.com/herlesupreeth/docker_open5gs) `[2026-07]` - Docker files to build and run open5gs in a docker by Herle Supreeth.
 - [rapid5gs](https://github.com/joshualambert/rapid5gs) `[2026-07]` - Configuration, setup, and maintenance toolkit for Open5GS.
 - [Open5gs-K8s-VyOS](https://dev.to/infinitydon/virtual-4g-simulation-using-kubernetes-and-gns3-3b7k) - This tutorial is about how to deploy a virtual 4G stack using GNS3 and Kubernetes.
 - [mobile-env](https://github.com/stefanbschneider/mobile-env) `[2026-01]` - An open, minimalist Gym environment for autonomous coordination in wireless mobile networks.
@@ -1323,7 +1323,7 @@ AI and machine learning tools for telecom networks, covering foundation models, 
 - [Telco-AIX](https://github.com/open-experiments/Telco-AIX) `[2026-04]` - Applied AI experiments for telecom: self-healing networks (AutoNet), MCP-based diagnostic agents, GenAI for NOC.
 - [teddi-mcp](https://forge.3gpp.org/rep/reimes/teddi-mcp) - MCP server for ETSI's TEDDI (Terms and Definitions Database Interactive). Search 3GPP/ETSI terms programmatically from AI assistants. Hosted on **3GPP Forge**.
 - [MobiLLM](https://github.com/5GSEC/MobiLLM) `[2025-09]` - Domain-specific LLM for cellular security from the 5GSEC group. Trained for analyzing and reasoning about 5G/cellular security incidents and threats.
-- [The AI Telco Engineer](https://github.com/NVlabs/the-ai-telco-engineer) `[2026-04]` - NVIDIA Research repo prototyping LLM/agent workflows for telecom engineering tasks (network design, troubleshooting). Companion to NVIDIA's wider AI-RAN push.
+- [The AI Telco Engineer](https://github.com/NVlabs/the-ai-telco-engineer) `[2026-07]` - NVIDIA Research repo prototyping LLM/agent workflows for telecom engineering tasks (network design, troubleshooting). Companion to NVIDIA's wider AI-RAN push.
 - [Chat3GPP](https://github.com/huangl22/Chat3GPP) `[2025-01]` - Open-source RAG framework purpose-built for 3GPP documents, combining hybrid retrieval (BM25 + HNSW + RRF) and BGE-M3 reranking without fine-tuning.
 - [telco-network-configuration](https://github.com/bubbleran/telco-network-configuration) `[2025-06]` - Agentic AI workflow blueprint that recommends close-to-optimal RAN parameter configurations at a cell site. Showcases LLM-driven RAN parameter tuning.
 - [OpenSlice MCP Server](https://labs.etsi.org/rep/osl/code/org.etsi.osl.mcp.server) - Model Context Protocol server exposing OpenSlice (network-slice / TMF Open API) operations to LLM agents. Hosted on **ETSI Labs**.
@@ -1450,7 +1450,7 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [extractor](https://github.com/srlabs/extractor) `[2025-11]` - SRLabs Android firmware image extraction tool. Companion utility to their baseband and modem research workflow.
 - [SentryFlow](https://github.com/5GSEC/SentryFlow) `[2025-05]` - 5G API observability and security platform monitoring SBA/HTTP2 5GC API traffic for anomalies and abuse.
 - [nimbus](https://github.com/5GSEC/nimbus) `[2025-08]` - Intent-driven security automation framework for 5G/cloud-native deployments from the 5GSEC group.
-- [Loris](https://github.com/SyNSec-den/Loris) `[2026-04]` - Stateful fuzzing framework for commercial baseband firmware (analyzer + emulator + fuzzer). IEEE S&P 2025. From the SyNSec group at PSU.
+- [Loris](https://github.com/SyNSec-den/Loris) `[2026-07]` - Stateful fuzzing framework for commercial baseband firmware (analyzer + emulator + fuzzer). IEEE S&P 2025. From the SyNSec group at PSU.
 - [InvaRAN](https://github.com/SyNSec-den/INVARAN) `[2026-03]` - Invariant-guided logical testing of O-RAN controllers. Trace instrumentation, Daikon-based invariant inference, and grammar-aware fuzzing for xApps. From the SyNSec group.
 - [closed-loop-5g-resilience](https://github.com/Montimage/closed-loop-5g-resilience) `[2026-03]` - Research prototype of a closed-loop resilience framework for 5G core networks: monitoring, alert-driven mitigation, non-regression testing. From Montimage.
 - [advisories](https://github.com/EnableSecurity/advisories) `[2026-02]` - Security advisories published by Enable Security
@@ -1473,7 +1473,7 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [SentryRadio](https://github.com/fzer0x/SentryRadio) `[2026-03]` - Android forensic tool (Xposed/Magisk/KSU) to detect IMSI catchers, cell site simulators, suspicious network downgrades and silent SMS.
 - [IMSICatcherDetector (Marlin)](https://github.com/eylonK14/IMSICatcherDetector) `[2025-08]` - Detects IMSI-catchers/Stingrays via statistical analysis of identity-exposing messages, implementing the Marlin methodology from NDSS 2025 (claimed 99.9% detection rate).
 - [Tower-Hunter](https://github.com/Ringmast4r/Tower-Hunter) `[2026-01]` - Cell tower logger and anomaly detector for Linux mobile devices. Logs tower data with GPS, monitors cellular connections, and flags suspicious base stations.
-- [rayhunter-enhanced](https://github.com/drinkingc0ffee/rayhunter-enhanced) `[2025-07]` - Enhanced fork of EFF Rayhunter providing roughly 3x cellular data coverage for IMSI-catcher detection on Quectel modems.
+- [rayhunter-enhanced](https://github.com/drinkingc0ffee/rayhunter-enhanced-f1) `[2025-07]` - Enhanced fork of EFF Rayhunter for IMSI-catcher detection. Two active variants: [GPS correlation + advanced analysis](https://github.com/drinkingc0ffee/rayhunter-enhanced-f1) and an [Orbic hotspot build](https://github.com/drinkingc0ffee/rayhunter-enhanced-2).
 - [raypager](https://github.com/tschakram/raypager) `[2026-05]` - Rayhunter port for the GL-E750V2 (Mudi V2) travel router, integrating OpenCelliD and Blue Merle as part of a Chasing-Your-Tail counter-surveillance ecosystem.
 - [GSM-Cipher-Sensor](https://github.com/mclab-hbrs/GSM-Cipher-Sensor) `[2025-06]` - SDR-based sensor that captures GSM Cipher Mode Command messages to detect weak/absent A5 encryption (an IMSI-catcher indicator).
 - [SS7-Diameter-ShadowCell](https://github.com/zencefilefendi/SS7-Diameter-ShadowCell) `[2026-05]` - Cellular network anomaly detection platform against SS7/Diameter tracking and IMSI catchers.
