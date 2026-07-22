@@ -1510,7 +1510,7 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 
 - [ShareTechNote](http://www.sharetechnote.com/) - An impressive repository of knowledge for the cellular telco world. Highly recommended for beginners.
 - [Techplayon](https://www.techplayon.com/) - Excellent 4G/5G tutorials with clear diagrams and explanations.
-- [EventHelix](https://www.eventhelix.com/lte/) - Protocol sequence diagrams for LTE/5G signaling flows.
+- [EventHelix](https://www.eventhelix.com/lte/) - Protocol sequence diagrams for LTE/5G signaling flows. See also the [5G NR connection lifecycle](https://www.eventhelix.com/5G/nr-connection-lifecycle/) walkthrough (registration, PDU session setup, mobility, release).
 - [3GPP specs](http://www.3gpp.org/ftp/Specs/html-info/36-series.htm) - Official 3GPP specifications.
 - [GSMA Specifications](https://www.gsma.com/solutions-and-impact/technologies/networks/gsma_resources/) - Official GSMA specs for eSIM, roaming, interconnect, and more.
 - [Getsi](https://getsi.org/) - Easy search engine for 3GPP specs.
