@@ -1347,6 +1347,7 @@ AI and machine learning tools for telecom networks, covering foundation models, 
 - [Telco-RAG](https://github.com/netop-team/Telco-RAG) `[2024-09]` - RAG framework specialized for 3GPP documents. Addresses challenges of retrieval-augmented generation on highly technical telecom standards.
 - [3GPP Expert Skill](https://github.com/lugasia/3gpp-skill) `[2026-04]` - Claude Code skill providing deep 3GPP expertise across all generations (2G–6G), protocol stacks, core network, security, and deployment planning.
 - [3GPP MCP Server](https://github.com/edhijlu/3gpp-mcp-server) `[2025-09]` - MCP server enabling AI assistants (Claude, VSCode) to search 3GPP specifications via the TSpec-LLM dataset.
+- [3gpp-mcp](https://github.com/higebu/3gpp-mcp) `[2026-08]` - Go MCP server making 3GPP specs navigable by LLMs: parses .docx specs into SQLite with FTS5 full-text search, section browsing, and cross-reference following.
 - [TeleQnA](https://github.com/netop-team/TeleQnA) `[2024-01]` - Benchmark dataset (10K multiple-choice questions) for evaluating LLM telecom knowledge. Part of GSMA Open-Telco LLM Benchmarks.
 - [Telco-AIX](https://github.com/open-experiments/Telco-AIX) `[2026-08]` - Applied AI experiments for telecom: self-healing networks (AutoNet), MCP-based diagnostic agents, GenAI for NOC.
 - [teddi-mcp](https://forge.3gpp.org/rep/reimes/teddi-mcp) - MCP server for ETSI's TEDDI (Terms and Definitions Database Interactive). Search 3GPP/ETSI terms programmatically from AI assistants. Hosted on **3GPP Forge**.
