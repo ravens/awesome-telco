@@ -198,7 +198,6 @@ For research and debugging:
 - [oneplus13t-esim](https://github.com/kinginu/oneplus13t-esim) `[2025-06]` - A Magisk module to enable native eSIM profile management for physical SIMs (e.g., 5ber, eSTK.me) directly with in the ColorOS settings app.
 - [ecp-lpa-sdk-decompiled](https://github.com/CursedHardware/ecp-lpa-sdk-decompiled) `[2024-08]` - ECP LPA SDK (Decompiled).
 - [YggdraSIM](https://github.com/1oT/YggdraSIM) `[2026-07]` - Python toolkit for SIM/eSIM and eUICC work: SCP03, SCP80, SCP11 (relay, local, eIM), SAIP profile packages, and a simulated UICC/eUICC engine. Uses upstream pySim dependencies.
-- [esim](https://codeberg.org/d8/esim) - Hosted on **Codeberg**.
 - [bnesim_quota_cli](https://codeberg.org/gigahertz/bnesim_quota_cli) - View BNESIM eSIM quotas from terminal. Hosted on **Codeberg**.
 - [esim-qrcode-portal](https://github.com/CursedHardware/esim-qrcode-portal) `[2026-07]` - eSIM QRCode Portal.
 - [uicc-chip-packages](https://github.com/CursedHardware/uicc-chip-packages) `[2024-01]` - UICC Chip Packaging.
@@ -431,7 +430,6 @@ For research and debugging:
 - [GopherTrunk](https://github.com/MattCheramie/GopherTrunk) `[2026-08]` - Pure-Go, cross-platform RTL-SDR trunked-radio scanner and audio toolkit.
 - [node-dmr-lib](https://github.com/rick51231/node-dmr-lib) `[2026-01]` - Motorola MotoTRBO DMR protocol research library.
 - [p25-survey](https://github.com/blantonl/p25-survey) `[2026-08]` - Scan a frequency range for P25 control channels and log system metadata.
-- [sigint](https://github.com/arall/sigint) `[2026-06]` - Multi-protocol SDR signal detection and triangulation system for ATAK.
 - [op25 (boatbod)](https://github.com/boatbod/op25) `[2026-08]` - Actively-maintained fork of Osmocom OP25; the canonical P25 (phase 1 & 2) decoder for SDR.
 - [OpenDMR](https://github.com/MW0MWZ/OpenDMR) `[2025-12]` - Open-source DMR AMBE codec for encoding/decoding DMR voice to/from PCM.
 - [tr-stack](https://github.com/trunk-reporter/tr-stack) `[2026-07]` - Full P25 transcription stack: trunk-recorder + tr-engine + tr-dashboard integrated.
@@ -746,14 +744,12 @@ For research and debugging:
 - [stuncheck](https://github.com/Pepelux/stuncheck) `[2025-12]` - Set of tools to audit and exploit STUN/TURN servers.
 - ⚠️ [coturn-chart](https://github.com/small-hack/coturn-chart) `[2026-06]` - Coturn Helm Chart to provide a STUN/TURN Server on Kubernetes.
 - [videowhisper-webrtc](https://github.com/videowhisper/videowhisper-webrtc) `[2025-04]` - Free open source WebRTC signaling server: peer to peer WebRTC live streaming, handles multiple channels (streams) and viewers per channel, support for STUN/TURN (tested with Coturn), accounts and resource limitation plans. Includes support for commercial modules with extra features (RTMP/HLS).
-- [sharef](https://github.com/emiago/sharef) `[2021-07]` - Sharef command line tool for sending streaming files over webrtc.
 - [certman](https://github.com/FreePBX/certman) `[2026-07]` - Module of FreePBX (Certificate Manager) :: Certificate Manager for Asterisk. Used for TLS, DTLS connection (think WebRTC and secure traffic).
 - [openfire-pionturn-plugin](https://github.com/igniterealtime/openfire-pionturn-plugin) `[2025-12]` - This plugin provides a TURN/STUN Server for Openfire.
 - [pion](https://github.com/pion/pion) `[2026-04]` - A monorepo housing Pion's open-source *in-progress* applications: Ion, a Pion-based SFU, and Tion, a TURN/STUN server, both built as open-source, aiming to be batteries included and production-ready.
 - [ansible-role-coturn](https://github.com/wazo-platform/ansible-role-coturn) `[2026-07]` - Setup coturn TURN/STUN server.
 - [coturn-secure-config](https://github.com/EnableSecurity/coturn-secure-config) `[2026-06]` - Secure configuration templates for coturn TURN server with Docker test environment.
 - ⚠️ [~~docker-eturnal~~](https://github.com/tiredofit/docker-eturnal) `[2025-05]` - Dockerized STUN/TURN server.
-- [LetItSno](https://codeberg.org/leecowdrey/LetItSno) - Bare metal server configuration steps for hosting OpenShift inside virtual machines, in turn provided nested virtualization. Hosted on **Codeberg**.
 - [webrtc-test](https://github.com/RestComm/webrtc-test) `[2018-05]` - Framework for functional and Load Testing of WebRTC.
 - [webrtcomm](https://github.com/RestComm/webrtcomm) `[2018-06]` - WebRTCComm is a simple high level JavaScript WebRTC framework for Web Developers to add Real Time Communications and IM Capabilities to any website.
 - [olympus](https://github.com/RestComm/olympus) `[2022-11]` - RestComm WebRTC Application.
@@ -815,7 +811,6 @@ For research and debugging:
 - [asterisk-ajam](https://github.com/staskobzar/asterisk-ajam) `[2026-04]` - Ruby module for interacting with Asterisk management interface (AMI) through HTTP.
 - [mod_quickjs](https://github.com/aks-tel/mod_quickjs) `[2026-07]` - Alternative javascript module for Freeswitch.
 - [mod_audio_fork](https://github.com/W1ck3dZA/mod_audio_fork) `[2026-02]` - Freeswitch Module For Streaming Audio Over Websockets.
-- [gse](https://github.com/cisco/gse) `[2024-03]` - Game State Encoder and Decoder for RTP.
 - [SetAPN](https://github.com/herlesupreeth/SetAPN) `[2021-05]` - App to set Internet and IMS APN and force usage of IPv4 over IPv4v6.
 - [mod_google_asr](https://github.com/aks-tel/mod_google_asr) `[2026-07]` - Freeswitch Speech-to-Text module.
 - [mod_piper_tts](https://github.com/aks-tel/mod_piper_tts) `[2026-03]` - Freeswitch Text-to-Speech module.
@@ -1158,7 +1153,6 @@ For research and debugging:
 - [the-things-stack-docker](https://github.com/xoseperez/the-things-stack-docker) `[2025-10]` - The Things Stack LoRaWAN Network Server (Open Source Edition) on a Raspberry Pi using docker
 - [IoT-SAFE-APDU-library](https://github.com/Orange-OpenSource/IoT-SAFE-APDU-library) `[2021-07]` - APDU library to communicate with a GSMA IoT SAFE applet ( https://www.gsma.com/iot/iot-safe)
 - [bg96](https://github.com/fasferraz/bg96) `[2023-10]` - IoT Quectel BG96 AT Command tool
-- [sdn-traffic-routing](https://github.com/niloysh/sdn-traffic-routing) `[2018-12]` - Sway: Traffic-Aware QoS Routing in Software-Defined IoT
 - [Orange-ExpLoRer-Kit-for-LoRa](https://github.com/Orange-OpenSource/Orange-ExpLoRer-Kit-for-LoRa) `[2020-06]` - The LoRa® Explorer Kit is a development board powered by Microchip that allows easy and quick prototyping of IoT obje...
 - [rainy](https://github.com/s5uishida/rainy) `[2023-09]` - rainy - a tiny tool for iot data collection and monitoring
 - [xr-telemetry-m2m-web](https://github.com/cisco/xr-telemetry-m2m-web) `[2016-07]` - A small web app to explore the IOS-XR internal data model, for streaming telemetry or other automation uses
@@ -1186,7 +1180,6 @@ For research and debugging:
 
 ### Containers, Kubernetes
 
-- [Kubernetes KubeADM](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/) - Deployment tool to create Kubernetes cluster.
 - [Intel Multus CNI plugin](https://github.com/intel/multus-cni) `[2026-08]` - Multus CNI is a container network interface (CNI) plugin for Kubernetes that enables attaching multiple network interfaces to pods from Intel.
 - [Intel SRVIOV/DPDK CNI plugin](https://github.com/intel/sriov-cni) `[2026-08]` - SR-IOV CNI plugin works with SR-IOV device plugin for VF allocation for a container.
 - ⚠️ [Nokia Danm](https://github.com/nokia/danm/) `[2026-08]` - TelCo grade network management in a Kubernetes cluster from Nokia.
