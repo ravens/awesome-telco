@@ -142,7 +142,7 @@ For research and debugging:
 - [sysmoISIM-SJA5](https://www.sysmocom.de/products/sim/sysmoisim-sja5/) - Latest generation programmable SIM/UICC/USIM/ISIM card with 3GPP Release 17 support. Ideal for lab/research networks.
 - [sysmo-usim-tool](https://gitea.sysmocom.de/sysmocom/sysmo-usim-tool) - Utility for managing proprietary bits of sysmoUSIM/sysmoISIM programmable cards.
 - [SIMTrace2](https://osmocom.org/projects/simtrace2) - Hardware device + firmware to trace communication between phone and SIM card. Supports card-side emulation. Works with [ngff-cardem](https://osmocom.org/projects/ngff-cardem/wiki).
-- [SIMTester](https://opensource.srlabs.de/projects/simtester) - Assess SIM card security: cryptanalytic attack surface and application attack surface.
+- [SIMTester](https://github.com/srlabs/SIMTester) `[2023-02]` - Assess SIM card security: cryptanalytic attack surface and application attack surface.
 - [GlobalPlatformPro](https://github.com/martinpaljak/GlobalPlatformPro) `[2026-06]` - CLI tool to load and manage applets on JavaCards, by Martin Paljak.
 - [ARA-M Applet](https://github.com/bertrandmartel/aram-applet) `[2018-02]` - ARA-M implementation for JavaCards by Bertrand Martel.
 - ⚠️ [HelloSTK2](https://github.com/mrlnc/HelloSTK2) `[2025-01]` - Guide to build and install SIM-Toolkit applets.
@@ -194,7 +194,6 @@ For research and debugging:
 
 - [XiaomiEsimLPA](https://github.com/tehcneko/XiaomiEsimLPA) `[2026-01]` - A Magisk/KernelSU module trying to add native eSIM management support for Xiaomi devices with MIUI and Xiaomi HyperOS.
 - [HookEuicc](https://github.com/Unicorn369/HookEuicc) `[2026-04]` - Xposed module that spoofs eSIM support on Android devices in order to obtain eSIM activation codes (Chinese).
-- [SIMTester](https://github.com/srlabs/SIMTester) `[2023-02]` - A tool to test SIM card security.
 - [luci-app-epm](https://github.com/stich86/luci-app-epm) `[2025-10]` - LuCI app to manage eSIM Profile on OpenWrt Web Interface.
 - [oneplus13t-esim](https://github.com/kinginu/oneplus13t-esim) `[2025-06]` - A Magisk module to enable native eSIM profile management for physical SIMs (e.g., 5ber, eSTK.me) directly with in the ColorOS settings app.
 - [ecp-lpa-sdk-decompiled](https://github.com/CursedHardware/ecp-lpa-sdk-decompiled) `[2024-08]` - ECP LPA SDK (Decompiled).
@@ -206,7 +205,6 @@ For research and debugging:
 - [UICC_SIM_Wiki](https://github.com/herlesupreeth/UICC_SIM_Wiki) `[2019-12]` - SIM part of steps involved in enabling UICC carrier privileges.
 - [luci-app-hermes-euicc](https://github.com/KilimcininKorOglu/luci-app-hermes-euicc) `[2026-03]` - LuCI Web Interface App for Managing eSIM Profiles via Hermes eUICC.
 - [openeuicc-bridge](https://github.com/Laiteux/openeuicc-bridge) `[2026-02]` - An Android ContentProvider that exposes OpenEUICC/EasyEUICC LPA functionality via ADB, enabling programmatic eSIM profile management.
-- [pysim](https://gitea.osmocom.org/sim-card/pysim) - Python libraries and command line tools for SIM/UICC/USIM/ISIM card analysis and programming. Hosted on **Osmocom Gitea**.
 - [euicc-manual](https://gitea.osmocom.org/sim-card/euicc-manual) - Osmocom eUICC and eSIM Developer Manual. Hosted on **Osmocom Gitea**.
 - [gsma-esim-iot](https://gitea.osmocom.org/sim-card/gsma-esim-iot) - playground for exploring GSMA IoT eSIM. Hosted on **Osmocom Gitea**.
 - [imsi-pseudo](https://gitea.osmocom.org/cellular-infrastructure/imsi-pseudo) - IMSI Pseudonymization for 2G/3G/4G. Hosted on **Osmocom Gitea**.
@@ -367,7 +365,6 @@ For research and debugging:
 - [5g-RF-Hack-RedTeam](https://github.com/KevinDevSecOps/5g-RF-Hack-RedTeam) `[2025-09]` - Red Team toolkit for 5G security research using SDR (HackRF, Flipper Zero, etc.) Hecho con ♦️por CK.
 - [OAI-Slicing-Intel](https://github.com/wineslab/OAI-Slicing-Intel) `[2024-03]` - RAN Slicing Code Based on OpenAirInterface 5G.
 - [srs-5g-dashboard](https://github.com/shariquetelco/srs-5g-dashboard) `[2026-01]` - Real-time monitoring dashboard for srsRAN 5G gNB - IABG mbH.
-- [rtl-sdr](https://gitea.osmocom.org/sdr/rtl-sdr) - Software to turn the RTL2832U into a SDR receiver. Hosted on **Osmocom Gitea**.
 - [libosmo-dsp](https://gitea.osmocom.org/sdr/libosmo-dsp) - A library with SDR DSP primitives. Hosted on **Osmocom Gitea**.
 - [srsRAN](https://gitea.osmocom.org/fixeria/srsRAN) - Open source SDR 4G/5G software suite with extNAS/RRCTL support (forked from https://github.com/srsran/srsRAN). Hosted on **Osmocom Gitea**.
 - [sdrangelove](https://gitea.osmocom.org/sdr/sdrangelove) - SDR GUI supporting various input hardware. Hosted on **Osmocom Gitea**.
@@ -491,7 +488,6 @@ For research and debugging:
 - [III-5GC-Free-Trial](https://github.com/III-5GC/III-5GC-Free-Trial) `[2021-05]` - The basic III-5GC is a free trial for lab research, prototype product testing and simple 5G end-to-end demonstration.
 - [upf-bpf](https://github.com/navarrothiago/upf-bpf) `[2024-09]` - An open source C++ library powered by eBPF/XDP for user plane in mobile core network (5G/LTE).
 - [5G_CN](https://github.com/wnlUc3m/5G_CN) `[2019-08]` - This is a basic implementation of a 5G Core Network supporting 4G LTE control signalling.
-- [openupf](https://github.com/5GOpenUPF/openupf) `[2021-05]` - A 3GPP R16 compliant open source 5G core UPF (User Plane Function).
 - [upf-xdp](https://github.com/801room/upf-xdp) `[2021-01]` -  it shows the possibility of using xdp to implement 5g upf.
 - [SD-Core](https://opennetworking.org/sd-core/) - A 4G/5G core based on [OMEC](https://www.opennetworking.org/omec/) for 4G and a fork of [Free5GC](https://www.free5gc.org/) for 5G, with a P4-based UPF. Per-NF repos: [AMF](https://github.com/omec-project/amf), [SMF](https://github.com/omec-project/smf), [AUSF](https://github.com/omec-project/ausf), [NRF](https://github.com/omec-project/nrf), [PCF](https://github.com/omec-project/pcf), [UDM](https://github.com/omec-project/udm), [UDR](https://github.com/omec-project/udr), [N3IWF](https://github.com/omec-project/n3iwf), [NGAP](https://github.com/omec-project/ngap), [NAS](https://github.com/omec-project/nas), [SIMAPP](https://github.com/omec-project/simapp).
 - [Magma](https://github.com/magma/magma) `[2026-07]` - Rearchitected core network with access gateway (MME+P/SGW), federation gateway for auth (S6a) and billing (Gx, Gy). Initiated by FB on a the OAI EPC code base.
@@ -598,7 +594,6 @@ For research and debugging:
 
 
 - [osmo-ci](https://gitea.osmocom.org/osmocom/osmo-ci) - Osmocom Continuous Integration. Hosted on **Osmocom Gitea**.
-- [libosmocore](https://gitea.osmocom.org/osmocom/libosmocore) - Common foundation library for all Osmocom projects (libosmocore, libosmogsm, libosmovty, libosmogb, libosmosim, libosmocodec). Hosted on **Osmocom Gitea**.
 - [libosmo-abis](https://gitea.osmocom.org/osmocom/libosmo-abis) - Osmocom library for A-bis (E1/IP) interface. Hosted on **Osmocom Gitea**.
 - [libosmo-netif](https://gitea.osmocom.org/osmocom/libosmo-netif) - Osmocom library for network/socket abstraction and osmux audio multiplex. Hosted on **Osmocom Gitea**.
 - [libosmo-gprs](https://gitea.osmocom.org/osmocom/libosmo-gprs) - Osmocom GPRS protocol stack libraries. Hosted on **Osmocom Gitea**.
@@ -611,8 +606,6 @@ For research and debugging:
 - [osmo-adsb-gen](https://gitea.osmocom.org/sdr/osmo-adsb-gen) - Osmcoom ADS-B test signal generator. Hosted on **Osmocom Gitea**.
 - [ergw-pgw](https://github.com/travelping/ergw-pgw) `[2018-02]` - PGW GGSN Docker Container.
 - [osmo-bsc-nat](https://gitea.osmocom.org/cellular-infrastructure/osmo-bsc-nat) - Osmocom BSC NAT: Aggregate multiple BSCs (A interfaces) in one BSC/A-interface. Hosted on **Osmocom Gitea**.
-- [osmo-bsc](https://gitea.osmocom.org/cellular-infrastructure/osmo-bsc) - Osmocom's Base Station Controller for 2G mobile networks. Hosted on **Osmocom Gitea**.
-- [osmo-bts](https://gitea.osmocom.org/cellular-infrastructure/osmo-bts) - Osmocom Base Transceiver Station (BTS). Hosted on **Osmocom Gitea**.
 - [osmo-msc](https://gitea.osmocom.org/cellular-infrastructure/osmo-msc) - Osmocom Mobile Switching Centre. Hosted on **Osmocom Gitea**.
 - [osmo-sgsn](https://gitea.osmocom.org/cellular-infrastructure/osmo-sgsn) - Osmocom Serving GPRS Support Node for 2G(GPRS) and 3G(UMTS). Hosted on **Osmocom Gitea**.
 - [osmo-ggsn](https://gitea.osmocom.org/cellular-infrastructure/osmo-ggsn) - Osmocom Gateway GPRS Support Node (GGSN), successor of OpenGGSN. Hosted on **Osmocom Gitea**.
@@ -620,7 +613,6 @@ For research and debugging:
 - [osmo-gsm-manuals](https://gitea.osmocom.org/cellular-infrastructure/osmo-gsm-manuals) - Official Osmocom User Manuals (shared / common parts and build scripts). Hosted on **Osmocom Gitea**.
 - [osmo-hnbgw](https://gitea.osmocom.org/cellular-infrastructure/osmo-hnbgw) - Osmocom Home NodeB Gateway, for attaching femtocells to the 3G CN (OsmoMSC, OsmoSGSN). Hosted on **Osmocom Gitea**.
 - [osmo-hlr](https://gitea.osmocom.org/cellular-infrastructure/osmo-hlr) - Osmocom HLR for GSUP protocol towards OsmoSGSN and OsmoMSC. Hosted on **Osmocom Gitea**.
-- [osmo-pcu](https://gitea.osmocom.org/cellular-infrastructure/osmo-pcu) - Osmocom Packet control Unit (PCU): Network-side GPRS (RLC/MAC); BTS- or BSC-colocated. Hosted on **Osmocom Gitea**.
 - [osmo-gbproxy](https://gitea.osmocom.org/cellular-infrastructure/osmo-gbproxy) - Omocom GPRS Gb interface aggregation/conversion proxy (between PCU/BSS and SGSN). Hosted on **Osmocom Gitea**.
 - [osmo-iuh](https://gitea.osmocom.org/cellular-infrastructure/osmo-iuh) - Osmocom code for the Iuh interface (HNBAP, RUA, RANAP). Hosted on **Osmocom Gitea**.
 - [osmo-el2tpd](https://gitea.osmocom.org/cellular-infrastructure/osmo-el2tpd) - Osmocom L2TP daemon compatible with Ericsson L2TP dialect (SIU). Hosted on **Osmocom Gitea**.
@@ -662,7 +654,6 @@ For research and debugging:
 
 - [Freeswitch](https://freeswitch.org/confluence/display/FREESWITCH/Python_SBC) - Popular SIP stack that could be used as Session Border Controller (SBC)
 - [IMS Clearwater](http://www.projectclearwater.org) - Clearwater is an open source implementation of IMS (the IP Multimedia Subsystem).
-- [Kamailio](https://www.kamailio.org) - SIP stack used for VoLTE and SBC. CLI control tool: [kamcli](https://github.com/kamailio/kamcli) `[2026-07]`.
 - [go-eventsocket](https://github.com/fiorix/go-eventsocket) `[2024-09]` - FreeSWITCH Event Socket library for the Go programming language.
 - [mod_earshot](https://github.com/wiringai/mod_earshot) `[2026-08]` - FreeSWITCH module that streams live call audio to AI voice agents over WebSocket and plays their responses back into the call.
 - [Asterisk](https://github.com/asterisk/asterisk) `[2026-08]` - The most widely deployed open-source PBX and telephony engine. SIP, PJSIP, WebRTC, conferencing, and IVR.
@@ -711,7 +702,6 @@ For research and debugging:
 - [docker-opensips](https://github.com/OpenSIPS/docker-opensips) `[2026-07]` - Official Docker image repository for OpenSIPS.
 - [opensips-mcp-server](https://github.com/OpenSIPS/opensips-mcp-server) `[2026-04]` - Model Context Protocol (MCP) server exposing OpenSIPS operations to LLM agents. Pair with [opensips-skills](https://github.com/VoicenterTeam/opensips-skills) for Claude Code.
 - [opensips-skills](https://github.com/VoicenterTeam/opensips-skills) `[2026-07]` - Claude Code plugin providing two coordinated Agent Skills for working with OpenSIPS. Companion to opensips-mcp-server.
-- [SEMS](https://github.com/sipwise/sems) `[2026-07]` - SIP Express Media Server: fast, flexible SIP application/media server for IVR, conferencing, B2BUA scenarios. Maintained by Sipwise.
 - [diago](https://github.com/emiago/diago) `[2026-08]` - VoIP framework in Go (built on sipgo) for building dialog-oriented telephony applications. Companion CLI: [gophone](https://github.com/emiago/gophone).
 - [diagox](https://github.com/emiago/diagox) `[2026-07]` - Simple Ingress/Egress service for SIP/RTP/WebRTC built on diago. Useful as a lightweight SBC-style component.
 - [voiptests](https://github.com/sippy/voiptests) `[2026-07]` - Meta-repository wiring up interop tests between latest OpenSIPS, Kamailio, Sippy B2BUA and rtpproxy.
@@ -788,7 +778,7 @@ For research and debugging:
 - [MSRPRelay](https://github.com/AGProjects/msrprelay) `[2026-07]` - MSRP relay (RFC 4976) for NAT traversal of MSRP sessions. From AG Projects.
 - [custompbx](https://github.com/custompbx/custompbx) `[2026-07]` - API server and Web GUI for FreeSWITCH written in Go and Angular.
 - [mod_audio_stream](https://github.com/amigniter/mod_audio_stream) `[2026-01]` - FreeSWITCH module to stream audio to websocket and receive response.
-- [sems](https://github.com/sems-server/sems) `[2026-07]` - Sip Express Media Server.
+- [SEMS](https://github.com/sipwise/sems) `[2026-07]` - SIP Express Media Server: fast, flexible SIP application/media server for IVR, conferencing, B2BUA scenarios. Maintained by Sipwise.
 - [mod_bcg729](https://github.com/xadhoom/mod_bcg729) `[2025-07]` - FreeSWITCH G.729 module using the opensource bcg729 implementation by Belledonne Communications.
 - [sipgrep](https://github.com/sipcapture/sipgrep) `[2025-09]` - SIPGREP: Display and Troubleshoot SIP signaling over IP networks in console.
 - [kamailioexamples](https://github.com/altanai/kamailioexamples) `[2026-01]` - VoIP architectures and use cases involving Kamailio SIP Server and its modules includes RTPEngine.
@@ -869,7 +859,6 @@ For research and debugging:
 - [asterisk-config](https://codeberg.org/mpmc/asterisk-config) - Asterisk configuration with a focus on UK usage. Hosted on **Codeberg**.
 - [asterisk-rooms](https://codeberg.org/pkgstore/asterisk-rooms) - Hosted on **Codeberg**.
 - [asterisk-chan-quectel](https://codeberg.org/mpmc/asterisk-chan-quectel) - Asterisk channel driver for Quectel and SimCOM modules. Hosted on **Codeberg**.
-- [pk-sbc](https://codeberg.org/mwolff44/pk-sbc) - P-KISS-SBC - simple and stupid SIP/RTP SBC - AGPL v3 - Based on kamailio / RTP Engine. Hosted on **Codeberg**.
 - [freeswitch-container](https://codeberg.org/thefinn93/freeswitch-container) - Hosted on **Codeberg**.
 - [feditel-astconf](https://codeberg.org/winter/feditel-astconf) - default asterisk config for a feditel server. Hosted on **Codeberg**.
 - [ansible-prototype](https://gitea.osmocom.org/ims-volte-vowifi/ansible-prototype) - Hosted on **Osmocom Gitea**.
@@ -889,18 +878,11 @@ For research and debugging:
 - [ngrep-sip](https://github.com/sipwise/ngrep-sip) `[2026-06]` - capture SIP flow based on ngrep command.
 - [kamailio-config-tests](https://github.com/sipwise/kamailio-config-tests) `[2026-06]` - Kamailio configuration tests.
 - [osmo-mgw](https://gitea.osmocom.org/cellular-infrastructure/osmo-mgw) - Osmocom Media Gateway (RTP proxy and RTP/E1 gateway). Hosted on **Osmocom Gitea**.
-- [custompbx](https://github.com/custompbx/custompbx) `[2026-07]` - API server and Web GUI for FreeSwitch written in Golang and Angular
 - [eventsocket](https://github.com/fiorix/eventsocket) `[2015-06]` - Twisted protocol for the FreeSWITCH's Event Socket
 - [voip_perf](https://github.com/jchavanton/voip_perf) `[2026-03]` - SIP performance test tool
-- [mod_whisper_asr](https://github.com/aks-tel/mod_whisper_asr) `[2025-01]` - Freeswitch ASR module
-- [mod_udptun](https://github.com/aks-tel/mod_udptun) `[2026-07]` - A helper module for the Freeswitch to cloning and tunnelling RTP/UDP traffic
 - [sipbench](https://github.com/novartc/sipbench) `[2026-07]` - High-performance SIP stress testing tool based on eBPF/XDP
-- [mod_xconf](https://github.com/aks-tel/mod_xconf) `[2026-07]` - Simple and high performance conference module for the Freeswitch
 - [cipbx](https://github.com/arthur-s/cipbx) `[2025-09]` - cipbx — a minimalistic VoIP call testing tool implementing a simple echo server in Go using diago
 - [astmanproxy](https://codeberg.org/augcampos/astmanproxy) - Asterisk Manager Proxy. Hosted on **Codeberg**.
-- [always-online-stun](https://github.com/pradt2/always-online-stun) `[2026-08]` - A list of publicly available STUN servers, refreshed every hour.
-- [turn-rs](https://github.com/mycrl/turn-rs) `[2026-07]` - A pure rust implemented turn server.
-- [stun](https://github.com/processone/stun) `[2026-03]` - STUN and TURN library for Erlang / Elixir
 - Additional FreePBX sub-projects: [cdr](https://github.com/FreePBX/cdr), [cxpanel](https://github.com/FreePBX/cxpanel), [paging](https://github.com/FreePBX/paging), [userman](https://github.com/FreePBX/userman), [logfiles](https://github.com/FreePBX/logfiles), [xmpp](https://github.com/FreePBX/xmpp), [manager](https://github.com/FreePBX/manager), [restart](https://github.com/FreePBX/restart), +2 more
 - Additional sipcapture sub-projects: [HEP](https://github.com/sipcapture/HEP), [HEPop](https://github.com/sipcapture/HEPop), [awesome-hep](https://github.com/sipcapture/awesome-hep), [hepipe.js](https://github.com/sipcapture/hepipe.js), [gossipper](https://github.com/sipcapture/gossipper), [hepipe](https://github.com/sipcapture/hepipe), [hep-js](https://github.com/sipcapture/hep-js), [captagent-js](https://github.com/sipcapture/captagent-js), +15 more
 ### SS7
@@ -1314,8 +1296,6 @@ For research and debugging:
 - [Wireshark](https://gitlab.com/wireshark/wireshark) `[2026-08]` - Essential protocol analyzer with dissectors for GSMTAP, Diameter, GTP, S1AP, NGAP, SS7/TCAP and more. Main development on **GitLab**.
 - [Seagull](https://gull.sourceforge.net/) - Multi-protocol traffic generator for IMS testing: Diameter (RFC3588) over TCP/SCTP, TCAP (over SS7/Sigtran), XCAP, Radius. From HP. [SourceForge](https://sourceforge.net/projects/gull/).
 - [ETSI Forge Test Suites](https://forge.etsi.org/rep/explore/projects) - Official ETSI test suites in TTCN-3 and Robot Framework for telecom protocols (Diameter, GTP, S1AP, NAS, MEC, NFV). Hosted on **ETSI Forge (GitLab)**.
-- [ETSI 5G Core NAS Test Suite](https://forge.etsi.org/rep/int/5g-core/nas) - Official ETSI INT test suite for 5G NAS conformance testing. Hosted on **ETSI Forge**.
-- [ETSI 5G Core NGAP Test Suite](https://forge.etsi.org/rep/int/5g-core/ngap) - Official ETSI INT test suite for NGAP conformance testing on the N2 interface. Hosted on **ETSI Forge**.
 - [Nokia Moler](https://github.com/nokia/moler) `[2026-07]` - Python library for building automated tests of network equipment. From Nokia.
 - [twampy](https://github.com/nokia/twampy) `[2026-03]` - Python tools for TWAMP and STAMP (Two-Way Active Measurement Protocol) network performance measurement. From Nokia.
 - [5g-traffic-generator](https://github.com/niloysh/5g-traffic-generator) `[2025-09]` - Tool for sending GTP-U packets with configurable TEID and QFI values. Useful for exercising UPFs and 5G data-plane setups.
@@ -1487,10 +1467,7 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [InvaRAN](https://github.com/SyNSec-den/INVARAN) `[2026-03]` - Invariant-guided logical testing of O-RAN controllers. Trace instrumentation, Daikon-based invariant inference, and grammar-aware fuzzing for xApps. From the SyNSec group.
 - [closed-loop-5g-resilience](https://github.com/Montimage/closed-loop-5g-resilience) `[2026-03]` - Research prototype of a closed-loop resilience framework for 5G core networks: monitoring, alert-driven mitigation, non-regression testing. From Montimage.
 - [advisories](https://github.com/EnableSecurity/advisories) `[2026-02]` - Security advisories published by Enable Security
-- [CVE-2025-36911-exploit](https://github.com/PentHertz/CVE-2025-36911-exploit) `[2026-01]` - Exploit of the CVE-2025-36911 vulnerability in Python for testing our own equipment
 - [sniffmap](https://github.com/P1sec/sniffmap) `[2014-12]` - sniffmap: Map of probable Internet network interception
-- [pqproto](https://github.com/ngkore/pqproto) `[2025-10]` - Practical framework for experimenting with PQC in security protocols using OpenSSL and other open source libraries.
-- [security-intents](https://github.com/5GSEC/security-intents) `[2024-03]` - Repository to hold security intents in standard template format.
 - [E2IBS-5G-Authentication](https://github.com/SyNSec-den/E2IBS-5G-Authentication)
 - [5g-threat-detector](https://github.com/SyNSec-den/5g-threat-detector)
 - [MobiDojo](https://github.com/5GSEC/MobiDojo) `[2025-09]` - Virtual security combat platform for 5G with one-click OAI-based deployment and a web GUI for protocol-level security testing, no RF hardware required. From the 5GSEC group.
