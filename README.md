@@ -131,6 +131,7 @@ For research and debugging:
 - [AI & Machine Learning](#ai--machine-learning) - LLMs, PHY/RF ML, network optimization, RL environments
 - [Security](#security) - Research, tools, IMSI catcher detection, and talks
 - [Learning Resources](#learning-resources) - Blogs, docs, tutorials
+- [Organizations](#organizations) - Standards bodies and industry alliances
 - [Community](#community) - Forums, mailing lists, Discord, Slack
 
 ---
@@ -180,6 +181,8 @@ For research and debugging:
 - [lpac](https://github.com/estkme-group/lpac) `[2026-07]` - C-language implementation of a Consumer eSIM LPAd. Download/activate/deactivate profiles on eUICC.
 - [EasyLPAC](https://github.com/creamlike1024/EasyLPAC) `[2026-04]` - lpac GUI Frontend for Linux and macOS.
 - [OpenEUICC](https://github.com/estkme-group/openeuicc) `[2026-08]` - Fully open-source eSIM LPA (Local Profile Assistant) implementation for Android. System privilege required. Also available as [Magisk module](https://github.com/hzy132/OpenEUICC_for_Magisk).
+- [LPAUnbound](https://github.com/Dr-TSNG/LPAUnbound) `[2026-08]` - Xposed module that unlocks the restricted eSIM LPA on HyperOS CN (Chinese Xiaomi) devices.
+- [luci-app-lpac](https://github.com/As-tsaqib/luci-app-lpac) `[2026-08]` - Native LuCI frontend for the lpac eSIM manager on OpenWrt routers.
 - [LPAd SM-DP+ Connector](https://github.com/Truphone/LPAd_SM-DPPlus_Connector) `[2023-05]` - Local Profile Assistant for Device (LPAd) SM-DP+ Connector.
 - [Generic-eUICC-Test-Profile](https://github.com/GSMATerminals/Generic-eUICC-Test-Profile-for-Device-Testing-Public) `[2026-05]` - Standardized test profiles for embedded UICCs.
 - [ISD-R Access Provider](https://github.com/cheeriotb/ISD-R-AccessProvider) `[2021-01]` - Content provider for communicating with ISD-R in soldered eSIM on Android (Pixel4).
@@ -243,6 +246,7 @@ For research and debugging:
 - [Pixel IMS (pixel-volte-patch)](https://github.com/kyujin-cho/pixel-volte-patch) `[2026-02]` - Rootless replacement for the Tensor Pixel VoLTE/IMS patch. Related Pixel IMS tooling: [Carrier IMS / TurboIMS](https://github.com/ryfineZ/carrier-ims-for-pixel) `[2026-02]`, [TurboIMS config tool](https://github.com/Turbo1123/TurboIMS) `[2025-10]`, [ImsForPixel](https://github.com/svenuks/ImsForPixel) `[2026-06]` (rootless VoLTE/VoNR/VoWiFi, no Shizuku), [Pixel 5G/VoLTE enabler](https://github.com/WZL203/Pixel-turn-on-5G-Volte-and-automatically-register-with-IMS) `[2025-10]`, [PixelIMS](https://github.com/VinujaHerath/PixelIMS) `[2026-05]` (for carriers without official Pixel support), [Pixel-IMS-5G](https://github.com/barrylk/Pixel-IMS-5G) `[2026-08]` (Shizuku-powered 5G/VoLTE/VoNR enabler with Tensor radio diagnostics).
 - [Samsung-IMS-Patcher](https://github.com/rezaf28/Samsung-IMS-Patcher) `[2025-09]` - LSPosed module to unlock Samsung-restricted carrier features on rooted Galaxy devices (VoWiFi, VoLTE, ViLTE, RCS, SMS over IP).
 - [VoHive](https://github.com/1239t/vohive) `[2026-07]` - Management and proxy platform for Qualcomm 4G/LTE/5G modules: VoWiFi/IMS calling, SMS send/receive, and eSIM management (Chinese). Docker images: [vohive-docker](https://github.com/dannyge/vohive-docker).
+- [mdd-sim-gateway](https://github.com/MddIdd/mdd-sim-gateway) `[2026-08]` - Self-hosted SIM/eSIM gateway for VoWiFi calling, SMS, cellular data and isolated regional egress.
 
 
 ## User Equipment
@@ -257,6 +261,7 @@ For research and debugging:
 
 - [OsmocomBB](https://osmocom.org/projects/baseband/wiki) - Open Source implementation of a 2G Mobile Station, including baseband firmware/PHY, L2, L3, etc.  Works with phones using TI Calypso chipset; SDR PHY is work-in-progress
 - [FreeCalypso](https://www.freecalypso.org/) - Volunteer project building software derived from leaked source code for the TI calypso project
+- [nokia-dct3-emulator](https://github.com/djr-747/nokia-dct3-emulator) `[2026-07]` - Open-source emulator and analysis toolkit for Nokia DCT3 phones (3310, 3410, 5210, 8210 and more). Boots real firmware in the browser (WASM) or a native SDL GUI; bring your own firmware.
 
 ### Diagnostics, Monitor mode
 
@@ -281,6 +286,7 @@ For research and debugging:
 - [luci-app-3ginfo-lite](https://github.com/4IceG/luci-app-3ginfo-lite) `[2026-04]` - OpenWrt LuCI status page for 3G/LTE/5G modems: band, signal and serving-cell details. Companions from the same author: [luci-app-modemband](https://github.com/4IceG/luci-app-modemband) `[2026-05]` (LTE/5G band locking UI) and [luci-app-modemdata](https://github.com/4IceG/luci-app-modemdata) `[2026-07]` (modem data visualization).
 - [RM520N-GL](https://github.com/4IceG/RM520N-GL) `[2026-05]` - Community resource hub for the Quectel RM520N-GL 5G module: firmware, AT commands and OpenWrt integration notes.
 - [EC25Toolbox](https://github.com/skyrocketingHong/EC25Toolbox) `[2026-07]` - macOS menu bar toolbox for Quectel EC25 and reconfigured DJI Cellular Dongle LTE modems: SMS, eSIM/eUICC via lpac, VoWiFi/IMS toggles.
+- [VoCat](https://github.com/MengMengCode/VoCat) `[2026-08]` - Web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems, in Go.
 
 ## Radio Access Network
 
@@ -424,6 +430,12 @@ For research and debugging:
 - [op25 (boatbod)](https://github.com/boatbod/op25) `[2026-08]` - Actively-maintained fork of Osmocom OP25; the canonical P25 (phase 1 & 2) decoder for SDR.
 - [OpenDMR](https://github.com/MW0MWZ/OpenDMR) `[2025-12]` - Open-source DMR AMBE codec for encoding/decoding DMR voice to/from PCM.
 - [tr-stack](https://github.com/trunk-reporter/tr-stack) `[2026-07]` - Full P25 transcription stack: trunk-recorder + tr-engine + tr-dashboard integrated.
+- [blip25-vocoder](https://github.com/OpenBLIP25/blip25-vocoder) `[2026-08]` - P25 voice codec in Rust: full-rate (Phase 1) and half-rate (Phase 2) encode/decode and wire formats. Note: the IMBE/AMBE algorithms are patent-encumbered; see the repo's PATENT_NOTICE.
+- [LakeShark](https://github.com/SAMS0N1TE/LakeShark) `[2026-08]` - Handheld ESP32-P4 SDR scanner: P25, ADS-B, NBFM and POCSAG over RTL-SDR, with a custom LVGL LCD shell.
+- [UniPager](https://github.com/rwth-afu/UniPager) `[2026-04]` - Universal POCSAG transmitter controller written in Rust.
+- [DAPNETGateway](https://github.com/g4klx/DAPNETGateway) `[2026-08]` - Gateway to the DAPNET POCSAG amateur paging network.
+- [mmng-ui](https://github.com/lingfish/mmng-ui) `[2026-07]` - Textual TUI for multimon-ng: decode POCSAG and FLEX pager messages from SDR in the terminal.
+
 ### Analog / 1G
 
 - [osmocom-analog](https://gitea.osmocom.org/cellular-infrastructure/osmocom-analog) - Analog cellular network implementations: A-Netz, B-Netz, C-Netz, NMT, AMPS, TACS, and more. Hosted on **Osmocom Gitea**.
@@ -638,7 +650,10 @@ For research and debugging:
 - [IMS Clearwater](http://www.projectclearwater.org) - Clearwater is an open source implementation of IMS (the IP Multimedia Subsystem).
 - [go-eventsocket](https://github.com/fiorix/go-eventsocket) `[2024-09]` - FreeSWITCH Event Socket library for the Go programming language.
 - [mod_earshot](https://github.com/wiringai/mod_earshot) `[2026-08]` - FreeSWITCH module that streams live call audio to AI voice agents over WebSocket and plays their responses back into the call.
-- [Asterisk](https://github.com/asterisk/asterisk) `[2026-08]` - The most widely deployed open-source PBX and telephony engine. SIP, PJSIP, WebRTC, conferencing, and IVR.
+- [Asterisk](https://github.com/asterisk/asterisk) `[2026-08]` - The most widely deployed open-source PBX and telephony engine. SIP, PJSIP, WebRTC, conferencing, and IVR. Tooling: [asterisklint](https://github.com/ossobv/asterisklint) (configuration syntax checker), [IssabelPBX](https://github.com/IssabelFoundation/issabelPBX) (Asterisk configuration GUI from the Issabel project).
+- [rustpbx](https://github.com/restsend/rustpbx) `[2026-08]` - A PBX written in Rust with SIP, WebRTC and AI voice-agent support.
+- [dSIPRouter](https://github.com/dOpensource/dsiprouter) `[2026-08]` - Web UI on top of Kamailio for PBX hosting and SIP trunking services.
+- [empbx](https://github.com/aks-tel/empbx) `[2026-07]` - Lightweight soft PBX based on baresip and libre.
 - [PJSIP](https://github.com/pjsip/pjproject) `[2026-08]` - Free and open-source multimedia communication library implementing SIP, SDP, RTP, STUN, TURN, and ICE. Foundation for many VoIP/IMS clients.
 - [HOMER](https://github.com/sipcapture/homer) `[2026-08]` - 100% Open-Source SIP/VoIP/RTC packet capture and monitoring platform. Essential for VoLTE/VoWiFi troubleshooting. Ecosystem: [homer-ui](https://github.com/sipcapture/homer-ui), Docker variants ([10](https://github.com/sipcapture/homer-docker), [7](https://github.com/sipcapture/homer7-docker), [5](https://github.com/sipcapture/homer5-docker)), [installer](https://github.com/sipcapture/homer-installer), [config](https://github.com/sipcapture/homer-config), [puppet](https://github.com/sipcapture/homer-puppet), [snmp bridge](https://github.com/sipcapture/homer-snmp), legacy viewers ([homer-view](https://github.com/sipcapture/homer-view), [react](https://github.com/sipcapture/homer-view-react)).
 - [Routr](https://github.com/fonoster/routr) `[2026-07]` - A programmable, cloud-native SIP server for building modern telephony systems.
@@ -650,7 +665,7 @@ For research and debugging:
 - [active-call](https://github.com/miuda-ai/active-call) `[2026-08]` - A SIP/WebRTC voice agent.
 - [OpenSIPS](https://opensips.org/) - GPL multi-functional SIP server: proxy, registrar, load balancer, SBC, NAT traversal. Former OpenSER. [SourceForge (legacy)](https://sourceforge.net/projects/opensips/) / [GitHub](https://github.com/OpenSIPS/opensips). Community Edition platforms: [SBC CE](https://github.com/OpenSIPS/opensips-sbc-ce), [SoftSwitch CE](https://github.com/OpenSIPS/opensips-softswitch-ce) ([config](https://github.com/OpenSIPS/opensips-softswitch-ce-config)), [AI Voice Connector CE](https://github.com/OpenSIPS/opensips-ai-voice-connector-ce). Other: [opensips-js](https://github.com/OpenSIPS/opensips-js) (browser SIP), [opensips-ng](https://github.com/OpenSIPS/opensips-ng) (next-gen prototype).
 - [P-KISS-SBC](https://github.com/mwolff44/pk-sbc) `[2026-07]` - Simple SIP/RTP session border controller built on Kamailio and RTPEngine.
-- [Flexisip](https://github.com/BelledonneCommunications/flexisip) `[2026-07]` - SIP proxy server with push notification gateway, presence and conference servers; powers the linphone.org infrastructure. From Belledonne Communications.
+- [Flexisip](https://github.com/BelledonneCommunications/flexisip) `[2026-07]` - SIP proxy server with push notification gateway, presence and conference servers; powers the linphone.org infrastructure. From Belledonne Communications. Component libraries: [ortp](https://github.com/BelledonneCommunications/ortp) (RTP stack), [belle-sip](https://github.com/BelledonneCommunications/belle-sip) (SIP stack), [bzrtp](https://github.com/BelledonneCommunications/bzrtp) (ZRTP key exchange).
 - [MikoPBX](https://github.com/mikopbx/Core) `[2026-08]` - Free open-source PBX built on Asterisk 22 with a web UI, deployable as ISO, Docker, LXC or cloud image.
 - [sng_freepbx_debian_install](https://github.com/FreePBX/sng_freepbx_debian_install) `[2025-09]` - Official FreePBX 17 installation script for Debian.
 - [FS PBX](https://github.com/nemerald-voip/fspbx) `[2026-08]` - Multi-tenant PBX platform on FreeSWITCH with a modern web UI, fax, device provisioning and REST APIs.
@@ -676,6 +691,7 @@ For research and debugging:
 - [Fonoster](https://github.com/fonoster/fonoster) `[2026-07]` - Open-source alternative to Twilio: programmable voice/SMS APIs for building telephony applications. Monorepo for the Fonoster platform.
 - [heplify](https://github.com/sipcapture/heplify) `[2026-07]` - Lightweight HEP capture agent for HOMER. Captures SIP/RTCP/RTP and forwards to a HEP collector for VoIP troubleshooting and monitoring.
 - [heplify-server](https://github.com/sipcapture/heplify-server) `[2026-08]` - HEP capture server for HOMER. Receives, decodes and stores HEP-encapsulated SIP/RTC traffic. Companion to heplify.
+- [hepsim](https://github.com/sipcapture/hepsim) `[2026-08]` - Simulates varying phone calls by sending HEP, for HOMER demos and statistics.
 - [captagent](https://github.com/sipcapture/captagent) `[2026-07]` - 100% open-source packet capture agent for HEP/HOMER. C-based, supports SIP, RTCP, RTP, DNS and ISUP capture.
 - [homer-app](https://github.com/sipcapture/homer-app) `[2026-08]` - HOMER 7 frontend and API server (Go). Web UI and REST API for the SIP/VoIP/RTC packet capture and monitoring stack.
 - [opensips-cli](https://github.com/OpenSIPS/opensips-cli) `[2026-08]` - Official interactive CLI tool for controlling and monitoring OpenSIPS servers.
@@ -1483,6 +1499,7 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [GSM-Cipher-Sensor](https://github.com/mclab-hbrs/GSM-Cipher-Sensor) `[2025-06]` - SDR-based sensor that captures GSM Cipher Mode Command messages to detect weak/absent A5 encryption (an IMSI-catcher indicator).
 - [SS7-Diameter-ShadowCell](https://github.com/zencefilefendi/SS7-Diameter-ShadowCell) `[2026-05]` - Cellular network anomaly detection platform against SS7/Diameter tracking and IMSI catchers.
 - [Norypt-IMSI-Catcher](https://github.com/norypt-prv/Norypt-IMSI-Catcher) `[2026-04]` - Passive cellular security monitor for the TP-Link M7350 hotspot detecting IMSI catchers, 2G downgrades, and null ciphers.
+- [ICdetector](https://github.com/Alexisgordr/ICdetector) `[2026-06]` - Open-source Android cellular anomaly auditor for IMSI-catcher research, no root required.
 - [argus-db](https://github.com/kevwillow/argus-db) `[2026-07]` - Provenance-tracked database of wireless identifiers for surveillance equipment, including cell site simulators, for use by detection tooling.
 
 ### Security Research & Reports
