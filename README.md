@@ -286,7 +286,7 @@ For research and debugging:
 
 ## Radio Access Network
 
-### RRH
+### O-RAN / RIC
 
 - [O-RAN Software and seed code](https://o-ran-sc.org) - The O-RAN Software Community (SC) is a collaboration between the O-RAN Alliance and Linux Foundation with the mission to support the creation of software for the Radio Access Network (RAN). Introduction to O-RAN in a [LF video](https://www.youtube.com/watch?v=iJyb0pCWDKo). RIC platform (Gerrit mirrors): [ric-plt-e2](https://github.com/o-ran-sc/ric-plt-e2), [ric-plt-e2mgr](https://github.com/o-ran-sc/ric-plt-e2mgr), [ric-plt-ric-dep](https://github.com/o-ran-sc/ric-plt-ric-dep), [ric-plt-appmgr](https://github.com/o-ran-sc/ric-plt-appmgr), [ric-plt-xapp-frame](https://github.com/o-ran-sc/ric-plt-xapp-frame) ([py](https://github.com/o-ran-sc/ric-plt-xapp-frame-py), [cpp](https://github.com/o-ran-sc/ric-plt-xapp-frame-cpp)). xApps: [hw-python](https://github.com/o-ran-sc/ric-app-hw-python), [ts](https://github.com/o-ran-sc/ric-app-ts), [kpimon-go](https://github.com/o-ran-sc/ric-app-kpimon-go), [ad](https://github.com/o-ran-sc/ric-app-ad), [qp](https://github.com/o-ran-sc/ric-app-qp).
 - [srsRAN O-RAN SC RIC](https://github.com/srsran/oran-sc-ric) `[2025-10]` - Simplified O-RAN SC RIC deployment with improved usability and xApp examples, from the srsRAN team.
@@ -521,19 +521,13 @@ For research and debugging:
 
 
 - [docker_open5gs_volte_sms_config](https://github.com/s5uishida/docker_open5gs_volte_sms_config) `[2023-12]` - VoLTE and SMS Configuration for docker_open5gs.
-- [open5gs-b210](https://github.com/StevenVanAcker/open5gs-b210) `[2025-11]` - Installation scripts for a dockerized VoLTE setup using Open5GS with an Ettus USRP B210.
 - [simple_measurement_of_upf_performance](https://github.com/s5uishida/simple_measurement_of_upf_performance) `[2025-01]` - Simple Measurement of UPF Performance.
-- [Private-5g-setup-with-Open5gs-and-srsRAN-and-B210](https://github.com/ManojPandekamat/Private-5g-setup-with-Open5gs-and-srsRAN-and-B210) `[2025-07]` - Setting up a real time 5g network using **Open5gs** as core and srsRAN as RAN which is connected to real 5G COTS Devices (5G Mobiles) using USRP B210 as BASE Satation.
 - [simple_measurement_of_upf_performance_6](https://github.com/s5uishida/simple_measurement_of_upf_performance_6) `[2026-01]` - Simple Measurement of UPF Performance 6.
-- [Task-offloading-in-private-5g-network-using-usrpB210](https://github.com/RAHUL2052003/Task-offloading-in-private-5g-network-using-usrpB210) `[2025-08]` - Real-time private 5G network setup using Open5GS and srsRAN with USRP B210 for task offloading.
-- [k8s_srsran_open5gs](https://github.com/sulaimanalmani/k8s_srsran_open5gs) `[2026-03]` - Containerized/kubernetes deployment of E2E 5G testbed using srsRAN and Open5gs.
 - [simple_measurement_of_upf_performance_9](https://github.com/s5uishida/simple_measurement_of_upf_performance_9) `[2026-01]` - Simple Measurement of UPF Performance 9.
 - [Open5gs_Config](https://github.com/herlesupreeth/Open5gs_Config) `[2021-05]` - Open5gs Configuration files for IMS/VoLTE.
 - [docker-open5gs-basic-config](https://codeberg.org/boxedtoast/docker-open5gs-basic-config) - Stripped down LTE only open5gs docker configs. Hosted on **Codeberg**.
-- [s5uishida sample-config catalog](https://github.com/s5uishida) - Reference deployment configurations for Open5GS/free5GC + UERANSIM/srsRAN/OAI permutations. Topology variants: [Open5GS+UERANSIM](https://github.com/s5uishida/open5gs_5gc_ueransim_sample_config), [free5GC+UERANSIM](https://github.com/s5uishida/free5gc_ueransim_sample_config), [Open5GS EPC+OAI](https://github.com/s5uishida/open5gs_epc_oai_sample_config), [Open5GS+srsRAN](https://github.com/s5uishida/open5gs_5gc_srsran_sample_config), [free5GC+srsRAN](https://github.com/s5uishida/free5gc_srsran_sample_config), [Open5GS EPC+srsRAN](https://github.com/s5uishida/open5gs_epc_srsran_sample_config). Feature variants: [Prometheus metrics](https://github.com/s5uishida/open5gs_5gc_ueransim_metrics_sample_config), [S-NSSAI UPF select (Open5GS)](https://github.com/s5uishida/open5gs_5gc_ueransim_snssai_upf_sample_config) / [(free5GC)](https://github.com/s5uishida/free5gc_ueransim_snssai_upf_sample_config), [nearby UPF (Open5GS)](https://github.com/s5uishida/open5gs_5gc_ueransim_nearby_upf_sample_config) / [(free5GC)](https://github.com/s5uishida/free5gc_ueransim_nearby_upf_sample_config), VPP/DPDK UPF [(Open5GS)](https://github.com/s5uishida/open5gs_5gc_ueransim_vpp_upf_dpdk_sample_config) / [(free5GC)](https://github.com/s5uishida/free5gc_ueransim_vpp_upf_dpdk_sample_config), eUPF [(Open5GS 5GC)](https://github.com/s5uishida/open5gs_5gc_ueransim_eupf_sample_config) / [(Open5GS EPC)](https://github.com/s5uishida/open5gs_epc_srsran_eupf_sample_config), ULCL [(simple)](https://github.com/s5uishida/free5gc_ueransim_ulcl_sample_config) / [(I-UPF + 2 PSA-UPFs)](https://github.com/s5uishida/free5gc_ueransim_ulcl_2_sample_config), [SCP Model C](https://github.com/s5uishida/open5gs_5gc_ueransim_scp_model_c_sample_config).
 - [upf-benchmark](https://gitea.osmocom.org/cellular-infrastructure/upf-benchmark) - Tools and configs to set up UPF benchmarking. Hosted on **Osmocom Gitea**.
 - [note_5g_suci_profile_ab](https://github.com/s5uishida/note_5g_suci_profile_ab) `[2026-06]` - A Note for 5G SUCI Profile A/B Scheme
-- [oai5g-rru](https://github.com/sopnode/oai5g-rru) `[2026-08]` - OpenAirInterface 5G Core Network Deployment on SophiaNode/R2lab using Helm Charts and nepi-ng
 - [nextgcore](https://github.com/NextgCoreLab/nextgcore) `[2026-08]` - Open-source NextG 5G core (EPC) implementation.
 - [rt-5gc-service-consumers](https://github.com/5G-MAG/rt-5gc-service-consumers) `[2026-06]` - 5G-MAG reusable service-consumer libraries for interacting with 5GC network functions over the service-based interface.
 - [telecom-platform](https://github.com/nutcas3/telecom-platform) `[2026-05]` - Full-stack sovereign private 5G/LTE platform covering core network integration, subscriber management, charging and developer APIs (Go/Rust/eBPF).
@@ -872,13 +866,6 @@ For research and debugging:
 - [astmanproxy](https://codeberg.org/augcampos/astmanproxy) - Asterisk Manager Proxy. Hosted on **Codeberg**.
 - Additional FreePBX sub-projects: [cdr](https://github.com/FreePBX/cdr), [cxpanel](https://github.com/FreePBX/cxpanel), [paging](https://github.com/FreePBX/paging), [userman](https://github.com/FreePBX/userman), [logfiles](https://github.com/FreePBX/logfiles), [xmpp](https://github.com/FreePBX/xmpp), [manager](https://github.com/FreePBX/manager), [restart](https://github.com/FreePBX/restart), +2 more
 - Additional sipcapture sub-projects: [HEP](https://github.com/sipcapture/HEP), [HEPop](https://github.com/sipcapture/HEPop), [awesome-hep](https://github.com/sipcapture/awesome-hep), [hepipe.js](https://github.com/sipcapture/hepipe.js), [gossipper](https://github.com/sipcapture/gossipper), [hepipe](https://github.com/sipcapture/hepipe), [hep-js](https://github.com/sipcapture/hep-js), [captagent-js](https://github.com/sipcapture/captagent-js), +15 more
-### SS7
-
-- [Restcomm SS7](https://github.com/restcomm/jss7) `[2024-06]` - Open Source Java SS7 stack that allows Java apps to communicate with legacy SS7 communications equipment.
-- [Restcomm USSD Gateway](https://github.com/RestComm/ussdgateway) `[2024-01]` - Open source USSD Gateway based on Restcomm jSS7 stack. MAP-based USSD services over SS7/SIGTRAN.
-- [SigFW](https://github.com/P1sec/SigFW) `[2024-10]` - Open Source Signaling Firewall for SS7, Diameter filtering, antispoof and antisniff.
-- [yate](https://github.com/yatevoip/yate) `[2026-06]` - Open Source Telephony engine with support of MTP2/MTP3 over TDM, M2PA, M2UA, M3UA, SCCP, TCAP
-- [libtcap](https://github.com/sipwise/libtcap) `[2026-06]` - C library for extracting fields from Sigtran TCAP/INAP messages. From Sipwise.
 - [baresip](https://github.com/baresip/baresip) `[2026-08]` - Modular SIP User-Agent library with audio/video, RTP, and ICE support.
 - [baresip-studio](https://github.com/juha-h/baresip-studio) `[2026-08]` - Android SIP client built on the baresip library.
 - [SIP.js](https://github.com/onsip/SIP.js) `[2026-06]` - Simple and powerful JavaScript SIP signaling library for the browser (WebRTC).
@@ -894,6 +881,13 @@ For research and debugging:
 - [kamailio_exporter](https://github.com/florentchauveau/kamailio_exporter) `[2026-07]` - Prometheus exporter for the Kamailio SIP server.
 - [mod_telegram](https://github.com/kvishnivetsky/mod_telegram) `[2026-05]` - FreeSWITCH module for integration with the Telegram network.
 - [callcontrol](https://github.com/AGProjects/callcontrol) `[2025-06]` - Call Control Application for OpenSIPS. From AG Projects.
+### SS7
+
+- [Restcomm SS7](https://github.com/restcomm/jss7) `[2024-06]` - Open Source Java SS7 stack that allows Java apps to communicate with legacy SS7 communications equipment.
+- [Restcomm USSD Gateway](https://github.com/RestComm/ussdgateway) `[2024-01]` - Open source USSD Gateway based on Restcomm jSS7 stack. MAP-based USSD services over SS7/SIGTRAN.
+- [SigFW](https://github.com/P1sec/SigFW) `[2024-10]` - Open Source Signaling Firewall for SS7, Diameter filtering, antispoof and antisniff.
+- [yate](https://github.com/yatevoip/yate) `[2026-06]` - Open Source Telephony engine with support of MTP2/MTP3 over TDM, M2PA, M2UA, M3UA, SCCP, TCAP
+- [libtcap](https://github.com/sipwise/libtcap) `[2026-06]` - C library for extracting fields from Sigtran TCAP/INAP messages. From Sipwise.
 
 ### SMPP / SMS Gateways
 
@@ -994,6 +988,7 @@ For research and debugging:
 
 ### ASN1-based, S1AP/NGAP
 
+- [asn1c](https://gitea.osmocom.org/osmocom/asn1c) - asn1c (Lev Walkin) extended with features required by MAP/TCAP. Hosted on **Osmocom Gitea**.
 - [5g-ngap](https://github.com/sigscale/5g-ngap) `[2023-06]` - NG Application Protocol (NGAP) (3GPP TS 38.413).
 - [Pycrate](https://github.com/pycrate-org/pycrate) `[2026-06]` - A Python library to ease the development of encoders and decoders for various protocols and file formats, especially telecom ones. Provides an ASN.1 compiler and a CSN.1 runtime.
 - [pycrate-rs](https://github.com/EFForg/pycrate-rs) `[2025-07]` - Rust telecom protocol parser generated from pycrate. From the EFF (Rayhunter project).
@@ -1038,19 +1033,11 @@ For research and debugging:
 - [simple_pfcp_client](https://github.com/s5uishida/simple_pfcp_client) `[2026-03]` - Minimal PFCP client useful for poking at UPFs and validating PFCP exchanges during 5GC labs.
 
 
-- [diameter](https://github.com/mensonen/diameter) `[2026-03]` - A diameter stack implementation written in python.
 - [gtp_u_edp](https://github.com/travelping/gtp_u_edp) `[2018-06]` - GTPv1-U Proxy.
 - [iptables_ext_gtp](https://github.com/herlesupreeth/iptables_ext_gtp) `[2017-10]` - iptables extension for gtp encap and decap.
 - [gtp_u_kmod](https://github.com/travelping/gtp_u_kmod) `[2023-10]` - GTPv1-U Erlang interface process for Kernel Datapath.
-- [asn1c](https://gitea.osmocom.org/osmocom/asn1c) - asn1c (Lev Walkin) extended with features required by MAP/TCAP. Hosted on **Osmocom Gitea**.
-- [libosmo-sccp-legacy](https://gitea.osmocom.org/osmocom/libosmo-sccp-legacy) - Currently maintained software should use libosmo-sigtran instead. Hosted on **Osmocom Gitea**.
-- [libosmo-sccp](https://gitea.osmocom.org/osmocom/libosmo-sccp) - SCCP + SIGTRAN (SUA/M3UA) libraries as well as OsmoSTP. Hosted on **Osmocom Gitea**.
 - [osmo-uecups](https://gitea.osmocom.org/cellular-infrastructure/osmo-uecups) - Osmocom UE/MME/SGW/SGSN side GTP-U Implementation with control/user plane separation. Hosted on **Osmocom Gitea**.
 - [libgtpnl](https://gitea.osmocom.org/cellular-infrastructure/libgtpnl) - netlink library for Linux kernel GTP code. Hosted on **Osmocom Gitea**.
-- [asn1-ss7](https://gitea.osmocom.org/cellular-infrastructure/asn1-ss7) - ITU/ETSI/3GPP ASN1 files for TCAP, ROS, MAP and CAP. Hosted on **Osmocom Gitea**.
-- [osmo_ss7](https://gitea.osmocom.org/erlang/osmo_ss7) - Erlang implementation of M2UA/M3UA/MTP3/SCCP/ISUP codec + utils. Hosted on **Osmocom Gitea**.
-- [osmo_map](https://gitea.osmocom.org/erlang/osmo_map) - Erlang implementation of TCAP/MAP. Hosted on **Osmocom Gitea**.
-- [osmo_sccp](https://gitea.osmocom.org/erlang/osmo_sccp) - Erlang implementation of SCCP (ITU-T Q.71x). Hosted on **Osmocom Gitea**.
 - [cisco_pfcp](https://github.com/dufourgilles/cisco_pfcp) `[2026-03]` - Wireshark PFCP decoder updated with Cisco CUPS-specific IEs.
 ### SCTP
 
@@ -1083,6 +1070,7 @@ For research and debugging:
 
 ### Diameter
 
+- [diameter](https://github.com/mensonen/diameter) `[2026-03]` - A diameter stack implementation written in python.
 - [go-diameter](https://github.com/fiorix/go-diameter) `[2026-07]` - Package go-diameter is an implementation of the Diameter Base Protocol RFC 6733 and a stack for the Go programming language.
 - [jdiameter](https://github.com/RestComm/jdiameter/) `[2024-01]` - RestComm jDiameter provides an Open Source Java implementation of the Diameter standard for Authentication, Authorization, and Accounting (AAA).
 - ⚠️ [diafuzzer](https://github.com/Orange-OpenSource/diafuzzer) `[2019-10]` - Diameter fuzzer, based on specifications of Diameter applications following rfc 3588 / 6733 from Orange.
@@ -1102,7 +1090,12 @@ For research and debugging:
 
 - [go-m3ua](https://github.com/wmnsk/go-m3ua) `[2026-01]` - Package m3ua provides easy and painless handling of M3UA protocol in pure Golang.
 - [go-sccp](https://github.com/wmnsk/go-sccp) `[2025-06]` - Package sccp provides simple and painless handling of SCCP(Signaling Connection Control Part) in SS7/SIGTRAN stack, implemented in the Go Programming Language.
-- [libosmo-sccp](https://git.osmocom.org/libosmo-sccp/) - SCCP Library
+- [libosmo-sccp-legacy](https://gitea.osmocom.org/osmocom/libosmo-sccp-legacy) - Currently maintained software should use libosmo-sigtran instead. Hosted on **Osmocom Gitea**.
+- [libosmo-sccp](https://gitea.osmocom.org/osmocom/libosmo-sccp) - SCCP + SIGTRAN (SUA/M3UA) libraries as well as OsmoSTP. Hosted on **Osmocom Gitea**.
+- [asn1-ss7](https://gitea.osmocom.org/cellular-infrastructure/asn1-ss7) - ITU/ETSI/3GPP ASN1 files for TCAP, ROS, MAP and CAP. Hosted on **Osmocom Gitea**.
+- [osmo_ss7](https://gitea.osmocom.org/erlang/osmo_ss7) - Erlang implementation of M2UA/M3UA/MTP3/SCCP/ISUP codec + utils. Hosted on **Osmocom Gitea**.
+- [osmo_map](https://gitea.osmocom.org/erlang/osmo_map) - Erlang implementation of TCAP/MAP. Hosted on **Osmocom Gitea**.
+- [osmo_sccp](https://gitea.osmocom.org/erlang/osmo_sccp) - Erlang implementation of SCCP (ITU-T Q.71x). Hosted on **Osmocom Gitea**.
 - [go-tcap](https://github.com/wmnsk/go-tcap) `[2026-01]` - Package tcap provides simple and painless handling of TCAP(Transaction Capabilities Application Part) in SS7/SIGTRAN protocol stack.
 - [gsmap](https://github.com/fkgi/gsmap) `[2026-04]` - Go implementation of MAP, TCAP, SCCP and xUA (SIGTRAN) protocols.
 - [openss7](http://www.openss7.org/) - An opensource development project (called OpenSS7) to provide a robust and GPL'ed SS7, SIGTRAN, ISDN and VoIP stack for Linux and other UN*X operating systems.
@@ -1217,6 +1210,12 @@ For research and debugging:
 
 ### Ready-to-Use Environments
 
+- [s5uishida sample-config catalog](https://github.com/s5uishida) - Reference deployment configurations for Open5GS/free5GC + UERANSIM/srsRAN/OAI permutations. Topology variants: [Open5GS+UERANSIM](https://github.com/s5uishida/open5gs_5gc_ueransim_sample_config), [free5GC+UERANSIM](https://github.com/s5uishida/free5gc_ueransim_sample_config), [Open5GS EPC+OAI](https://github.com/s5uishida/open5gs_epc_oai_sample_config), [Open5GS+srsRAN](https://github.com/s5uishida/open5gs_5gc_srsran_sample_config), [free5GC+srsRAN](https://github.com/s5uishida/free5gc_srsran_sample_config), [Open5GS EPC+srsRAN](https://github.com/s5uishida/open5gs_epc_srsran_sample_config). Feature variants: [Prometheus metrics](https://github.com/s5uishida/open5gs_5gc_ueransim_metrics_sample_config), [S-NSSAI UPF select (Open5GS)](https://github.com/s5uishida/open5gs_5gc_ueransim_snssai_upf_sample_config) / [(free5GC)](https://github.com/s5uishida/free5gc_ueransim_snssai_upf_sample_config), [nearby UPF (Open5GS)](https://github.com/s5uishida/open5gs_5gc_ueransim_nearby_upf_sample_config) / [(free5GC)](https://github.com/s5uishida/free5gc_ueransim_nearby_upf_sample_config), VPP/DPDK UPF [(Open5GS)](https://github.com/s5uishida/open5gs_5gc_ueransim_vpp_upf_dpdk_sample_config) / [(free5GC)](https://github.com/s5uishida/free5gc_ueransim_vpp_upf_dpdk_sample_config), eUPF [(Open5GS 5GC)](https://github.com/s5uishida/open5gs_5gc_ueransim_eupf_sample_config) / [(Open5GS EPC)](https://github.com/s5uishida/open5gs_epc_srsran_eupf_sample_config), ULCL [(simple)](https://github.com/s5uishida/free5gc_ueransim_ulcl_sample_config) / [(I-UPF + 2 PSA-UPFs)](https://github.com/s5uishida/free5gc_ueransim_ulcl_2_sample_config), [SCP Model C](https://github.com/s5uishida/open5gs_5gc_ueransim_scp_model_c_sample_config).
+- [open5gs-b210](https://github.com/StevenVanAcker/open5gs-b210) `[2025-11]` - Installation scripts for a dockerized VoLTE setup using Open5GS with an Ettus USRP B210.
+- [Private-5g-setup-with-Open5gs-and-srsRAN-and-B210](https://github.com/ManojPandekamat/Private-5g-setup-with-Open5gs-and-srsRAN-and-B210) `[2025-07]` - Setting up a real time 5g network using **Open5gs** as core and srsRAN as RAN which is connected to real 5G COTS Devices (5G Mobiles) using USRP B210 as BASE Satation.
+- [Task-offloading-in-private-5g-network-using-usrpB210](https://github.com/RAHUL2052003/Task-offloading-in-private-5g-network-using-usrpB210) `[2025-08]` - Real-time private 5G network setup using Open5GS and srsRAN with USRP B210 for task offloading.
+- [k8s_srsran_open5gs](https://github.com/sulaimanalmani/k8s_srsran_open5gs) `[2026-03]` - Containerized/kubernetes deployment of E2E 5G testbed using srsRAN and Open5gs.
+- [oai5g-rru](https://github.com/sopnode/oai5g-rru) `[2026-08]` - OpenAirInterface 5G Core Network Deployment on SophiaNode/R2lab using Helm Charts and nepi-ng
 - ⚠️ [Open5GS-VoLTE](https://github.com/miaoski/docker_open5gs) `[2021-05]` - Install-and-run lab for Open5GS + Kamailio IMS VoLTE study. _Consider using [herlesupreeth/docker_open5gs](https://github.com/herlesupreeth/docker_open5gs) instead._
 - [Open5GS Docker](https://github.com/herlesupreeth/docker_open5gs) `[2026-08]` - Docker files to build and run open5gs in a docker by Herle Supreeth.
 - [rapid5gs](https://github.com/joshualambert/rapid5gs) `[2026-07]` - Configuration, setup, and maintenance toolkit for Open5GS.
