@@ -123,6 +123,7 @@ For research and debugging:
 - [Interconnect](#interconnect) - IMS, SBC, SS7, Diameter
 - [Protocols](#protocols) - Libraries and frameworks for telco protocols
 - [Satellite Communication](#satellite-communication) - LEO/GEO satellite tooling
+- [LPWAN / LoRaWAN](#lpwan--lorawan) - LoRaWAN network servers, gateways, simulators, and tooling
 - [Infrastructure](#infrastructure) - NFV, SDN, Kubernetes for telco
 - [Orchestration](#orchestration) - Automation and deployment
 - [Lab & Testbeds](#lab--testbeds) - Ready-to-use environments
@@ -954,6 +955,14 @@ For research and debugging:
 - [inmarsat-sniffer](https://github.com/alphafox02/inmarsat-sniffer) `[2026-06]` - Standalone Inmarsat L-band decoder: STD-C EGC and Aero ACARS/ADS-C/CPDLC from a single SDR.
 
 
+- [librespacefoundation/python-satellitetle](https://gitlab.com/librespacefoundation/python-satellitetle) `[2026-06]` - Fetch satellite TLEs from various online sources. Hosted on **GitLab**.
+- [librespacefoundation/picobus](https://gitlab.com/librespacefoundation/picobus) `[2026-04]` - 8p pico-satellite deployer. Hosted on **GitLab**.
+- [librespacefoundation/pystrf](https://gitlab.com/librespacefoundation/pystrf) `[2023-01]` - Python based radio frequency satellite tracking. Hosted on **GitLab**.
+- [satellite-solar-power-budget](https://gitlab.com/librespacefoundation/satellite-solar-power-budget) Hosted on **GitLab**.
+- [satnogs-ops](https://gitlab.com/librespacefoundation/satnogs-ops) `[2026-07]` - Repository for tracking SatNOGS Operations Hosted on **GitLab**.
+
+## LPWAN / LoRaWAN
+
 - [The Things Stack](https://github.com/TheThingsNetwork/lorawan-stack) `[2026-08]` - Open-source LoRaWAN Network Server. Powers The Things Network and The Things Industries.
 - [ChirpStack](https://github.com/chirpstack/chirpstack) `[2026-08]` - Open-source LoRaWAN Network Server with Class A/B/C, multicast, FUOTA, and MQTT/HTTP integrations.
 - [chirpstack-packet-multiplexer](https://github.com/chirpstack/chirpstack-packet-multiplexer) `[2026-02]` - Forward Semtech UDP packet-forwarder data to multiple LoRaWAN network servers simultaneously.
@@ -963,17 +972,14 @@ For research and debugging:
 - [LoRaWAN-SIM](https://github.com/deltazita/LoRaWAN-SIM) `[2026-06]` - A LoRaWAN simulator for confirmed/unconfirmed transmissions and multiple gateways.
 - [maverick](https://github.com/antonygiomarxdev/maverick) `[2026-04]` - Offline-first LoRaWAN gateway + network server in a single binary. Runs on Raspberry Pi. No cloud required.
 - [ttn-gateway-collector](https://github.com/bertrik/ttn-gateway-collector) `[2026-07]` - Collects data from multiple TTN (v3) gateways for LoRaWAN traffic analysis.
-- [librespacefoundation/python-satellitetle](https://gitlab.com/librespacefoundation/python-satellitetle) `[2026-06]` - Fetch satellite TLEs from various online sources. Hosted on **GitLab**.
 - [nixos-lorawan-gateway](https://github.com/DistRap/nixos-lorawan-gateway) `[2025-09]` - NixOS LoRaWAN Gateway.
 - [elora](https://github.com/Orange-OpenSource/elora) `[2026-05]` - An ns-3 module for end-to-end LoRaWAN emulation with real network server stacks.
-- [librespacefoundation/picobus](https://gitlab.com/librespacefoundation/picobus) `[2026-04]` - 8p pico-satellite deployer. Hosted on **GitLab**.
 - [wisevision_lorawan_bridge](https://github.com/wise-vision/wisevision_lorawan_bridge) `[2026-04]` - Streams data from ChirpStack / LoRaWAN gateways straight into ROS 2 topics.
 - [chirpstack-basicstation-eu868](https://github.com/furkankayam/chirpstack-basicstation-eu868) `[2026-03]` - ✅ Production-ready ChirpStack v4 LoRaWAN stack with BasicStation gateway support on Docker.
 - [lorawan-simulator](https://github.com/emanuele-dedonatis/lorawan-simulator) `[2026-02]` - An open-source LoRaWAN® network simulator to simulate multiple gateways and devices for testing LoRaWAN® applications without physical hardware.
 - [LoRaWAN-Basic-Station-RAK831-](https://github.com/WGLabz/LoRaWAN-Basic-Station-RAK831-) `[2025-12]` - LoRa Basics™ Station - The LoRaWAN Gateway Software.
 - [heltec-wireless-tracker](https://github.com/lacyberfabrique/heltec-wireless-tracker) `[2025-10]` - Tracker GPS LoRaWAN basé sur Heltec Wireless Tracker (ESP32-S3 + SX1262 + GPS). Transmet en temps réel les coordonnées GPS via LoRaWAN (TTN/ChirpStack) avec affichage sur écran TFT intégré, gestion OTAA persistante et réception downlink pour la distance depuis la gateway.
 - [PiWAN](https://github.com/Cosmic-Pulse/PiWAN) `[2025-06]` - An all-in-one gateway solution for Raspberry Pi + LoRaWAN using BasicStation and Grafana.
-- [librespacefoundation/pystrf](https://gitlab.com/librespacefoundation/pystrf) `[2023-01]` - Python based radio frequency satellite tracking. Hosted on **GitLab**.
 - [xiao-lora-water-meter](https://codeberg.org/JF002/xiao-lora-water-meter) - Low-power battery operated LoRaWAN pulse counter, intended to be used as a water meter, to monitor the water usage of my house. Hosted on **Codeberg**.
 - [lorawan](https://codeberg.org/hiltsu/lorawan) - This repository contains files and resources for my personal LoRaWAN project. The goal is to build a complete LoRaWAN hardware and software stack covering the field device (node), the gateway, and network management. Hosted on **Codeberg**.
 - [uwan](https://codeberg.org/b00bl1k/uwan) - 📶 Uwan Micro LoRaWAN Stack. Hosted on **Codeberg**.
@@ -982,8 +988,12 @@ For research and debugging:
 - [node-red-applications](https://codeberg.org/loralarm/node-red-applications) - Applications for Lora devices done in node-red. LoraLarm.org. Hosted on **Codeberg**.
 - [pyLoRa](https://codeberg.org/fab/pyLoRa) - LoRa Transmissions of Gemini or Gopher posts over USB-Stick (serial) in Python3. Hosted on **Codeberg**.
 - [seeed-lorawan-kit](https://codeberg.org/Supernova/seeed-lorawan-kit) - Customization of the Seeed LoRaWAN Kit firmware for other sensors. Hosted on **Codeberg**.
-- [satellite-solar-power-budget](https://gitlab.com/librespacefoundation/satellite-solar-power-budget) Hosted on **GitLab**.
-- [satnogs-ops](https://gitlab.com/librespacefoundation/satnogs-ops) `[2026-07]` - Repository for tracking SatNOGS Operations Hosted on **GitLab**.
+- [the-things-stack-docker](https://github.com/xoseperez/the-things-stack-docker) `[2025-10]` - The Things Stack LoRaWAN Network Server (Open Source Edition) on a Raspberry Pi using docker
+- [lorawan-app-connect](https://github.com/MultiTechSystems/lorawan-app-connect) `[2025-08]` - Default application example mPower application and server API implementation for a distributed LoRaWAN network
+- [lorawan-stack-migrate](https://github.com/TheThingsNetwork/lorawan-stack-migrate) `[2026-08]` - Migrate devices from other LoRaWAN Network Servers to The Things Stack
+- [utracker](https://codeberg.org/b00bl1k/utracker) - A firmware project based on the uwan library that allows you to create a LoRaWAN device Hosted on **Codeberg**.
+- [Orange-ExpLoRer-Kit-for-LoRa](https://github.com/Orange-OpenSource/Orange-ExpLoRer-Kit-for-LoRa) `[2020-06]` - The LoRa® Explorer Kit is a development board powered by Microchip that allows easy and quick prototyping of IoT obje...
+
 ## Protocols
 
 ### ASN1-based, S1AP/NGAP
@@ -1136,18 +1146,13 @@ For research and debugging:
 - [RLS-wireshark-dissector](https://github.com/nextmn/RLS-wireshark-dissector) `[2026-07]` - Wireshark dissector for the Radio Link Simulation Protocol from UERANSIM. From NextMN.
 - [gsmtapv3](https://gitea.osmocom.org/peremen/gsmtapv3) - GSMTAPv3 specification proposal and reference code for next-generation cellular packet capture format. Hosted on **Osmocom Gitea**.
 - [osmo-gsm-shark](https://gitea.osmocom.org/nhofmeyr/osmo-gsm-shark) - Network trace tool that summarizes mobile network activity from pcap captures. Hosted on **Osmocom Gitea**.
-- [the-things-stack-docker](https://github.com/xoseperez/the-things-stack-docker) `[2025-10]` - The Things Stack LoRaWAN Network Server (Open Source Edition) on a Raspberry Pi using docker
 - [IoT-SAFE-APDU-library](https://github.com/Orange-OpenSource/IoT-SAFE-APDU-library) `[2021-07]` - APDU library to communicate with a GSMA IoT SAFE applet ( https://www.gsma.com/iot/iot-safe)
 - [bg96](https://github.com/fasferraz/bg96) `[2023-10]` - IoT Quectel BG96 AT Command tool
-- [Orange-ExpLoRer-Kit-for-LoRa](https://github.com/Orange-OpenSource/Orange-ExpLoRer-Kit-for-LoRa) `[2020-06]` - The LoRa® Explorer Kit is a development board powered by Microchip that allows easy and quick prototyping of IoT obje...
 - [rainy](https://github.com/s5uishida/rainy) `[2023-09]` - rainy - a tiny tool for iot data collection and monitoring
 - [xr-telemetry-m2m-web](https://github.com/cisco/xr-telemetry-m2m-web) `[2016-07]` - A small web app to explore the IOS-XR internal data model, for streaming telemetry or other automation uses
-- [lorawan-app-connect](https://github.com/MultiTechSystems/lorawan-app-connect) `[2025-08]` - Default application example mPower application and server API implementation for a distributed LoRaWAN network
-- [lorawan-stack-migrate](https://github.com/TheThingsNetwork/lorawan-stack-migrate) `[2026-08]` - Migrate devices from other LoRaWAN Network Servers to The Things Stack
 - [sonair-dataset](https://github.com/wineslab/sonair-dataset) `[2025-12]` - Dataset for the paper D. Uvaydov, D. Unal, K. Enhos, E. Demirors and T. Melodia, "SonAIr: Real-Time Deep Learning For...
 - [iotContinuum](https://github.com/Orange-OpenSource/iotContinuum) `[2025-07]` - Development kit is provided by IoT Continuum to developers who are willing to start from scratch cellular IoT project...
 - [xr-telemetry-m2m-lib](https://github.com/cisco/xr-telemetry-m2m-lib) `[2016-02]` - Libraries for interacting with the IOS-XR M2M service.
-- [utracker](https://codeberg.org/b00bl1k/utracker) - A firmware project based on the uwan library that allows you to create a LoRaWAN device Hosted on **Codeberg**.
 - [TinyGSM](https://github.com/vshymanskyy/TinyGSM) `[2026-07]` - Small Arduino library for GSM/LTE/NB-IoT modules that just works.
 - [SIM7000-LTE-Shield](https://github.com/botletics/SIM7000-LTE-Shield) `[2026-05]` - Botletics SIM7000 LTE CAT-M1/NB-IoT shield and library for Arduino.
 - [lwcell](https://github.com/MaJerle/lwcell) `[2026-06]` - Lightweight cellular modem AT-command host library.
