@@ -1299,6 +1299,7 @@ For research and debugging:
 - [Simu5G](https://simu5g.org/) - OMNeT++ based 5G network simulator for end-to-end performance evaluation.
 - [ns-3 LTE/NR](https://gitlab.com/nsnam/ns-3-dev) `[2026-08]` - Discrete-event network simulator with LTE and 5G NR modules. Main development on **GitLab**.
 - [5G-LENA](https://gitlab.com/cttc-lena/nr) `[2026-08]` - ns-3 NR module for 5G New Radio simulation (PHY/MAC/OFDMA, MIMO, NR-U, NR V2X). From CTTC OpenSim. [NR-U extension](https://gitlab.com/cttc-lena/nr-u). Hosted on **GitLab**.
+- [HiCellTek 3GPP Decoder](https://hicelltek.com/en/decoder/) - Browser-based RRC and NAS decoder for GSM, UMTS, LTE and 5G NR, covering supported structures through Release 18.
 - [Wireshark](https://gitlab.com/wireshark/wireshark) `[2026-08]` - Essential protocol analyzer with dissectors for GSMTAP, Diameter, GTP, S1AP, NGAP, SS7/TCAP and more. Main development on **GitLab**.
 - [Seagull](https://gull.sourceforge.net/) - Multi-protocol traffic generator for IMS testing: Diameter (RFC3588) over TCP/SCTP, TCAP (over SS7/Sigtran), XCAP, Radius. From HP. [SourceForge](https://sourceforge.net/projects/gull/).
 - [ETSI Forge Test Suites](https://forge.etsi.org/rep/explore/projects) - Official ETSI test suites in TTCN-3 and Robot Framework for telecom protocols (Diameter, GTP, S1AP, NAS, MEC, NFV). Hosted on **ETSI Forge (GitLab)**.
