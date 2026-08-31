@@ -173,6 +173,7 @@ For research and debugging:
 - [osmo-subscr-impex](https://gitea.osmocom.org/sim-card/osmo-subscr-impex) - Osmocom subscriber authentication data importer/exporter. Hosted on **Osmocom Gitea**.
 - [osmo-ccid-firmware](https://gitea.osmocom.org/sim-card/osmo-ccid-firmware) - USB CCID firmware project for (currently only) sysmoOCTSIM. Hosted on **Osmocom Gitea**.
 - [osmo-sim-auth](https://gitea.osmocom.org/sim-card/osmo-sim-auth) - A command line tool for (U)SIM authentication. Hosted on **Osmocom Gitea**.
+- [SCP03 Helper](https://ambisecure.ambimat.com/resources/tools/scp03-helper/) - Browser-based calculator for GlobalPlatform SCP03 session keys (S-ENC/S-MAC/S-RMAC) and host/card cryptograms, using AES-CMAC and the SP 800-108 KDF. Runs client-side as a learning and debugging aid for use with test keys, not production tooling.
 
 ### eSIM / eUICC
 
