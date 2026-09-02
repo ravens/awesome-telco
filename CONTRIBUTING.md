@@ -10,14 +10,14 @@ Thank you for your interest in contributing to Awesome Telco! This list aims to 
 - Tools for building, testing, or analyzing mobile networks
 - Educational resources (blogs, documentation, tutorials)
 - Relevant specifications and standards
-- Commercial services that support open source telco development
 
 ### What doesn't belong here?
 
-- Proprietary/closed-source software without significant community value
+- Closed-source products, hosted tools, or web pages with no public source repository
+- Commercial vendor listings, vendor blogs, and marketing pages
 - Projects that are clearly abandoned with no working code
 - Duplicate entries (check if similar tools already exist)
-- Self-promotional content without substantial value
+- Self-promotional content and SEO link-building submissions
 
 ## How to Contribute
 
