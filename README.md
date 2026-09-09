@@ -301,9 +301,8 @@ For research and debugging:
 - [qttyforge](https://github.com/iamromulan/qttyforge) `[2026-06]` - Daemon for the application processor of Qualcomm modems that exposes AT and Diag/DM tty ports.
 - [NuModem](https://github.com/Nuxtack-tw/NuModem) `[2026-09]` - Single-file web tool using the Web Serial API to send and test AT commands on Quectel EG800K-class 4G modems.
 - [qcom-efs-browser](https://github.com/catxeon/qcom-efs-browser) `[2026-09]` - Android app to browse, backup and edit a Qualcomm modem's EFS filesystem over DIAG.
-- [bandctl](https://github.com/raz123/bandctl) `[2026-08]` - KernelSU module for LTE and 5G NR band locking and modem diagnostics on Qualcomm and MediaTek basebands.
+- [bandctl](https://github.com/raz123/bandctl) `[2026-08]` - KernelSU module for LTE and 5G NR band locking and modem diagnostics on Qualcomm basebands.
 - [QcnTool.Cli](https://github.com/Xiaobocai08/QcnTool.Cli) `[2026-02]` - CLI tool to read and write Qualcomm NV/QCN data and query DIAG interfaces.
-- [flipper-rf-lab](https://github.com/tworjaga/flipper-rf-lab) `[2026-05]` - Flipper Zero RF analysis toolkit for spectrum capture, protocol decoding and signal generation.
 - [fastbeam](https://codeberg.org/FastBeam/fastbeam) `[2026-08]` - Open broadband RF measurement module (1 MHz–10 GHz) for capturing microsecond pulse emissions of 5G networks. Hosted on **Codeberg**.
 
 ## Radio Access Network
@@ -974,7 +973,6 @@ For research and debugging:
 - [smppsink](https://github.com/PowerMeMobile/smppsink) `[2026-05]` - SMPP gateway simulator from the Power Alley Gateway suite.
 - [smpp-relay-service](https://github.com/rixtrayker/smpp-relay-service) `[2026-02]` - Lightweight SMPP gateway for SMS routing and delivery tracking.
 - [android-sms-gateway](https://github.com/capcom6/android-sms-gateway) `[2026-09]` - Turn an Android phone into an SMS gateway with a REST API for sending and receiving messages. Companion [standalone server](https://github.com/android-sms-gateway/server) and client libraries ([Go](https://github.com/android-sms-gateway/client-go), [Python](https://github.com/android-sms-gateway/client-py), [TS](https://github.com/android-sms-gateway/client-ts), [PHP](https://github.com/android-sms-gateway/client-php)).
-- [textbee](https://github.com/vernu/textbee) `[2026-08]` - Open-source SMS gateway turning Android phones into senders, with web dashboard and REST API.
 - [playSMS](https://github.com/playsms/playsms) `[2026-07]` - Web interface for SMS gateways and bulk SMS services, in PHP. Long-running project.
 - [traccar-sms-gateway](https://github.com/traccar/traccar-sms-gateway) `[2026-08]` - Android SMS gateway app from the Traccar GPS tracking project.
 - [android_income_sms_gateway_webhook](https://github.com/bogkonstantin/android_income_sms_gateway_webhook) `[2026-06]` - Simple Android app forwarding incoming SMS to a URL webhook.
@@ -998,7 +996,7 @@ For research and debugging:
 - [usb-modem-sms](https://github.com/Godles-lab/usb-modem-sms) `[2026-09]` - Android app that drives a Quectel LTE USB modem over USB OTG with AT commands for SMS.
 - [CMPP SMS-Gateway](https://github.com/chenglutao/SMS-Gateway) `[2025-12]` - China Mobile CMPP 2.0 SMS gateway protocol implementation and simulator.
 - [textbee](https://github.com/textbee/textbee) `[2026-08]` - Open-source SMS gateway turning Android phones into an SMS sending service via REST API and webhooks.
-- [CellBridge](https://github.com/mccding/CellBridge) `[2026-09]` - Turns an LTE USB modem and SIM card into a personal cellular gateway forwarding calls and SMS over Wi-Fi.
+- [CellBridge](https://github.com/mccding/CellBridge) `[2026-09]` - Turns a QDC507 4G module and SIM card into a personal cellular gateway. Forwards calls and SMS to an iPhone over Tailscale.
 - [TTGO_TCall](https://github.com/mhamidjamil/TTGO_TCall) `[2026-08]` - Firmware turning a LilyGO TTGO T-Call ESP32 SIM800L board into a two-way SMS and voice gateway with REST API.
 - [sms-gateway](https://github.com/Fizcko/sms-gateway) `[2026-04]` - REST API gateway for sending and receiving SMS via Gammu on GSM modems.
 
@@ -1074,7 +1072,7 @@ For research and debugging:
 - [nrf9160](https://github.com/mdepx/nrf9160) `[2026-09]` - LTE-M, NB-IoT and GPS examples for the nRF9160-DK and nRF9161-DK on the MDEPX RTOS.
 - [NBSN95](https://github.com/dragino/NBSN95) `[2026-08]` - Open-source firmware for Dragino NBSN95 NB-IoT sensor node based on STM32 and Quectel BC95-G.
 - [gd6-open](https://github.com/ManThink/gd6-open) `[2026-09]` - ESP32-based multi-channel LoRaWAN gateway firmware.
-- [rutx-lorawan-gateway](https://github.com/lionelfelix-ssai/rutx-lorawan-gateway) `[2026-05]` - Turns a Teltonika RUTX11 cellular router into an 8-channel LoRaWAN gateway using a RAK7243 HAT.
+- [rutx-lorawan-gateway](https://github.com/lionelfelix-ssai/rutx-lorawan-gateway) `[2026-05]` - Turns a Teltonika RUTX11 cellular router into an 8-channel LoRaWAN gateway using a RAK7371 USB concentrator.
 - [rpi-sim70X0](https://github.com/BUSSE-IS/rpi-sim70X0) `[2026-08]` - PPP network configuration and automation for SIMCom SIM7000 and SIM7070 NB-IoT/LTE-M HATs on Raspberry Pi.
 
 ## Protocols
