@@ -147,6 +147,8 @@ For research and debugging:
 - [SIMTester](https://github.com/srlabs/SIMTester) `[2023-02]` - Assess SIM card security: cryptanalytic attack surface and application attack surface.
 - [GlobalPlatformPro](https://github.com/martinpaljak/GlobalPlatformPro) `[2026-09]` - CLI tool to load and manage applets on JavaCards, by Martin Paljak.
 - [ant-javacard](https://github.com/martinpaljak/ant-javacard) `[2026-09]` - Ant task to build JavaCard applets (JavaCard 2.1.1 to 3.2.0). Used to build SIM Toolkit applets.
+- [JCardEngine](https://github.com/martinpaljak/JCardEngine) `[2026-09]` - Java Card runtime simulator. Runs applet code without a physical card. Fork/rewrite of jcardsim, Apache 2.0.
+- [mvn.javacard.pro](https://mvn.javacard.pro) - Maven repository for JavaCard development. Holds the ETSI/3GPP UICC and SIM Toolkit API export files (TS 102 241, TS 102 705, TS 31.130) plus Oracle SDKs and GlobalPlatform APIs.
 - [ARA-M Applet](https://github.com/bertrandmartel/aram-applet) `[2018-02]` - ARA-M implementation for JavaCards by Bertrand Martel.
 - ⚠️ [HelloSTK2](https://github.com/mrlnc/HelloSTK2) `[2025-01]` - Guide to build and install SIM-Toolkit applets.
 - [SUPI with pysim](https://gist.github.com/mrlnc/01d6300f1904f154d969ff205136b753) - Notes on enabling SUPI with pysim.
