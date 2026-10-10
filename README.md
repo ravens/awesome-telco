@@ -744,6 +744,22 @@ For research and debugging:
 - [hepsub-voipmonitor](https://github.com/sipcapture/hepsub-voipmonitor) `[2019-05]` - HEP Pub-Sub Client for OSS Voipmonitor Sniffer.
 - [rate-o-mat](https://github.com/sipwise/rate-o-mat) `[2026-10]` - Rating daemon for the NGCP.
 - [open5gs-nms](https://github.com/paulmataruso/open5gs-nms) `[2026-09]` - Web-based network management UI for Open5GS.
+- [ONAP](https://github.com/onap/oom) `[2026-09]` - Open Network Automation Platform from the Linux Foundation (Gerrit mirrors). OOM deploys ONAP on Kubernetes. Components: [so](https://github.com/onap/so) (service orchestrator), [sdc](https://github.com/onap/sdc) (service design).
+- [TM Forum Open APIs](https://github.com/tmforum-apis/TMF620_ProductCatalog) `[2026-08]` - TM Forum Open API specifications under Apache 2.0, here the TMF620 Product Catalog API. Also: [TMF641 Service Order](https://github.com/tmforum-apis/TMF641_ServiceOrder), [JSON schemas](https://github.com/tmforum-rand/schemas).
+- [ODA Canvas](https://github.com/tmforum-oda/oda-canvas) `[2026-10]` - TM Forum reference implementation of the Open Digital Architecture canvas. Runs ODA components on Kubernetes.
+- [SigScale RIM](https://github.com/sigscale/rim) `[2024-06]` - Resource inventory management for service assurance (FM/PM), with TM Forum APIs.
+- [CGrateS_UI](https://github.com/Omnitouch/CGrateS_UI) `[2026-10]` - React UI for CGRateS. From Omnitouch.
+- [FreeRADIUS](https://github.com/FreeRADIUS/freeradius-server) `[2026-10]` - Multi-protocol AAA policy server. The most used open-source RADIUS server at ISPs and operators.
+- [daloRADIUS](https://github.com/lirantal/daloradius) `[2026-10]` - RADIUS web management application for hotspots and ISP deployments, with user management, accounting and billing.
+- [ToughRADIUS](https://github.com/talkincode/toughradius) `[2026-10]` - RADIUS server in Go for ISPs, enterprise networks and carriers.
+- [RADIUSdesk](https://github.com/RADIUSdesk/rdcore) `[2026-10]` - Management system for FreeRADIUS, OpenWrt devices and mesh networks.
+- [Ubilling](https://github.com/nightflyza/Ubilling) `[2026-10]` - Billing system for Internet service providers, with subscriber, equipment and payment management.
+- [Freeside](https://github.com/freeside/Freeside) `[2024-07]` - Billing, trouble ticketing, network monitoring and provisioning for ISPs, WISPs and VoIP providers.
+- [OpenWISP Controller](https://github.com/openwisp/openwisp-controller) `[2026-10]` - Network and Wi-Fi controller: provisioning, configuration management and firmware updates for OpenWrt devices.
+- [OpenNMS](https://github.com/OpenNMS/opennms) `[2026-10]` - Network management platform with fault, performance and flow monitoring at carrier scale.
+- [LibreNMS](https://github.com/librenms/librenms) `[2026-10]` - Community-based network monitoring system with SNMP auto-discovery and alerting.
+- [FlowKit](https://github.com/Flowminder/FlowKit) `[2026-09]` - CDR analytics toolkit from Flowminder. Produces mobility and population indicators from operator data.
+- [OpenLI](https://github.com/OpenLI-NZ/openli) `[2026-10]` - ETSI-compliant lawful intercept software for IP and VoIP traffic.
 ## Interconnect
 
 ### SBC, IMS
@@ -1119,6 +1135,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [bng](https://github.com/codelaboratoryltd/bng) `[2026-03]` - eBPF-accelerated Broadband Network Gateway for Kubernetes edge deployments. Coordination service: [nexus](https://github.com/codelaboratoryltd/nexus).
 - [rp-pppoe](https://codeberg.org/dskoll/rp-pppoe) - PPPoE client, server and relay for Linux. Hosted on **Codeberg**.
 - [zouppp](https://github.com/hujun-open/zouppp) `[2026-10]` - Go modules that implement PPPoE, PPP and related protocols, with a load-test client.
+- [LibreQoS](https://github.com/LibreQoE/LibreQoS) `[2026-10]` - Self-hosted traffic management and network operations platform for ISPs. Uses CAKE and fq_codel to reduce bufferbloat per subscriber.
 - [BNG Blaster](https://github.com/rtbrick/bngblaster) `[2026-10]` - Network tester for access and routing protocols (PPPoE, IPoE, L2TP, IS-IS, BGP). Emulates a large number of subscribers. From RtBrick.
 
 ### PON & FTTH
