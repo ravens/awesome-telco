@@ -1164,6 +1164,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 ### CPE Management (TR-069 / TR-369)
 
 - [GenieACS](https://github.com/genieacs/genieacs) `[2026-09]` - Fast and lightweight TR-069 Auto Configuration Server (ACS) for CPE management.
+- [genieacs-container](https://github.com/GeiserX/genieacs-container) `[2026-10]` - Docker image and Helm chart for GenieACS. Runs its four services in one container for amd64 and arm64, with MongoDB beside it on Docker Compose or Kubernetes.
 - [SKYACS](https://github.com/skydashnet/SKYACS) `[2026-07]` - TR-069/CWMP control plane for managed CPE fleets, in Go.
 - [Oktopus](https://github.com/OktopUSP/oktopus) `[2026-02]` - TR-369 (USP) controller and TR-069 (CWMP) ACS platform for CPEs and IoT devices.
 - [go-acs](https://github.com/hakureiyuyuko/go-acs) `[2026-10]` - Single-binary TR-069/CWMP ACS in Go and SQLite for ONTs and FTTR hosts.
