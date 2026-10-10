@@ -121,6 +121,7 @@ For research and debugging:
 - [Radio Access Network](#radio-access-network) - 2G/3G/4G/5G base stations
 - [Core Network](#core-network) - EPC, 5GC, MME, AMF, UPF, etc.
 - [Interconnect](#interconnect) - IMS, SBC, SS7, Diameter
+- [Fixed & Broadband Access](#fixed--broadband-access) - BNG, PPPoE, DOCSIS, TR-069 CPE management
 - [Protocols](#protocols) - Libraries and frameworks for telco protocols
 - [Satellite Communication](#satellite-communication) - LEO/GEO satellite tooling
 - [LPWAN / LoRaWAN](#lpwan--lorawan) - LoRaWAN network servers, gateways, simulators, and tooling
@@ -746,10 +747,6 @@ For research and debugging:
 - [hepsub-voipmonitor](https://github.com/sipcapture/hepsub-voipmonitor) `[2019-05]` - HEP Pub-Sub Client for OSS Voipmonitor Sniffer.
 - [rate-o-mat](https://github.com/sipwise/rate-o-mat) `[2026-10]` - Rating daemon for the NGCP.
 - [open5gs-nms](https://github.com/paulmataruso/open5gs-nms) `[2026-09]` - Web-based network management UI for Open5GS.
-- [GenieACS](https://github.com/genieacs/genieacs) `[2026-09]` - Fast and lightweight TR-069 Auto Configuration Server (ACS) for CPE management.
-- [SKYACS](https://github.com/skydashnet/SKYACS) `[2026-07]` - TR-069/CWMP control plane for managed CPE fleets, in Go.
-- [Oktopus](https://github.com/OktopUSP/oktopus) `[2026-02]` - TR-369 (USP) controller and TR-069 (CWMP) ACS platform for CPEs and IoT devices.
-- [go-acs](https://github.com/hakureiyuyuko/go-acs) `[2026-10]` - Single-binary TR-069/CWMP ACS in Go and SQLite for ONTs and FTTR hosts.
 ## Interconnect
 
 ### SBC, IMS
@@ -1115,6 +1112,21 @@ For research and debugging:
 - [SMPPEX](https://github.com/funbox/smppex) `[2026-04]` - SMPP 3.4 protocol and framework implementation in Elixir.
 - [JamaaSMPP](https://github.com/AdhamAwadhi/JamaaSMPP) `[2026-08]` - .NET implementation of an SMPP client library.
 - [SMSgate](https://github.com/pentagridsec/smsgate) `[2026-08]` - Python server to send and receive SMS with multiple GSM modems and SIM cards. From Pentagrid.
+
+## Fixed & Broadband Access
+
+Wireline access: BNG, PPPoE/IPoE, DOCSIS and CPE management (TR-069/TR-369).
+
+- [accel-ppp](https://github.com/accel-ppp/accel-ppp) `[2026-10]` - High performance PPPoE/IPoE/L2TP/PPTP/SSTP access server for Linux. Used as a software BNG/BRAS.
+- [osvbng](https://github.com/veesix-networks/osvbng) `[2026-09]` - Open-source virtual BNG for ISPs, built on VPP, FRR and DPDK.
+- [bng](https://github.com/codelaboratoryltd/bng) `[2026-03]` - eBPF-accelerated Broadband Network Gateway for Kubernetes edge deployments. Coordination service: [nexus](https://github.com/codelaboratoryltd/nexus).
+- [BNG Blaster](https://github.com/rtbrick/bngblaster) `[2026-10]` - Network tester for access and routing protocols (PPPoE, IPoE, L2TP, IS-IS, BGP). Emulates a large number of subscribers. From RtBrick.
+- [docsis-ns3](https://github.com/cablelabs/docsis-ns3) `[2026-09]` - ns-3 module to simulate DOCSIS 3.1 links. From CableLabs.
+- [GenieACS](https://github.com/genieacs/genieacs) `[2026-09]` - Fast and lightweight TR-069 Auto Configuration Server (ACS) for CPE management.
+- [SKYACS](https://github.com/skydashnet/SKYACS) `[2026-07]` - TR-069/CWMP control plane for managed CPE fleets, in Go.
+- [Oktopus](https://github.com/OktopUSP/oktopus) `[2026-02]` - TR-369 (USP) controller and TR-069 (CWMP) ACS platform for CPEs and IoT devices.
+- [go-acs](https://github.com/hakureiyuyuko/go-acs) `[2026-10]` - Single-binary TR-069/CWMP ACS in Go and SQLite for ONTs and FTTR hosts.
+- [SimulaTR69](https://github.com/localhots/SimulaTR69) `[2025-11]` - CPE simulator for the TR-069 protocol. Use it to test an ACS.
 
 ## Satellite Communication
 - [Hughes_OneWeb_Monitor](https://github.com/nickvsnetworking/Hughes_OneWeb_Monitor) `[2025-04]` - Hughes OneWeb Terminal Prometheus Exporter
