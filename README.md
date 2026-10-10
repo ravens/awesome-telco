@@ -121,7 +121,7 @@ For research and debugging:
 - [Radio Access Network](#radio-access-network) - 2G/3G/4G/5G base stations
 - [Core Network](#core-network) - EPC, 5GC, MME, AMF, UPF, etc.
 - [Interconnect](#interconnect) - IMS, SBC, SS7, Diameter
-- [Fixed & Broadband Access](#fixed--broadband-access) - BNG, PPPoE, DOCSIS, TR-069 CPE management
+- [Wireline & Fixed Access](#wireline--fixed-access) - BNG, PON, DSL, DOCSIS, TR-069, PSTN/ISDN, Minitel
 - [Protocols](#protocols) - Libraries and frameworks for telco protocols
 - [Satellite Communication](#satellite-communication) - LEO/GEO satellite tooling
 - [LPWAN / LoRaWAN](#lpwan--lorawan) - LoRaWAN network servers, gateways, simulators, and tooling
@@ -454,7 +454,6 @@ For research and debugging:
 - [OsmoBSC](https://osmocom.org/projects/osmobsc/wiki) - Open Source BSC (Base Station Controller) with Abis/E1 and Abis/IP support. Works with OsmoBTS, nanoBTS and various Nokia, Ericsson and Siemens BTS models.
 - [osmo-trx](https://gitea.osmocom.org/cellular-infrastructure/osmo-trx) - Osmocom GSM/GPRS/EGPRS transceiver, originally forked from OpenBTS transceiver. For building SDR based GSM BTS with osmo-bts-trx. Hosted on **Osmocom Gitea**.
 - [osmoweb](https://github.com/wavelet-lab/osmoweb) `[2026-07]` - TypeScript library that brings Osmocom's mobile communication stacks to the web browser.
-- [osmo-e1d](https://gitea.osmocom.org/retronetworking/osmo-e1d) `[2026-08]` - Osmocom E1 daemon for icE1usb USB interfaces and OCTOI (Osmocom Community TDM over IP). Hosted on **Osmocom Gitea**.
 - [osmo-trx-pluto-fw](https://github.com/Manawyrm/osmo-trx-pluto-fw) `[2026-06]` - Modified PlutoSDR firmware that runs osmo-trx on the Pluto itself.
 - Additional cellular-infrastructure sub-projects: [meta-telephony](https://gitea.osmocom.org/cellular-infrastructure/meta-telephony), [libasn1c](https://gitea.osmocom.org/cellular-infrastructure/libasn1c), [mncc-python](https://gitea.osmocom.org/cellular-infrastructure/mncc-python), [training-materials](https://gitea.osmocom.org/cellular-infrastructure/training-materials), [asn1_docextract](https://gitea.osmocom.org/cellular-infrastructure/asn1_docextract)
 - Additional osmocom sub-projects: [3grr](https://gitea.osmocom.org/osmocom/3grr), [docker-playground](https://gitea.osmocom.org/osmocom/docker-playground), [gapk](https://gitea.osmocom.org/osmocom/gapk), [libosmo-gprs](https://gitea.osmocom.org/osmocom/libosmo-gprs), [libosmo-netif](https://gitea.osmocom.org/osmocom/libosmo-netif), [libosmo-sigtran](https://gitea.osmocom.org/osmocom/libosmo-sigtran), [libosmocore](https://gitea.osmocom.org/osmocom/libosmocore), [pyhss](https://gitea.osmocom.org/osmocom/pyhss), +1 more
@@ -721,7 +720,6 @@ For research and debugging:
 - [osmo-el2tpd](https://gitea.osmocom.org/cellular-infrastructure/osmo-el2tpd) - Osmocom L2TP daemon compatible with Ericsson L2TP dialect (SIU). Hosted on **Osmocom Gitea**.
 - [osmo-python-tests](https://gitea.osmocom.org/cellular-infrastructure/osmo-python-tests) - Hosted on **Osmocom Gitea**.
 - [osmo-hnodeb](https://gitea.osmocom.org/cellular-infrastructure/osmo-hnodeb) - (upper layers of) HomeNodeB. Hosted on **Osmocom Gitea**.
-- [osmo-e1-recorder](https://gitea.osmocom.org/cellular-infrastructure/osmo-e1-recorder) - Osmocom E1/T1 span recorder. Hosted on **Osmocom Gitea**.
 - [osmo-bts-amp](https://gitea.osmocom.org/cellular-infrastructure/osmo-bts-amp) - BTS side amplifier (PA+LNA+Duplexer). Hosted on **Osmocom Gitea**.
 - [osmo-rbs](https://gitea.osmocom.org/cellular-infrastructure/osmo-rbs) - Tools for experimentation with Ericsson RBS. Hosted on **Osmocom Gitea**.
 - [osmo-abi-check](https://gitea.osmocom.org/cellular-infrastructure/osmo-abi-check) - Osmocom ABI Check. Hosted on **Osmocom Gitea**.
@@ -741,7 +739,6 @@ For research and debugging:
 - [CDRTool](https://github.com/AGProjects/cdrtool) `[2026-05]` - CDR mediation and rating engine for Call Detail Records. From AG Projects.
 - [OpenCDRRate](https://sourceforge.net/p/opencdrrate/home/Home/) - Scalable CDR rating, taxation and invoicing system for telecom/VoIP. Hosted on **SourceForge**.
 - [jBilling](https://sourceforge.net/projects/jbilling/) - Open source enterprise billing system in Java with CDR mediation module for telecom. Hosted on **SourceForge**.
-- [os-provisioning](https://github.com/cablelabs/os-provisioning) `[2026-06]` - Network provisioning and management platform for DOCSIS, FTTH and fixed-wireless access networks. From CableLabs.
 
 
 - [hepsub-voipmonitor](https://github.com/sipcapture/hepsub-voipmonitor) `[2019-05]` - HEP Pub-Sub Client for OSS Voipmonitor Sniffer.
@@ -1013,8 +1010,6 @@ For research and debugging:
 - [sylk-suite](https://github.com/AGProjects/sylk-suite) `[2026-08]` - Self-hosted SIP and WebRTC multimedia conference server suite. From AG Projects.
 - [baresip-node](https://github.com/Siperb/baresip-node) `[2025-10]` - Node.js native addon embedding the Baresip SIP stack for VoIP application development.
 - [mod_hamradio](https://github.com/PripyatAutomations/mod_hamradio) `[2026-06]` - FreeSWITCH module interfacing amateur radio transceivers via sound cards and GPIO.
-- [OsmoCC](https://gitea.osmocom.org/cc/osmo-cc-router) - Osmocom Call Control: a call router with endpoints for [SIP](https://gitea.osmocom.org/cc/osmo-cc-sip-endpoint), [mISDN](https://gitea.osmocom.org/cc/osmo-cc-misdn-endpoint), [SS5](https://gitea.osmocom.org/cc/osmo-cc-ss5-endpoint), [PSTN via Osmo-V5](https://gitea.osmocom.org/cc/osmo-cc-pstn-endpoint), [ALSA](https://gitea.osmocom.org/cc/osmo-cc-alsa-endpoint), [PRI via osmo-e1d](https://gitea.osmocom.org/nt2mku/osmo-cc-e1d-endpoint) and [call recording](https://gitea.osmocom.org/cc/osmo-cc-callrec-endpoint). Library: [libosmo-cc](https://gitea.osmocom.org/cc/libosmo-cc). Hosted on **Osmocom Gitea**.
-- [osmo-v5](https://gitea.osmocom.org/retronetworking/osmo-v5) - Open-source implementation of the LE (Local Exchange) side of the ETSI/ITU V5 interface. Hosted on **Osmocom Gitea**.
 - [ewsd-tools](https://gitea.osmocom.org/jolly/ewsd-tools) - Tools for managing Siemens EWSD switches, including a terminal for the OMT serial port. Hosted on **Osmocom Gitea**.
 - [sip-rs](https://codeberg.org/metamuffin/sip-rs) - Rust SIP protocol stack. Hosted on **Codeberg**.
 - [openwrt/telephony](https://github.com/openwrt/telephony) `[2026-07]` - OpenWrt telephony packages feed: Asterisk, FreeSWITCH, Kamailio, baresip and related packages for routers.
@@ -1113,20 +1108,95 @@ For research and debugging:
 - [JamaaSMPP](https://github.com/AdhamAwadhi/JamaaSMPP) `[2026-08]` - .NET implementation of an SMPP client library.
 - [SMSgate](https://github.com/pentagridsec/smsgate) `[2026-08]` - Python server to send and receive SMS with multiple GSM modems and SIM cards. From Pentagrid.
 
-## Fixed & Broadband Access
+## Wireline & Fixed Access
 
-Wireline access: BNG, PPPoE/IPoE, DOCSIS and CPE management (TR-069/TR-369).
+Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/ISDN and Minitel.
+
+### BNG, PPPoE & Subscriber Access
 
 - [accel-ppp](https://github.com/accel-ppp/accel-ppp) `[2026-10]` - High performance PPPoE/IPoE/L2TP/PPTP/SSTP access server for Linux. Used as a software BNG/BRAS.
 - [osvbng](https://github.com/veesix-networks/osvbng) `[2026-09]` - Open-source virtual BNG for ISPs, built on VPP, FRR and DPDK.
 - [bng](https://github.com/codelaboratoryltd/bng) `[2026-03]` - eBPF-accelerated Broadband Network Gateway for Kubernetes edge deployments. Coordination service: [nexus](https://github.com/codelaboratoryltd/nexus).
+- [rp-pppoe](https://codeberg.org/dskoll/rp-pppoe) - PPPoE client, server and relay for Linux. Hosted on **Codeberg**.
+- [zouppp](https://github.com/hujun-open/zouppp) `[2026-10]` - Go modules that implement PPPoE, PPP and related protocols, with a load-test client.
 - [BNG Blaster](https://github.com/rtbrick/bngblaster) `[2026-10]` - Network tester for access and routing protocols (PPPoE, IPoE, L2TP, IS-IS, BGP). Emulates a large number of subscribers. From RtBrick.
+
+### PON & FTTH
+
+- [VOLTHA](https://github.com/opencord/voltha) `[2026-08]` - Virtual OLT Hardware Abstraction from the ONF. Controls PON hardware as a programmable switch. Core: [voltha-go](https://github.com/opencord/voltha-go).
+- [RTL960x](https://github.com/Anime4000/RTL960x) `[2026-06]` - Reverse engineering of RTL960x-based xPON ONT sticks. Lets you adapt the ONT to your OLT.
+- [Hack GPON](https://github.com/hack-gpon/hack-gpon.github.io) `[2026-10]` - Community wiki about GPON and XGS-PON ONTs: root access, SFP sticks and ISP settings.
+- [PONwiki](https://github.com/up-n-atom/PONwiki) `[2026-09]` - Passive Optical Network wiki from the 8311 community, with ONT and ISP bypass guides.
+- [ponc](https://github.com/qoala101/ponc) `[2023-12]` - Graphical tool to design, manage and optimize passive optical network layouts.
+- [GPONMonitor](https://github.com/bartekkois/GPONMonitor) `[2025-03]` - Monitoring tool for Dasan Networks GPON OLTs.
+- [snmp-olt-zte](https://github.com/Cepat-Kilat-Teknologi/snmp-olt-zte) `[2026-10]` - REST API that monitors ZTE C320 and C300 OLTs through SNMP.
+- [KusumaVisionNMS](https://github.com/Masamune21-dev/KusumaVisionNMS) `[2026-10]` - FTTH network management platform to monitor and provision GPON/EPON OLTs.
+
+### DSL & DOCSIS
+
+- [go-dsl](https://github.com/janh/go-dsl) `[2025-07]` - Go library and application that reads xDSL statistics from many modem types.
+- [xdsl-exporter](https://github.com/Dentrax/xdsl-exporter) `[2023-03]` - Prometheus exporter for xDSL line statistics.
+- [docsis](https://github.com/rlaager/docsis) `[2026-06]` - Encodes a DOCSIS binary configuration file from a text configuration file, and decodes it.
+- [OSCAR](https://github.com/Comcast/Oscar) `[2026-02]` - OpenSource Cablemodem file AssembleR: DOCSIS, PacketCable and DPoE configuration editor and API. From Comcast.
+- [bcm2-utils](https://github.com/jclehner/bcm2-utils) `[2025-02]` - Utilities to dump and edit the firmware and configuration of Broadcom-based cable modems.
+- [DOCSight](https://github.com/itsDNNS/docsight) `[2026-10]` - Self-hosted DOCSIS monitor that records signal levels and incidents as evidence of cable faults.
+- [cable_modem_monitor](https://github.com/solentlabs/cable_modem_monitor) `[2026-10]` - Home Assistant integration that monitors the signal quality of cable modems.
 - [docsis-ns3](https://github.com/cablelabs/docsis-ns3) `[2026-09]` - ns-3 module to simulate DOCSIS 3.1 links. From CableLabs.
+- [os-provisioning](https://github.com/cablelabs/os-provisioning) `[2026-06]` - Network provisioning and management platform for DOCSIS, FTTH and fixed-wireless access networks. From CableLabs.
+
+### CPE Management (TR-069 / TR-369)
+
 - [GenieACS](https://github.com/genieacs/genieacs) `[2026-09]` - Fast and lightweight TR-069 Auto Configuration Server (ACS) for CPE management.
 - [SKYACS](https://github.com/skydashnet/SKYACS) `[2026-07]` - TR-069/CWMP control plane for managed CPE fleets, in Go.
 - [Oktopus](https://github.com/OktopUSP/oktopus) `[2026-02]` - TR-369 (USP) controller and TR-069 (CWMP) ACS platform for CPEs and IoT devices.
 - [go-acs](https://github.com/hakureiyuyuko/go-acs) `[2026-10]` - Single-binary TR-069/CWMP ACS in Go and SQLite for ONTs and FTTR hosts.
+- [TeamsACS](https://github.com/CA17/TeamsACS) `[2026-09]` - TR-069 ACS server for MikroTik devices.
+- [OB-USPA](https://github.com/BroadbandForum/obuspa) `[2026-07]` - Broadband Forum reference USP (TR-369) agent. Data models: [cwmp-data-models](https://github.com/BroadbandForum/cwmp-data-models).
+- [EasyCwmp](https://github.com/pivasoftware/easycwmp) `[2021-08]` - TR-069 CWMP client for OpenWrt and Linux CPEs.
+- [genieacs-sim](https://github.com/genieacs/genieacs-sim) `[2022-03]` - TR-069 client simulator for GenieACS.
 - [SimulaTR69](https://github.com/localhots/SimulaTR69) `[2025-11]` - CPE simulator for the TR-069 protocol. Use it to test an ACS.
+
+### PSTN, ISDN & E1/T1
+
+- [DAHDI](https://github.com/asterisk/dahdi-linux) `[2026-08]` - Digium/Asterisk Hardware Device Interface: Linux kernel drivers for analog, BRI and E1/T1 telephony cards. Related: [dahdi-tools](https://github.com/asterisk/dahdi-tools), [libpri](https://github.com/asterisk/libpri) (PRI/Q.931 library).
+- [dahdi-linux (Osmocom fork)](https://gitea.osmocom.org/retronetworking/dahdi-linux) - Osmocom fork of DAHDI with icE1usb support and many fixes. Hosted on **Osmocom Gitea**.
+- [dahdi-linux (Connections Museum)](https://github.com/connectionsmuseum/dahdi-linux) `[2025-12]` - DAHDI fork with revertive pulse signalling, for panel and crossbar exchanges of the Connections Museum.
+- [PhreakScript](https://github.com/InterLinked1/phreakscript) `[2026-10]` - Utility that automates the installation, maintenance and debugging of Asterisk and DAHDI, with extra patches for legacy telephony.
+- [mISDN](https://github.com/ISDN4Linux/mISDN) `[2023-01]` - Modular ISDN kernel driver for Linux. User space: [mISDNuser](https://github.com/ISDN4Linux/mISDNuser) (utilities, library and CAPI 2.0).
+- [CapiSuite](https://github.com/larsimmisch/capisuite) `[2016-12]` - Python-scriptable ISDN telephony suite with an answering machine and fax functions.
+- [capi-hacks](https://gitea.osmocom.org/retronetworking/capi-hacks) - Linux programs based on libcapi20 that implement ISDN applications. Hosted on **Osmocom Gitea**.
+- [yate-ras](https://gitea.osmocom.org/retronetworking/yate-ras) - ISDN and synchronous network access server, similar to a PortMaster. Hosted on **Osmocom Gitea**.
+- [uk0](https://gitea.osmocom.org/retronetworking/uk0) - Software-defined ISDN U interface (4B3T). Connects an NT1 to a sound card with a 192 kHz sample rate. Hosted on **Osmocom Gitea**.
+- [osmo-isdntap](https://gitea.osmocom.org/retronetworking/osmo-isdntap) - ISDN tap software. Records D-channels as GSMTAP and stores raw B-channel data of calls. Hosted on **Osmocom Gitea**.
+- [osmo-e1d](https://gitea.osmocom.org/retronetworking/osmo-e1d) `[2026-08]` - Osmocom E1 daemon for icE1usb USB interfaces and OCTOI (Osmocom Community TDM over IP). Hosted on **Osmocom Gitea**.
+- [osmo-e1-hardware](https://gitea.osmocom.org/retronetworking/osmo-e1-hardware) - Open E1 hardware designs: icE1usb, osmo-e1-tap, osmo-e1-xcvr and osmo-e1-tracer. Hosted on **Osmocom Gitea**.
+- [osmo-e1-recorder](https://gitea.osmocom.org/cellular-infrastructure/osmo-e1-recorder) - Osmocom E1/T1 span recorder. Hosted on **Osmocom Gitea**.
+- [OsmoCC](https://gitea.osmocom.org/cc/osmo-cc-router) - Osmocom Call Control: a call router with endpoints for [SIP](https://gitea.osmocom.org/cc/osmo-cc-sip-endpoint), [mISDN](https://gitea.osmocom.org/cc/osmo-cc-misdn-endpoint), [SS5](https://gitea.osmocom.org/cc/osmo-cc-ss5-endpoint), [PSTN via Osmo-V5](https://gitea.osmocom.org/cc/osmo-cc-pstn-endpoint), [ALSA](https://gitea.osmocom.org/cc/osmo-cc-alsa-endpoint), [CAS](https://gitea.osmocom.org/cc/osmo-cc-cas-endpoint), [PRI via osmo-e1d](https://gitea.osmocom.org/nt2mku/osmo-cc-e1d-endpoint) and [call recording](https://gitea.osmocom.org/cc/osmo-cc-callrec-endpoint). Library: [libosmo-cc](https://gitea.osmocom.org/cc/libosmo-cc). Hosted on **Osmocom Gitea**.
+- [osmo-v5](https://gitea.osmocom.org/retronetworking/osmo-v5) - Open-source implementation of the LE (Local Exchange) side of the ETSI/ITU V5 interface. Hosted on **Osmocom Gitea**.
+- [x25-utils](https://gitea.osmocom.org/retronetworking/x25-utils) - User-space tools for the Linux kernel X.25 implementation. Hosted on **Osmocom Gitea**.
+- [osmo-amr](https://gitea.osmocom.org/retronetworking/osmo-amr) - USB interface for AMR (Audio Modem Riser) modems, with hardware design files and utilities. Hosted on **Osmocom Gitea**.
+- [fax-services](https://gitea.osmocom.org/retronetworking/fax-services) - Collection of fax services for retronetworking. Related: [fax2fedi](https://gitea.osmocom.org/retronetworking/fax2fedi) (telefax to Fediverse gateway). Hosted on **Osmocom Gitea**.
+- [Phone_SLIM](https://github.com/GadgetReboot/Phone_SLIM) `[2025-12]` - Open hardware POTS subscriber line interface module (SLIC) for analog telephones.
+
+### Minitel & Videotex
+
+- [pynitel](https://github.com/cquest/pynitel) `[2022-05]` - Python library to write Minitel servers and software.
+- [PyMinitel](https://github.com/Zigazou/PyMinitel) `[2026-04]` - Python library to control a Minitel from a Linux PC through a serial link.
+- [miedit](https://github.com/Zigazou/miedit) `[2024-02]` - Minitel page editor that runs in the browser.
+- [MiniPAVI](https://github.com/ludosevilla/minipavi) `[2026-08]` - Videotex access point gateway (PAVI). Connects Minitels to services over WebSocket, telnet or a modem.
+- [minigo](https://codeberg.org/noelmrtn/minigo) - Go library to run a Minitel server through V.23 modems and WebSocket. Hosted on **Codeberg**.
+- [cristel](https://github.com/cquest/cristel) `[2025-10]` - Videotex server software for the Apple II.
+- [NXtel](https://github.com/Threetwosevensixseven/NXtel) `[2024-11]` - Videotex TCP/IP server and client for the ZX Spectrum Next.
+- [Minitel-ESP32](https://github.com/iodeo/Minitel-ESP32) `[2025-10]` - Sample code to reuse a Minitel with an ESP32. Related: [Socketel](https://github.com/iodeo/Socketel) (MicroPython portal to Minitel web services).
+- [Minitel1B_Hard](https://github.com/eserandour/Minitel1B_Hard) `[2026-05]` - Minitel 1B library for Arduino and ESP32 with HardwareSerial. SoftwareSerial variant: [Minitel1B_Soft](https://github.com/eserandour/Minitel1B_Soft).
+- [MinitelOS](https://github.com/Minitel-Hacking-Crew/MinitelOS) `[2026-09]` - Custom operating system for ESP32 that turns a Minitel into a standalone terminal. From the Minitel Hacking Crew.
+- [MiniMit](https://github.com/multiplie-fr/minimit) `[2024-02]` - ESP32 board and firmware that connects a Minitel to Wi-Fi services.
+- [minitel-native](https://github.com/fabio-d/minitel-native) `[2026-09]` - Software and hardware tools to run native programs on the Minitel CPU.
+- [jfdelnero/minitel](https://github.com/jfdelnero/minitel) `[2026-08]` - Code examples for the French Minitel terminal, with a videotex page converter.
+- [3615IA](https://github.com/nocomp/3615IA) `[2026-09]` - Gateway that connects a real Minitel to large language models.
+- [asterisk-Softmodem](https://github.com/proquar/asterisk-Softmodem) `[2018-08]` - V.23 softmodem application for Asterisk, with Bildschirmtext (BTX) support.
+- [btx_modem](https://github.com/Casandro/btx_modem) `[2025-02]` - V.23 modem with the data link layer as an Asterisk application, for BTX terminals.
+- [v23](https://github.com/aquila12/v23) `[2017-10]` - V.23 softmodem.
 
 ## Satellite Communication
 - [Hughes_OneWeb_Monitor](https://github.com/nickvsnetworking/Hughes_OneWeb_Monitor) `[2025-04]` - Hughes OneWeb Terminal Prometheus Exporter
