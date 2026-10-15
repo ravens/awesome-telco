@@ -1685,6 +1685,7 @@ AI and machine learning tools for telecom networks, covering foundation models, 
 - [LLM_for_telecom](https://github.com/rezagoodarzi/LLM_for_telecom) `[2025-12]` - Fine-tuned LLM optimized on telecommunications domain data and 3GPP specifications with RAG.
 - [3GPP-Everything](https://github.com/EpisodeYu/3GPP-Everything) `[2026-08]` - RAG agent over 3GPP 5G specifications (Rel-18/19 TS) that answers with paragraph-level citations and strict grounding.
 - [pbx-mcp](https://github.com/ictinnovations/pbx-mcp) `[2026-10]` - MCP server for Asterisk and FreeSWITCH: lets AI assistants inspect channels, SIP registrations and call state. Sibling: [ictpbx-mcp](https://github.com/ictinnovations/ictpbx-mcp).
+- [genieacs-mcp](https://github.com/GeiserX/genieacs-mcp) `[2026-10]` - Go MCP server for the GenieACS NBI: lets AI assistants search TR-069 CPEs, read their parameters, tasks and faults, and reboot them, push firmware or set parameters.
 
 See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3gpp-crawler](#learning-resources) (3GPP FTP crawler), [GSMA Open-Telco LLM Benchmarks](https://huggingface.co/GSMA) (TeleYAML, TeleLogs, TeleMATH on HuggingFace).
 
