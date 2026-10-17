@@ -282,10 +282,7 @@ For research and debugging:
 - [volte-toggle](https://github.com/charlie-xing/volte-toggle) `[2026-09]` - Enables VoLTE, VoNR and 5G SA for Chinese operator SIMs on Google Pixel without root.
 - [shannon-pixel-modem-tweaks-app](https://github.com/davwheat/shannon-pixel-modem-tweaks-app) `[2026-03]` - Android app that applies mobile network tweaks to Google Pixel phones with Samsung Shannon modems.
 - [5G Network Mode Switcher](https://github.com/OpenAppsLabs/5G) `[2026-08]` - Android app that switches the preferred network mode, for example NR only.
-- [openvohive](https://github.com/openvohive/openvohive) `[2026-07]` - Management and proxy platform for Qualcomm-based Quectel 4G/5G modules (EC20, EC25, EG25 and others), related to VoHive.
 - [SimMaster](https://github.com/autisticryptic/SimMaster) `[2026-10]` - IMS and VoWiFi registration with voice and video calls, SMS tasks and Asterisk trunk support. Documentation in Chinese.
-- [simplus](https://github.com/leonfox28/simplus) `[2026-10]` - LAN control plane for 4G/5G modems: SMS, calls and host-side VoWiFi.
-- [VoHive-VoWiFi-IMS](https://github.com/wstgpt/VoHive-VoWiFi-IMS) `[2026-08]` - VoWiFi gateway with proxy support and IMS dialing, for VoHive.
 - [OP-Band-Control](https://github.com/nhCoder/OP-Band-Control) `[2026-08]` - KernelSU module for live LTE/5G NR monitoring and per-SIM band selection on Android.
 
 
@@ -450,7 +447,6 @@ For research and debugging:
 - [dect-nr-samples](https://github.com/lauri-piikivi/dect-nr-samples) `[2026-04]` - DECT NR+ (DECT-2020) sniffer application for Nordic nRF91 devices.
 - [alfie_firmware](https://github.com/evanstoddard/alfie_firmware) `[2026-03]` - SMS over DECT NR+ for licence-free mesh messaging.
 - [hophop](https://github.com/ariel-os/hophop) `[2026-10]` - DECT-2020 NR+ experiments in Rust, from the Ariel OS project.
-- [OCP OpenRU RAI](https://github.com/opencomputeproject/OCP-Telco-Open_3GPP_RAI) `[2026-09]` - OCP OpenRU Radio Abstraction Interface.
 - [DECT-NR-Wireshark-dissector](https://github.com/Aalto5G/DECT-NR-Wireshark-dissector) `[2026-05]` - Wireshark dissector for DECT NR+ MAC packets, from Aalto University.
 ### 4G
 
@@ -1294,7 +1290,6 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [EasyCwmp](https://github.com/pivasoftware/easycwmp) `[2021-08]` - TR-069 CWMP client for OpenWrt and Linux CPEs.
 - [genieacs-sim](https://github.com/genieacs/genieacs-sim) `[2022-03]` - TR-069 client simulator for GenieACS.
 - [SimulaTR69](https://github.com/localhots/SimulaTR69) `[2025-11]` - CPE simulator for the TR-069 protocol. Use it to test an ACS.
-- [tr069acs](https://github.com/ods-code/tr069acs) `[2026-05]` - Windows TR-069 ACS for bench work on a modem, with built-in DHCP and PPPoE servers. Documentation in Turkish and English.
 - [genieacs-relay](https://github.com/Cepat-Kilat-Teknologi/genieacs-relay) `[2026-10]` - REST relay in Go in front of the GenieACS NBI for CPE Wi-Fi settings, provisioning and diagnostics.
 - [cwmp_ex](https://github.com/Fullrate/cwmp_ex) `[2025-12]` - TR-069 CWMP protocol (Amendment 5) library in Elixir.
 - [zacs](https://github.com/m4siri/zacs) `[2026-07]` - TR-069 ACS in Zig.
@@ -1346,7 +1341,6 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [asterisk-Softmodem](https://github.com/proquar/asterisk-Softmodem) `[2018-08]` - V.23 softmodem application for Asterisk, with Bildschirmtext (BTX) support.
 - [btx_modem](https://github.com/Casandro/btx_modem) `[2025-02]` - V.23 modem with the data link layer as an Asterisk application, for BTX terminals.
 - [v23](https://github.com/aquila12/v23) `[2017-10]` - V.23 softmodem.
-- [EMinEx](https://github.com/ludosevilla/EMinEx) `[2026-08]` - Minitel (Videotex CEPT-2) emulator for MSX1 computers with a Wi-Fi modem.
 - [Minitel-HA](https://github.com/Mrt0t0/Minitel-HA) `[2026-09]` - Controls Home Assistant from a real Minitel or a web browser in Videotex.
 - [minitel-gpt](https://github.com/jherard-fr/minitel-gpt) `[2026-10]` - Turns a Minitel into an AI chat terminal with a Raspberry Pi Zero 2 W.
 - [lx-composite-to-minitel](https://github.com/lucblender/lx-composite-to-minitel) `[2025-11]` - KiCad project of a Minitel mod that adds a composite video input.
@@ -1465,7 +1459,6 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [MKRWAN](https://github.com/arduino-libraries/MKRWAN) `[2026-09]` - Arduino library for LoRaWAN on the MKR WAN boards.
 - [CatWAN USB Stick](https://github.com/ElectronicCats/CatWAN_USB_Stick) `[2026-10]` - Open-source LoRa and LoRaWAN USB stick to capture and analyze LoRa packets.
 - [lora-serialization](https://github.com/thesolarnomad/lora-serialization) `[2026-03]` - LoRaWAN payload serialization and deserialization library for The Things Network.
-- [LoRasPI](https://github.com/hallard/LoRasPI) `[2026-04]` - Raspberry Pi LoRa gateway and node for HopeRF RFM95/96/98 modules.
 - [LMICPP-Arduino](https://github.com/ngraziano/LMICPP-Arduino) `[2026-02]` - C++ rewrite of the LMIC LoRaWAN stack for Arduino.
 - [Exploiteers-Wireshark-LoRa](https://github.com/exploiteers/Exploiteers-Wireshark-LoRa) `[2025-10]` - Wireshark plugin that dissects LoRa packets, mostly Meshtastic.
 
@@ -1655,7 +1648,6 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [pion/sdp](https://github.com/pion/sdp) `[2026-10]` - Go implementation of the Session Description Protocol (SDP).
 - [3gppDecoder](https://github.com/konglinglong/3gppDecoder) `[2026-07]` - 3GPP message decoder for 2G, 3G, 4G and 5G protocols, written in Red. Documentation in Chinese.
 - [nrarfcn](https://github.com/blevic/nrarfcn) `[2026-04]` - Python package that converts between 5G NR-ARFCN, frequencies and bands.
-- [TelcoLadder](https://github.com/gollumw/TelcoLadder) `[2026-10]` - Turns signalling captures into explained call-flow ladders for 5G core, 4G EPC and IMS.
 - [protocol-forge](https://github.com/yangying-dev/protocol-forge) `[2026-10]` - 3GPP protocol workbench to inspect, edit and replay PFCP, NGAP, GTP-U, NAS, S1AP and Diameter packets from PCAP.
 
 
