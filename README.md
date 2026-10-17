@@ -374,7 +374,6 @@ For research and debugging:
 - [oran-ntn](https://github.com/Muhammaduazir69/oran-ntn) `[2026-08]` - ns-3 Space O-RAN module: E2 and A1 control loops for non-terrestrial networks with on-board, gateway and cloud RIC placements, xApps and RL hooks.
 - [oran-sim-ce](https://github.com/Keysight/oran-sim-ce) `[2026-06]` - Cloud-edition O-RAN simulator for E2 and O1 network function interfaces. From Keysight.
 - [FlexRIC-SQLite-database](https://github.com/rediramli/FlexRIC-SQLite-database) `[2025-10]` - Integration of FlexRIC with SQLite to record real-time E2 KPM metric indications for ML xApps.
-- [dApp-flexric](https://github.com/wineslab/dApp-flexric) `[2026-06]` - Mirror of FlexRIC with the E2 service model for dApps, from WINES Lab.
 - [BubbleRAN xApp SDK](https://github.com/bubbleran/xapp_sdk) `[2026-10]` - xApp SDK and samples for the BubbleRAN near-RT RIC.
 - Additional o-ran-sc sub-projects: [o-du-phy](https://github.com/o-ran-sc/o-du-phy), [nonrtric](https://github.com/o-ran-sc/nonrtric), [it-dep](https://github.com/o-ran-sc/it-dep), [ric-app-hw-go](https://github.com/o-ran-sc/ric-app-hw-go), [aiml-fw-aimlfw-dep](https://github.com/o-ran-sc/aiml-fw-aimlfw-dep), [oam](https://github.com/o-ran-sc/oam), [ric-app-hw](https://github.com/o-ran-sc/ric-app-hw), [aiml-fw-awmf-tm](https://github.com/o-ran-sc/aiml-fw-awmf-tm), +11 more
 
@@ -698,7 +697,6 @@ For research and debugging:
 - [gtp-guard](https://github.com/acassen/gtp-guard) `[2026-06]` - The main goal of this project is to provide robust and secure extensions to GTP protocol (GPRS Tunneling Protocol).
 - [osmo-s1gw](https://gitea.osmocom.org/erlang/osmo-s1gw) - S1AP gateway/proxy in Erlang for 4G LTE. Bridges eNB-facing and CN-facing IP networks. Hosted on **Osmocom Gitea**.
 - [osmo-upf](https://gitea.osmocom.org/cellular-infrastructure/osmo-upf) - Osmocom UPF (User Plane Function) in C with PFCP session management. Hosted on **Osmocom Gitea**.
-- [DIKEUE](https://github.com/SyNSec-den/DIKEUE) `[2023-06]` - This is the public release of the code of our paper titled "Noncompliance as Deviant Behavior: An Automated Black-box...
 - [LibNbiot](https://github.com/telekom/LibNbiot) `[2023-04]` - Non-blocking MQTT-SN Library for NB-IoT
 - [LTECoverageTool](https://github.com/usnistgov/LTECoverageTool) `[2020-05]` - The LTE Coverage Tool application and SDK enable first responders and public safety personnel to survey and evaluate ...
 - [OAI-5G](https://github.com/herlesupreeth/OAI-5G) `[2016-11]` - EmPOWER Agent integration with OpenAirInterface stack
@@ -798,7 +796,6 @@ For research and debugging:
 - [radius-rs](https://github.com/moznion/radius-rs) `[2026-07]` - Async RADIUS server and client library for Rust.
 - [keycloak-radius-plugin](https://github.com/vzakharchenko/keycloak-radius-plugin) `[2026-10]` - Runs a RADIUS server inside Keycloak SSO.
 - [aaa4j-radius](https://github.com/aaa4j/aaa4j-radius) `[2026-08]` - Java library to build RADIUS clients and servers.
-- [NOC](https://github.com/gufolabs/noc) `[2026-10]` - Operation Support System (OSS) for telecom companies, service providers and enterprise NOCs.
 - [ISP-Mikrotik-Billing](https://github.com/CodePagol/ISP-Mikrotik-Billing) `[2026-10]` - ISP billing and network management for MikroTik RouterOS: customers, invoices, PPPoE and Hotspot provisioning.
 - [trishul-ram](https://github.com/tosumitdhaka/trishul-ram) `[2026-10]` - Container-native Python daemon that moves and transforms telecom PM, FM and log data across protocols.
 - [OpenRDX](https://github.com/ilinaya/OpenRDX) `[2025-11]` - Lightweight, extensible RADIUS server for AAA workflows.
@@ -948,7 +945,7 @@ For research and debugging:
 - [esip](https://github.com/processone/esip) `[2026-09]` - ProcessOne SIP server component in Erlang.
 - [rtpbreakr](https://github.com/sipcapture/rtpbreakr) `[2022-03]` - RTP Audio Juicer.
 - [kamailio-tests](https://github.com/kamailio/kamailio-tests) `[2026-10]` - Test Units For Kamailio SIP Server.
-- [mod_openai_asr](https://github.com/aks-tel/mod_openai_asr) `[2026-08]` - Freeswitch Speech-To-Text module. More aks-tel modules: [mod_openai_tts](https://github.com/aks-tel/mod_openai_tts), [mod_google_asr](https://github.com/aks-tel/mod_google_asr), [mod_google_tts](https://github.com/aks-tel/mod_google_tts), [mod_piper_tts](https://github.com/aks-tel/mod_piper_tts), [mod_quickjs](https://github.com/aks-tel/mod_quickjs), [mod_xconf](https://github.com/aks-tel/mod_xconf).
+- [mod_openai_asr](https://github.com/aks-tel/mod_openai_asr) `[2026-08]` - Freeswitch Speech-To-Text module.
 - [mod_whisper_asr](https://github.com/aks-tel/mod_whisper_asr) `[2025-01]` - FreeSWITCH ASR module using OpenAI Whisper for speech recognition.
 - [mod_udptun](https://github.com/aks-tel/mod_udptun) `[2026-07]` - FreeSWITCH helper module for cloning and tunnelling RTP/UDP traffic.
 - [mod_xconf](https://github.com/aks-tel/mod_xconf) `[2026-07]` - Simple high-performance conference module for FreeSWITCH.
@@ -1035,7 +1032,6 @@ For research and debugging:
 - [kamailio-config-tests](https://github.com/sipwise/kamailio-config-tests) `[2026-10]` - Kamailio configuration tests.
 - [osmo-mgw](https://gitea.osmocom.org/cellular-infrastructure/osmo-mgw) - Osmocom Media Gateway (RTP proxy and RTP/E1 gateway). Hosted on **Osmocom Gitea**.
 - [eventsocket](https://github.com/fiorix/eventsocket) `[2015-06]` - Twisted protocol for the FreeSWITCH's Event Socket
-- [voip_perf](https://github.com/jchavanton/voip_perf) `[2026-03]` - SIP performance test tool
 - [sipbench](https://github.com/novartc/sipbench) `[2026-07]` - High-performance SIP stress testing tool based on eBPF/XDP
 - [cipbx](https://github.com/arthur-s/cipbx) `[2025-09]` - cipbx — a minimalistic VoIP call testing tool implementing a simple echo server in Go using diago
 - [astmanproxy](https://codeberg.org/augcampos/astmanproxy) - Asterisk Manager Proxy. Hosted on **Codeberg**.
@@ -1593,7 +1589,6 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 
 ### Others
 
-- ⚠️ [open-nFAPI](https://github.com/cisco/open-nFAPI) `[2018-08]` - Open-nFAPI is implementation of the Small Cell Forum's network functional API or nFAPI for short. nFAPI defines a network protocol that is used to connect a Physical Network Function (PNF) running LTE Layer 1 to a Virtual Network Function (VNF) running LTE layer 2 and above.
 - [CSDR](https://github.com/simonyiszk/csdr) `[2024-02]` - csdr is a command line tool to carry out DSP tasks for Software Defined Radio.
 - [DiagLibrary](https://github.com/sanjaywave/DiagLibrary) `[2016-08]` -  a JNI library that implement a DIAG protocol parser under C code to be used under Android or Linux.
 - [5G Trace visualizer](https://github.com/telekom/5g-trace-visualizer) `[2023-08]` - DT set of Python scripts allow you to convert pcap, pcapng or pdml 5G protocol traces (Wireshark, tcpdump, ...) into SVG sequence diagrams.
@@ -2066,18 +2061,14 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [3gpp-citations](https://github.com/martisak/3gpp-citations) `[2023-11]` - 3GPP Bibtex entry generator.
 - [SA5 MnS APIs](https://forge.3gpp.org/rep/sa5/MnS) - 3GPP SA5 Management and Orchestration OpenAPI specifications and YANG data models. Hosted on **3GPP Forge**.
 - [Introduce to 5GC](https://github.com/ianchen0119/Introduce-to-5GC) `[2022-07]` - 5GC & Cloud Native handbook (Traditional Chinese).
-- [eUICC and eSIM Developer Manual](https://euicc-manual.osmocom.org) - Comprehensive eSIM developer documentation.
 - [specpilot](https://github.com/herlesupreeth/specpilot) `[2025-08]` - AI-powered 3GPP specification assistant. From the author of docker_open5gs.
 - [3gpp-crawler](https://forge.3gpp.org/rep/reimes/3gpp-crawler) - CLI tool to crawl 3GPP FTP server, cache TDocs data, return structured JSON/YAML. Hosted on **3GPP Forge**.
-- [teddi-mcp](https://forge.3gpp.org/rep/reimes/teddi-mcp) - CLI and FastMCP server for ETSI's TEDDI (Terms and Definitions Database Interactive). Search 3GPP/ETSI terms programmatically. Hosted on **3GPP Forge**.
 - [5G_APIs](https://forge.3gpp.org/rep/all/5G_APIs) - Official 3GPP 5G API definitions (OpenAPI/Swagger). REL-20. Hosted on **3GPP Forge**.
 - [3GPP Meeting Tools](https://github.com/telekom/3gpp-meeting-tools) `[2026-10]` - Deutsche Telekom-maintained tools for the day-to-day execution of 3GPP meetings (TDoc handling, agenda parsing). Useful for delegates.
 - [MNO List](https://github.com/CursedHardware/mno-list) `[2026-03]` - Curated list of mobile network operators with metadata, broader than the canonical PLMN list. Useful for SIM/eSIM tooling.
 - [Telco-Spaghetti](https://codeberg.org/leecowdrey/Telco-Spaghetti) `[2026-03]` - SVG architecture posters illustrating real-world telco OSS/BSS and 4G/5G access/transport "spaghetti". Handy didactic reference. Hosted on **Codeberg**.
 - [SA3-LI formal language specifications](https://forge.3gpp.org/rep/sa3/li) - Authoritative repo for 3GPP SA3-LI lawful-interception XSD/JSON schemas and formal-language specs (TS 33.128 family). Hosted on **3GPP Forge**.
 - [Private 5G Book](https://github.com/SystemsApproach/private5g) `[2025-11]` - Open-source book on private 5G networks from the Systems Approach series (Peterson, Sunay, Davie).
-- [PySDR](https://github.com/777arc/PySDR) `[2026-10]` - Free online textbook on SDR and RF signal processing with Python.
-- [Asterisk Guide](https://github.com/flaviogoncalves/asterisk-guide) `[2026-08]` - Free book (2nd edition) on building an IP PBX with Asterisk 22 LTS and PJSIP, with a Docker lab.
 - [telco.wtf](https://github.com/FEEDFACE-COM/telco.wtf) `[2026-03]` - DNS zone, web service and CLI to look up telecom acronyms.
 
 ### Blogs
