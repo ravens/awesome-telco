@@ -1245,7 +1245,8 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [go-dsl](https://github.com/janh/go-dsl) `[2025-07]` - Go library and application that reads xDSL statistics from many modem types.
 - [xdsl-exporter](https://github.com/Dentrax/xdsl-exporter) `[2023-03]` - Prometheus exporter for xDSL line statistics.
 - [docsis](https://github.com/rlaager/docsis) `[2026-06]` - Encodes a DOCSIS binary configuration file from a text configuration file, and decodes it.
-- [OSCAR](https://github.com/Comcast/Oscar) `[2026-10]` - OpenSource Cablemodem file AssembleR: DOCSIS, PacketCable and DPoE configuration editor and API. From Comcast.
+- [OSCAR](https://github.com/Comcast/Oscar) `[2026-10]` - Java API and command-line tools for encoding and decoding DOCSIS, PacketCable, DPoE and DPoG configuration files. From Comcast.
+- [OSCAR-UI](https://github.com/mgarcia01752/oscar-ui) - Windows and Ubuntu desktop editor for viewing, editing and inspecting cable modem configuration files using OSCAR.
 - [bcm2-utils](https://github.com/jclehner/bcm2-utils) `[2025-02]` - Utilities to dump and edit the firmware and configuration of Broadcom-based cable modems.
 - [DOCSight](https://github.com/itsDNNS/docsight) `[2026-10]` - Self-hosted DOCSIS monitor that records signal levels and incidents as evidence of cable faults.
 - [cable_modem_monitor](https://github.com/solentlabs/cable_modem_monitor) `[2026-10]` - Home Assistant integration that monitors the signal quality of cable modems.
