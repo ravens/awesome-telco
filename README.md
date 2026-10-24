@@ -1447,7 +1447,9 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [bazel-pycrate](https://github.com/ravens/bazel-pycrate) `[2023-07]` - A bazel-based pycrate ready jupyter notebook env
 - [hampi](https://github.com/gabhijit/hampi) `[2026-09]` - The Goal of this project is to implement an ASN.1 Compiler in Rust which can generate Rust bindings for different ASN.1 specifications.
 - [Eclipse Titan TTCN-3 (core)](https://gitlab.eclipse.org/eclipse/titan/titan.core/) `[2026-10]` - Open source TTCN-3 compiler and runtime from Ericsson/Eclipse, with built-in ASN.1 BER/PER/XML codecs. Used for telecom protocol conformance testing. Hosted on **GitLab (Eclipse)**.
-- [oxirush-ngap](https://github.com/linouxis9/oxirush-ngap) `[2026-10]` - Auto-generated Rust APER codec for 5G NGAP from official 3GPP ASN.1 definitions. Companion to oxirush-nas.
+- [oxirush-ngap](https://github.com/linouxis9/oxirush-ngap) `[2026-10]` - Rust codec for 5G NGAP (TS 38.413), generated from the 3GPP ASN.1: typed IEs by name, message checks with their causes, and JSON trees.
+- [oxirush-s1ap](https://github.com/linouxis9/oxirush-s1ap) `[2026-10]` - Rust codec for LTE S1AP (TS 36.413), generated from the 3GPP ASN.1 like oxirush-ngap.
+- [oxirush-aper](https://github.com/linouxis9/oxirush-aper) `[2026-10]` - Aligned PER (X.691) runtime and generator in Rust behind oxirush-ngap and oxirush-s1ap.
 - [ASN1-Definitions](https://github.com/handymenny/ASN1-Definitions) `[2026-06]` - S1AP, NGAP, LTE and NR RRC ASN.1 definitions extracted from Wireshark.
 - [3gpp-specs-in-json](https://github.com/proj3rd/3gpp-specs-in-json) `[2026-10]` - 3GPP ASN.1 specifications converted to lib3rd-readable JSON.
 - [asn1c](https://github.com/vlm/asn1c) `[2026-06]` - The original open-source ASN.1 compiler for C. Base of the forks used by OAI, free5GC and Open5GS.
@@ -1460,10 +1462,10 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [LTE-security](https://fabricioapps.blogspot.com/2012/05/lte-security.html) - a Windows application that implements all the security procedures for LTE referred in Annex A and Annex B of 3GPP 33.401. Last update in 2020, direct [link](https://www.dropbox.com/s/adpa2yuac99riqt/LTE%20Security%203.3.zip?dl=0)
 - [milenage](https://github.com/emakeev/milenage) `[2020-10]` - Go implementation of milenage ciphers.
 - [nas-5gs](https://github.com/hzane/nas-5gs) `[2020-02]` - Routines for Non-Access-Stratum (NAS) protocol for NAS-NR(5GS).
-- [oxirush-nas](https://github.com/linouxis9/oxirush-nas) `[2026-10]` - A Rust Library that allows the decoding/encoding of NAS-5G messages. From Valentin D'Emmanuele - France.
+- [oxirush-nas](https://github.com/linouxis9/oxirush-nas) `[2026-10]` - Rust codec for 5GS and EPS NAS (TS 24.501, TS 24.301): decode, build, validate and protect messages, with JSON trees. From Valentin D'Emmanuele - France.
 - [CryptoMobile](https://github.com/P1sec/CryptoMobile) `[2023-01]` - C implementations with Python bindings for mobile network cryptographic algorithms (Milenage, TUAK, Kasumi, SNOW, ZUC). From P1 Security.
 - [milenage (Go)](https://github.com/wmnsk/milenage) `[2025-05]` - MILENAGE algorithm implementation in Go for 3G/4G/5G AKA authentication.
-- [oxirush-security](https://github.com/linouxis9/oxirush-security) `[2026-10]` - 5G NAS security algorithms in Rust — key derivation, NIA/NEA integrity and ciphering, and SUCI concealment per 3GPP TS 33.501. Companion to oxirush-nas/ngap.
+- [oxirush-security](https://github.com/linouxis9/oxirush-security) `[2026-10]` - 5GS and EPS security in Rust: MILENAGE, key derivation, NIA/NEA and EIA/EEA (SNOW 3G, AES, ZUC) and SUCI concealment. Companion to oxirush-nas.
 
 ### GTP/PFCP
 
@@ -1482,6 +1484,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [libosmo-pfcp](https://gitea.osmocom.org/osmocom/libosmo-pfcp) - C library for PFCP protocol encoding/decoding and session endpoint management. Hosted on **Osmocom Gitea**.
 - [gtp-load-gen](https://gitea.osmocom.org/cellular-infrastructure/gtp-load-gen) - High-performance GTP-U load generator using Linux io_uring. Hosted on **Osmocom Gitea**.
 - [gtp-rs](https://github.com/ErvinsK/gtp-rs) `[2025-12]` - Pure Rust implementation of 3GPP GTP (GTPv1 and GTPv2) protocols.
+- [oxirush-gtp-u](https://github.com/linouxis9/oxirush-gtp-u) `[2026-10]` - GTPv1-U codec in Rust (TS 29.281, TS 38.415) with a Tokio endpoint, a test UPF, Linux TUN routing and an eBPF fast path.
 - [free5gc gtp5g-tracer](https://github.com/free5gc/gtp5g-tracer) `[2025-10]` - Debug gtp5g kernel module using eBPF. From the free5GC project.
 - [rs-pfcp](https://github.com/xandlom/rs-pfcp) `[2026-10]` - Rust implementation of the PFCP protocol (3GPP TS 29.244), modeled on go-pfcp. Includes an interop test harness against the Go reference.
 - [gopacket-gtp](https://github.com/nextmn/gopacket-gtp) `[2026-08]` - Patch for gopacket fixing serialization of GTP Extension Headers. From the NextMN project.
@@ -1503,6 +1506,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [MTS: Multiprotocol Test Tool](https://github.com/ericsson-mts/mts) `[2023-11]` - MTS (Multi-protocol Test Suite) is a multi-protocol testing tool specially designed for telecom IP-based architectures (see above "Features" section for more details).
 - [scapy-sctp](https://github.com/secdev/scapy/blob/master/scapy/layers/sctp.py) `[2026-10]` - Scapy (A interactive packet manipulation program) SCTP layer.
 - [ellora](https://github.com/gabhijit/ellora/) `[2023-11]` - Rust SCTP Toolkit. The Goal of this project is to make safe bindings for Linux SCTP stack that can be used within Rust's `async` ecosystem.
+- [oxirush-sctp](https://github.com/linouxis9/oxirush-sctp) `[2026-10]` - Async Rust API for the Linux kernel SCTP stack on Tokio, forked from ellora's sctp-rs.
 - [sctplb](https://github.com/omec-project/sctplb) `[2026-10]` - SCTP Load Balancer for 5G core networks. From the SD-Core/OMEC project.
 - [sctp-go](https://github.com/thebagchi/sctp-go) `[2026-01]` - SCTP library for Go using native kernel sockets.
 - [go-sctp](https://github.com/georgeyanev/go-sctp) `[2026-09]` - Go SCTP implementation with net-package-style Dial/Listen API.
