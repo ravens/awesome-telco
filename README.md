@@ -474,7 +474,7 @@ For research and debugging:
 - [osmoweb](https://github.com/wavelet-lab/osmoweb) `[2026-07]` - TypeScript library that brings Osmocom's mobile communication stacks to the web browser.
 - [osmo-trx-pluto-fw](https://github.com/Manawyrm/osmo-trx-pluto-fw) `[2026-06]` - Modified PlutoSDR firmware that runs osmo-trx on the Pluto itself.
 - Additional cellular-infrastructure sub-projects: [meta-telephony](https://gitea.osmocom.org/cellular-infrastructure/meta-telephony), [libasn1c](https://gitea.osmocom.org/cellular-infrastructure/libasn1c), [mncc-python](https://gitea.osmocom.org/cellular-infrastructure/mncc-python), [training-materials](https://gitea.osmocom.org/cellular-infrastructure/training-materials), [asn1_docextract](https://gitea.osmocom.org/cellular-infrastructure/asn1_docextract)
-- Additional osmocom sub-projects: [3grr](https://gitea.osmocom.org/osmocom/3grr), [docker-playground](https://gitea.osmocom.org/osmocom/docker-playground), [gapk](https://gitea.osmocom.org/osmocom/gapk), [libosmo-gprs](https://gitea.osmocom.org/osmocom/libosmo-gprs), [libosmo-netif](https://gitea.osmocom.org/osmocom/libosmo-netif), [libosmo-sigtran](https://gitea.osmocom.org/osmocom/libosmo-sigtran), [libosmocore](https://gitea.osmocom.org/osmocom/libosmocore), [pyhss](https://gitea.osmocom.org/osmocom/pyhss), +1 more
+- Additional osmocom sub-projects: [3grr](https://gitea.osmocom.org/osmocom/3grr), [docker-playground](https://gitea.osmocom.org/osmocom/docker-playground), [libosmo-sigtran](https://gitea.osmocom.org/osmocom/libosmo-sigtran), [libosmocore](https://gitea.osmocom.org/osmocom/libosmocore), [pyhss](https://gitea.osmocom.org/osmocom/pyhss), +1 more
 
 ### TETRA, DMR, P25 & Paging
 
@@ -1053,7 +1053,7 @@ For research and debugging:
 - [cipbx](https://github.com/arthur-s/cipbx) `[2025-09]` - cipbx — a minimalistic VoIP call testing tool implementing a simple echo server in Go using diago
 - [astmanproxy](https://codeberg.org/augcampos/astmanproxy) - Asterisk Manager Proxy. Hosted on **Codeberg**.
 - Additional FreePBX sub-projects: [cdr](https://github.com/FreePBX/cdr), [cxpanel](https://github.com/FreePBX/cxpanel), [paging](https://github.com/FreePBX/paging), [userman](https://github.com/FreePBX/userman), [logfiles](https://github.com/FreePBX/logfiles), [xmpp](https://github.com/FreePBX/xmpp), [manager](https://github.com/FreePBX/manager), [restart](https://github.com/FreePBX/restart), +2 more
-- Additional sipcapture sub-projects: [HEP](https://github.com/sipcapture/HEP), [HEPop](https://github.com/sipcapture/HEPop), [awesome-hep](https://github.com/sipcapture/awesome-hep), [hepipe.js](https://github.com/sipcapture/hepipe.js), [gossipper](https://github.com/sipcapture/gossipper), [hepipe](https://github.com/sipcapture/hepipe), [hep-js](https://github.com/sipcapture/hep-js), [captagent-js](https://github.com/sipcapture/captagent-js), +15 more
+- Additional sipcapture sub-projects: [HEP](https://github.com/sipcapture/HEP), [HEPop](https://github.com/sipcapture/HEPop), [awesome-hep](https://github.com/sipcapture/awesome-hep), [hepipe.js](https://github.com/sipcapture/hepipe.js), [hepipe](https://github.com/sipcapture/hepipe), [hep-js](https://github.com/sipcapture/hep-js), [captagent-js](https://github.com/sipcapture/captagent-js), +15 more
 - [baresip](https://github.com/baresip/baresip) `[2026-10]` - Modular SIP User-Agent library with audio/video, RTP, and ICE support.
 - [baresip-studio](https://github.com/juha-h/baresip-studio) `[2026-10]` - Android SIP client built on the baresip library.
 - [SIP.js](https://github.com/onsip/SIP.js) `[2026-06]` - Simple and powerful JavaScript SIP signaling library for the browser (WebRTC).
@@ -1712,7 +1712,6 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [oai5g-rru](https://github.com/sopnode/oai5g-rru) `[2026-10]` - OpenAirInterface 5G Core Network Deployment on SophiaNode/R2lab using Helm Charts and nepi-ng
 - ⚠️ [Open5GS-VoLTE](https://github.com/miaoski/docker_open5gs) `[2021-05]` - Install-and-run lab for Open5GS + Kamailio IMS VoLTE study. _Consider using [herlesupreeth/docker_open5gs](https://github.com/herlesupreeth/docker_open5gs) instead._
 - [Open5GS Docker](https://github.com/herlesupreeth/docker_open5gs) `[2026-10]` - Docker files to build and run open5gs in a docker by Herle Supreeth.
-- [rapid5gs](https://github.com/joshualambert/rapid5gs) `[2026-10]` - Configuration, setup, and maintenance toolkit for Open5GS.
 - [Open5gs-K8s-VyOS](https://dev.to/infinitydon/virtual-4g-simulation-using-kubernetes-and-gns3-3b7k) - This tutorial is about how to deploy a virtual 4G stack using GNS3 and Kubernetes.
 - [OpenAICellular](https://openaicellular.github.io/oaic/quickstart.html) - OAIC is an open-source effort led by a consortium of academic institutions to provide fully open-source software architecture, library, and toolset that encompass both the AI controllers (OAIC-C) as well as an AI testing framework (OAIC-T).
 - [sample configs](https://github.com/s5uishida/sample_config_misc_for_mobile_network) `[2026-09]` - Sample Configurations and Miscellaneous for Mobile Network.
