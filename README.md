@@ -292,7 +292,7 @@ For research and debugging:
 
 - [srsUE](https://github.com/srslte/srslte) `[2026-09]` - UE 4G modem part of the srsLTE project.
 - [srsUE PR external NAS](https://github.com/srsLTE/srsLTE/pull/474) `[2026-09]` - a PR for srsLTE for external NAS message injection.
-- [OAI UE](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) `[2026-10]` - Open Air Interface RAN 4G eNB/ 5G gNB to use on SDR-based radios.
+- [OAI UE](https://gitlab.eurecom.fr/oai/openairinterface5g/wikis/home) `[2026-10]` - Open Air Interface software UE (lte-uesoftmodem for 4G, nr-uesoftmodem for 5G NR) to run on SDR-based radios or the RF simulator.
 - [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM) `[2026-03]` - Research notes and tooling for the cheap UZ801 4G LTE USB modem (MSM8916-based) sold on AliExpress.
 - [ril](https://github.com/hamsadev/ril) `[2025-12]` - C library for interfacing with Quectel cellular modules: AT command handling, SMS, TCP/IP, GNSS.
 
