@@ -394,6 +394,7 @@ For research and debugging:
 - [PacketRusher](https://github.com/HewlettPackard/PacketRusher) `[2026-10]` - High performance 5G UE/gNB Simulator and CP/UP load tester. PacketRusher is an open-source tool dedicated to the performance testing and automatic validation of 5G Core Networks using simulated UE (user equipment) and gNodeB (5G base station). From Valentin D'Emmanuele - France.
 - [py3gpp](https://github.com/catkira/py3gpp) `[2026-07]` - A Python package for 5G-NR simulations.
 - [Sama simulator](https://github.com/cfragoas/Sama_simulator) `[2025-10]` - Python-based simulator for 5G Radio Access Networks.
+- [HandoverLab](https://github.com/mjs19971997/handoverlab) - Python system-level simulator for 5G/6G handover research (A3, CHO, DAPS, LTM, NTN) with a bridge to ns-3 / 5G-LENA.
 - [SwapRAN](https://github.com/NUS-CIR/SwapRAN) `[2025-11]` - Artifact for the ACM MobiCom'25 paper "How to Update Your 5G vRAN". From NUS-CIR.
 - [RFSwift](https://github.com/PentHertz/RF-Swift) `[2026-10]` -  powerful multi-platform RF toolbox that deploys specialized radio tools in seconds on Linux, Windows, and macOS. Provdes telecom_4G_5GNSA_* family of telecoms tools.
 - [NVIDIA Aerial](https://github.com/NVIDIA/aerial-cuda-accelerated-ran) `[2026-09]` - SDK for building commercial-grade, AI-native, 3GPP and O-RAN compliant 5G/6G gNB software on NVIDIA GPU-accelerated platforms.
