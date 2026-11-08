@@ -2144,7 +2144,7 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [5G_APIs](https://forge.3gpp.org/rep/all/5G_APIs) - Official 3GPP 5G API definitions (OpenAPI/Swagger). REL-20. Hosted on **3GPP Forge**.
 - [3GPP Meeting Tools](https://github.com/telekom/3gpp-meeting-tools) `[2026-11]` - Deutsche Telekom-maintained tools for the day-to-day execution of 3GPP meetings (TDoc handling, agenda parsing). Useful for delegates.
 - [MNO List](https://github.com/CursedHardware/mno-list) `[2026-03]` - Curated list of mobile network operators with metadata, broader than the canonical PLMN list. Useful for SIM/eSIM tooling.
-- [Telco-Spaghetti](https://github.com/leecowdrey/Telco-Spaghetti) `[2026-07]` - SVG architecture posters illustrating real-world telco OSS/BSS and 4G/5G access/transport "spaghetti". Handy didactic reference. Hosted on **Codeberg**.
+- [Telco-Spaghetti](https://github.com/leecowdrey/Telco-Spaghetti) `[2026-07]` - SVG architecture posters illustrating real-world telco OSS/BSS and 4G/5G access/transport "spaghetti". Handy didactic reference.
 - [SA3-LI formal language specifications](https://forge.3gpp.org/rep/sa3/li) - Authoritative repo for 3GPP SA3-LI lawful-interception XSD/JSON schemas and formal-language specs (TS 33.128 family). Hosted on **3GPP Forge**.
 - [Private 5G Book](https://github.com/SystemsApproach/private5g) `[2025-11]` - Open-source book on private 5G networks from the Systems Approach series (Peterson, Sunay, Davie).
 - [telco.wtf](https://github.com/FEEDFACE-COM/telco.wtf) `[2026-03]` - DNS zone, web service and CLI to look up telecom acronyms.
