@@ -125,6 +125,7 @@ For research and debugging:
 - [Protocols](#protocols) - Libraries and frameworks for telco protocols
 - [Satellite Communication](#satellite-communication) - LEO/GEO satellite tooling
 - [LPWAN / LoRaWAN](#lpwan--lorawan) - LoRaWAN network servers, gateways, simulators, and tooling
+- [Wi-Fi](#wi-fi) - 802.11 baseband, access point firmware and controllers
 - [Infrastructure](#infrastructure) - NFV, SDN, Kubernetes for telco
 - [Orchestration](#orchestration) - Automation and deployment
 - [Lab & Testbeds](#lab--testbeds) - Ready-to-use environments
@@ -1496,6 +1497,12 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [ArduLora](https://github.com/NamNamIoT/ArduLora) `[2026-09]` - Arduino-compatible LoRa/LoRaWAN board.
 - [lorawan-frequency-plans](https://github.com/TheThingsNetwork/lorawan-frequency-plans) `[2026-07]` - LoRaWAN regional frequency plans used by The Things Stack.
 - [MeshCoreSniffer](https://github.com/SarahRoseLives/MeshCoreSniffer) `[2026-11]` - Real-time RTL-SDR sniffer for MeshCore LoRa traffic: group text and adverts.
+
+## Wi-Fi
+
+- [openwifi](https://github.com/open-sdr/openwifi) `[2026-10]` - Open-source IEEE 802.11 Wi-Fi baseband on SDR (Xilinx Zynq + AD9361): Linux mac80211 driver and software. The FPGA design is in [openwifi-hw](https://github.com/open-sdr/openwifi-hw).
+- [TIP OpenWiFi](https://github.com/Telecominfraproject/wlan-ap) `[2026-11]` - Telecom Infra Project's open, disaggregated Wi-Fi access point firmware, based on OpenWrt. Managed by the cloud controller [uCentral gateway](https://github.com/Telecominfraproject/wlan-cloud-ucentralgw).
+- [hostapd](https://w1.fi/hostapd/) - User-space daemon for Wi-Fi access points and authentication servers: WPA2/WPA3, IEEE 802.1X/EAP and RADIUS.
 
 ## Protocols
 
