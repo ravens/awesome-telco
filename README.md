@@ -124,8 +124,8 @@ For research and debugging:
 - [Wireline & Fixed Access](#wireline--fixed-access) - BNG, PON, DSL, DOCSIS, TR-069, PSTN/ISDN, Minitel
 - [Protocols](#protocols) - Libraries and frameworks for telco protocols
 - [Satellite Communication](#satellite-communication) - LEO/GEO satellite tooling
-- [LPWAN / LoRaWAN](#lpwan--lorawan) - LoRaWAN network servers, gateways, simulators, and tooling
-- [Wi-Fi](#wi-fi) - 802.11 baseband, access point firmware and controllers
+- [LPWAN / LoRaWAN](#lpwan--lorawan) - LoRaWAN network servers, gateways, simulators, tooling and LoRa mesh
+- [Wi-Fi](#wi-fi) - 802.11 baseband, access point firmware, controllers and CSI sensing
 - [Infrastructure](#infrastructure) - NFV, SDN, Kubernetes for telco
 - [Orchestration](#orchestration) - Automation and deployment
 - [Lab & Testbeds](#lab--testbeds) - Ready-to-use environments
@@ -1515,6 +1515,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [ArduLora](https://github.com/NamNamIoT/ArduLora) `[2026-09]` - Arduino-compatible LoRa/LoRaWAN board.
 - [lorawan-frequency-plans](https://github.com/TheThingsNetwork/lorawan-frequency-plans) `[2026-07]` - LoRaWAN regional frequency plans used by The Things Stack.
 - [MeshCoreSniffer](https://github.com/SarahRoseLives/MeshCoreSniffer) `[2026-11]` - Real-time RTL-SDR sniffer for MeshCore LoRa traffic: group text and adverts.
+- [Meshtastic](https://github.com/meshtastic/firmware) `[2026-11]` - Official firmware of Meshtastic, an open-source, off-grid LoRa mesh communication system. Clients: [Android](https://github.com/meshtastic/Meshtastic-Android), [Apple](https://github.com/meshtastic/Meshtastic-Apple), [web](https://github.com/meshtastic/web) and [Python CLI](https://github.com/meshtastic/python).
 
 ## Wi-Fi
 
@@ -1526,6 +1527,22 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [Ferris-on-Air (FoA)](https://github.com/esp32-open-mac/FoA) `[2026-08]` - Experimental open IEEE 802.11 (WLAN) stack in Rust for the ESP32.
 - [libwifi](https://github.com/libwifi/libwifi) `[2026-01]` - C library to generate and parse 802.11 frames.
 - [vwifi](https://github.com/Raizo62/vwifi) `[2026-11]` - Simulates Wi-Fi (802.11) between virtual machines with mac80211_hwsim interfaces. Useful for Wi-Fi labs without radios.
+
+### CSI Sensing
+
+- [ESP-CSI](https://github.com/espressif/esp-csi) `[2026-04]` - Espressif's Wi-Fi Channel State Information (CSI) applications for ESP32: indoor positioning and human detection.
+- [ESP32-CSI-Tool](https://github.com/StevenMHernandez/ESP32-CSI-Tool) `[2024-07]` - Extracts CSI from ESP32 microcontrollers in active and passive modes.
+- [Atheros-CSI-Tool](https://github.com/xieyaxiongfly/Atheros-CSI-Tool) `[2026-01]` - Linux kernel tree that extracts CSI from commercial Atheros 802.11n Wi-Fi cards.
+- [Linux 802.11n CSI Tool](https://github.com/dhalperi/linux-80211n-csitool) `[2022-03]` - CSI extraction for the Intel 5300 card, based on iwlwifi. The reference tool of early Wi-Fi sensing research.
+- [FeitCSI](https://github.com/KuskoSoft/FeitCSI) `[2025-05]` - CSI extraction tool for Intel 802.11ax (AX200/AX210) cards.
+- [CSIKit](https://github.com/Gi-z/CSIKit) `[2026-11]` - Python CSI processing and visualisation tools for Atheros, Intel, Nexmon, ESP32, FeitCSI and PicoScenes formats.
+- [csiread](https://github.com/citysu/csiread) `[2024-10]` - Fast CSI parser for Intel, Atheros, Nexmon, ESP32 and PicoScenes files.
+- [ESPectre](https://github.com/francescopace/espectre) `[2026-11]` - Wi-Fi motion sensing platform for ESP32 with ESPHome, native and Matter frontends. GPLv3, with a commercial licence option.
+- [RuView](https://github.com/ruvnet/RuView) `[2026-11]` - Presence detection, vital-sign monitoring and pose estimation from the CSI of commodity Wi-Fi devices, in Rust.
+- [CSIght](https://github.com/joelewis012/CSIght) `[2026-07]` - Wi-Fi CSI radar for Flipper Zero and ESP32: motion, presence and proximity detection.
+- [WiFi-CSI-Sensing-Benchmark](https://github.com/xyanchen/WiFi-CSI-Sensing-Benchmark) `[2023-11]` - SenseFi: PyTorch benchmark of deep-learning models on public Wi-Fi CSI sensing datasets.
+- [WIFI_CSI_based_HAR](https://github.com/Retsediv/WIFI_CSI_based_HAR) `[2026-07]` - Human activity recognition from Wi-Fi CSI with deep-learning models.
+- [Awesome-WiFi-CSI-Sensing](https://github.com/NTUMARS/Awesome-WiFi-CSI-Sensing) `[2025-07]` - List of papers, datasets and tools for Wi-Fi CSI sensing.
 
 ## Protocols
 
