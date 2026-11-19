@@ -166,7 +166,7 @@ For research and debugging:
 - [UiccBrowser](https://github.com/cheeriotb/UiccBrowser) `[2026-06]` - Android app to browse the file system of a UICC/eUICC via the OMAPI. From the ISD-R-AccessProvider author.
 - [sim-toolkit-refresh](https://github.com/cheeriotb/sim-toolkit-refresh) `[2020-08]` - Java Card applet implementing the SIM Toolkit REFRESH proactive command for SIM/STK testing on Android.
 - [osmocom-sim-tools (mirror)](https://github.com/cheeriotb/osmocom-sim-tools) `[2018-12]` - Active fork of Osmocom sim-tools with additional features for sysmoUSIM/sysmoISIM cards.
-- [onomondo-softsim-cli](https://github.com/onomondo/onomondo-softsim-cli) `[2026-08]` - CLI tool to provision Onomondo SoftSIM profiles.
+- [onomondo-softsim-cli](https://github.com/onomondo/onomondo-softsim-cli) `[2026-11]` - CLI tool to provision Onomondo SoftSIM profiles.
 - [mcc-mnc-itu](https://github.com/onomondo/mcc-mnc-itu) `[2025-07]` - Library to look up MCC/MNC operator information from the official ITU dataset.
 - [simshell](https://github.com/kurbatoff/simshell) `[2025-10]` - Interactive shell for SIM, GlobalPlatform and JavaCard VM operations over APDU.
 - [TSMS](https://github.com/BSI-Bund/TSMS) `[2026-02]` - German BSI reference Java API and OpenAPI spec for a Trusted Service Management System (BSI-TR-03165), used to install and personalize JavaCard applets on smartphone secure elements.
@@ -234,7 +234,7 @@ For research and debugging:
 - Additional sim-card sub-projects: [aram-applet](https://gitea.osmocom.org/sim-card/aram-applet), [hello-stk](https://gitea.osmocom.org/sim-card/hello-stk), [sim-tools](https://gitea.osmocom.org/sim-card/sim-tools), [simtrace2](https://gitea.osmocom.org/sim-card/simtrace2)
 - [sigmo](https://github.com/damonto/sigmo) `[2026-11]` - Self-hosted web UI and API for managing ModemManager-based cellular modems and eSIM profiles.
 - [react-native-sim-cards-manager](https://github.com/odemolliens/react-native-sim-cards-manager) `[2025-11]` - React Native plugin to manage SIM cards and eSIM.
-- [SimAdmin](https://github.com/3899/SimAdmin) `[2026-10]` - SIM/eSIM, cellular network, SMS and DDNS management system for cellular CPE, travel routers and soft routers.
+- [SimAdmin](https://github.com/3899/SimAdmin) `[2026-11]` - SIM/eSIM, cellular network, SMS and DDNS management system for cellular CPE, travel routers and soft routers.
 - [nothing-euicc](https://github.com/reindex-ot/nothing-euicc) `[2026-02]` - Magisk module that force-enables the eUICC (eSIM) on Nothing phones.
 - [7600lpa](https://github.com/assofour/7600lpa) `[2026-04]` - SGP.22 eSIM LPA for the SIM7600G-H module: profile download, install and enable.
 - [lumina-euicc](https://github.com/Syngnat/lumina-euicc) `[2026-08]` - Flutter UI for eUICC/eSIM profile management, aligned with EasyEUICC.
@@ -250,15 +250,17 @@ For research and debugging:
 - [luci-app-e5-esim](https://github.com/XiaoMengXinX/luci-app-e5-esim) `[2026-11]` - LuCI eSIM management app for OpenWrt E5 devices, built on lpac: profile enable, disable, rename and delete, activation-code download, notifications and multi-SE (ESTKme) cards.
 - [Remoble](https://github.com/Alumnae/remoble) `[2026-11]` - Android and iOS BLE-to-HTTP bridge that exposes a Bluetooth eUICC reader through the RemoCard v2 API for remote eUICC management from NekokoLPA2.
 - [HyperOS4-ESTKme-eSIM-LPA](https://github.com/jabe1122/HyperOS4-ESTKme-eSIM-LPA) `[2026-11]` - Xiaomi HyperOS 4 module for removable ESTKme eSIM cards: OMAPI SIM2 bridge and integration with the system LPA.
+- [eSIM-Matrix](https://github.com/hg552/eSIM-Matrix) `[2026-11]` - Remote eSIM profile switching from a spare Android phone: baseband roaming watchdog, profile download and SMS/OTP forwarding gateway.
+
 ### SIM Emulation & Virtualization
 
 - [swSIM](https://github.com/tomasz-lisowski/swsim) `[2026-05]` - A software-only SIM card.
 - [swICC](https://github.com/tomasz-lisowski/swicc) `[2026-05]` - Framework for creating smart cards (ICC-based cards with contacts).
-- [vsmartcard](https://github.com/frankmorgner/vsmartcard) `[2026-10]` - Umbrella project for emulation of smart card readers or smart cards.
+- [vsmartcard](https://github.com/frankmorgner/vsmartcard) `[2026-11]` - Umbrella project for emulation of smart card readers or smart cards.
 - [Onomondo UICC](https://github.com/onomondo/onomondo-uicc) `[2026-11]` - Pure software implementation/emulation of SIM/UICC/USIM functionalities.
 - [osmo-remsim](https://osmocom.org/projects/osmo-remsim/wiki) - Forward SIM card traffic to a remote SIM card via TCP/IP.
 - [mobile-atlas](https://github.com/sbaresearch/mobile-atlas) `[2025-11]` - Geographically decouple SIM card and modem for scalable measurement platforms.
-- [softsim-quecopen-unisoc-lte](https://github.com/onomondo/softsim-quecopen-unisoc-lte) `[2026-10]` - Onomondo SoftSIM integration for Quectel LTE modules using the UNISOC SDK, extending SoftSIM beyond the Nordic nRF91.
+- [softsim-quecopen-unisoc-lte](https://github.com/onomondo/softsim-quecopen-unisoc-lte) `[2026-11]` - Onomondo SoftSIM integration for Quectel LTE modules using the UNISOC SDK, extending SoftSIM beyond the Nordic nRF91.
 - [Onomondo SoftSIM](https://github.com/onomondo/nrf-softsim) `[2026-11]` - SoftSIM integration for Nordic Semiconductor nRF91 Series. Software-based SIM for IoT. From Onomondo.
 - [osmo-remsim](https://gitea.osmocom.org/sim-card/osmo-remsim) - Osmocom Remote SIM Software Suite. Hosted on **Osmocom Gitea**.
 - [simLAB](https://github.com/kamwar/simLAB) `[2026-04]` - Smartcard editor and SIM/SAT simulator for exploring and emulating SIM/USIM card behavior.
@@ -308,6 +310,7 @@ For research and debugging:
 - [koppar-lte-modem](https://github.com/Koppar-AI/koppar-lte-modem) `[2026-11]` - Open-hardware KiCad board for LTE data, SMS and voice over USB-C, with call audio on USB.
 - [huawei-lte-api](https://github.com/Salamek/huawei-lte-api) `[2026-10]` - Python API for Huawei LTE modems and routers.
 - [cake-autorate](https://github.com/lynxthecat/cake-autorate) `[2026-11]` - Adjusts CAKE shaper bandwidth to cut latency and jitter on variable-rate 4G, 5G and Starlink links.
+- [MU300-Linux](https://github.com/dikeckaan/mu300-linux) `[2026-11]` - Linux (Ubuntu or OpenWrt) next to Android on the ZTE F50, MU300 and U30 Air 5G hotspots (Unisoc T760): installer, vendor kernel and mainline kernel.
 
 ### 2G
 
@@ -363,6 +366,11 @@ For research and debugging:
 - [aristoteles](https://github.com/seemoo-lab/aristoteles) `[2026-09]` - Wireshark dissector for the Apple Remote Invocation (ARI) protocol between Intel basebands and the iOS CommCenter.
 - [quectel-5g-tools](https://github.com/vjt/quectel-5g-tools) `[2026-09]` - Parser and monitor for cell information from Quectel 5G modems.
 - [QcomBaseband](https://github.com/UniXNU/QcomBaseband) `[2026-11]` - Qualcomm baseband bridge and SC7180 IPA data path for XNU.
+- [bunnylock](https://github.com/btsearch/bunnylock) `[2026-11]` - Android app for LTE and 5G band, RAT and cell locking without root, through Shizuku.
+- [GhostMode](https://github.com/Foxlape/GhostMode) `[2026-11]` - Android app that makes the phone unreachable for incoming calls while LTE and 5G data keep working. Uses Shizuku or root.
+- [netmonster-core](https://github.com/mroczis/netmonster-core) `[2026-11]` - Android library over the Telephony SDK that validates RIL cell data and backports NR and signal fields to older releases.
+- [SignalScope](https://github.com/lwh0630/SignalScope) `[2026-11]` - Android inspector for SIM, LTE, 5G, Wi-Fi and GNSS data: serving-cell details and latency tests.
+- [5G-Proxy-Pro](https://github.com/tokyoxpa3/5G-Proxy-Pro) `[2026-11]` - Android app that locks the phone to the cellular network and shares it as a SOCKS5 proxy.
 
 ## Radio Access Network
 
@@ -372,7 +380,7 @@ For research and debugging:
 - [srsRAN O-RAN SC RIC](https://github.com/srsran/oran-sc-ric) `[2025-10]` - Simplified O-RAN SC RIC deployment with improved usability and xApp examples, from the srsRAN team.
 - [FlexRIC](https://gitlab.eurecom.fr/mosaic5g/flexric) `[2026-11]` - O-RAN Alliance compliant Near-RT RIC and E2 Agent with xApp SDK in C/C++ and Python. Sub-200µs latency. Part of MOSAIC5G/OAI. Hosted on **GitLab (Eurecom)**.
 - [ProtO-RU](https://github.com/NUS-CIR/ProtO-RU) `[2026-11]` - Software implementation of an O-RAN split-7.2 compatible Radio Unit using SDRs. From NUS.
-- [xDevSM](https://github.com/wineslab/xDevSM) `[2026-08]` - Open-source framework for O-RAN E2 service models that simplifies xApp development for OSC Near-RT RIC. Supports KPM V3. From WiNES Lab / Northeastern University.
+- [xDevSM](https://github.com/wineslab/xDevSM) `[2026-11]` - Open-source framework for O-RAN E2 service models that simplifies xApp development for OSC Near-RT RIC. Supports KPM V3. From WiNES Lab / Northeastern University.
 - [Colosseum Near-RT RIC](https://github.com/wineslab/colosseum-near-rt-ric) `[2025-12]` - Minimal O-RAN SC Near-RT RIC adapted for the Colosseum wireless network emulator. Supports concurrent multi-base-station and multi-xApp connections. From WiNES Lab.
 - [xFAPI](https://github.com/coranlabs/xFAPI) `[2026-07]` - Facilitating interoperability in Open RAN via xFAPI interface. From CoRAN Labs.
 - [O-RAN SC O-DU L2](https://github.com/o-ran-sc/o-du-l2) `[2026-10]` - O-RAN Software Community Distributed Unit Layer 2 implementation. Reference O-DU high with F1/E2 interfaces.
@@ -455,7 +463,7 @@ For research and debugging:
 - [NR-Scope](https://github.com/PrincetonUniversity/NR-Scope) `[2026-09]` - 5G Standalone cellular network telemetry tool for network measurement. From Princeton.
 - [DECT-NR-Plus-SDR](https://github.com/maximpenner/DECT-NR-Plus-SDR) `[2026-02]` - Software-defined radio implementation of DECT NR+ (ETSI TS 103 636, IMT-2020). Companion [link-level simulation](https://github.com/maximpenner/DECT-NR-Plus-Link-Level-Simulation). See also [DECT-NR--Open-Stack](https://github.com/Opener-Initiative/DECT-NR--Open-Stack) and [dect_open_stack_ms](https://github.com/Opener-Initiative/dect_open_stack_ms) from the Opener Initiative.
 - [Thor](https://github.com/NUS-CIR/Thor) `[2026-10]` - Per-UE baseband routing in vRAN (ACM MobiCom 2026 artifact).
-- [opener](https://github.com/Opener-Initiative/opener) `[2026-10]` - Open reference implementation of the DECT-2020 NR (DECT NR+) protocol stack.
+- [opener](https://github.com/Opener-Initiative/opener) `[2026-11]` - Open reference implementation of the DECT-2020 NR (DECT NR+) protocol stack.
 - [dect-nr-samples](https://github.com/lauri-piikivi/dect-nr-samples) `[2026-04]` - DECT NR+ (DECT-2020) sniffer application for Nordic nRF91 devices.
 - [alfie_firmware](https://github.com/evanstoddard/alfie_firmware) `[2026-03]` - SMS over DECT NR+ for licence-free mesh messaging.
 - [hophop](https://github.com/ariel-os/hophop) `[2026-11]` - DECT-2020 NR+ experiments in Rust, from the Ariel OS project.
@@ -519,14 +527,14 @@ For research and debugging:
 - [turbine](https://github.com/norasector/turbine) `[2026-02]` - SDR software for capturing trunked radio systems.
 - [GopherTrunk](https://github.com/MattCheramie/GopherTrunk) `[2026-11]` - Pure-Go, cross-platform RTL-SDR trunked-radio scanner and audio toolkit.
 - [node-dmr-lib](https://github.com/rick51231/node-dmr-lib) `[2026-01]` - Motorola MotoTRBO DMR protocol research library.
-- [p25-survey](https://github.com/blantonl/p25-survey) `[2026-08]` - Scan a frequency range for P25 control channels and log system metadata.
+- [p25-survey](https://github.com/blantonl/p25-survey) `[2026-11]` - Scan a frequency range for P25 control channels and log system metadata.
 - [op25 (boatbod)](https://github.com/boatbod/op25) `[2026-11]` - Actively-maintained fork of Osmocom OP25; the canonical P25 (phase 1 & 2) decoder for SDR.
 - [OpenDMR](https://github.com/MW0MWZ/OpenDMR) `[2025-12]` - Open-source DMR AMBE codec for encoding/decoding DMR voice to/from PCM.
 - [tr-stack](https://github.com/trunk-reporter/tr-stack) `[2026-09]` - Full P25 transcription stack: trunk-recorder + tr-engine + tr-dashboard integrated.
 - [blip25-vocoder](https://github.com/OpenBLIP25/blip25-vocoder) `[2026-08]` - P25 voice codec in Rust: full-rate (Phase 1) and half-rate (Phase 2) encode/decode and wire formats. Note: the IMBE/AMBE algorithms are patent-encumbered; see the repo's PATENT_NOTICE.
 - [LakeShark](https://github.com/SAMS0N1TE/LakeShark) `[2026-11]` - Handheld ESP32-P4 SDR scanner: P25, ADS-B, NBFM and POCSAG over RTL-SDR, with a custom LVGL LCD shell.
 - [UniPager](https://github.com/rwth-afu/UniPager) `[2026-04]` - Universal POCSAG transmitter controller written in Rust.
-- [DAPNETGateway](https://github.com/g4klx/DAPNETGateway) `[2026-10]` - Gateway to the DAPNET POCSAG amateur paging network.
+- [DAPNETGateway](https://github.com/g4klx/DAPNETGateway) `[2026-11]` - Gateway to the DAPNET POCSAG amateur paging network.
 - [mmng-ui](https://github.com/lingfish/mmng-ui) `[2026-09]` - Textual TUI for multimon-ng: decode POCSAG and FLEX pager messages from SDR in the terminal.
 - [flipper-pager](https://github.com/xMasterX/flipper-pager) `[2026-03]` - Flipper Zero POCSAG pager receiver plugin.
 - [SdrSharpPocsagPlugin](https://github.com/Dustify/SdrSharpPocsagPlugin) `[2026-06]` - POCSAG decoder plugin for SDR#.
@@ -576,6 +584,7 @@ For research and debugging:
 - [TrunkDeck](https://github.com/rcummings14/TrunkDeck) `[2026-11]` - P25 trunked radio scanner for Windows and Linux. Decodes, records and streams to Broadcastify, OpenMHz and Rdio Scanner.
 - [P32Firmware](https://github.com/SarahRoseLives/P32) `[2026-11]` - MIT-licensed experimental firmware for the Baofeng DM-32UV handheld: P25 Phase 1 conventional and trunked voice and control-channel monitoring.
 - [deltamm firmware](https://github.com/deltamm-org/firmware) `[2026-11]` - Open firmware for DMR and FM handheld radios, written from scratch in C++20.
+- [SiteSim](https://github.com/SarahRoseLives/SiteSim) `[2026-11]` - P25 Phase 1 site simulator: transmits the downlink control channel and receives the uplink ISP path, to test subscriber radios against a small site model.
 
 ### Analog / 1G
 
@@ -643,6 +652,9 @@ For research and debugging:
 - [retrogram-plutosdr](https://github.com/r4d10n/retrogram-plutosdr) `[2025-10]` - Wideband spectrum analyzer for PlutoSDR in the terminal, with ASCII art.
 - [5g-ldpc](https://github.com/xiaoshaoning/5g-ldpc) `[2026-08]` - 5G NR LDPC encoder and decoder.
 - [SoapySDR](https://github.com/pothosware/SoapySDR) `[2026-10]` - Vendor and platform neutral SDR support library: one C/C++/Python API for USRP, LimeSDR, HackRF, RTL-SDR and other devices through driver modules.
+- [ESP-SDR](https://github.com/ESPARGOS/esp-sdr) `[2026-11]` - Raw I/Q capture from the undocumented ESP32 radio makes the chip a low-duty-cycle SDR. Web UI: [esp-web-sdr](https://github.com/ESPARGOS/esp-web-sdr); Zephyr port: [esp-sdr-zephyr](https://github.com/cyber-murmel/esp-sdr-zephyr); single-board transceiver: [esp32-sdr-trx](https://github.com/jochenhammes/esp32-sdr-trx).
+- [SDRmm](https://github.com/Newspicel/sdrmm) `[2026-11]` - Modular client-server SDR to listen, decode and record: patch radios, channels and displays, and run the server next to the antenna.
+- [LR2021-SDR](https://github.com/SAMS0N1TE/lr2021-sdr) `[2026-11]` - Raw I/Q capture on the Semtech LR2021: a LoRa chip that tunes from 100 MHz to 2.74 GHz and streams I/Q at up to 800 kSa/s over USB or Wi-Fi.
 
 
 ## Core Network
@@ -673,6 +685,9 @@ For research and debugging:
 - [qcore](https://github.com/nplrkn/qcore) `[2026-03]` - The world's most lightweight 5G Core (probably)
 - [NEF_emulator](https://github.com/medianetlab/NEF_emulator) `[2025-02]` - Configurable emulated environment for providing 3GPP Network Exposure Function (NEF) APIs. Enables testing of network applications against 5GC exposure capabilities.
 - [Ella Core](https://github.com/ellanetworks/core) `[2026-11]` - Lightweight 5G core for private networks. Single binary with embedded DB, web UI, REST API, and OpenTelemetry. Written in Go.
+- [Ella IMS](https://github.com/ellanetworks/ims) `[2026-11]` - Beta IMS for private 4G and 5G networks in one application: voice and video calls, SIP trunks, IMS-AKA over Cx and IPsec. From Ella Networks.
+- [Ella SMSC](https://github.com/ellanetworks/smsc) `[2026-11]` - Beta SMS service centre for private 4G and 5G networks: SMS over NAS on SGd, SMS over IP, and store and forward. From Ella Networks.
+- [Ella MOCN](https://github.com/ellanetworks/mocn) `[2026-11]` - Alpha multi-operator core network gateway that shares one 4G and 5G radio network between operators. From Ella Networks.
 - [UnifyAir Core](https://github.com/unifyair/unifyair-core) `[2025-11]` - 5G Core Network Functions (AMF, UPF, SMF) implementation in Rust, based on 3GPP Release 17.
 - [HEXAeBPF](https://github.com/coranlabs/HEXAeBPF) `[2025-10]` - eBPF-defined interoperable 5G Core (eDC).
 - [NextMN-UPF](https://github.com/nextmn/UPF) `[2026-11]` - Experimental user-space 5G UPF in Go. Interoperable with free5GC and UERANSIM.
@@ -719,6 +734,7 @@ For research and debugging:
 - [phine.af](https://github.com/phinetech/phine.af) `[2026-11]` - 5G core Application Function (AF) in C++ with dynamic QoS configuration.
 - [Serverless5GC](https://github.com/haidinhtuan/serverless5gc) `[2026-06]` - Function-per-procedure 5G core on OpenFaaS: 31 serverless functions across 12 NFs.
 - Additional omec-project sub-projects: [nssf](https://github.com/omec-project/nssf)
+
 ### 4G
 
 - ⚠️ [NextEPC](https://nextepc.org) - R13 4G EPC core with independent MME, HSS, SGW, PGW, PCRF functions. [github](https://github.com/nextepc/) _Superseded by Open5GS._
@@ -800,7 +816,7 @@ For research and debugging:
 - [mgw_nat](https://gitea.osmocom.org/erlang/mgw_nat) - Erlang MGW NAT/MASQ implementation. Hosted on **Osmocom Gitea**.
 ### OSS/BSS
 
-- [Sigscale OCS](https://github.com/sigscale/ocs) `[2026-10]` - SigScale OCS includes a 3GPP AAA server function for authentication, authorization and accounting (AAA) of subscribers using DIAMETER or RADIUS protocols.
+- [Sigscale OCS](https://github.com/sigscale/ocs) `[2026-11]` - SigScale OCS includes a 3GPP AAA server function for authentication, authorization and accounting (AAA) of subscribers using DIAMETER or RADIUS protocols.
 - [Bodastage CE](https://gitlab.com/bts-ce/bts-ce) `[2019-05]` - Boda Telecom Suite - Community Edition (BTS-CE) is an open source vendor-agnostic telecommunication network management platform. Hosted on **GitLab**.
 - [CGRateS](https://github.com/cgrates/cgrates) `[2026-11]` - Real-time Charging System for Telecom & ISP environments. Cloud-ready micro-services with CDR mediation, LCR, fraud detection and multi-tenant support.
 - [BillRun](https://github.com/BillRun/system) `[2026-11]` - Open source Telecom BSS: CDR mediation, real-time OCS, rating/charging (prepaid, postpaid, roaming, wholesale), and fraud detection.
@@ -821,7 +837,7 @@ For research and debugging:
 - [TM Forum Open APIs](https://github.com/tmforum-apis/TMF620_ProductCatalog) `[2026-08]` - TM Forum Open API specifications under Apache 2.0, here the TMF620 Product Catalog API. Also: [TMF641 Service Order](https://github.com/tmforum-apis/TMF641_ServiceOrder), [JSON schemas](https://github.com/tmforum-rand/schemas).
 - [ODA Canvas](https://github.com/tmforum-oda/oda-canvas) `[2026-11]` - TM Forum reference implementation of the Open Digital Architecture canvas. Runs ODA components on Kubernetes.
 - [SigScale RIM](https://github.com/sigscale/rim) `[2024-06]` - Resource inventory management for service assurance (FM/PM), with TM Forum APIs.
-- [CGrateS_UI](https://github.com/Omnitouch/CGrateS_UI) `[2026-10]` - React UI for CGRateS. From Omnitouch.
+- [CGrateS_UI](https://github.com/Omnitouch/CGrateS_UI) `[2026-11]` - React UI for CGRateS. From Omnitouch.
 - [FreeRADIUS](https://github.com/FreeRADIUS/freeradius-server) `[2026-11]` - Multi-protocol AAA policy server. The most used open-source RADIUS server at ISPs and operators.
 - [daloRADIUS](https://github.com/lirantal/daloradius) `[2026-10]` - RADIUS web management application for hotspots and ISP deployments, with user management, accounting and billing.
 - [ToughRADIUS](https://github.com/talkincode/toughradius) `[2026-11]` - RADIUS server in Go for ISPs, enterprise networks and carriers.
@@ -848,11 +864,14 @@ For research and debugging:
 - [Freeswitch](https://freeswitch.org/confluence/display/FREESWITCH/Python_SBC) - Popular SIP stack that could be used as Session Border Controller (SBC)
 - [IMS Clearwater](http://www.projectclearwater.org) - Clearwater is an open source implementation of IMS (the IP Multimedia Subsystem).
 - [go-eventsocket](https://github.com/fiorix/go-eventsocket) `[2024-09]` - FreeSWITCH Event Socket library for the Go programming language.
-- [mod_earshot](https://github.com/wiringai/mod_earshot) `[2026-10]` - FreeSWITCH module that streams live call audio to AI voice agents over WebSocket and plays their responses back into the call.
+- [mod_earshot](https://github.com/wiringai/mod_earshot) `[2026-11]` - FreeSWITCH module that streams live call audio to AI voice agents over WebSocket and plays their responses back into the call.
 - [Asterisk](https://github.com/asterisk/asterisk) `[2026-11]` - The most widely deployed open-source PBX and telephony engine. SIP, PJSIP, WebRTC, conferencing, and IVR. Tooling: [asterisklint](https://github.com/ossobv/asterisklint) (configuration syntax checker), [IssabelPBX](https://github.com/IssabelFoundation/issabelPBX) (Asterisk configuration GUI from the Issabel project).
 - [FreeSWITCH](https://github.com/signalwire/freeswitch) `[2026-11]` - Software-defined telecom stack: SIP softswitch, PBX, conferencing and media server, with the Event Socket for call control.
 - [NSBC](https://github.com/nwaycn/nsbc) `[2026-11]` - SIP session border controller, B2BUA, PBX and proxy in one daemon. From Nway.
 - [rustpbx](https://github.com/restsend/rustpbx) `[2026-11]` - A PBX written in Rust with SIP, WebRTC and AI voice-agent support.
+- [Lampline](https://github.com/C4rohan/Lampline) `[2026-11]` - Self-hosted framework to build AI phone agents: test each change against an AI caller, then connect the agent to SIP.
+- [ai-phone](https://github.com/oxnw/ai-phone) `[2026-11]` - SIP phone daemon for Apple Silicon that answers calls with local speech and language models.
+- [web-sip-phone](https://github.com/rasonyang/web-sip-phone) `[2026-10]` - Chrome extension that keeps a SIP connection over WebRTC for browser call centres and CRM integrations.
 - [dSIPRouter](https://github.com/dOpensource/dsiprouter) `[2026-11]` - Web UI on top of Kamailio for PBX hosting and SIP trunking services.
 - [empbx](https://github.com/aks-tel/empbx) `[2026-09]` - Lightweight soft PBX based on baresip and libre.
 - [PJSIP](https://github.com/pjsip/pjproject) `[2026-11]` - Free and open-source multimedia communication library implementing SIP, SDP, RTP, STUN, TURN, and ICE. Foundation for many VoIP/IMS clients.
@@ -1003,7 +1022,7 @@ For research and debugging:
 - [hepgen.js](https://github.com/sipcapture/hepgen.js) `[2026-10]` - Barebone HEP Generator for SIP-less Devs.
 - [MyIP](https://github.com/folkertvanheusden/MyIP) `[2026-04]` - IPv4 / IPv6 stack (with http-, vnc-, sip-, snmp-, mqtt- and ntp server) which runs in userspace on linux, written in c++.
 - [go-rtp_cluster](https://github.com/sippy/go-rtp_cluster) `[2025-01]` - GoLang version of the rtp_cluster.
-- [sipsettings](https://github.com/FreePBX/sipsettings) `[2026-10]` - Module of FreePBX (Asterisk SIP Settings) :: Use to configure Various Asterisk SIP Settings in the General section of sip.conf. Also includes an auto-configuration tool to determine NAT settings. The module assumes Asterisk version 1.4 or higher. Some settings may not exist in Asterisk 1.2 and will be ignored by Asterisk.
+- [sipsettings](https://github.com/FreePBX/sipsettings) `[2026-11]` - Module of FreePBX (Asterisk SIP Settings) :: Use to configure Various Asterisk SIP Settings in the General section of sip.conf. Also includes an auto-configuration tool to determine NAT settings. The module assumes Asterisk version 1.4 or higher. Some settings may not exist in Asterisk 1.2 and will be ignored by Asterisk.
 - [mod_openai_tts](https://github.com/aks-tel/mod_openai_tts) `[2026-08]` - Freeswitch Speech-To-Text module.
 - [HEPjack.js](https://github.com/sipcapture/HEPjack.js) `[2026-10]` - Elegantly Sniff Forward-Secrecy TLS/SIP to HEP at the source using Frida.
 - [freeswitch_module_golang_sample](https://github.com/iuridiniz/freeswitch_module_golang_sample) `[2026-07]` - Sample module for FreeSWITCH using golang.
@@ -1106,7 +1125,7 @@ For research and debugging:
 - [esphome-voip-stack](https://github.com/n-IA-hane/esphome-voip-stack) `[2026-11]` - ESPHome SIP/SDP/RTP VoIP endpoint component for ESP32 devices.
 - [blink-cocoa](https://github.com/AGProjects/blink-cocoa) `[2026-11]` - Blink SIP client for macOS, built on the SIP SIMPLE SDK. From AG Projects.
 - [ICTFAX](https://github.com/ictinnovations/ictfax) `[2026-11]` - Open-source fax server for inbound and outbound faxing over T.38 and G.711.
-- [GOfax.IP](https://github.com/gonicus/gofaxip) `[2026-10]` - T.38 fax-over-IP backend for HylaFAX using FreeSWITCH.
+- [GOfax.IP](https://github.com/gonicus/gofaxip) `[2026-11]` - T.38 fax-over-IP backend for HylaFAX using FreeSWITCH.
 - [sipx](https://github.com/codewandler/sipx) `[2026-10]` - Sans-IO SIP stack in Rust with transport, user agent, and call management abstractions.
 - [sipclients3](https://github.com/AGProjects/sipclients3) `[2026-10]` - Command-line SIP clients based on SIP SIMPLE SDK. From AG Projects.
 - [sylk-suite](https://github.com/AGProjects/sylk-suite) `[2026-10]` - Self-hosted SIP and WebRTC multimedia conference server suite. From AG Projects.
@@ -1115,7 +1134,7 @@ For research and debugging:
 - [ewsd-tools](https://gitea.osmocom.org/jolly/ewsd-tools) - Tools for managing Siemens EWSD switches, including a terminal for the OMT serial port. Hosted on **Osmocom Gitea**.
 - [sip-rs](https://codeberg.org/metamuffin/sip-rs) - Rust SIP protocol stack. Hosted on **Codeberg**.
 - [openwrt/telephony](https://github.com/openwrt/telephony) `[2026-11]` - OpenWrt telephony packages feed: Asterisk, FreeSWITCH, Kamailio, baresip and related packages for routers.
-- [jambonz-feature-server](https://github.com/jambonz/jambonz-feature-server) `[2026-10]` - Core telephony feature server of the jambonz open-source CPaaS platform (SIP, WebRTC, speech APIs). Outbound SBC: [sbc-outbound](https://github.com/jambonz/sbc-outbound).
+- [jambonz-feature-server](https://github.com/jambonz/jambonz-feature-server) `[2026-11]` - Core telephony feature server of the jambonz open-source CPaaS platform (SIP, WebRTC, speech APIs). Outbound SBC: [sbc-outbound](https://github.com/jambonz/sbc-outbound).
 - [siprec](https://github.com/loreste/siprec) `[2026-11]` - SIPREC Session Recording Server (SRS) in Go, RFC 7865/7866 compliant.
 - [siphon-ai](https://github.com/thevoiceguy/siphon-ai) `[2026-10]` - Real-time SIP-to-WebSocket media bridge in Rust that streams live call audio to a WebSocket server.
 - [freesbc](https://github.com/rasonyang/freesbc) `[2026-11]` - All-in-one SIP Session Border Controller in pure Go: one static binary, one YAML file.
@@ -1134,11 +1153,11 @@ For research and debugging:
 - [Telephone](https://github.com/64characters/Telephone) `[2026-10]` - SIP softphone for macOS.
 - [tSIP](https://github.com/tomek-o/tSIP) `[2026-11]` - SIP softphone for Windows based on re/baresip, with scripting and plugin support.
 - [GOnnect](https://github.com/gonicus/gonnect) `[2026-11]` - Desktop-integrated VoIP client for Linux, based on PJSIP and Qt.
-- [MagnusBilling](https://github.com/magnussolution/magnusbilling) `[2026-10]` - VoIP billing system for Asterisk.
+- [MagnusBilling](https://github.com/magnussolution/magnusbilling) `[2026-11]` - VoIP billing system for Asterisk.
 - [OV500](https://github.com/openvoips/OV500) `[2026-01]` - Billing, rating and routing software for FreeSWITCH and Kamailio.
 - [OpenCallHub](https://github.com/sxwdmjy/OpenCallHub) `[2026-07]` - Call center platform in Java 17 and Spring Boot that integrates FreeSWITCH and Kamailio.
-- [kamcli](https://github.com/kamailio/kamcli) `[2026-10]` - Kamailio command line interface control tool, in Python.
-- [kamailio-docker](https://github.com/kamailio/kamailio-docker) `[2026-10]` - Official Docker images of the Kamailio project.
+- [kamcli](https://github.com/kamailio/kamcli) `[2026-11]` - Kamailio command line interface control tool, in Python.
+- [kamailio-docker](https://github.com/kamailio/kamailio-docker) `[2026-11]` - Official Docker images of the Kamailio project.
 - [CyCoreSystems ari](https://github.com/CyCoreSystems/ari) `[2026-10]` - Go library for the Asterisk REST Interface (ARI). Related: [ari-proxy](https://github.com/CyCoreSystems/ari-proxy) (NATS/RabbitMQ bus), [agi](https://github.com/CyCoreSystems/agi).
 - [ari4java](https://github.com/ari4java/ari4java) `[2026-08]` - Asterisk ARI bindings for Java.
 - [SimGo](https://github.com/myleo1/SimGo) `[2026-09]` - Containerized phone relay with a Quectel EC20 module and Asterisk. Bridges a SIM card to any SIP client for calls and SMS.
@@ -1162,7 +1181,7 @@ For research and debugging:
 - [Asterisk-Java](https://github.com/asterisk-java/asterisk-java) `[2026-09]` - Java library for Asterisk integration through AMI, FastAGI and ARI.
 - [greenswitch](https://github.com/EvoluxBR/greenswitch) `[2026-08]` - FreeSWITCH Event Socket (ESL) client for Python with gevent.
 - [eslgo](https://github.com/percipia/eslgo) `[2026-10]` - FreeSWITCH Event Socket (ESL) library for Go.
-- [sip-exporter](https://github.com/aibudaevv/sip-exporter) `[2026-10]` - eBPF sensor for SIP and correlated RTP/RTCP metrics, exported to Prometheus and Grafana.
+- [sip-exporter](https://github.com/aibudaevv/sip-exporter) `[2026-11]` - eBPF sensor for SIP and correlated RTP/RTCP metrics, exported to Prometheus and Grafana.
 - [Parrot Platform](https://github.com/parrot-platform/parrot_platform) `[2026-01]` - Elixir libraries and OTP behaviours to build SIP and RTP services.
 - [OpDesk](https://github.com/Ibrahimgamal99/OpDesk) `[2026-11]` - Real-time operator panel for Asterisk PBX systems, similar to FOP2.
 - [ESP32-SIP-Voice](https://github.com/GeorgeBregman/ESP32-SIP-Voice) `[2026-06]` - SIP VoIP phone for ESP32 (ESP-IDF) with G.722 HD voice and an LVGL touchscreen GUI.
@@ -1172,7 +1191,7 @@ For research and debugging:
 - [go-kamailio-binrpc](https://github.com/florentchauveau/go-kamailio-binrpc) `[2026-07]` - Go implementation of the Kamailio BINRPC protocol to call RPC functions.
 - [sipnab](https://github.com/NormB/sipnab) `[2026-11]` - SIP and RTP capture, analysis and security tool in Rust, with libpcap as its only dependency.
 - ⚠️ [opensips_exporter](https://github.com/VoIPGRID/opensips_exporter) `[2026-09]` - Prometheus exporter for OpenSIPS statistics.
-- [pocket-dial](https://github.com/GlomarGadaffi/pocket-dial) `[2026-10]` - Self-contained SIP PBX on an ESP32-S3: registers phones and dials out through a carrier.
+- [pocket-dial](https://github.com/GlomarGadaffi/pocket-dial) `[2026-11]` - Self-contained SIP PBX on an ESP32-S3: registers phones and dials out through a carrier.
 - [tfps](https://github.com/sippulse/tfps) `[2026-11]` - VoIP fraud prevention system.
 - [microsippy](https://github.com/sobomax/microsippy) `[2026-10]` - Small and fast SIP (RFC 3261) and RTP (RFC 3550) implementation.
 - [chan_sip (maintained)](https://github.com/InterLinked1/chan_sip) `[2026-10]` - Maintained version of the original Asterisk chan_sip SIP channel driver.
@@ -1268,6 +1287,7 @@ For research and debugging:
 - [sms_forwarding](https://github.com/arickxuan/sms_forwarding) `[2026-06]` - Low-cost SMS forwarder for cellular modules over AT commands, with web configuration and multiple push channels.
 - [VoIpUSSD](https://github.com/romellfudi/VoIpUSSD) `[2025-12]` - Android library that runs USSD sessions and reads their replies, with dual-SIM support.
 - [python-smpplib](https://github.com/python-smpplib/python-smpplib) `[2026-11]` - SMPP client library for Python.
+- [Gammu](https://github.com/gammu/gammu) `[2026-11]` - All Mobile Management Utilities: library and CLI to read and send SMS, and to manage contacts and phonebook data on phones and GSM modems.
 
 ## Wireline & Fixed Access
 
@@ -1287,7 +1307,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [bngblaster-controller](https://github.com/rtbrick/bngblaster-controller) `[2026-11]` - Control daemon with a REST API for remote BNG Blaster test runs.
 - [opencord/bng](https://github.com/opencord/bng) `[2025-09]` - Embedded BNG application for the ONF SEBA platform.
 - [PureNAS](https://github.com/nightflyza/PureNAS) `[2026-05]` - Linux IPoE NAS/BRAS/BNG, from the Ubilling author.
-- [vpp-pppoeclient](https://github.com/Hi-Jiajun/vpp-pppoeclient) `[2026-10]` - PPPoE client plugin for FD.io VPP. Documentation in Chinese.
+- [vpp-pppoeclient](https://github.com/Hi-Jiajun/vpp-pppoeclient) `[2026-11]` - PPPoE client plugin for FD.io VPP. Documentation in Chinese.
 
 ### PON & FTTH
 
@@ -1305,8 +1325,8 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [odi-oss](https://github.com/AndreZiviani/odi-oss) `[2026-11]` - Open firmware for the ODI DFP-34X-2C2 GPON SFP stick: Linux 6.18 with its own drivers and userland.
 - [omcipcap](https://github.com/RainbowCloudLabs/omcipcap) `[2026-10]` - Semantic analysis of GPON and XGS-PON OMCI (ITU-T G.988) captures.
 - [zteOnu](https://github.com/Septrum101/zteOnu) `[2026-08]` - Opens the factory mode of ZTE ONU devices over telnet.
-- [uboot-an758x](https://github.com/pbs05/uboot-an758x) `[2026-09]` - U-Boot with a web recovery page for Airoha AN7581/AN7583 ONU and fiber gateway boards.
-- [open-dfp-34x-2c](https://github.com/saquili/open-dfp-34x-2c) `[2026-10]` - Open firmware for the ODI DFP-34X-2C GPON SFP stick, built from source: Linux 6.18, its own OMCI stack and an HTTPS panel.
+- [uboot-an758x](https://github.com/pbs05/uboot-an758x) `[2026-11]` - U-Boot with a web recovery page for Airoha AN7581/AN7583 ONU and fiber gateway boards.
+- [open-dfp-34x-2c](https://github.com/saquili/open-dfp-34x-2c) `[2026-11]` - Open firmware for the ODI DFP-34X-2C GPON SFP stick, built from source: Linux 6.18, its own OMCI stack and an HTTPS panel.
 - [AlphaWRT GN630V](https://github.com/idiazraz/gn630v-alphawrt) `[2026-11]` - OpenWrt for the Skyworth GN630V GPON ONT (Airoha AN7529CT).
 - [bgw320-505-ucg-fiber](https://github.com/jonmchan/bgw320-505-ucg-fiber) `[2026-11]` - GPON bypass from an Arris BGW320-505 to a UniFi Cloud Gateway Fiber, with a script to reinstall after upgrades.
 
@@ -1372,6 +1392,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [gofaxserver](https://github.com/sagostin/gofaxserver) `[2026-11]` - Multi-tenant Fax over IP server with FreeSWITCH and SpanDSP.
 - [Corelatus GTH examples](https://github.com/matthiasl/Corelatus-GTH-example-code) `[2026-11]` - Example code in several languages to control Corelatus GTH E1/T1 and SDH/SONET hardware.
 - [RotaryCell](https://github.com/fregacmols/RotaryCell) `[2026-10]` - Battery-powered, fully reversible cellular conversion for classic rotary telephones.
+- [BinModem](https://github.com/CasualArclamp/BinModem) `[2026-11]` - Dial-up softmodem in Rust: V.22bis, V.32, V.34, V.42, V.42bis and a V.250 AT interface, with a sound card as the line.
 
 ### Minitel & Videotex
 
@@ -1435,7 +1456,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [docker-gr-iridium-toolkit](https://github.com/rpatel3001/docker-gr-iridium-toolkit) `[2026-03]` - Dockerized environment for running gr-iridium and iridium-toolkit to capture and decode Iridium bursts.
 - [InmarScope](https://github.com/SarahRoseLives/InmarScope) `[2026-09]` - Multi-channel SDR-first Inmarsat decoder. Android AERO decoder from the same author: [PocketAERO](https://github.com/SarahRoseLives/PocketAERO).
 - [sdrpp-inmarsatc-demodulator](https://github.com/cropinghigh/sdrpp-inmarsatc-demodulator) `[2025-08]` - Inmarsat-C TDM demodulator plugin for SDR++.
-- [DecBGAN](https://github.com/CasualArclamp/DecBGAN) `[2026-11]` - Inmarsat BGAN forward-link decoder (ETSI TS 102 744): physical layer, SRCC turbo FEC, bearer control.
+- ⚠️ [DecBGAN](https://github.com/CasualArclamp/DecBGAN-deprecated) `[2026-11]` - Inmarsat BGAN forward-link decoder (ETSI TS 102 744): physical layer, SRCC turbo FEC, bearer control.
 - [open-source-5g-ntn-leo](https://github.com/sabbir-uoulu/open-source-5g-ntn-leo) `[2026-10]` - LEO extension of the open-source 5G NR NTN testbed: full satellite pass with live propagation delay and Doppler.
 - [SatDump](https://github.com/SatDump/SatDump) `[2026-11]` - Generic satellite data processing software: SDR recording, demodulation and decoding for weather and other satellites.
 - [iridium-sniffer](https://github.com/alphafox02/iridium-sniffer) `[2026-10]` - Standalone Iridium satellite burst detector and demodulator in C.
@@ -1474,7 +1495,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [node-red-applications](https://codeberg.org/loralarm/node-red-applications) - Applications for Lora devices done in node-red. LoraLarm.org. Hosted on **Codeberg**.
 - [pyLoRa](https://codeberg.org/fab/pyLoRa) - LoRa Transmissions of Gemini or Gopher posts over USB-Stick (serial) in Python3. Hosted on **Codeberg**.
 - [seeed-lorawan-kit](https://codeberg.org/Supernova/seeed-lorawan-kit) - Customization of the Seeed LoRaWAN Kit firmware for other sensors. Hosted on **Codeberg**.
-- [the-things-stack-docker](https://github.com/xoseperez/the-things-stack-docker) `[2025-10]` - The Things Stack LoRaWAN Network Server (Open Source Edition) on a Raspberry Pi using docker
+- [the-things-stack-docker](https://github.com/xoseperez/the-things-stack-docker) `[2026-11]` - The Things Stack LoRaWAN Network Server (Open Source Edition) on a Raspberry Pi using Docker.
 - [lorawan-app-connect](https://github.com/MultiTechSystems/lorawan-app-connect) `[2025-08]` - Default application example mPower application and server API implementation for a distributed LoRaWAN network
 - [lorawan-stack-migrate](https://github.com/TheThingsNetwork/lorawan-stack-migrate) `[2026-08]` - Migrate devices from other LoRaWAN Network Servers to The Things Stack
 - [utracker](https://codeberg.org/b00bl1k/utracker) - A firmware project based on the uwan library that allows you to create a LoRaWAN device Hosted on **Codeberg**.
@@ -1497,7 +1518,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [LoRa Basics Modem](https://github.com/Lora-net/SWL2001) `[2026-11]` - Semtech reference LoRaWAN stack for end devices.
 - [one_channel_hub](https://github.com/Lora-net/one_channel_hub) `[2026-10]` - Semtech reference packet forwarder and HAL for a LoRaWAN one-channel hub on ESP32.
 - [Lora-Wideband-Decoder](https://github.com/persistentcache/Lora-Wideband-Decoder) `[2026-11]` - Self-hosted wideband intercept receiver that decodes Meshtastic, LoRaWAN and MeshCore traffic with an SDR.
-- [Orthrus](https://github.com/at0m-b0mb/Orthrus-CardputerAdv) `[2026-10]` - Handheld LoRaWAN security assessment tool for the M5Stack Cardputer-Adv.
+- [Orthrus](https://github.com/at0m-b0mb/Orthrus-CardputerAdv) `[2026-11]` - Handheld LoRaWAN security assessment tool for the M5Stack Cardputer-Adv.
 - [meshtastic-sniffer](https://github.com/alphafox02/meshtastic-sniffer) `[2026-10]` - Wideband passive Meshtastic LoRa receiver with multi-station fusion and offline PSK recovery.
 - [gr-lora_sdr](https://github.com/tapparelj/gr-lora_sdr) `[2026-01]` - GNU Radio LoRa transceiver with a full receiver chain that works at very low SNR. From EPFL.
 - [arduino-lorawan](https://github.com/mcci-catena/arduino-lorawan) `[2026-10]` - Arduino library on top of arduino-lmic for The Things Network and other LoRaWAN networks.
@@ -1515,11 +1536,12 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [ArduLora](https://github.com/NamNamIoT/ArduLora) `[2026-09]` - Arduino-compatible LoRa/LoRaWAN board.
 - [lorawan-frequency-plans](https://github.com/TheThingsNetwork/lorawan-frequency-plans) `[2026-07]` - LoRaWAN regional frequency plans used by The Things Stack.
 - [MeshCoreSniffer](https://github.com/SarahRoseLives/MeshCoreSniffer) `[2026-11]` - Real-time RTL-SDR sniffer for MeshCore LoRa traffic: group text and adverts.
+- [meshtasticd-proxmox](https://github.com/meshtastic/meshtasticd-proxmox) `[2026-11]` - Proxmox VE container template for meshtasticd nodes: simulated nodes that mesh over UDP, or on air with a CH341 LoRa board.
 - [Meshtastic](https://github.com/meshtastic/firmware) `[2026-11]` - Official firmware of Meshtastic, an open-source, off-grid LoRa mesh communication system. Clients: [Android](https://github.com/meshtastic/Meshtastic-Android), [Apple](https://github.com/meshtastic/Meshtastic-Apple), [web](https://github.com/meshtastic/web) and [Python CLI](https://github.com/meshtastic/python).
 
 ## Wi-Fi
 
-- [openwifi](https://github.com/open-sdr/openwifi) `[2026-10]` - Open-source IEEE 802.11 Wi-Fi baseband on SDR (Xilinx Zynq + AD9361): Linux mac80211 driver and software. The FPGA design is in [openwifi-hw](https://github.com/open-sdr/openwifi-hw).
+- [openwifi](https://github.com/open-sdr/openwifi) `[2026-11]` - Open-source IEEE 802.11 Wi-Fi baseband on SDR (Xilinx Zynq + AD9361): Linux mac80211 driver and software. The FPGA design is in [openwifi-hw](https://github.com/open-sdr/openwifi-hw).
 - [TIP OpenWiFi](https://github.com/Telecominfraproject/wlan-ap) `[2026-11]` - Telecom Infra Project's open, disaggregated Wi-Fi access point firmware, based on OpenWrt. Managed by the cloud controller [uCentral gateway](https://github.com/Telecominfraproject/wlan-cloud-ucentralgw).
 - [hostapd](https://w1.fi/hostapd/) - User-space daemon for Wi-Fi access points and authentication servers: WPA2/WPA3, IEEE 802.1X/EAP and RADIUS.
 - [gr-ieee802-11](https://github.com/bastibl/gr-ieee802-11) `[2026-05]` - IEEE 802.11 a/g/p OFDM transceiver for GNU Radio.
@@ -1596,7 +1618,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [gtp-rs](https://github.com/ErvinsK/gtp-rs) `[2025-12]` - Pure Rust implementation of 3GPP GTP (GTPv1 and GTPv2) protocols.
 - [oxirush-gtp-u](https://github.com/linouxis9/oxirush-gtp-u) `[2026-11]` - GTPv1-U codec in Rust (TS 29.281, TS 38.415) with a Tokio endpoint, a test UPF, Linux TUN routing and an eBPF fast path.
 - [free5gc gtp5g-tracer](https://github.com/free5gc/gtp5g-tracer) `[2025-10]` - Debug gtp5g kernel module using eBPF. From the free5GC project.
-- [rs-pfcp](https://github.com/xandlom/rs-pfcp) `[2026-10]` - Rust implementation of the PFCP protocol (3GPP TS 29.244), modeled on go-pfcp. Includes an interop test harness against the Go reference.
+- [rs-pfcp](https://github.com/xandlom/rs-pfcp) `[2026-11]` - Rust implementation of the PFCP protocol (3GPP TS 29.244), modeled on go-pfcp. Includes an interop test harness against the Go reference.
 - [gopacket-gtp](https://github.com/nextmn/gopacket-gtp) `[2026-08]` - Patch for gopacket fixing serialization of GTP Extension Headers. From the NextMN project.
 - [simple_pfcp_client](https://github.com/s5uishida/simple_pfcp_client) `[2026-08]` - Minimal PFCP client useful for poking at UPFs and validating PFCP exchanges during 5GC labs.
 
@@ -1621,11 +1643,12 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [sctp-go](https://github.com/thebagchi/sctp-go) `[2026-11]` - SCTP library for Go using native kernel sockets.
 - [go-sctp](https://github.com/georgeyanev/go-sctp) `[2026-09]` - Go SCTP implementation with net-package-style Dial/Listen API.
 - [node-lksctp](https://github.com/onomondo/node-lksctp) `[2026-09]` - Node.js SCTP bindings based on the Linux kernel SCTP stack (lksctp). From Onomondo.
-- [packetdrill (nplab)](https://github.com/nplab/packetdrill) `[2026-04]` - packetdrill network stack test tool with SCTP and UDP-Lite support, from the FH Münster SCTP team.
+- [packetdrill (nplab)](https://github.com/nplab/packetdrill) `[2026-11]` - packetdrill network stack test tool with SCTP and UDP-Lite support, from the FH Münster SCTP team.
 - [dcsctp](https://github.com/webrtc/dcsctp) `[2026-11]` - SCTP implementation for WebRTC data channels, from the WebRTC project.
 - [sctplib](https://github.com/dreibh/sctplib) `[2026-10]` - User-space SCTP implementation. Related: [socketapi](https://github.com/dreibh/socketapi), [tsctp](https://github.com/dreibh/tsctp) test tool.
 - [sctp-proto](https://github.com/algesten/sctp-proto) `[2026-11]` - Sans-IO SCTP implementation in Rust.
 - [lksctp-tools](https://github.com/sctp/lksctp-tools) `[2026-10]` - Linux kernel SCTP user-space library (libsctp) and test tools.
+- [nerva](https://github.com/praetorian-inc/nerva) `[2026-11]` - Fast service fingerprinting CLI for 170+ protocols over TCP, UDP and SCTP. From Praetorian.
 
 ### VoWiFi/VoLTE
 
@@ -1653,7 +1676,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [bromelia](https://github.com/heimiricmr/bromelia) `[2024-05]` - A Python micro framework for building Diameter protocol applications.
 - [freeDiameter](http://www.freediameter.net/) - Open source implementation of the Diameter protocol (RFC 6733). Extensible platform for AAA with modular architecture. Also available on [GitLab (Eurecom)](https://gitlab.eurecom.fr/oai/freediameter).
 - [Open Diameter](https://sourceforge.net/projects/diameter/) - Open source C++ implementation of the Diameter protocol, licensed under GPLv2/LGPLv2. Hosted on **SourceForge**.
-- [eradius](https://github.com/travelping/eradius) `[2026-06]` - Erlang RADIUS server framework. From Travelping.
+- [eradius](https://github.com/travelping/eradius) `[2026-11]` - Erlang RADIUS server framework. From Travelping.
 - [prometheus_diameter_collector](https://github.com/travelping/prometheus_diameter_collector) `[2026-05]` - Diameter Prometheus.io collector for monitoring Diameter signaling. From Travelping.
 - [xk6-diameter](https://github.com/lwlee2608/xk6-diameter) `[2025-10]` - k6 extension for Diameter protocol load testing. Written in Go.
 - [diameter-rs](https://github.com/lwlee2608/diameter-rs) `[2026-10]` - Rust implementation of the Diameter Protocol (RFC 6733).
@@ -1691,7 +1714,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 
 ### Dataplane acceleration
 
-- [fastswan](https://github.com/acassen/fastswan) `[2026-06]` - Linux Kernel XFRM/IPsec offload via eBPF/XDP. Relevant for mobile core SWu/N3IWF tunnels. From the gtp-guard/keepalived author.
+- [fastswan](https://github.com/acassen/fastswan) `[2026-11]` - Linux Kernel XFRM/IPsec offload via eBPF/XDP. Relevant for mobile core SWu/N3IWF tunnels. From the gtp-guard/keepalived author.
 - [xdp-fwd](https://github.com/acassen/xdp-fwd) `[2026-03]` - XDP Forwarding suite for high-performance packet processing via eBPF/XDP. From the gtp-guard/keepalived author.
 - [socket-takeover](https://github.com/acassen/socket-takeover) `[2023-11]` - Live socket transfer between processes, engineered for zero-downtime upgrades of dataplane services such as gtp-guard.
 - [fpp-vpp](https://github.com/travelping/fpp-vpp) `[2026-04]` - Foundation library used by Travelping's VPP-based subprojects (upg-vpp etc.) for VPP-based fastpath telco services.
@@ -1853,6 +1876,7 @@ Fixed networks: broadband access (BNG, PON, DSL, DOCSIS), CPE management, PSTN/I
 - [Tools for MT3339](https://github.com/f5eng/mt3339-utils) `[2023-01]` - Ephemeris injector for MT3339-based GPS chipset
 - [gnss-signal-simulator-rs](https://github.com/danusha2345/gnss-signal-simulator-rs) `[2026-10]` - Multi-constellation GNSS SDR signal simulator in Rust (GPS L1CA/L5/L2C/L1C, Galileo E1/E5a).
 - [Switchberry](https://github.com/Time-Appliances-Project/Switchberry) `[2026-04]` - Raspberry Pi CM-controlled Ethernet switch and timing platform. From the OCP Time Appliances Project.
+- [Pharos](https://github.com/EEddeenn/Pharos) `[2026-10]` - GNSS intermediate-frequency signal simulator in Zig for GPS, Galileo, BeiDou and GLONASS: a scenario gives IF samples, RINEX observations and position files.
 
 ## Testing
 
@@ -2014,7 +2038,7 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [ns3sionna](https://github.com/tkn-tub/ns3sionna) `[2025-12]` - ns-3 module bringing realistic Sionna ray-tracing channel simulation to ns-3.
 - [ns-O-RAN-ns3-mmwave](https://github.com/wineslab/ns-o-ran-ns3-mmwave) `[2025-03]` - ns-O-RAN integration with the ns-3 mmWave module providing O-RAN E2 simulation on top of mmWave 5G/NR scenarios. From WiNES Lab.
 - [ns3-iboran](https://github.com/Orange-OpenSource/ns3-iboran) `[2026-11]` - ns-3-based Open RAN simulation environment with native support for intent-based orchestration. From Orange.
-- [ORCHAV](https://github.com/usnistgov/ORCHAV) `[2026-09]` - Scenario-driven orchestration and visualization workflows for Sionna RT radio propagation studies. From NIST.
+- [ORCHAV](https://github.com/usnistgov/ORCHAV) `[2026-11]` - Scenario-driven orchestration and visualization workflows for Sionna RT radio propagation studies. From NIST.
 
 ### Datasets & Benchmarks
 
@@ -2265,6 +2289,7 @@ Key organizations driving open source telecom development:
 - [RIS-Codes-Collection](https://github.com/ken0225/RIS-Codes-Collection) `[2026-10]` - Complete collection of codes for RIS/IRS research including DL/RL approaches for beamforming and channel estimation.
 - [GNN-Communication-Networks](https://github.com/jwwthu/GNN-Communication-Networks) `[2026-10]` - Curated collection of GNN research for communication networks. Covers traffic prediction, routing, spectrum sensing.
 - [Cellular-Security-Papers](https://github.com/onehouwong/Cellular-Security-Papers) `[2026-03]` - Collection of papers, repos, talks, and tools for cellular security and privacy.
+- [Awesome-Cellular-Hacking](https://github.com/W00t3k/Awesome-Cellular-Hacking) `[2026-11]` - Curated list of cellular hacking resources: baseband research, signalling tools and radio hardware.
 
 ## Contributing
 
