@@ -276,7 +276,6 @@ For research and debugging:
 - [IMS-DC SDK (5G New Calling)](https://github.com/GSMATerminals/IMS-DC-SDK-Open-Source) `[2026-11]` - GSMA-published 5G New Calling Terminal SDK. Adds an IMS Data Channel on top of IMS audio/video and exposes AIDL interfaces for building data-channel apps (file sharing, doodle, customer service line). From China Telecom Research Institute via GSMA Terminals.
 - [Pixel IMS (pixel-volte-patch)](https://github.com/kyujin-cho/pixel-volte-patch) `[2026-11]` - Rootless replacement for the Tensor Pixel VoLTE/IMS patch. Related Pixel IMS tooling: [Carrier IMS / TurboIMS](https://github.com/ryfineZ/carrier-ims-for-pixel) `[2026-02]`, [TurboIMS config tool](https://github.com/Turbo1123/TurboIMS) `[2025-10]`, [ImsForPixel](https://github.com/svenuks/ImsForPixel) `[2026-06]` (rootless VoLTE/VoNR/VoWiFi, no Shizuku), [Pixel 5G/VoLTE enabler](https://github.com/WZL203/Pixel-turn-on-5G-Volte-and-automatically-register-with-IMS) `[2025-10]`, [PixelIMS](https://github.com/VinujaHerath/PixelIMS) `[2026-05]` (for carriers without official Pixel support), [Pixel-IMS-5G](https://github.com/barrylk/Pixel-IMS-5G) `[2026-08]` (Shizuku-powered 5G/VoLTE/VoNR enabler with Tensor radio diagnostics).
 - [phhims-volte-o2](https://github.com/Silvertax/phhims-volte-o2) `[2026-11]` - KernelSU/Magisk module for VoLTE and SMS over IMS on the Snapdragon Galaxy S20 FE, with the open-source PhhIms stack.
-- [VoLTE-Pixel](https://github.com/hxn-lab/VoLTE-Pixel) `[2026-11]` - Magisk/KernelSU module that enables VoLTE (and VoWiFi settings) on Qualcomm Pixel 1 to 5a for Vietnamese carriers.
 - [Samsung-IMS-Patcher](https://github.com/rezaf28/Samsung-IMS-Patcher) `[2025-09]` - LSPosed module to unlock Samsung-restricted carrier features on rooted Galaxy devices (VoWiFi, VoLTE, ViLTE, RCS, SMS over IP).
 - [VoHive](https://github.com/1239t/vohive) `[2026-07]` - Management and proxy platform for Qualcomm 4G/LTE/5G modules: VoWiFi/IMS calling, SMS send/receive, and eSIM management (Chinese). Docker images: [vohive-docker](https://github.com/dannyge/vohive-docker).
 - [mdd-sim-gateway](https://github.com/MddIdd/mdd-sim-gateway) `[2026-11]` - Self-hosted SIM/eSIM gateway for VoWiFi calling, SMS, cellular data and isolated regional egress.
@@ -2046,7 +2045,6 @@ See also: [specpilot](#learning-resources) (AI-powered 3GPP spec assistant), [3g
 - [MalO-RAN](https://github.com/wineslab/mal-o-ran) `[2026-03]` - Framework for evaluating data poisoning attacks on O-RAN AI-based xApps. From WiNES Lab.
 - [ns-O-RAN-Gym](https://github.com/wineslab/ns-o-ran-gym) `[2025-04]` - Gymnasium-based RL environment for O-RAN with Traffic Steering and Energy Saving scenarios. From WiNES Lab.
 - [ric-energy-optimization-xapp](https://github.com/Hamid-telco-ai/ric-energy-optimization-xapp) `[2026-04]` - AI-driven O-RAN xApp for energy-efficient RAN operation using closed-loop control and real-time telemetry.
-- [Agentic AI for RIC](https://github.com/SouhailBourhim/Agentic_AI_For_RIC_in_O_RAN) `[2026-11]` - LLM agent turns operator intents into checked objectives for an RL controller that slices a 5G cell.
 
 ### Network Optimization & Slicing
 
